@@ -136,10 +136,10 @@
   .btn-ghost:active:not(:disabled) { background: var(--ui-ghost-active); }
 
   .btn-danger {
-    color: #fff;
-    background: #e5484d;
+    color: var(--ui-fg-ondanger);
+    background: var(--ui-danger-solid);
   }
-  .btn-danger:hover:not(:disabled) { background: #d93b40; }
+  .btn-danger:hover:not(:disabled) { background: var(--ui-danger-solid-hover); }
 
   /* Accent button — three stacked layers so the tinted fill, the inset ring and
      the drop shadow can each animate independently (a single background can't
@@ -168,6 +168,27 @@
   .btn-accent.is-active { color: var(--ui-accent-strong); }
   .btn-accent.is-active::before { background: var(--ui-accent-bg-active); }
   .btn-accent:disabled::before { background: var(--ui-accent-bg); }
+
+  /* Inline affordance height — the chip token (24px). NOT a fourth control
+     height: only for icon buttons that sit inside a field, a chip row or a
+     combobox, where a 32px control would not fit. */
+  .btn-xs {
+    height: var(--spacing-chip);
+    padding-inline: 8px;
+    @apply text-xs gap-1;
+  }
+  .btn-icon.btn-xs { width: var(--spacing-chip); height: var(--spacing-chip); }
+  .btn-xs > svg { @apply size-3; }
+
+  /* Text link — a button API with no box, so no press scale either. */
+  .btn-link {
+    @apply h-auto px-0 underline-offset-4;
+    color: var(--ui-accent);
+    background: transparent;
+    box-shadow: none;
+  }
+  .btn-link:hover:not(:disabled) { @apply underline; }
+  .btn-link:active:not(:disabled) { scale: 1; }
 
   /* Nav pill — text link that behaves like a low-emphasis toggle. */
   .nav-pill {
@@ -241,7 +262,7 @@
     background: var(--ui-success-dot);
     animation: status-pulse 1600ms linear infinite;
   }
-  .chip-status.is-off .status-dot { background: #a1a1a1; animation: none; }
+  .chip-status.is-off .status-dot { background: var(--ui-dot-off); animation: none; }
   @keyframes status-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
 
   .kbd {
@@ -380,8 +401,8 @@
   .switch::after {
     content: "";
     @apply absolute left-0.5 size-4 rounded-full;
-    background: #fff;
-    box-shadow: 0 1px 2px rgb(0 0 0 / 0.25);
+    background: var(--ui-knob);
+    box-shadow: var(--ui-shadow-knob);
     transition: translate var(--duration-fast) var(--ease-smooth);
   }
   .switch[aria-checked="true"]::after { translate: 16px 0; }

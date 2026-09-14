@@ -1,48 +1,52 @@
-# Refine Design System — Tailwind v4
+# Refine Design System — Next.js + Tailwind v4
 
-The Transitions/Refine page rebuilt as a real design system: every color, size,
-shadow, radius, duration and easing is a named token, and every control is a
-component class that reads those tokens. Dark mode is one attribute flip.
+The Transitions/Refine page rebuilt as a real design system on Next.js: every
+color, size, shadow, radius, duration and easing is a named token, every control
+is a component class that reads those tokens, and dark mode is one attribute
+flip. shadcn/ui is installed on top — aliased onto the same tokens, so none of
+its own colors, shadows, radii or fonts reach the page.
 
 ```
-refine-ds/
+redine-ds/
+├── app/
+│   ├── layout.tsx          ← fonts, no-flash theme script, header, toast host
+│   ├── globals.css         ← build entry (imports the four layers below)
+│   ├── fonts.ts            ← self-hosted Inter + Roboto Mono (next/font/local)
+│   ├── fonts/              ← the two variable .woff2 files
+│   ├── page.tsx            ← the design-system page
+│   └── shadcn/page.tsx     ← every shadcn component on these tokens
 ├── src/
-│   ├── app.css          ← build entry (imports the two layers below)
-│   ├── theme.css        ← tokens: type, color, radius, shadow, motion + dark mode
-│   └── components.css   ← buttons, inputs, selects, menus, tabs, chips, overlays…
-├── index.html           ← the page, rebuilt on the system (links dist/app.css)
-├── preview.html         ← same page, compiles Tailwind in-browser — no build needed
-├── build-preview.mjs    ← regenerates preview.html from index.html + src/*.css
-└── dist/app.css         ← build output (generated)
+│   ├── theme.css           ← tokens: type, color, radius, shadow, motion + dark mode
+│   ├── shadcn.css          ← shadcn variable names aliased onto --ui-* tokens
+│   └── components.css      ← buttons, inputs, selects, menus, tabs, chips, overlays…
+├── components/
+│   ├── ui/                 ← shadcn/ui (vendored, 61 components)
+│   ├── site/               ← the page itself: header, sections, motion primitives
+│   └── shadcn-gallery/     ← the /shadcn demo grid
+├── hooks/                  ← use-disclosure, use-theme, use-mobile
+└── lib/                    ← theme, motion, tokens, timeline, cn
 ```
 
 ## Run it
 
-**Right now, zero setup** — open `preview.html`. It pulls
-`@tailwindcss/browser@4` and compiles the system in the page. Good for
-reviewing; not for production.
-
-**In your project:**
-
 ```bash
-npm i -D tailwindcss @tailwindcss/cli
-npx @tailwindcss/cli -i src/app.css -o dist/app.css --minify --watch
+npm install
+npm run dev          # http://localhost:3000
+npm run build        # production build
+npm run lint         # next lint
+npm run typecheck    # tsc --noEmit
 ```
 
-Then open `index.html`. If you already have a Tailwind v4 entry CSS, just add:
+Two routes:
 
-```css
-@import "tailwindcss";
-@import "./theme.css";
-@import "./components.css";
-```
-
-> Note: `preview.html` is generated. Edit `index.html` and re-run
-> `node build-preview.mjs` — don't edit the preview directly.
+| Route | What it is |
+|---|---|
+| `/` | The design system: foundations, components, and the Refine panel shell |
+| `/shadcn` | Every installed shadcn/ui component, rendered through the token bridge |
 
 ---
 
-## Architecture — why three layers
+## Architecture — why four layers
 
 Tailwind v4's `@theme` bakes values into the generated utilities at build time,
 so anything defined there **cannot change at runtime**. That's fine for a type
@@ -55,6 +59,7 @@ So the system splits:
 | **Primitives** | `@theme` | type scale, radii, control heights, durations, easings, motion distances | no |
 | **Semantic** | `:root` / `[data-theme="dark"]` | `--ui-*` — every color and shadow recipe | **yes** |
 | **Bridge** | `@theme inline` | maps `--ui-*` → Tailwind utilities | emits `var()`, so yes |
+| **shadcn alias** | `:root` + `@theme inline` in `shadcn.css` | maps shadcn's variable names onto `--ui-*` | follows the tokens |
 
 `@theme inline` is the key: it emits `var(--ui-surface)` into the utility
 instead of copying the literal. So `bg-surface` follows the theme attribute with
@@ -289,13 +294,58 @@ Consolidations worth knowing about:
 - `--dropdown-ease`, `--panel-ease`, `--morph-close-ease` and `--page-slide-ease`
   were all the same cubic-bezier under four names → `--ease-smooth`.
 
+## shadcn/ui on these tokens
+
+`npx shadcn@latest add <name>` drops a component into `components/ui/` written
+against shadcn's own variable names — `--background`, `--primary`, `--border`,
+`--ring` — and against Tailwind's default shadow scale. `src/shadcn.css` is the
+only place those names exist in this repo, and every one of them is an alias:
+
+```css
+:root {
+  --background: var(--ui-bg);
+  --popover:    var(--ui-surface-raised);
+  --primary:    var(--ui-fg);
+  --border:     var(--ui-line);
+  --ring:       var(--ui-accent);
+  /* …and the rest */
+}
+```
+
+The same file rewrites Tailwind's `--shadow-xs … --shadow-2xl` onto the house
+shadow recipes, so a shadcn `shadow-lg` renders `--ui-shadow-menu` — including
+the dark-mode light-top-edge treatment. Nothing in it needs a dark branch: the
+`--ui-*` tokens already swap on `[data-theme="dark"]`, and an alias declared on
+`:root` recomputes with them.
+
+Four house rules shadcn does not share are applied by `data-slot`, so they hold
+for every component — including one added later — without editing 61 files:
+
+1. **One focus ring.** shadcn draws a 3px outer glow and suppresses the outline;
+   both are replaced by the single house ring. Text wells focus inward instead.
+2. **Borders are inset shadows, never `border`,** so a control's box never
+   changes size between rest, hover and focus.
+3. **Menus, popovers and dialogs** are the `.menu` and modal surfaces, not
+   shadcn's bordered card.
+4. **Press feedback is `scale: .96`.**
+
+One component is rewritten at source rather than restyled: `Button` maps each
+shadcn variant onto a `.btn-*` skin, so `<Button variant="secondary">` and a
+hand-written `.btn .btn-soft` are the same control.
+
+Not installed, because they are not in the public registry at the path the rest
+were fetched from: `questionnaire` and the deprecated `toast` (use `sonner`).
+`combobox`, `data-table`, `date-picker` and `typography` are documentation
+compositions — `combobox` is vendored, the other three are built from the
+primitives that are already here.
+
 ## Known gaps
 
-- `dist/app.css` isn't checked in — run the build (npm was unreachable in the
-  environment this was authored in, so it couldn't be pre-compiled). `preview.html`
-  works without it.
-- The React panel from the original page isn't ported; the shell in `index.html`
-  is a static reconstruction proving the component classes cover it. Porting the
-  live panel is a class-swap using the migration map above.
+- The Refine panel shell is a faithful reconstruction, not a live editor — the
+  timeline bars and the inspector are wired for selection and scrubbing, not for
+  writing back to source.
+- `questionnaire` and `toast` are absent (see above).
+- The four React Compiler lint warnings that remain are all in vendored shadcn
+  sources, kept as upstream wrote them so a registry update stays a clean diff.
 - `color-mix()` is used for hover tints and category chips — Chrome/Edge 111+,
   Safari 16.2+, Firefox 113+. Swap for literal rgba if you need older support.

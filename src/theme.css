@@ -27,10 +27,24 @@
 
 /* -- 2. Primitives ---------------------------------------------------------- */
 @theme {
-  /* Type families */
-  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  --font-mono: "Roboto Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
-  --font-display: "Saans", "Inter", system-ui, sans-serif;
+  /* Type families — the `--font-*-face` vars are emitted by next/font in
+     app/layout.tsx, so the files are self-hosted and there is no font CDN
+     request (and no FOUT) at runtime. Inter is the one UI face; the display
+     role is Inter too, differentiated by size, weight and tracking rather
+     than by a second family. */
+  --font-sans: var(--font-inter-face), system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: var(--font-roboto-mono-face), ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+  --font-display: var(--font-inter-face), system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* Font weights — named roles so a component never writes a raw number. */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /* Default transition — Tailwind's bare `transition` utility now runs on the
+     house curve at the micro duration instead of its own 150ms ease. */
+  --default-transition-duration: 120ms;
+  --default-transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
 
   /* Type scale — px-locked because this is dense tool UI, not flowing prose.
      Every size in the source page maps to exactly one step below.            */
@@ -152,7 +166,14 @@
   --ui-success-dot: #34cc20;
   --ui-danger: #c0392b;
   --ui-danger-bg: rgb(192 57 43 / 0.06);
+  --ui-danger-solid: #e5484d;              /* destructive button fill          */
+  --ui-danger-solid-hover: #d93b40;
+  --ui-fg-ondanger: #ffffff;
   --ui-warn: #c2410c;
+
+  /* Knobs + indicator dots */
+  --ui-knob: #ffffff;                      /* switch / slider knob             */
+  --ui-dot-off: #a1a1a1;                   /* idle status dot                  */
 
   /* Category accents (suggestion chips) — text tint only, bg/ring derived */
   --ui-cat-easing: #a830fd;
@@ -193,6 +214,7 @@
                      0 2px 6px 0 rgb(0 0 0 / 0.05),
                      0 4px 42px 0 rgb(0 0 0 / 0.06);
   --ui-shadow-modal: 0 10px 40px rgb(0 0 0 / 0.18);
+  --ui-shadow-knob: 0 1px 2px rgb(0 0 0 / 0.25);
 }
 
 /* Specificity matters here: these must outrank `:root` (0,1,0). `:where()`
@@ -252,7 +274,13 @@ html[data-tl-theme="dark"] {
   --ui-success-dot: #34cc20;
   --ui-danger: #ff8a7a;
   --ui-danger-bg: rgb(192 57 43 / 0.14);
+  --ui-danger-solid: #e5484d;
+  --ui-danger-solid-hover: #ec5f63;
+  --ui-fg-ondanger: #ffffff;
   --ui-warn: #f99032;
+
+  --ui-knob: #ffffff;
+  --ui-dot-off: #6b6b6b;
 
   --ui-cat-easing: #c471ff;
   --ui-cat-duration: #50a7ff;
@@ -289,6 +317,7 @@ html[data-tl-theme="dark"] {
                      inset 0 0 0 1px rgb(255 255 255 / 0.04),
                      inset 0 1px 0 0 rgb(255 255 255 / 0.02);
   --ui-shadow-modal: 0 10px 40px rgb(0 0 0 / 0.6);
+  --ui-shadow-knob: 0 1px 2px rgb(0 0 0 / 0.4);
 }
 
 /* -- 4. Bridge: semantic vars → Tailwind utilities --------------------------
@@ -327,12 +356,16 @@ html[data-tl-theme="dark"] {
   --color-item-hover: var(--ui-item-hover);
   --color-item-active: var(--ui-item-active);
 
-  --color-accent: var(--ui-accent);
+  --color-accent-brand: var(--ui-accent);
   --color-accent-strong: var(--ui-accent-strong);
   --color-accent-bg: var(--ui-accent-bg);
   --color-success: var(--ui-success);
   --color-danger: var(--ui-danger);
+  --color-danger-solid: var(--ui-danger-solid);
   --color-warn: var(--ui-warn);
+  --color-knob: var(--ui-knob);
+
+  --shadow-knob: var(--ui-shadow-knob);
 
   --shadow-ring: var(--ui-shadow-ring);
   --shadow-drop: var(--ui-shadow-drop);

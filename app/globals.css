@@ -1,0 +1,21 @@
+/* ============================================================================
+   Refine Design System — Next.js build entry
+   ----------------------------------------------------------------------------
+   Import order is load-bearing:
+     tailwindcss   → the framework and its default theme
+     tw-animate-css→ the enter/exit utilities shadcn components animate with
+     theme.css     → primitives, semantic tokens, the light/dark token blocks
+     shadcn.css    → shadcn's variable names aliased onto those tokens
+     components.css→ the house component layer
+   ========================================================================== */
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "../src/theme.css";
+@import "../src/shadcn.css";
+@import "../src/components.css";
+
+/* Explicit scan targets — pins detection for a mixed app/ + src/ tree. */
+@source "../app";
+@source "../components";
+@source "../lib";
+@source "../hooks";
