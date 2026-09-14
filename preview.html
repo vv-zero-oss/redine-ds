@@ -1,0 +1,2006 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Refine design system — preview</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+/* ============================================================================
+   Refine Design System — theme layer (Tailwind v4, CSS-first)
+   ----------------------------------------------------------------------------
+   Structure
+     1. Dark variant                — one `dark:` variant, two attribute hooks
+     2. Primitives (@theme)         — raw scales: fonts, sizes, radii, motion
+     3. Semantic runtime vars       — :root (light) + [data-theme=dark] (dark)
+     4. @theme inline bridge        — exposes semantic vars as Tailwind utilities
+     5. Base layer                  — page defaults, focus ring, reduced motion
+
+   Why the split: values in `@theme` are baked into utilities at build time, so
+   they cannot swap at runtime. Everything that changes between light and dark
+   lives in plain custom properties and is surfaced through `@theme inline`,
+   which emits `var(--ui-*)` instead of a copy. One attribute flip retints the
+   whole system — no duplicated dark rules in component CSS.
+   ========================================================================== */
+
+/* -- 1. Dark variant --------------------------------------------------------
+   `data-theme`    → page chrome (site nav, hero, demo surfaces)
+   `data-tl-theme` → embedded panel + its body-portaled menus/toasts
+   Either one turns on `dark:` so a host page and an embedded panel can be
+   themed together or independently.                                          */
+@custom-variant dark (&:where(
+  [data-theme="dark"], [data-theme="dark"] *,
+  [data-tl-theme="dark"], [data-tl-theme="dark"] *
+));
+
+/* -- 2. Primitives ---------------------------------------------------------- */
+@theme {
+  /* Type families */
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "Roboto Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+  --font-display: "Saans", "Inter", system-ui, sans-serif;
+
+  /* Type scale — px-locked because this is dense tool UI, not flowing prose.
+     Every size in the source page maps to exactly one step below.            */
+  --text-2xs: 11px;   --text-2xs--line-height: 14px;   /* meta, keycaps, version   */
+  --text-xs: 12px;    --text-xs--line-height: 16px;    /* captions, helper text    */
+  --text-sm: 13px;    --text-sm--line-height: 18px;    /* body — the UI default    */
+  --text-base: 14px;  --text-base--line-height: 20px;  /* prose body               */
+  --text-md: 15px;    --text-md--line-height: 21px;    /* card + section titles    */
+  --text-lg: 16px;    --text-lg--line-height: 24px;    /* lead paragraph           */
+  --text-xl: 18px;    --text-xl--line-height: 24px;    /* eyebrow                  */
+  --text-2xl: 26px;   --text-2xl--line-height: 32px;   /* page title (small vp)    */
+  --text-3xl: 36px;   --text-3xl--line-height: 34px;   /* hero                     */
+
+  /* Tracking — tight on display sizes, neutral in UI */
+  --tracking-display: -0.01em;
+  --tracking-eyebrow: -0.005em;
+
+  /* Radii */
+  --radius-xs: 5px;
+  --radius-sm: 6px;
+  --radius-md: 8px;    /* default control radius */
+  --radius-lg: 10px;
+  --radius-xl: 12px;   /* menus, cards, panels   */
+  --radius-2xl: 14px;
+  --radius-3xl: 20px;
+  --radius-pill: 999px;
+
+  /* Control heights — three sizes, nothing else */
+  --spacing-control-sm: 32px;
+  --spacing-control-md: 36px;
+  --spacing-control-lg: 40px;
+  --spacing-chip: 24px;
+  --spacing-badge: 20px;
+
+  /* Motion — durations (transitions.dev tokens) */
+  --duration-micro: 120ms;      /* hover / press feedback           */
+  --duration-fast: 150ms;       /* quick state changes, closes      */
+  --duration-medium: 250ms;     /* standard UI motion, opens        */
+  --duration-slow: 400ms;       /* larger surfaces, panels          */
+  --duration-very-slow: 600ms;  /* page-level moments               */
+
+  /* Motion — easing */
+  --ease-smooth: cubic-bezier(0.22, 1, 0.36, 1);        /* the house curve       */
+  --ease-morph: cubic-bezier(0.34, 1.25, 0.64, 1);      /* size morphs           */
+  --ease-bounce: cubic-bezier(0.34, 1.36, 0.64, 1);     /* badge pop             */
+  --ease-bounce-strong: cubic-bezier(0.34, 3.85, 0.64, 1);
+
+  /* Motion — distances, pre-scales and blurs */
+  --motion-distance-sm: 8px;
+  --motion-distance-md: 10px;
+  --motion-distance-lg: 40px;
+  --motion-distance-xl: 100px;
+  --motion-scale-lg: 0.96;   /* modal open/close     */
+  --motion-scale-md: 0.97;   /* dropdown open        */
+  --motion-scale-sm: 0.98;   /* tooltip open         */
+  --motion-scale-xs: 0.99;   /* dropdown close       */
+  --blur-motion-sm: 2px;
+  --blur-motion-md: 3px;
+  --blur-motion-lg: 8px;
+}
+
+/* -- 3. Semantic runtime vars ---------------------------------------------- */
+:root {
+  color-scheme: light;
+
+  /* Surfaces */
+  --ui-bg: #fdfdfd;                       /* page ground                       */
+  --ui-bg-alt: #eeeeee;                   /* alternate demo ground             */
+  --ui-surface: #ffffff;                  /* panels, cards, buttons at rest    */
+  --ui-surface-raised: #ffffff;           /* menus, toasts, popovers           */
+  --ui-surface-sunken: #f6f6f7;           /* inset wells: curve, preview track */
+  --ui-overlay: rgb(15 17 21 / 0.45);     /* modal scrim                       */
+
+  /* Text */
+  --ui-fg: #17181c;
+  --ui-fg-strong: #1b1b1b;
+  --ui-fg-muted: #585858;
+  --ui-fg-subtle: #696969;
+  --ui-fg-faint: #979797;
+  --ui-fg-disabled: #9294a6;
+  --ui-fg-onaccent: #ffffff;
+
+  /* Lines */
+  --ui-line: #ededf0;                     /* structural dividers               */
+  --ui-line-soft: #f0f0f0;                /* in-surface hairlines              */
+  --ui-line-strong: rgb(0 0 0 / 0.08);    /* chip / card rings                 */
+
+  /* Interaction fills */
+  --ui-fill: rgb(170 170 170 / 0.1);
+  --ui-fill-hover: rgb(170 170 170 / 0.2);
+  --ui-fill-active: rgb(170 170 170 / 0.28);
+  --ui-ghost-hover: #f7f7f7;
+  --ui-ghost-active: #f0f0f0;
+  --ui-raised: #ffffff;                   /* white raised button rest          */
+  --ui-raised-hover: #f9f9f9;
+  --ui-input: rgb(238 238 239 / 0.51);    /* scrubber field well               */
+  --ui-input-flat: #f7f7f7;               /* select trigger                    */
+  --ui-input-fill: rgb(219 219 219 / 0.4);/* scrubber progress                 */
+  --ui-track: #eeeeef;
+  --ui-track-hover: #e9e9e9;
+  --ui-thumb: #767676;
+  --ui-item-hover: #f4f4f5;               /* menu rows                         */
+  --ui-item-active: #ededee;
+
+  /* Accent (blue) */
+  --ui-accent: #0071e2;
+  --ui-accent-strong: #0073e5;
+  --ui-accent-bg: rgb(0 117 237 / 0.06);
+  --ui-accent-bg-hover: rgb(0 117 237 / 0.1);
+  --ui-accent-bg-active: rgb(0 117 237 / 0.14);
+  --ui-accent-ring: inset 0 0 0 1px rgb(0 101 208 / 0.1),
+                    inset 0 -1px 0 0 rgb(3 66 142 / 0.15);
+
+  /* Status */
+  --ui-success: #18a32f;
+  --ui-success-strong: #118c25;
+  --ui-success-bg: rgb(132 211 125 / 0.1);
+  --ui-success-fill: rgb(68 167 84 / 0.1);
+  --ui-success-dot: #34cc20;
+  --ui-danger: #c0392b;
+  --ui-danger-bg: rgb(192 57 43 / 0.06);
+  --ui-warn: #c2410c;
+
+  /* Category accents (suggestion chips) — text tint only, bg/ring derived */
+  --ui-cat-easing: #a830fd;
+  --ui-cat-duration: #3097fd;
+  --ui-cat-scale: #26953b;
+  --ui-cat-blur: #0e9aa7;
+  --ui-cat-delay: #c35c00;
+
+  /* Shadow recipes — drop + inset ring composed into one token each.
+     Borders are drawn with inset rings, never `border`, so a control's box
+     size never shifts between states.                                        */
+  --ui-shadow-ring: inset 0 0 0 1px rgb(0 0 0 / 0.06),
+                    inset 0 -1px 0 0 rgb(0 0 0 / 0.06),
+                    inset 0 0 0 1px rgb(196 196 196 / 0.1);
+  --ui-shadow-drop: 0 1px 3px 0 rgb(0 0 0 / 0.04);
+  --ui-shadow-drop-accent: 0 1px 3px 0 rgb(4 41 117 / 0.08);
+  --ui-shadow-btn: 0 1px 3px 0 rgb(0 0 0 / 0.04),
+                   inset 0 0 0 1px rgb(0 0 0 / 0.06),
+                   inset 0 -1px 0 0 rgb(0 0 0 / 0.1),
+                   inset 0 0 0 1px rgb(196 196 196 / 0.1);
+  --ui-shadow-btn-inset: inset 0 0 0 1px rgb(0 0 0 / 0.06),
+                         inset 0 -1px 0 0 rgb(0 0 0 / 0.1),
+                         inset 0 0 0 1px rgb(196 196 196 / 0.1);
+  --ui-shadow-input: inset 0 0 0 1px rgb(0 0 0 / 0.02),
+                     inset 0 -1px 0 0 rgb(0 0 0 / 0.08),
+                     inset 0 0 0 1px rgb(191 191 191 / 0.1),
+                     0 1px 3px 0 rgb(0 0 0 / 0.06);
+  --ui-shadow-focus: inset 0 0 0 1px rgb(0 0 0 / 0.14),
+                     inset 0 0 0 0.5px rgb(255 255 255 / 0.06);
+  --ui-shadow-hairline: 0 0 0 1px rgb(0 0 0 / 0.08);
+  --ui-shadow-card: 0 0 0 1px rgb(0 0 0 / 0.05),
+                    0 1px 2px rgb(0 0 0 / 0.04),
+                    0 8px 24px rgb(0 0 0 / 0.06);
+  --ui-shadow-menu: 0 0 0 1px rgb(0 0 0 / 0.06),
+                    0 2px 6px rgb(0 0 0 / 0.05),
+                    0 4px 42px rgb(0 0 0 / 0.06);
+  --ui-shadow-panel: 0 0 0 1px rgb(0 0 0 / 0.08),
+                     0 2px 6px 0 rgb(0 0 0 / 0.05),
+                     0 4px 42px 0 rgb(0 0 0 / 0.06);
+  --ui-shadow-modal: 0 10px 40px rgb(0 0 0 / 0.18);
+}
+
+/* Specificity matters here: these must outrank `:root` (0,1,0). `:where()`
+   is zero-specificity, so it would silently lose — hence the bare element
+   + attribute selectors (0,1,1). Do not wrap this block in :where().    */
+html[data-theme="dark"],
+html[data-tl-theme="dark"] {
+  color-scheme: dark;
+
+  --ui-bg: #121212;
+  --ui-bg-alt: #0d0d0d;
+  --ui-surface: #1b1b1b;
+  --ui-surface-raised: #202020;
+  --ui-surface-sunken: rgb(255 255 255 / 0.04);
+  --ui-overlay: rgb(0 0 0 / 0.6);
+
+  --ui-fg: #fbfbfb;
+  --ui-fg-strong: #fbfbfb;
+  --ui-fg-muted: #979797;
+  --ui-fg-subtle: #979797;
+  --ui-fg-faint: #8b8b8b;
+  --ui-fg-disabled: #6b6b6b;
+  --ui-fg-onaccent: #10131a;
+
+  --ui-line: #262626;
+  --ui-line-soft: #262626;
+  --ui-line-strong: rgb(255 255 255 / 0.1);
+
+  --ui-fill: rgb(255 255 255 / 0.06);
+  --ui-fill-hover: rgb(255 255 255 / 0.1);
+  --ui-fill-active: rgb(255 255 255 / 0.12);
+  --ui-ghost-hover: rgb(255 255 255 / 0.04);
+  --ui-ghost-active: rgb(255 255 255 / 0.06);
+  --ui-raised: rgb(255 255 255 / 0.06);
+  --ui-raised-hover: rgb(255 255 255 / 0.1);
+  --ui-input: rgb(255 255 255 / 0.04);
+  --ui-input-flat: rgb(255 255 255 / 0.04);
+  --ui-input-fill: rgb(255 255 255 / 0.1);
+  --ui-track: rgb(255 255 255 / 0.1);
+  --ui-track-hover: rgb(255 255 255 / 0.14);
+  --ui-thumb: #767676;
+  --ui-item-hover: rgb(255 255 255 / 0.04);
+  --ui-item-active: rgb(255 255 255 / 0.06);
+
+  --ui-accent: #90dcff;
+  --ui-accent-strong: #b3e6ff;
+  --ui-accent-bg: rgb(0 128 255 / 0.17);
+  --ui-accent-bg-hover: rgb(0 128 255 / 0.25);
+  --ui-accent-bg-active: rgb(0 128 255 / 0.3);
+  --ui-accent-ring: inset 0 0 0 1px rgb(85 207 255 / 0.04),
+                    inset 0 1px 0 0 rgb(85 207 255 / 0.06);
+
+  --ui-success: #70e984;
+  --ui-success-strong: #8ef09e;
+  --ui-success-bg: rgb(151 251 142 / 0.1);
+  --ui-success-fill: rgb(68 167 84 / 0.1);
+  --ui-success-dot: #34cc20;
+  --ui-danger: #ff8a7a;
+  --ui-danger-bg: rgb(192 57 43 / 0.14);
+  --ui-warn: #f99032;
+
+  --ui-cat-easing: #c471ff;
+  --ui-cat-duration: #50a7ff;
+  --ui-cat-scale: #64d378;
+  --ui-cat-blur: #3ec9d6;
+  --ui-cat-delay: #f99032;
+
+  /* Dark elevation is a light top edge, not a heavier drop shadow. */
+  --ui-shadow-ring: inset 0 0 0 1px rgb(255 255 255 / 0.04),
+                    inset 0 1px 0 0 rgb(255 255 255 / 0.06);
+  --ui-shadow-drop: 0 1px 1px 0 rgb(0 0 0 / 0.24);
+  --ui-shadow-drop-accent: 0 1px 1px 0 rgb(0 0 0 / 0.24);
+  --ui-shadow-btn: 0 1px 1px 0 rgb(0 0 0 / 0.24),
+                   inset 0 0 0 1px rgb(255 255 255 / 0.04),
+                   inset 0 1px 0 0 rgb(255 255 255 / 0.06);
+  --ui-shadow-btn-inset: inset 0 0 0 1px rgb(255 255 255 / 0.04),
+                         inset 0 1px 0 0 rgb(255 255 255 / 0.06);
+  --ui-shadow-input: 0 1px 1px 0 rgb(0 0 0 / 0.24),
+                     inset 0 0 0 1px rgb(255 255 255 / 0.04),
+                     inset 0 1px 0 0 rgb(255 255 255 / 0.06);
+  --ui-shadow-focus: inset 0 0 0 1px rgb(255 255 255 / 0.14),
+                     inset 0 0 0 0.5px rgb(255 255 255 / 0.06);
+  --ui-shadow-hairline: 0 0 0 1px rgb(255 255 255 / 0.08);
+  --ui-shadow-card: 0 0 0 1px rgb(255 255 255 / 0.06),
+                    0 1px 2px rgb(0 0 0 / 0.4),
+                    0 8px 24px rgb(0 0 0 / 0.5);
+  --ui-shadow-menu: 0 0 0 1px rgb(0 0 0 / 0.06),
+                    0 2px 6px rgb(0 0 0 / 0.05),
+                    0 4px 42px rgb(0 0 0 / 0.24),
+                    inset 0 0 0 1px rgb(255 255 255 / 0.04),
+                    inset 0 1px 0 0 rgb(255 255 255 / 0.03);
+  --ui-shadow-panel: 0 2px 6px 0 rgb(0 0 0 / 0.05),
+                     0 4px 42px 0 rgb(0 0 0 / 0.24),
+                     inset 0 0 0 1px rgb(255 255 255 / 0.04),
+                     inset 0 1px 0 0 rgb(255 255 255 / 0.02);
+  --ui-shadow-modal: 0 10px 40px rgb(0 0 0 / 0.6);
+}
+
+/* -- 4. Bridge: semantic vars → Tailwind utilities --------------------------
+   `@theme inline` emits `var(--ui-*)` in the generated utility instead of a
+   copied literal, so `bg-surface` follows the theme attribute at runtime.    */
+@theme inline {
+  --color-bg: var(--ui-bg);
+  --color-bg-alt: var(--ui-bg-alt);
+  --color-surface: var(--ui-surface);
+  --color-surface-raised: var(--ui-surface-raised);
+  --color-surface-sunken: var(--ui-surface-sunken);
+  --color-overlay: var(--ui-overlay);
+
+  --color-fg: var(--ui-fg);
+  --color-fg-strong: var(--ui-fg-strong);
+  --color-fg-muted: var(--ui-fg-muted);
+  --color-fg-subtle: var(--ui-fg-subtle);
+  --color-fg-faint: var(--ui-fg-faint);
+  --color-fg-disabled: var(--ui-fg-disabled);
+  --color-fg-onaccent: var(--ui-fg-onaccent);
+
+  --color-line: var(--ui-line);
+  --color-line-soft: var(--ui-line-soft);
+  --color-line-strong: var(--ui-line-strong);
+
+  --color-fill: var(--ui-fill);
+  --color-fill-hover: var(--ui-fill-hover);
+  --color-fill-active: var(--ui-fill-active);
+  --color-ghost-hover: var(--ui-ghost-hover);
+  --color-raised: var(--ui-raised);
+  --color-raised-hover: var(--ui-raised-hover);
+  --color-input: var(--ui-input);
+  --color-input-flat: var(--ui-input-flat);
+  --color-track: var(--ui-track);
+  --color-thumb: var(--ui-thumb);
+  --color-item-hover: var(--ui-item-hover);
+  --color-item-active: var(--ui-item-active);
+
+  --color-accent: var(--ui-accent);
+  --color-accent-strong: var(--ui-accent-strong);
+  --color-accent-bg: var(--ui-accent-bg);
+  --color-success: var(--ui-success);
+  --color-danger: var(--ui-danger);
+  --color-warn: var(--ui-warn);
+
+  --shadow-ring: var(--ui-shadow-ring);
+  --shadow-drop: var(--ui-shadow-drop);
+  --shadow-btn: var(--ui-shadow-btn);
+  --shadow-input: var(--ui-shadow-input);
+  --shadow-hairline: var(--ui-shadow-hairline);
+  --shadow-card: var(--ui-shadow-card);
+  --shadow-menu: var(--ui-shadow-menu);
+  --shadow-panel: var(--ui-shadow-panel);
+  --shadow-modal: var(--ui-shadow-modal);
+}
+
+/* -- 5. Base --------------------------------------------------------------- */
+@layer base {
+  *,
+  *::before,
+  *::after { box-sizing: border-box; }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--ui-bg);
+    color: var(--ui-fg);
+    font-family: var(--font-sans);
+    /* 13px is the UI default; long-form blocks opt up to text-base. */
+    font-size: var(--text-sm);
+    line-height: var(--text-sm--line-height);
+    transition: background-color var(--duration-medium) var(--ease-smooth),
+                color var(--duration-medium) var(--ease-smooth);
+  }
+
+  h1, h2, h3, h4, p, figure { margin: 0; }
+
+  /* One focus ring for the whole system. */
+  :focus-visible {
+    outline: 2px solid var(--ui-accent);
+    outline-offset: 2px;
+  }
+
+  ::selection { background: var(--ui-accent-bg-active); }
+
+  /* Thin overlay scrollbars on opted-in scroll containers only — never the
+     host page's own scrollbar. */
+  .scroll-thin {
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in srgb, var(--ui-fg) 18%, transparent) transparent;
+  }
+  .scroll-thin::-webkit-scrollbar { width: 6px; height: 6px; }
+  .scroll-thin::-webkit-scrollbar-track { background: transparent; }
+  .scroll-thin::-webkit-scrollbar-thumb {
+    background: color-mix(in srgb, var(--ui-fg) 18%, transparent);
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+  }
+  .scroll-thin::-webkit-scrollbar-thumb:hover {
+    background: color-mix(in srgb, var(--ui-fg) 28%, transparent);
+    background-clip: padding-box;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* ============================================================================
+   Refine Design System — component layer
+   ----------------------------------------------------------------------------
+   Every class below reads only from the semantic tokens in theme.css, so none
+   of them carries a dark-mode override. Flip [data-theme="dark"] and the whole
+   layer retints.
+
+   Conventions
+     · Borders are inset shadows, so hover/press never shifts a box by a pixel.
+     · Press feedback is `scale`, not transform, so it composes with any
+       transform a parent animation is already running.
+     · Controls come in three heights only: 32 / 36 / 40.
+   ========================================================================== */
+
+@layer components {
+
+  /* ==========================================================================
+     TYPOGRAPHY
+     Named roles rather than raw sizes — so "what is a label" is decided once.
+     ========================================================================== */
+  .type-display   { @apply font-display text-3xl font-medium tracking-display text-fg; }
+  .type-title     { @apply text-2xl font-semibold tracking-display text-fg; }
+  .type-heading   { @apply text-md font-medium text-fg; }
+  .type-eyebrow   { @apply font-display text-xl font-medium tracking-eyebrow text-fg-muted; }
+  .type-lead      { @apply text-lg font-normal text-fg-muted; }
+  .type-body      { @apply text-sm font-normal text-fg; }
+  .type-body-lg   { @apply text-base font-normal text-fg; }
+  .type-label     { @apply text-sm font-medium text-fg-strong; }
+  .type-field-label { @apply text-xs font-normal text-fg-faint; }
+  .type-caption   { @apply text-xs font-normal text-fg-muted; }
+  .type-meta      { @apply text-2xs font-normal text-fg-faint; }
+  .type-mono      { @apply font-mono text-sm font-normal tabular-nums; }
+  .type-code {
+    @apply font-mono text-xs rounded-xs px-1.5 py-px;
+    color: var(--ui-fg);
+    background: var(--ui-fill-hover);
+  }
+
+  /* ==========================================================================
+     SURFACES
+     ========================================================================== */
+  .surface        { @apply bg-surface text-fg; }
+  .surface-raised { @apply bg-surface-raised text-fg; }
+  .surface-sunken { @apply bg-surface-sunken rounded-md; }
+
+  .card {
+    @apply rounded-xl bg-surface p-6 text-fg;
+    box-shadow: var(--ui-shadow-card);
+  }
+  .card-flat {
+    @apply rounded-xl bg-surface p-4 text-fg;
+    box-shadow: var(--ui-shadow-hairline);
+  }
+  .panel {
+    @apply overflow-hidden rounded-xl bg-surface text-fg;
+    box-shadow: var(--ui-shadow-panel);
+  }
+  .divider      { @apply h-px w-full; background: var(--ui-line); }
+  .divider-soft { @apply h-px w-full; background: var(--ui-line-soft); }
+
+  /* ==========================================================================
+     BUTTONS
+     `.btn` sets shape + rhythm; a variant sets skin; a size sets height.
+       .btn-raised   white/elevated — the default affirmative action
+       .btn-solid    high-contrast fill — one per view, at most
+       .btn-soft     tinted flat fill — secondary actions
+       .btn-ghost    transparent until hovered — toolbar actions
+       .btn-accent   layered blue — the branded "smart" action
+       .btn-danger   destructive
+     ========================================================================== */
+  .btn {
+    @apply relative inline-flex items-center justify-center gap-1.5
+           rounded-md border-0 whitespace-nowrap
+           text-sm font-medium leading-none cursor-pointer select-none;
+    height: var(--spacing-control-md);
+    padding-inline: 14px;
+    font-family: inherit;
+    transition: background-color var(--duration-micro) ease,
+                color var(--duration-micro) ease,
+                box-shadow var(--duration-micro) ease,
+                opacity var(--duration-micro) ease,
+                scale var(--duration-micro) ease;
+  }
+  .btn:active:not(:disabled) { scale: 0.96; }
+  .btn:disabled { @apply cursor-default opacity-50; }
+  .btn > svg { @apply block shrink-0 size-4; }
+
+  /* sizes */
+  .btn-sm { height: var(--spacing-control-sm); padding-inline: 12px; }
+  .btn-md { height: var(--spacing-control-md); padding-inline: 14px; }
+  .btn-lg { height: var(--spacing-control-lg); padding-inline: 16px; @apply text-sm; }
+
+  /* shapes */
+  .btn-pill { @apply rounded-pill; }
+  .btn-icon {
+    @apply justify-center p-0 gap-0;
+    width: var(--spacing-control-md);
+    height: var(--spacing-control-md);
+  }
+  .btn-icon.btn-sm { width: var(--spacing-control-sm); height: var(--spacing-control-sm); }
+  .btn-icon.btn-lg { width: var(--spacing-control-lg); height: var(--spacing-control-lg); }
+
+  /* variants */
+  .btn-raised {
+    color: var(--ui-fg);
+    background: var(--ui-raised);
+    box-shadow: var(--ui-shadow-btn);
+  }
+  .btn-raised:hover:not(:disabled),
+  .btn-raised[aria-expanded="true"] { background: var(--ui-raised-hover); }
+  .btn-raised:active:not(:disabled)  { background: var(--ui-raised-hover); }
+
+  .btn-solid {
+    color: var(--ui-fg-onaccent);
+    background: var(--ui-fg);
+    box-shadow: var(--ui-shadow-drop);
+  }
+  .btn-solid:hover:not(:disabled) { background: color-mix(in srgb, var(--ui-fg) 88%, var(--ui-bg)); }
+
+  .btn-soft {
+    color: var(--ui-fg-subtle);
+    background: var(--ui-fill);
+    box-shadow: var(--ui-shadow-btn);
+  }
+  .btn-soft:hover:not(:disabled),
+  .btn-soft.is-active { background: var(--ui-fill-hover); color: var(--ui-fg); }
+  .btn-soft:active:not(:disabled) { background: var(--ui-fill-active); }
+
+  .btn-ghost {
+    color: var(--ui-fg-strong);
+    background: transparent;
+  }
+  .btn-ghost:hover:not(:disabled),
+  .btn-ghost.is-active,
+  .btn-ghost[aria-expanded="true"] { background: var(--ui-ghost-hover); }
+  .btn-ghost:active:not(:disabled) { background: var(--ui-ghost-active); }
+
+  .btn-danger {
+    color: #fff;
+    background: #e5484d;
+  }
+  .btn-danger:hover:not(:disabled) { background: #d93b40; }
+
+  /* Accent button — three stacked layers so the tinted fill, the inset ring and
+     the drop shadow can each animate independently (a single background can't
+     hold a P3 tint, a ring and a drop at once). */
+  .btn-accent {
+    @apply isolate;
+    color: var(--ui-accent);
+    background: transparent;
+    box-shadow: var(--ui-shadow-drop-accent);
+  }
+  .btn-accent::before {
+    content: "";
+    @apply absolute inset-0 -z-10 rounded-[inherit];
+    background: var(--ui-accent-bg);
+    transition: background-color var(--duration-micro) ease;
+  }
+  .btn-accent::after {
+    content: "";
+    @apply absolute inset-0 rounded-[inherit] pointer-events-none;
+    box-shadow: var(--ui-accent-ring);
+  }
+  .btn-accent > * { @apply relative z-0; }
+  .btn-accent:hover:not(:disabled)::before,
+  .btn-accent.is-active::before { background: var(--ui-accent-bg-hover); }
+  .btn-accent:active:not(:disabled) { color: var(--ui-accent-strong); }
+  .btn-accent.is-active { color: var(--ui-accent-strong); }
+  .btn-accent.is-active::before { background: var(--ui-accent-bg-active); }
+  .btn-accent:disabled::before { background: var(--ui-accent-bg); }
+
+  /* Nav pill — text link that behaves like a low-emphasis toggle. */
+  .nav-pill {
+    @apply inline-flex items-center justify-center rounded-pill px-3
+           text-sm font-medium no-underline whitespace-nowrap;
+    height: var(--spacing-control-md);
+    color: var(--ui-fg-muted);
+    transition: background-color var(--duration-fast) ease, color var(--duration-fast) ease;
+  }
+  .nav-pill:hover,
+  .nav-pill[aria-current="page"] { color: var(--ui-fg); background: var(--ui-ghost-hover); }
+
+  /* ==========================================================================
+     BADGES · CHIPS · KEYCAPS
+     ========================================================================== */
+  .badge {
+    @apply inline-flex items-center justify-center rounded-pill px-1.5
+           text-2xs font-normal whitespace-nowrap;
+    height: var(--spacing-badge);
+    color: var(--ui-fg-subtle);
+    background: var(--ui-surface);
+    box-shadow: var(--ui-shadow-hairline);
+  }
+  .badge-count {
+    @apply inline-flex items-center justify-center rounded-pill px-1.5
+           text-2xs font-semibold;
+    height: var(--spacing-badge);
+    min-width: var(--spacing-badge);
+    color: var(--ui-bg);
+    background: var(--ui-fg);
+    box-shadow: var(--ui-shadow-drop);
+  }
+  .badge-count.is-single { width: var(--spacing-badge); @apply px-0; }
+  .badge-soft {
+    @apply inline-flex items-center justify-center rounded-pill px-2
+           text-sm font-medium;
+    height: 22px;
+    color: var(--ui-fg-muted);
+    background: var(--ui-fill);
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-pill px-2.5
+           text-sm font-medium whitespace-nowrap;
+    height: var(--spacing-chip);
+    color: var(--ui-fg-muted);
+    background: var(--ui-fill);
+  }
+  /* Category chips: one hue drives text, 6% fill and an 18% ring. */
+  .chip-easing   { color: var(--ui-cat-easing);   background: color-mix(in srgb, var(--ui-cat-easing) 6%, transparent);   box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ui-cat-easing) 18%, transparent); }
+  .chip-duration { color: var(--ui-cat-duration); background: color-mix(in srgb, var(--ui-cat-duration) 8%, transparent); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ui-cat-duration) 18%, transparent); }
+  .chip-scale    { color: var(--ui-cat-scale);    background: color-mix(in srgb, var(--ui-cat-scale) 6%, transparent);    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ui-cat-scale) 18%, transparent); }
+  .chip-blur     { color: var(--ui-cat-blur);     background: color-mix(in srgb, var(--ui-cat-blur) 7%, transparent);     box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ui-cat-blur) 20%, transparent); }
+  .chip-delay    { color: var(--ui-cat-delay);    background: color-mix(in srgb, var(--ui-cat-delay) 6%, transparent);    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ui-cat-delay) 18%, transparent); }
+
+  /* Status chip (live / idle) */
+  .chip-status {
+    @apply inline-flex items-center gap-1.5 rounded-pill pl-2.5 pr-2.5;
+    height: 28px;
+    color: var(--ui-success);
+    background: var(--ui-success-bg);
+    box-shadow: var(--ui-shadow-drop), inset 0 0 0 1px color-mix(in srgb, var(--ui-success) 16%, transparent);
+  }
+  .chip-status.is-off {
+    color: var(--ui-fg-muted);
+    background: var(--ui-fill);
+    box-shadow: var(--ui-shadow-drop), inset 0 0 0 1px var(--ui-line-strong);
+  }
+  .status-dot {
+    @apply size-2 shrink-0 rounded-full;
+    background: var(--ui-success-dot);
+    animation: status-pulse 1600ms linear infinite;
+  }
+  .chip-status.is-off .status-dot { background: #a1a1a1; animation: none; }
+  @keyframes status-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+
+  .kbd {
+    @apply inline-flex items-center justify-center rounded-xs px-1.5
+           font-mono text-2xs font-medium tabular-nums;
+    min-width: 18px;
+    height: 18px;
+    color: var(--ui-fg-muted);
+    background: var(--ui-item-hover);
+    box-shadow: inset 0 0 0 1px var(--ui-line-strong);
+  }
+
+  /* ==========================================================================
+     INPUTS
+     ========================================================================== */
+  .input {
+    @apply block w-full rounded-md border-0 px-3 text-sm font-normal;
+    height: var(--spacing-control-sm);
+    font-family: inherit;
+    color: var(--ui-fg);
+    background: var(--ui-input);
+    box-shadow: inset 0 0 0 1px transparent;
+    outline: none;
+    transition: background-color var(--duration-micro) ease,
+                box-shadow var(--duration-micro) ease;
+  }
+  .input::placeholder { color: var(--ui-fg-faint); }
+  .input:hover:not(:disabled) { background: var(--ui-fill-hover); }
+  .input:focus { box-shadow: var(--ui-shadow-focus); outline: none; }
+  .input:disabled { @apply cursor-default opacity-50; }
+  .input-lg { height: var(--spacing-control-md); }
+  .input-flat { background: var(--ui-input-flat); }
+  .input-mono { @apply font-mono text-xs tabular-nums; }
+
+  /* Bare search field that sits inside a menu — no well, just a divider. */
+  .input-search {
+    @apply w-full border-0 bg-transparent px-2 text-sm;
+    height: var(--spacing-control-sm);
+    color: var(--ui-fg);
+    outline: none;
+  }
+  .input-search::placeholder { color: var(--ui-fg-faint); }
+
+  /* Number cell — value left-aligned, spinners stripped. */
+  .input-num {
+    @apply flex min-w-0 flex-1 items-center rounded-md px-2;
+    height: var(--spacing-control-sm);
+    background: var(--ui-input);
+    box-shadow: inset 0 0 0 0 transparent;
+    transition: background-color var(--duration-micro) ease, box-shadow var(--duration-micro) ease;
+  }
+  .input-num:hover { background: var(--ui-fill-hover); }
+  .input-num:focus-within { box-shadow: inset 0 0 0 1px var(--ui-line-strong); }
+  .input-num > input {
+    @apply h-full w-full min-w-0 border-0 bg-transparent p-0 text-left text-xs font-normal;
+    color: var(--ui-fg);
+    font-family: inherit;
+    outline: none;
+    appearance: textfield;
+    -moz-appearance: textfield;
+  }
+  .input-num > input::-webkit-outer-spin-button,
+  .input-num > input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; width: 0; }
+  .input-num > input::placeholder { color: var(--ui-fg-faint); }
+
+  .textarea {
+    @apply block w-full rounded-md border-0 px-3 py-2 text-sm;
+    min-height: 80px;
+    color: var(--ui-fg);
+    background: var(--ui-input);
+    font-family: inherit;
+    outline: none;
+    resize: vertical;
+    transition: background-color var(--duration-micro) ease, box-shadow var(--duration-micro) ease;
+  }
+  .textarea:focus { box-shadow: var(--ui-shadow-focus); }
+
+  .field       { @apply flex flex-col gap-1.5; }
+  .field-hint  { @apply text-xs font-normal text-fg-muted; }
+  .field-error { @apply text-xs; color: var(--ui-danger); }
+
+  /* Scrubber — a slider and a number input sharing one box. The fill is a
+     child so it can tween width while the label and value stay put. */
+  .scrubber {
+    @apply relative min-w-0 flex-1 rounded-md;
+    height: var(--spacing-control-sm);
+    background: var(--ui-input);
+    transition: background-color var(--duration-micro) ease, box-shadow var(--duration-micro) ease;
+  }
+  .scrubber:hover:not(.is-editing) { background: var(--ui-fill-hover); }
+  .scrubber.is-editing { box-shadow: var(--ui-shadow-focus); }
+  .scrubber-fill {
+    @apply absolute inset-y-0 left-0 z-10 rounded-md pointer-events-none;
+    min-width: var(--spacing-control-sm);
+    background: var(--ui-input-fill);
+    box-shadow: var(--ui-shadow-input);
+    transition: width var(--duration-medium) var(--ease-smooth),
+                background-color var(--duration-micro) ease;
+  }
+  .scrubber-track { @apply absolute inset-0 z-20 cursor-ew-resize; }
+  .scrubber-label {
+    @apply absolute left-3 top-1/2 z-30 -translate-y-1/2 text-sm font-medium pointer-events-none;
+    color: var(--ui-fg-muted);
+  }
+  .scrubber-value {
+    @apply absolute right-3 top-1/2 z-30 -translate-y-1/2 cursor-text text-sm font-normal tabular-nums;
+    color: var(--ui-fg);
+  }
+  .scrubber-thumb {
+    @apply absolute right-2 top-1.5 z-30 w-0.5 rounded-pill opacity-0 pointer-events-none;
+    height: 18px;
+    background: var(--ui-thumb);
+    transition: opacity var(--duration-micro) ease;
+  }
+  .scrubber:hover .scrubber-thumb    { opacity: 0.6; }
+  .scrubber.is-dragging .scrubber-thumb { opacity: 1; }
+  .scrubber-stepper {
+    @apply flex shrink-0 items-center justify-center rounded-md border-0 cursor-pointer;
+    width: var(--spacing-control-sm);
+    height: var(--spacing-control-sm);
+    color: var(--ui-fg-faint);
+    background: var(--ui-input);
+    transition: background-color var(--duration-micro) ease, scale var(--duration-micro) ease;
+  }
+  .scrubber-stepper:hover { background: var(--ui-fill-hover); }
+  .scrubber-stepper:active { scale: 0.96; }
+
+  /* Switch */
+  .switch {
+    @apply relative inline-flex shrink-0 cursor-pointer items-center rounded-pill border-0;
+    width: 36px; height: 20px;
+    background: var(--ui-fill-hover);
+    transition: background-color var(--duration-fast) var(--ease-smooth);
+  }
+  .switch[aria-checked="true"] { background: var(--ui-accent); }
+  .switch::after {
+    content: "";
+    @apply absolute left-0.5 size-4 rounded-full;
+    background: #fff;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 0.25);
+    transition: translate var(--duration-fast) var(--ease-smooth);
+  }
+  .switch[aria-checked="true"]::after { translate: 16px 0; }
+
+  /* ==========================================================================
+     SELECT
+     ========================================================================== */
+  .select {
+    @apply flex w-full cursor-pointer items-center justify-between gap-2
+           rounded-md border-0 pl-3 pr-2.5 text-left text-sm font-normal;
+    height: var(--spacing-control-sm);
+    font-family: inherit;
+    color: var(--ui-fg-strong);
+    background: var(--ui-input-flat);
+    transition: background-color var(--duration-micro) ease;
+  }
+  .select:hover:not(:disabled),
+  .select.is-open,
+  .select[aria-expanded="true"] { background: var(--ui-fill-hover); }
+  .select:disabled { @apply cursor-default opacity-50; }
+  .select-value { @apply min-w-0 flex-1 truncate; }
+  .select-icon  { @apply flex shrink-0 size-4; color: var(--ui-fg-faint);
+                  transition: rotate var(--duration-medium) var(--ease-smooth); }
+  .select.is-open .select-icon,
+  .select[aria-expanded="true"] .select-icon { rotate: 180deg; }
+
+  /* ==========================================================================
+     MENU / DROPDOWN SURFACE
+     ========================================================================== */
+  .menu {
+    @apply rounded-xl p-1.5 text-left;
+    background: var(--ui-surface-raised);
+    box-shadow: var(--ui-shadow-menu);
+  }
+  .menu-item {
+    @apply flex w-full cursor-pointer items-center gap-2 rounded-md border-0
+           bg-transparent px-2 text-left text-sm font-normal;
+    min-height: var(--spacing-control-sm);
+    font-family: inherit;
+    color: var(--ui-fg);
+    transition: background-color 100ms ease, box-shadow 100ms ease;
+  }
+  .menu-item:hover  { background: var(--ui-item-hover); }
+  .menu-item:active { background: var(--ui-item-active); }
+  .menu-item:focus-visible {
+    outline: none;
+    background: transparent;
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ui-accent) 45%, transparent);
+  }
+  .menu-item.is-disabled { @apply pointer-events-none; color: var(--ui-fg-disabled); }
+  .menu-item-text  { @apply min-w-0 flex-1 truncate; }
+  .menu-item-hint  { @apply shrink-0 text-sm; color: var(--ui-fg-faint); }
+  .menu-item-icon  { @apply flex shrink-0 size-4; color: var(--ui-fg-subtle); }
+  .menu-item-check { @apply flex shrink-0 size-4; color: var(--ui-fg); }
+
+  .menu-section { @apply px-2 pt-3 pb-2 text-2xs font-normal; color: var(--ui-fg-faint); }
+  .menu-section:first-child { @apply pt-1; }
+  /* Full-bleed: negative insets cancel the menu's own 6px padding. */
+  .menu-divider { @apply my-1.5 h-px; margin-inline: -6px; background: var(--ui-line-soft); }
+  .menu-search  { @apply mb-1.5 pb-1.5; margin-inline: -6px; padding-inline: 6px;
+                  border-bottom: 1px solid var(--ui-line); }
+  .menu-empty   { @apply px-2 py-2.5 text-sm; color: var(--ui-fg-disabled); }
+  .menu-footer  { @apply flex items-center justify-between gap-3 px-3 py-2.5
+                         text-2xs select-none pointer-events-none;
+                  color: var(--ui-fg-faint); }
+
+  /* ==========================================================================
+     TABS / SEGMENTED CONTROL
+     ========================================================================== */
+  .seg     { @apply flex items-center gap-1; }
+  .seg-btn {
+    @apply cursor-pointer rounded-md border-0 bg-transparent px-3
+           text-sm font-medium leading-none;
+    height: var(--spacing-control-sm);
+    font-family: inherit;
+    color: var(--ui-fg-muted);
+    transition: background-color var(--duration-fast) ease, color var(--duration-fast) ease;
+  }
+  .seg-btn:hover:not([aria-selected="true"]) { color: var(--ui-fg); background: var(--ui-ghost-hover); }
+  .seg-btn[aria-selected="true"] { color: var(--ui-fg); background: var(--ui-fill); }
+
+  /* Sliding-pill tabs: the pill is one absolutely-positioned element that
+     tweens transform + width, so only two properties animate however many
+     tabs there are. */
+  .tabs {
+    @apply relative inline-flex items-center gap-0.5 rounded-pill p-0.5;
+    background: var(--ui-fill);
+  }
+  .tab {
+    @apply relative z-10 cursor-pointer rounded-pill border-0 bg-transparent px-3.5
+           text-sm font-medium leading-none;
+    height: 30px;
+    font-family: inherit;
+    color: var(--ui-fg-muted);
+    transition: color var(--duration-medium) var(--ease-smooth);
+  }
+  .tab[aria-selected="true"] { color: var(--ui-fg); }
+  .tabs-pill {
+    @apply pointer-events-none absolute left-0 top-0.5 z-0 rounded-pill;
+    height: 30px;
+    background: var(--ui-surface);
+    box-shadow: var(--ui-shadow-drop), 0 0 0 1px var(--ui-line-strong);
+    transition: translate var(--duration-medium) var(--ease-smooth),
+                width var(--duration-medium) var(--ease-smooth);
+    will-change: translate, width;
+  }
+
+  /* ==========================================================================
+     TOOLTIP · TOAST
+     ========================================================================== */
+  .tooltip {
+    @apply pointer-events-none absolute z-[100] whitespace-nowrap rounded-md
+           px-3 py-2 text-xs opacity-0;
+    left: 50%;
+    bottom: calc(100% + 8px);
+    translate: -50% 0;
+    scale: var(--motion-scale-sm);
+    transform-origin: 50% 100%;
+    color: var(--ui-fg-strong);
+    background: var(--ui-surface-raised);
+    box-shadow: var(--ui-shadow-menu);
+    transition: opacity var(--duration-fast) ease-out, scale var(--duration-fast) ease-out;
+  }
+  .tooltip-host { @apply relative inline-block; }
+  .tooltip-host:hover > .tooltip,
+  .tooltip-host > :focus-visible + .tooltip {
+    @apply opacity-100;
+    scale: 1;
+    transition-delay: 80ms;
+  }
+  .tooltip-below  { top: calc(100% + 8px); bottom: auto; transform-origin: 50% 0; }
+  .tooltip-end    { left: auto; right: 0; translate: 0 0; transform-origin: 100% 0; }
+  .tooltip-wrap   { @apply whitespace-normal text-left; width: 252px; line-height: 1.45; }
+  .tooltip-kbd    { @apply ml-2 opacity-40; }
+
+  .toast {
+    @apply inline-flex items-center gap-1.5 rounded-pill pl-2.5 pr-3.5
+           text-sm font-normal whitespace-nowrap;
+    height: 32px;
+    color: var(--ui-fg-strong);
+    background: var(--ui-surface-raised);
+    box-shadow: var(--ui-shadow-menu);
+    animation: toast-in var(--duration-medium) var(--ease-smooth) both;
+  }
+  .toast.is-closing { animation: toast-out var(--duration-slow) var(--ease-smooth) both; }
+  @keyframes toast-in  { from { opacity: 0; translate: 0 8px; scale: 0.98; } to { opacity: 1; } }
+  @keyframes toast-out { from { opacity: 1; } to { opacity: 0; translate: 0 8px; scale: 0.98; } }
+
+  /* ==========================================================================
+     MOTION RECIPES
+     Reusable open/close choreography. JS toggles `is-open` / `is-closing`;
+     the CSS owns every duration, curve and distance.
+     ========================================================================== */
+
+  /* Dropdown — scales up from its anchor corner. Opens slower than it closes,
+     and closes from a nearer scale so dismissal reads as instant. */
+  .m-dropdown {
+    @apply pointer-events-none opacity-0;
+    transform-origin: top left;
+    scale: var(--motion-scale-md);
+    transition: scale var(--duration-medium) var(--ease-smooth),
+                opacity var(--duration-medium) var(--ease-smooth);
+    will-change: scale, opacity;
+  }
+  .m-dropdown[data-origin="top-right"]     { transform-origin: top right; }
+  .m-dropdown[data-origin="bottom-left"]   { transform-origin: bottom left; }
+  .m-dropdown[data-origin="bottom-right"]  { transform-origin: bottom right; }
+  .m-dropdown.is-open    { @apply pointer-events-auto opacity-100; scale: 1; }
+  .m-dropdown.is-closing {
+    @apply pointer-events-none opacity-0;
+    scale: var(--motion-scale-xs);
+    transition-duration: var(--duration-fast);
+  }
+
+  /* Modal + scrim */
+  .m-modal {
+    @apply pointer-events-none opacity-0;
+    transform-origin: center;
+    scale: var(--motion-scale-lg);
+    transition: scale var(--duration-medium) var(--ease-smooth),
+                opacity var(--duration-medium) var(--ease-smooth);
+  }
+  .m-modal.is-open    { @apply pointer-events-auto opacity-100; scale: 1; }
+  .m-modal.is-closing { @apply opacity-0; scale: var(--motion-scale-lg);
+                        transition-duration: var(--duration-fast); }
+  .m-scrim {
+    @apply pointer-events-none absolute inset-0 opacity-0;
+    background: var(--ui-overlay);
+    transition: opacity var(--duration-medium) var(--ease-smooth);
+  }
+  .m-scrim.is-open    { @apply pointer-events-auto opacity-100; }
+  .m-scrim.is-closing { @apply opacity-0; transition-duration: var(--duration-fast); }
+
+  /* Panel reveal — travels further on open than on close, with a cross-blur. */
+  .m-panel {
+    @apply pointer-events-none opacity-0;
+    translate: 0 var(--motion-distance-md);
+    filter: blur(var(--blur-motion-sm));
+    transition: translate var(--duration-slow) var(--ease-smooth),
+                opacity var(--duration-slow) var(--ease-smooth),
+                filter var(--duration-slow) var(--ease-smooth);
+    will-change: translate, opacity, filter;
+  }
+  .m-panel[data-phase="opening"] { translate: 0 var(--motion-distance-xl); }
+  .m-panel[data-open="true"] {
+    @apply pointer-events-auto opacity-100;
+    translate: 0 0;
+    filter: blur(0);
+  }
+
+  /* Tooltip-style icon cross-blur: two icons in one grid cell. */
+  .m-icon-swap { @apply relative inline-grid; }
+  .m-icon-swap > * {
+    grid-area: 1 / 1;
+    transition: opacity var(--duration-medium) ease-in-out,
+                filter var(--duration-medium) ease-in-out,
+                scale var(--duration-medium) ease-in-out;
+  }
+  .m-icon-swap > [data-icon]:not([data-icon="a"]) { opacity: 0; filter: blur(var(--blur-motion-sm)); scale: 0.25; }
+  .m-icon-swap[data-state="b"] > [data-icon="a"]  { opacity: 0; filter: blur(var(--blur-motion-sm)); scale: 0.25; }
+  .m-icon-swap[data-state="b"] > [data-icon="b"]  { opacity: 1; filter: blur(0); scale: 1; }
+
+  /* ==========================================================================
+     TIMELINE (tool-specific, still token-driven)
+     ========================================================================== */
+  .timeline-row {
+    @apply flex h-12 cursor-pointer items-stretch;
+    border-bottom: 1px solid var(--ui-line);
+  }
+  .timeline-row:hover      { background: color-mix(in srgb, var(--ui-fg) 2%, transparent); }
+  .timeline-row.is-selected{ background: color-mix(in srgb, var(--ui-fg) 3%, transparent); }
+  .timeline-head {
+    @apply flex shrink-0 items-center gap-2 overflow-hidden pl-3 pr-2.5;
+    flex-basis: 200px;
+    border-right: 1px solid var(--ui-line);
+  }
+  .timeline-track { @apply relative ml-4 flex-1 select-none; }
+  .timeline-bar {
+    @apply absolute top-1/2 h-6 -translate-y-1/2 cursor-grab rounded-md;
+    min-width: 24px;
+    background: var(--ui-track);
+    box-shadow: var(--ui-shadow-btn);
+    transition: background-color var(--duration-micro) ease,
+                left var(--duration-medium) var(--ease-smooth),
+                width var(--duration-medium) var(--ease-smooth);
+  }
+  .timeline-row:hover .timeline-bar,
+  .timeline-row.is-selected .timeline-bar { background: var(--ui-track-hover); }
+  .timeline-bar:active { @apply cursor-grabbing; }
+  .timeline-bar.is-dragging { transition: background-color var(--duration-micro) ease; }
+  .timeline-grip {
+    @apply absolute top-1/2 w-0.5 -translate-y-1/2 rounded-pill opacity-0 pointer-events-none;
+    height: 14px;
+    background: var(--ui-thumb);
+    transition: opacity var(--duration-micro) ease;
+  }
+  .timeline-row:hover .timeline-grip { opacity: 0.6; }
+  .timeline-ruler { @apply relative ml-4 flex-1; }
+  .timeline-ruler-major {
+    @apply absolute -translate-x-1/2 whitespace-nowrap text-xs;
+    top: 9px;
+    color: var(--ui-fg-muted);
+  }
+  .timeline-tick {
+    @apply absolute size-0.5 -translate-x-1/2 rounded-full;
+    top: 14px;
+    background: color-mix(in srgb, var(--ui-fg) 22%, transparent);
+  }
+
+  /* ==========================================================================
+     LAYOUT HELPERS
+     ========================================================================== */
+  .container-page { @apply mx-auto w-full max-w-[1008px] px-6; }
+  .container-nav  { @apply mx-auto flex w-full max-w-[1280px] items-center justify-between gap-4 px-6 py-4; }
+  .toolbar {
+    @apply flex items-center gap-2 px-3.5;
+    padding-block: 7.5px;
+    border-bottom: 1px solid var(--ui-line);
+  }
+}
+
+  </style>
+
+  <!-- No-flash theme resolution. Runs before first paint; sets BOTH attributes
+       so page chrome and any embedded panel stay in lockstep. -->
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem("ds:theme");           // light | dark | system
+        var pref = stored || "system";
+        var dark = pref === "dark" ||
+          (pref === "system" && window.matchMedia &&
+           window.matchMedia("(prefers-color-scheme: dark)").matches);
+        var root = document.documentElement;
+        root.setAttribute("data-theme", dark ? "dark" : "light");
+        root.setAttribute("data-tl-theme", dark ? "dark" : "light");
+        root.setAttribute("data-theme-pref", pref);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+
+<body class="min-h-screen bg-bg text-fg antialiased">
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       SITE NAV
+       ═════════════════════════════════════════════════════════════════════ -->
+  <header class="w-full">
+    <div class="container-nav">
+      <div class="flex min-w-0 items-center gap-2.5">
+        <a href="/" class="flex h-9 shrink-0 items-center gap-1 text-fg no-underline" aria-label="Transitions.dev home">
+          <span class="inline-flex size-6 items-center justify-center" aria-hidden="true">
+            <svg viewBox="0 0 18 20.2947" fill="none" class="h-[20px] w-[18px]" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0L12.5409 1.99176L11.5604 3.73491L10 2.8572V5.14735H8V2.8572L6.43962 3.73491L5.45909 1.99176L9 0ZM14.3613 3.01571L18 5.0625V9.14735H16V7.3794L14.0359 8.51337L13.0359 6.78132L14.9804 5.65867L13.3807 4.75886L14.3613 3.01571ZM4.61925 4.75887L3.01961 5.65867L4.9641 6.78132L3.9641 8.51337L2 7.3794L2 9.14735H0L1.54972e-06 5.0625L3.63873 3.01572L4.61925 4.75887ZM2 11.1473V12.9153L3.9641 11.7813L4.9641 13.5134L3.01961 14.636L4.61925 15.5358L3.63873 17.279L3.57628e-07 15.2322V11.1473H2ZM18 11.1473V15.2322L14.3613 17.279L13.3807 15.5358L14.9804 14.636L13.0359 13.5134L14.0359 11.7813L16 12.9153V11.1473H18ZM10 15.1473V17.4375L11.5604 16.5598L12.5409 18.3029L9 20.2947L5.45908 18.3029L6.43961 16.5598L8 17.4375V15.1473H10Z" fill="currentColor"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0981 9.51337L10 10.7247V13.1474H8V10.7247L5.90192 9.51337L6.90192 7.78132L9 8.99265L11.0981 7.78132L12.0981 9.51337Z" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="hidden text-md font-medium tracking-display whitespace-nowrap sm:inline">
+            Transitions<span class="text-fg-muted">.dev</span>
+          </span>
+        </a>
+
+        <nav class="flex items-center gap-2" aria-label="Primary">
+          <a class="nav-pill" href="/">Transitions</a>
+          <a class="nav-pill" href="/skill.html">Skill</a>
+          <a class="nav-pill" href="/refine.html" aria-current="page">Refine tool</a>
+        </nav>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <a class="btn btn-soft btn-pill" href="https://github.com/Jakubantalik/transitions.dev"
+           target="_blank" rel="noopener noreferrer" aria-label="GitHub repository">
+          <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          <span class="hidden sm:inline">1.2k</span>
+        </a>
+
+        <a class="btn btn-icon btn-soft btn-pill" href="https://x.com/jakubantalik"
+           target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+          <svg viewBox="0 0 16 17" fill="currentColor" aria-hidden="true"><path d="M12.4041 1.39726H14.6953L9.69087 7.2591L15.5781 15.2368H10.9696L7.35741 10.3996L3.22921 15.2368H0.934687L6.28641 8.96575L0.642598 1.39726H5.36795L8.62962 5.81859L12.4041 1.39726ZM11.5992 13.8329H12.8682L4.67667 2.72798H3.31359L11.5992 13.8329Z"/></svg>
+        </a>
+
+        <!-- Theme cycle: light → dark → system. Two icons cross-blur in one cell. -->
+        <button type="button" id="theme-toggle" class="btn btn-icon btn-soft btn-pill"
+                aria-label="Toggle color theme" title="Theme: system">
+          <span class="m-icon-swap size-4" id="theme-icons" data-state="a" aria-hidden="true">
+            <svg data-icon="a" viewBox="0 0 16 16" fill="none" class="size-4">
+              <path d="M13.5 9.2A5.5 5.5 0 016.8 2.5a5.5 5.5 0 106.7 6.7z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+            </svg>
+            <svg data-icon="b" viewBox="0 0 16 16" fill="none" class="size-4">
+              <circle cx="8" cy="8" r="3" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M8 1v1.6M8 13.4V15M15 8h-1.6M2.6 8H1M12.9 3.1l-1.1 1.1M4.2 11.8l-1.1 1.1M12.9 12.9l-1.1-1.1M4.2 4.2L3.1 3.1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container-page pb-24">
+
+    <!-- ═════════════════════════════════════════════════════════════════════
+         HERO
+         ═══════════════════════════════════════════════════════════════════ -->
+    <section class="flex flex-col items-center pt-7 pb-12 text-center">
+      <p class="type-eyebrow inline-flex items-center gap-1.5">
+        Refine <span class="badge-soft">Beta</span>
+      </p>
+      <h1 class="type-display mt-2.5">Live demo</h1>
+      <p class="type-lead mt-4 max-w-[417px]">
+        A design system extracted from the Refine panel — tokens, components and motion,
+        rebuilt on Tailwind v4.
+      </p>
+
+      <!-- Dropdown demo, now on-token: scale 0.97, 250ms open / 150ms close, house curve -->
+      <div class="mt-4 flex w-full justify-center">
+        <div class="relative inline-block" data-dropdown>
+          <button type="button" class="btn btn-lg btn-soft btn-pill" data-dropdown-trigger
+                  aria-haspopup="menu" aria-expanded="false">
+            Dropdown menu
+            <svg class="select-icon" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+
+          <div class="menu m-dropdown absolute left-0 top-[calc(100%_+_8px)] z-20 min-w-[208px]"
+               role="menu" data-dropdown-menu aria-hidden="true">
+            <div class="menu-section">Actions</div>
+            <button type="button" class="menu-item" role="menuitem">
+              <span class="menu-item-icon"><svg viewBox="0 0 16 16" fill="none" class="size-4"><path d="M5.6 5.6V3.92c0-.67 0-1.01.13-1.26.12-.23.3-.41.53-.53.26-.13.6-.13 1.27-.13h4.56c.67 0 1.01 0 1.26.13.23.12.42.3.53.53.13.26.13.6.13 1.26v4.56c0 .67 0 1.01-.13 1.26-.12.23-.3.42-.53.53-.26.13-.6.13-1.26.13H10.4M3.92 14h4.56c.67 0 1.01 0 1.26-.13.23-.12.42-.3.53-.53.13-.26.13-.6.13-1.26V7.52c0-.67 0-1.01-.13-1.26a1.2 1.2 0 00-.53-.53c-.26-.13-.6-.13-1.26-.13H3.92c-.67 0-1.01 0-1.26.13-.23.12-.42.3-.53.53-.13.26-.13.6-.13 1.26v4.56c0 .67 0 1.01.13 1.26.12.23.3.42.53.53.26.13.6.13 1.26.13z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <span class="menu-item-text">Copy values</span>
+            </button>
+            <button type="button" class="menu-item" role="menuitem">
+              <span class="menu-item-icon"><svg viewBox="0 0 16 16" fill="none" class="size-4"><path d="M9.2 12.75s.52-.07 2.67-2.18a5.09 5.09 0 000-7.64 5.1 5.1 0 00-2.67-1.45M9.2 9.15v3.6h3.67M6.76.75s-.52.07-2.67 2.18a5.09 5.09 0 000 7.64 5.1 5.1 0 002.67 1.45M6.76 4.35V.75H3.1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <span class="menu-item-text">Rescan transitions</span>
+            </button>
+            <div class="menu-divider"></div>
+            <button type="button" class="menu-item" role="menuitem">
+              <span class="menu-item-text">Keyboard shortcuts</span>
+              <span class="menu-item-icon"><svg viewBox="0 0 16 16" fill="none" class="size-4"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </button>
+            <button type="button" class="menu-item" role="menuitem">
+              <span class="menu-item-text">Learn more</span>
+              <span class="menu-item-hint">↗</span>
+            </button>
+            <div class="menu-divider"></div>
+            <div class="menu-footer">
+              <span>Transitions.dev <span class="text-fg-muted">Refine</span></span>
+              <span class="tabular-nums">0.3.5</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════════
+         FOUNDATIONS
+         ═══════════════════════════════════════════════════════════════════ -->
+    <section class="mt-10" id="foundations">
+      <h2 class="type-title">Foundations</h2>
+      <p class="type-caption mt-1.5 max-w-[62ch]">
+        Every value below is a token. Components never hardcode a color, a shadow or a
+        duration — they read a semantic variable, so one attribute flip retints the system.
+      </p>
+
+      <!-- Type scale -->
+      <div class="card mt-6">
+        <h3 class="type-heading">Type scale</h3>
+        <p class="type-caption mt-1">Nine px-locked steps. Dense tool UI, not flowing prose.</p>
+        <div class="mt-5 flex flex-col gap-4">
+          <div class="grid grid-cols-[132px_1fr] items-baseline gap-4">
+            <code class="type-mono text-xs text-fg-faint">text-3xl · 36/34</code>
+            <span class="type-display">Live demo</span>
+          </div>
+          <div class="grid grid-cols-[132px_1fr] items-baseline gap-4">
+            <code class="type-mono text-xs text-fg-faint">text-2xl · 26/32</code>
+            <span class="type-title">Section title</span>
+          </div>
+          <div class="grid grid-cols-[132px_1fr] items-baseline gap-4">
+            <code class="type-mono text-xs text-fg-faint">text-xl · 18/24</code>
+            <span class="type-eyebrow">Eyebrow</span>
+          </div>
+          <div class="grid grid-cols-[132px_1fr] items-baseline gap-4">
+            <code class="type-mono text-xs text-fg-faint">text-lg · 16/24</code>
+            <span class="type-lead">Lead paragraph for hero subtitles</span>
+          </div>
+          <div class="grid grid-cols-[132px_1fr] items-baseline gap-4">
+            <code class="type-mono text-xs text-fg-faint">text-md · 15/21</code>
+            <span class="type-heading">Card heading</span>
+          </div>
+          <div class="grid grid-cols-[132px_1fr] items-baseline gap-4">
+            <code class="type-mono text-xs text-fg-faint">text-base · 14/20</code>
+            <span class="type-body-lg">Long-form body copy</span>
+          </div>
+          <div class="grid grid-cols-[132px_1fr] items-baseline gap-4">
+            <code class="type-mono text-xs text-fg-faint">text-sm · 13/18</code>
+            <span class="type-body">UI default — buttons, rows, inputs, menu items</span>
+          </div>
+          <div class="grid grid-cols-[132px_1fr] items-baseline gap-4">
+            <code class="type-mono text-xs text-fg-faint">text-xs · 12/16</code>
+            <span class="type-caption">Caption and helper text</span>
+          </div>
+          <div class="grid grid-cols-[132px_1fr] items-baseline gap-4">
+            <code class="type-mono text-xs text-fg-faint">text-2xs · 11/14</code>
+            <span class="type-meta">Meta, section headers, keycaps</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Color -->
+      <div class="card mt-5">
+        <h3 class="type-heading">Color</h3>
+        <p class="type-caption mt-1">Semantic roles, not hues. Each swatch swaps with the theme.</p>
+
+        <p class="type-meta mt-5 uppercase tracking-wider">Surfaces</p>
+        <div class="mt-2 grid grid-cols-2 gap-3 sm:grid-cols-4">
+          <div class="rounded-lg p-3 bg-bg shadow-hairline"><span class="type-mono text-xs">bg</span></div>
+          <div class="rounded-lg p-3 bg-surface shadow-hairline"><span class="type-mono text-xs">surface</span></div>
+          <div class="rounded-lg p-3 bg-surface-raised shadow-hairline"><span class="type-mono text-xs">surface-raised</span></div>
+          <div class="rounded-lg p-3 bg-surface-sunken shadow-hairline"><span class="type-mono text-xs">surface-sunken</span></div>
+        </div>
+
+        <p class="type-meta mt-5 uppercase tracking-wider">Text</p>
+        <div class="mt-2 flex flex-wrap gap-x-6 gap-y-2">
+          <span class="type-mono text-xs text-fg">fg</span>
+          <span class="type-mono text-xs text-fg-strong">fg-strong</span>
+          <span class="type-mono text-xs text-fg-muted">fg-muted</span>
+          <span class="type-mono text-xs text-fg-subtle">fg-subtle</span>
+          <span class="type-mono text-xs text-fg-faint">fg-faint</span>
+          <span class="type-mono text-xs text-fg-disabled">fg-disabled</span>
+        </div>
+
+        <p class="type-meta mt-5 uppercase tracking-wider">Accent &amp; status</p>
+        <div class="mt-2 flex flex-wrap gap-2">
+          <span class="chip" style="color:var(--ui-accent);background:var(--ui-accent-bg)">accent</span>
+          <span class="chip" style="color:var(--ui-success);background:var(--ui-success-bg)">success</span>
+          <span class="chip" style="color:var(--ui-danger);background:var(--ui-danger-bg)">danger</span>
+          <span class="chip chip-easing">easing</span>
+          <span class="chip chip-duration">duration</span>
+          <span class="chip chip-scale">scale</span>
+          <span class="chip chip-blur">blur</span>
+          <span class="chip chip-delay">delay</span>
+        </div>
+      </div>
+
+      <!-- Elevation -->
+      <div class="card mt-5">
+        <h3 class="type-heading">Elevation</h3>
+        <p class="type-caption mt-1">
+          Borders are inset shadows, so a control never changes size between states.
+          In dark mode elevation becomes a light top edge rather than a heavier drop.
+        </p>
+        <div class="mt-5 grid grid-cols-2 gap-4 sm:grid-cols-3">
+          <div class="rounded-xl bg-surface p-4 shadow-ring"><span class="type-mono text-xs">shadow-ring</span></div>
+          <div class="rounded-xl bg-surface p-4 shadow-drop"><span class="type-mono text-xs">shadow-drop</span></div>
+          <div class="rounded-xl bg-surface p-4 shadow-btn"><span class="type-mono text-xs">shadow-btn</span></div>
+          <div class="rounded-xl bg-surface p-4 shadow-card"><span class="type-mono text-xs">shadow-card</span></div>
+          <div class="rounded-xl bg-surface-raised p-4 shadow-menu"><span class="type-mono text-xs">shadow-menu</span></div>
+          <div class="rounded-xl bg-surface p-4 shadow-panel"><span class="type-mono text-xs">shadow-panel</span></div>
+        </div>
+      </div>
+
+      <!-- Motion -->
+      <div class="card mt-5">
+        <h3 class="type-heading">Motion</h3>
+        <p class="type-caption mt-1">
+          Durations and curves are tokens too — an off-grid 300&nbsp;ms <code class="type-code">ease</code>
+          is exactly what Refine flags.
+        </p>
+        <div class="mt-5 grid gap-4 sm:grid-cols-2">
+          <div>
+            <p class="type-meta uppercase tracking-wider">Duration</p>
+            <ul class="mt-2 flex flex-col gap-1.5">
+              <li class="flex justify-between"><span class="type-body">micro</span><code class="type-mono text-xs text-fg-faint">120ms</code></li>
+              <li class="flex justify-between"><span class="type-body">fast — closes, hovers</span><code class="type-mono text-xs text-fg-faint">150ms</code></li>
+              <li class="flex justify-between"><span class="type-body">medium — opens, swaps</span><code class="type-mono text-xs text-fg-faint">250ms</code></li>
+              <li class="flex justify-between"><span class="type-body">slow — panels</span><code class="type-mono text-xs text-fg-faint">400ms</code></li>
+              <li class="flex justify-between"><span class="type-body">very slow — page moments</span><code class="type-mono text-xs text-fg-faint">600ms</code></li>
+            </ul>
+          </div>
+          <div>
+            <p class="type-meta uppercase tracking-wider">Easing</p>
+            <ul class="mt-2 flex flex-col gap-1.5">
+              <li class="flex flex-col"><span class="type-body">smooth — the house curve</span><code class="type-mono text-xs text-fg-faint">cubic-bezier(.22, 1, .36, 1)</code></li>
+              <li class="mt-1 flex flex-col"><span class="type-body">morph — size changes</span><code class="type-mono text-xs text-fg-faint">cubic-bezier(.34, 1.25, .64, 1)</code></li>
+              <li class="mt-1 flex flex-col"><span class="type-body">bounce — badge pop</span><code class="type-mono text-xs text-fg-faint">cubic-bezier(.34, 1.36, .64, 1)</code></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════════
+         COMPONENTS
+         ═══════════════════════════════════════════════════════════════════ -->
+    <section class="mt-12" id="components">
+      <h2 class="type-title">Components</h2>
+
+      <!-- Buttons -->
+      <div class="card mt-6">
+        <h3 class="type-heading">Buttons</h3>
+        <p class="type-caption mt-1">
+          One base class, six skins, three heights. Press feedback is
+          <code class="type-code">scale: .96</code> so it composes with any transform a parent is running.
+        </p>
+
+        <p class="type-meta mt-5 uppercase tracking-wider">Variants</p>
+        <div class="mt-2 flex flex-wrap items-center gap-2">
+          <button class="btn btn-raised">Reset</button>
+          <button class="btn btn-solid">Publish</button>
+          <button class="btn btn-soft">Secondary</button>
+          <button class="btn btn-ghost">Ghost</button>
+          <button class="btn btn-accent">
+            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8.67 9.33l-2-2M10.01 2.33v-1M12.63 3.37l.71-.7M12.63 8.67l.71.7M7.34 3.37l-.71-.7M13.67 6h1M4.09 13.91l6.16-6.16c.26-.26.39-.4.44-.55a.7.7 0 000-.41c-.05-.16-.18-.29-.44-.55l-.5-.5c-.26-.26-.39-.39-.54-.44a.7.7 0 00-.41 0c-.16.05-.29.18-.55.44L2.09 11.9c-.27.27-.4.4-.45.55a.7.7 0 000 .41c.05.16.18.29.44.55l.5.5c.26.26.39.39.54.44.14.04.28.04.41 0 .16-.05.29-.18.55-.44z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Refine
+          </button>
+          <button class="btn btn-danger">Delete</button>
+          <button class="btn btn-raised" disabled>Disabled</button>
+        </div>
+
+        <p class="type-meta mt-5 uppercase tracking-wider">Sizes &amp; shapes</p>
+        <div class="mt-2 flex flex-wrap items-center gap-2">
+          <button class="btn btn-sm btn-raised">Small · 32</button>
+          <button class="btn btn-md btn-raised">Medium · 36</button>
+          <button class="btn btn-lg btn-raised">Large · 40</button>
+          <button class="btn btn-raised btn-pill">Pill</button>
+          <button class="btn btn-icon btn-raised" aria-label="Settings">
+            <svg viewBox="0 0 16 16" fill="none"><path d="M8 10a2 2 0 100-4 2 2 0 000 4z" stroke="currentColor" stroke-width="1.6"/><path d="M12.5 9.8a1 1 0 00.2.6l.04.04a1.2 1.2 0 11-1.7 1.7l-.04-.04a1 1 0 00-1.1-.2 1 1 0 00-.6.92v.1a1.2 1.2 0 11-2.42 0v-.06a1 1 0 00-.65-.9 1 1 0 00-1.1.2l-.04.05a1.2 1.2 0 11-1.71-1.71l.04-.04a1 1 0 00.2-1.1 1 1 0 00-.91-.6h-.11a1.2 1.2 0 010-2.43h.06a1 1 0 00.9-.65 1 1 0 00-.2-1.1l-.05-.04a1.2 1.2 0 111.71-1.71l.04.04a1 1 0 001.1.2h.05a1 1 0 00.6-.91v-.11a1.2 1.2 0 012.42 0v.06a1 1 0 00.6.9 1 1 0 001.1-.2l.04-.05a1.2 1.2 0 111.71 1.71l-.04.04a1 1 0 00-.2 1.1v.05a1 1 0 00.92.6h.1a1.2 1.2 0 010 2.42h-.06a1 1 0 00-.9.6z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <button class="btn btn-icon btn-ghost btn-pill" aria-label="Minimize">
+            <svg viewBox="0 0 16 16" fill="none"><path d="M4 6.5L8 10l4-3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Inputs -->
+      <div class="card mt-5">
+        <h3 class="type-heading">Inputs &amp; fields</h3>
+        <p class="type-caption mt-1">
+          Focus is an inset ring on the well, never an outer glow, so a focused field
+          stays inside its row.
+        </p>
+
+        <div class="mt-5 grid gap-5 sm:grid-cols-2">
+          <label class="field">
+            <span class="type-field-label">Component name</span>
+            <input class="input" type="text" placeholder="Menu dropdown" />
+            <span class="field-hint">Shown in the transition picker.</span>
+          </label>
+
+          <label class="field">
+            <span class="type-field-label">Selector</span>
+            <input class="input input-mono" type="text" value=".wd-dd .wd-dd-menu" />
+            <span class="field-error">No element matches this selector.</span>
+          </label>
+
+          <label class="field sm:col-span-2">
+            <span class="type-field-label">Notes</span>
+            <textarea class="textarea" placeholder="What should this transition feel like?"></textarea>
+          </label>
+
+          <div class="field">
+            <span class="type-field-label">cubic-bezier</span>
+            <div class="flex gap-1">
+              <div class="input-num"><input type="number" step="0.05" value="0.22" /></div>
+              <div class="input-num"><input type="number" step="0.05" value="1" /></div>
+              <div class="input-num"><input type="number" step="0.05" value="0.36" /></div>
+              <div class="input-num"><input type="number" step="0.05" value="1" /></div>
+            </div>
+          </div>
+
+          <div class="field">
+            <span class="type-field-label">Toggle</span>
+            <div class="flex h-8 items-center gap-3">
+              <button class="switch" role="switch" aria-checked="true" data-switch aria-label="Snap to grid"></button>
+              <span class="type-body">Snap to grid</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="type-meta mt-6 uppercase tracking-wider">Scrubber — slider and number input in one box</p>
+        <div class="mt-2 flex max-w-[320px] flex-col gap-2.5">
+          <div class="flex items-center gap-1.5">
+            <div class="scrubber" data-scrubber data-min="0" data-max="1000" data-value="250">
+              <div class="scrubber-fill" style="width:25%"></div>
+              <div class="scrubber-track"></div>
+              <span class="scrubber-label">Duration</span>
+              <span class="scrubber-value">250</span>
+              <span class="scrubber-thumb"></span>
+            </div>
+            <button class="scrubber-stepper" aria-label="Duration presets">
+              <svg viewBox="0 0 16 16" fill="none" class="size-4"><path d="M4.5 6.5L8 10l3.5-3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+          <div class="flex items-center gap-1.5">
+            <div class="scrubber" data-scrubber data-min="0" data-max="1000" data-value="0">
+              <div class="scrubber-fill" style="width:0%"></div>
+              <div class="scrubber-track"></div>
+              <span class="scrubber-label">Delay</span>
+              <span class="scrubber-value">0</span>
+              <span class="scrubber-thumb"></span>
+            </div>
+            <button class="scrubber-stepper" aria-label="Delay presets">
+              <svg viewBox="0 0 16 16" fill="none" class="size-4"><path d="M4.5 6.5L8 10l3.5-3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Select + menu -->
+      <div class="card mt-5">
+        <h3 class="type-heading">Select &amp; menu</h3>
+        <p class="type-caption mt-1">
+          One surface, one row class. The chevron rotates from the same
+          <code class="type-code">aria-expanded</code> the menu reads.
+        </p>
+
+        <div class="mt-5 grid gap-6 sm:grid-cols-2">
+          <div>
+            <p class="type-field-label mb-1.5">Select</p>
+            <div class="relative" data-dropdown>
+              <button type="button" class="select" data-dropdown-trigger aria-haspopup="listbox" aria-expanded="false">
+                <span class="select-value">Smooth ease out</span>
+                <span class="select-icon">
+                  <svg viewBox="0 0 16 16" fill="none" class="size-4"><path d="M4.5 6.5L8 10l3.5-3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+              </button>
+              <div class="menu m-dropdown absolute left-0 top-[calc(100%_+_6px)] z-20 w-full min-w-[248px]"
+                   role="listbox" data-dropdown-menu aria-hidden="true">
+                <div class="menu-section">Motion tokens</div>
+                <div class="menu-item" role="option" aria-selected="true">
+                  <span class="menu-item-text">Smooth ease out</span>
+                  <span class="menu-item-check"><svg viewBox="0 0 16 16" fill="none" class="size-4"><path d="M4 8.43l2.46 2.76L12 4.97" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                </div>
+                <div class="menu-item" role="option"><span class="menu-item-text">Ease in out</span></div>
+                <div class="menu-item" role="option"><span class="menu-item-text">Bouncy overshoot</span></div>
+                <div class="menu-divider"></div>
+                <div class="menu-section">Standard</div>
+                <div class="menu-item" role="option"><span class="menu-item-text">ease</span></div>
+                <div class="menu-item" role="option"><span class="menu-item-text">linear</span></div>
+                <div class="menu-item is-disabled" role="option"><span class="menu-item-text">steps() — unsupported</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <p class="type-field-label mb-1.5">Menu with search</p>
+            <div class="menu">
+              <div class="menu-search">
+                <input class="input-search" type="text" placeholder="Search" />
+              </div>
+              <div class="menu-section">Menu dropdown</div>
+              <div class="menu-item">
+                <span class="menu-item-text">Open</span>
+                <span class="menu-item-hint">250ms</span>
+              </div>
+              <div class="menu-item">
+                <span class="menu-item-text">Close</span>
+                <span class="menu-item-hint">150ms</span>
+              </div>
+              <div class="menu-divider"></div>
+              <div class="menu-item">
+                <span class="menu-item-text">Theme</span>
+                <span class="flex items-center gap-1">
+                  <span class="type-meta">System</span>
+                  <span class="menu-item-icon"><svg viewBox="0 0 16 16" fill="none" class="size-4"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tabs, chips, keycaps -->
+      <div class="card mt-5">
+        <h3 class="type-heading">Tabs, chips &amp; keycaps</h3>
+
+        <p class="type-meta mt-5 uppercase tracking-wider">Sliding pill tabs</p>
+        <div class="tabs mt-2" data-tabs>
+          <span class="tabs-pill" data-tabs-pill></span>
+          <button class="tab" role="tab" aria-selected="true">Overview</button>
+          <button class="tab" role="tab" aria-selected="false">Timeline</button>
+          <button class="tab" role="tab" aria-selected="false">Suggestions</button>
+        </div>
+
+        <p class="type-meta mt-5 uppercase tracking-wider">Segmented control</p>
+        <div class="seg mt-2" data-seg>
+          <button class="seg-btn" aria-selected="true">Easing</button>
+          <button class="seg-btn" aria-selected="false">Springs</button>
+        </div>
+
+        <p class="type-meta mt-5 uppercase tracking-wider">Chips &amp; badges</p>
+        <div class="mt-2 flex flex-wrap items-center gap-2">
+          <span class="badge">Menu surface</span>
+          <span class="badge-count is-single">3</span>
+          <span class="badge-count">12</span>
+          <span class="badge-soft">Beta</span>
+          <span class="chip-status"><span class="status-dot"></span>Live</span>
+          <span class="chip-status is-off"><span class="status-dot"></span>Live off</span>
+        </div>
+
+        <p class="type-meta mt-5 uppercase tracking-wider">Keycaps</p>
+        <div class="mt-2 flex items-center gap-1">
+          <kbd class="kbd">⌘</kbd><span class="type-meta">+</span><kbd class="kbd">K</kbd>
+          <span class="ml-4"></span>
+          <kbd class="kbd">⌘</kbd><span class="type-meta">+</span><kbd class="kbd">⌫</kbd>
+        </div>
+      </div>
+
+      <!-- Overlays -->
+      <div class="card mt-5">
+        <h3 class="type-heading">Overlays</h3>
+        <p class="type-caption mt-1">Tooltips are CSS-only; the modal and toast share the dropdown's curve.</p>
+
+        <div class="mt-5 flex flex-wrap items-center gap-3">
+          <span class="tooltip-host">
+            <button class="btn btn-raised">Hover me</button>
+            <span class="tooltip" role="tooltip">Save changes to your codebase<span class="tooltip-kbd">⌘A</span></span>
+          </span>
+
+          <span class="tooltip-host">
+            <button class="btn btn-soft">Below &amp; wrapping</button>
+            <span class="tooltip tooltip-below tooltip-wrap" role="tooltip">
+              Duration is set by the spring — its settle time is derived from stiffness,
+              damping and mass, so it can’t be edited directly.
+            </span>
+          </span>
+
+          <button class="btn btn-raised" data-toast>Show toast</button>
+          <button class="btn btn-solid" data-modal-open>Open modal</button>
+        </div>
+
+        <!-- Modal demo, contained in its own stage -->
+        <div class="relative mt-5 grid h-[220px] place-items-center overflow-hidden rounded-xl bg-surface-sunken shadow-hairline">
+          <span class="type-caption">Modal stage</span>
+          <div class="m-scrim" data-modal-scrim></div>
+          <div class="m-modal absolute z-10 w-[288px] rounded-2xl bg-surface p-5 shadow-modal" role="dialog" aria-modal="true" data-modal>
+            <h4 class="type-heading">Discard edits?</h4>
+            <p class="type-caption mt-1.5">Your timing changes for “Menu dropdown” haven’t been written to source.</p>
+            <div class="mt-4 flex justify-end gap-2">
+              <button class="btn btn-sm btn-soft" data-modal-close>Cancel</button>
+              <button class="btn btn-sm btn-danger" data-modal-close>Discard</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════════════════════════════════════════════════════════════════
+         APPLICATION SHELL — the Refine panel, rebuilt from the classes above
+         ═══════════════════════════════════════════════════════════════════ -->
+    <section class="mt-12" id="shell">
+      <h2 class="type-title">Application shell</h2>
+      <p class="type-caption mt-1.5 max-w-[62ch]">
+        The Refine panel assembled entirely from the component layer — no bespoke CSS.
+        Toolbar, timeline and inspector all inherit the theme.
+      </p>
+
+      <div class="panel mt-6">
+        <!-- Toolbar -->
+        <div class="toolbar">
+          <span class="type-body hidden shrink-0 text-fg-subtle sm:inline">Selected</span>
+
+          <div class="relative min-w-0 shrink" data-dropdown>
+            <button class="btn btn-ghost btn-pill min-w-0" data-dropdown-trigger aria-expanded="false">
+              <span class="truncate">Menu dropdown · Open</span>
+              <span class="text-fg-faint">250ms</span>
+              <span class="select-icon"><svg viewBox="0 0 16 16" fill="none" class="size-4"><path d="M4.5 6.5L8 10l3.5-3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </button>
+            <div class="menu m-dropdown absolute left-0 top-[calc(100%_+_6px)] z-30 w-[260px]" data-dropdown-menu aria-hidden="true">
+              <div class="menu-search"><input class="input-search" placeholder="Search" /></div>
+              <div class="menu-section">Menu dropdown</div>
+              <div class="menu-item"><span class="menu-item-text">Open</span><span class="menu-item-hint">250ms</span></div>
+              <div class="menu-item"><span class="menu-item-text">Close</span><span class="menu-item-hint">150ms</span></div>
+            </div>
+          </div>
+
+          <span class="ml-auto hidden min-w-0 truncate text-sm text-fg-faint md:inline">2 transitions found</span>
+
+          <span class="chip-status hidden lg:inline-flex"><span class="status-dot"></span>Live</span>
+
+          <button class="btn btn-icon btn-raised btn-pill" aria-label="Settings">
+            <svg viewBox="0 0 16 16" fill="currentColor" class="size-4"><circle cx="8" cy="3.3" r="1.3"/><circle cx="8" cy="8" r="1.3"/><circle cx="8" cy="12.7" r="1.3"/></svg>
+          </button>
+
+          <button class="btn btn-raised btn-pill">Reset</button>
+
+          <button class="btn btn-raised btn-pill">
+            <svg viewBox="0 0 16 16" fill="none"><path d="M4 8.43l2.46 2.76L12 4.97" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="hidden sm:inline">Accept</span>
+          </button>
+
+          <button class="btn btn-accent btn-pill">
+            <svg viewBox="0 0 16 16" fill="none"><path d="M8.67 9.33l-2-2M10.01 2.33v-1M12.63 3.37l.71-.7M12.63 8.67l.71.7M7.34 3.37l-.71-.7M13.67 6h1M4.09 13.91l6.16-6.16c.26-.26.39-.4.44-.55a.7.7 0 000-.41c-.05-.16-.18-.29-.44-.55l-.5-.5c-.26-.26-.39-.39-.54-.44a.7.7 0 00-.41 0c-.16.05-.29.18-.55.44L2.09 11.9c-.27.27-.4.4-.45.55a.7.7 0 000 .41c.05.16.18.29.44.55l.5.5c.26.26.39.39.54.44.14.04.28.04.41 0 .16-.05.29-.18.55-.44z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="hidden sm:inline">Refine</span>
+          </button>
+        </div>
+
+        <!-- Body: timeline + inspector -->
+        <div class="flex min-h-[340px] flex-col lg:flex-row">
+          <!-- Timeline -->
+          <div class="flex min-w-0 flex-1 flex-col">
+            <div class="flex h-[30px] shrink-0" style="border-bottom:1px solid var(--ui-line)">
+              <div class="shrink-0 basis-[200px]" style="border-right:1px solid var(--ui-line)"></div>
+              <div class="timeline-ruler">
+                <span class="timeline-ruler-major" style="left:4px;transform:none">0s</span>
+                <span class="timeline-tick" style="left:25%"></span>
+                <span class="timeline-ruler-major" style="left:50%">0.5s</span>
+                <span class="timeline-tick" style="left:75%"></span>
+                <span class="timeline-ruler-major" style="left:100%;transform:translateX(-100%);margin-left:-4px">1s</span>
+              </div>
+            </div>
+
+            <div class="timeline-row is-selected">
+              <div class="timeline-head">
+                <span class="badge shrink-0">Menu surface</span>
+                <span class="min-w-0 truncate text-sm font-medium text-fg">transform</span>
+              </div>
+              <div class="timeline-track">
+                <div class="timeline-bar" style="left:0%;width:25%">
+                  <span class="timeline-grip" style="left:5px"></span>
+                  <span class="timeline-grip" style="right:5px"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-row">
+              <div class="timeline-head">
+                <span class="badge shrink-0">Menu surface</span>
+                <span class="min-w-0 truncate text-sm font-medium text-fg-subtle">opacity</span>
+              </div>
+              <div class="timeline-track">
+                <div class="timeline-bar" style="left:0%;width:25%">
+                  <span class="timeline-grip" style="left:5px"></span>
+                  <span class="timeline-grip" style="right:5px"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-row">
+              <div class="timeline-head">
+                <span class="badge shrink-0">Caret</span>
+                <span class="min-w-0 truncate text-sm font-medium text-fg-subtle">rotate</span>
+              </div>
+              <div class="timeline-track">
+                <div class="timeline-bar" style="left:5%;width:25%">
+                  <span class="timeline-grip" style="left:5px"></span>
+                  <span class="timeline-grip" style="right:5px"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Inspector -->
+          <aside class="scroll-thin flex w-full shrink-0 flex-col gap-3 p-4 lg:w-[280px]"
+                 style="border-left:1px solid var(--ui-line)">
+            <div class="flex items-center gap-1.5">
+              <span class="badge">Menu surface</span>
+              <span class="type-label">transform</span>
+            </div>
+
+            <div class="flex items-center gap-1.5">
+              <div class="scrubber" data-scrubber data-min="0" data-max="1000" data-value="250">
+                <div class="scrubber-fill" style="width:25%"></div>
+                <div class="scrubber-track"></div>
+                <span class="scrubber-label">Duration</span>
+                <span class="scrubber-value">250</span>
+                <span class="scrubber-thumb"></span>
+              </div>
+              <button class="scrubber-stepper" aria-label="Presets">
+                <svg viewBox="0 0 16 16" fill="none" class="size-4"><path d="M4.5 6.5L8 10l3.5-3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+
+            <div class="flex items-center gap-1.5">
+              <div class="scrubber" data-scrubber data-min="0" data-max="1000" data-value="0">
+                <div class="scrubber-fill" style="width:0%"></div>
+                <div class="scrubber-track"></div>
+                <span class="scrubber-label">Delay</span>
+                <span class="scrubber-value">0</span>
+                <span class="scrubber-thumb"></span>
+              </div>
+              <button class="scrubber-stepper" aria-label="Presets">
+                <svg viewBox="0 0 16 16" fill="none" class="size-4"><path d="M4.5 6.5L8 10l3.5-3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+
+            <div class="divider -mx-4 w-[calc(100%_+_2rem)]"></div>
+
+            <div class="seg" data-seg>
+              <button class="seg-btn" aria-selected="true">Easing</button>
+              <button class="seg-btn" aria-selected="false">Springs</button>
+            </div>
+
+            <div class="relative" data-dropdown>
+              <button class="select" data-dropdown-trigger aria-expanded="false">
+                <span class="select-value">Smooth ease out</span>
+                <span class="select-icon"><svg viewBox="0 0 16 16" fill="none" class="size-4"><path d="M4.5 6.5L8 10l3.5-3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              </button>
+              <div class="menu m-dropdown absolute left-0 top-[calc(100%_+_6px)] z-30 w-full" data-dropdown-menu aria-hidden="true">
+                <div class="menu-item"><span class="menu-item-text">Smooth ease out</span></div>
+                <div class="menu-item"><span class="menu-item-text">Ease in out</span></div>
+                <div class="menu-item"><span class="menu-item-text">Linear</span></div>
+              </div>
+            </div>
+
+            <div class="flex gap-1">
+              <div class="input-num"><input type="number" step="0.05" value="0.22" /></div>
+              <div class="input-num"><input type="number" step="0.05" value="1" /></div>
+              <div class="input-num"><input type="number" step="0.05" value="0.36" /></div>
+              <div class="input-num"><input type="number" step="0.05" value="1" /></div>
+            </div>
+
+            <!-- Suggestion card -->
+            <div class="card-flat mt-2 flex flex-col gap-2.5">
+              <div class="flex items-center gap-2">
+                <span class="badge">Menu surface</span>
+                <span class="text-sm font-medium text-fg">Transform</span>
+              </div>
+              <div class="divider-soft -mx-4 w-[calc(100%_+_2rem)]"></div>
+              <span class="chip chip-scale self-start">Scale</span>
+              <div class="flex flex-col font-mono text-sm">
+                <span class="text-fg-faint line-through">0.8</span>
+                <span class="text-fg">0.97</span>
+              </div>
+              <p class="type-caption">
+                Medium (0.97) is the scale token for a dropdown open. 0.8 over-pops.
+              </p>
+              <button class="btn btn-sm btn-raised btn-pill self-start">Apply</button>
+            </div>
+          </aside>
+        </div>
+      </div>
+
+      <!-- Minimized pill -->
+      <div class="mt-4 flex items-center gap-3">
+        <button class="btn btn-lg btn-raised btn-pill pr-2.5">
+          Transitions <span class="badge-count is-single">2</span>
+        </button>
+        <span class="type-caption">Minimized state</span>
+      </div>
+    </section>
+  </main>
+
+  <!-- Toast host -->
+  <div class="pointer-events-none fixed bottom-6 left-1/2 z-[200] -translate-x-1/2" id="toast-host" aria-live="polite"></div>
+
+  <script>
+  (function () {
+    "use strict";
+
+    /* ---- Theme: light → dark → system ------------------------------------ */
+    var root = document.documentElement;
+    var order = ["light", "dark", "system"];
+    var btn = document.getElementById("theme-toggle");
+    var icons = document.getElementById("theme-icons");
+    var mq = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+
+    function resolve(pref) {
+      return pref === "system" ? (mq && mq.matches ? "dark" : "light") : pref;
+    }
+    function apply(pref) {
+      var r = resolve(pref);
+      root.setAttribute("data-theme", r);
+      root.setAttribute("data-tl-theme", r);
+      root.setAttribute("data-theme-pref", pref);
+      if (icons) icons.setAttribute("data-state", r === "dark" ? "b" : "a");
+      if (btn) btn.title = "Theme: " + pref;
+      try { localStorage.setItem("ds:theme", pref); } catch (e) {}
+    }
+    apply(root.getAttribute("data-theme-pref") || "system");
+    if (btn) btn.addEventListener("click", function () {
+      var cur = root.getAttribute("data-theme-pref") || "system";
+      apply(order[(order.indexOf(cur) + 1) % order.length]);
+    });
+    if (mq && mq.addEventListener) mq.addEventListener("change", function () {
+      if ((root.getAttribute("data-theme-pref") || "system") === "system") apply("system");
+    });
+
+    /* ---- Dropdowns --------------------------------------------------------
+       JS owns only `is-open` / `is-closing`; every duration and curve lives in
+       the .m-dropdown recipe. The close class is held for one close duration
+       so the exit animates before the surface resets to its pre-open state. */
+    var CLOSE_MS = 150;
+    document.querySelectorAll("[data-dropdown]").forEach(function (dd) {
+      var trigger = dd.querySelector("[data-dropdown-trigger]");
+      var menu = dd.querySelector("[data-dropdown-menu]");
+      if (!trigger || !menu) return;
+      var timer = null;
+
+      function open() {
+        clearTimeout(timer);
+        menu.classList.remove("is-closing");
+        menu.classList.add("is-open");
+        menu.setAttribute("aria-hidden", "false");
+        trigger.setAttribute("aria-expanded", "true");
+      }
+      function close() {
+        if (!menu.classList.contains("is-open")) return;
+        menu.classList.remove("is-open");
+        menu.classList.add("is-closing");
+        menu.setAttribute("aria-hidden", "true");
+        trigger.setAttribute("aria-expanded", "false");
+        clearTimeout(timer);
+        timer = setTimeout(function () { menu.classList.remove("is-closing"); }, CLOSE_MS);
+      }
+
+      trigger.addEventListener("click", function (e) {
+        e.stopPropagation();
+        menu.classList.contains("is-open") ? close() : open();
+      });
+      menu.addEventListener("click", function (e) {
+        if (e.target.closest(".menu-item")) close();
+        e.stopPropagation();
+      });
+      document.addEventListener("click", close);
+      document.addEventListener("keydown", function (e) { if (e.key === "Escape") close(); });
+    });
+
+    /* ---- Sliding-pill tabs ------------------------------------------------ */
+    document.querySelectorAll("[data-tabs]").forEach(function (tabs) {
+      var pill = tabs.querySelector("[data-tabs-pill]");
+      var buttons = Array.prototype.slice.call(tabs.querySelectorAll(".tab"));
+      function move(el, animate) {
+        if (!pill || !el) return;
+        if (!animate) pill.style.transition = "none";
+        pill.style.width = el.offsetWidth + "px";
+        pill.style.translate = el.offsetLeft + "px 0";
+        if (!animate) requestAnimationFrame(function () { pill.style.transition = ""; });
+      }
+      buttons.forEach(function (b) {
+        b.addEventListener("click", function () {
+          buttons.forEach(function (x) { x.setAttribute("aria-selected", String(x === b)); });
+          move(b, true);
+        });
+      });
+      var active = tabs.querySelector('.tab[aria-selected="true"]') || buttons[0];
+      move(active, false);
+      window.addEventListener("resize", function () {
+        move(tabs.querySelector('.tab[aria-selected="true"]'), false);
+      });
+    });
+
+    /* ---- Segmented control ------------------------------------------------ */
+    document.querySelectorAll("[data-seg]").forEach(function (seg) {
+      seg.addEventListener("click", function (e) {
+        var b = e.target.closest(".seg-btn");
+        if (!b) return;
+        seg.querySelectorAll(".seg-btn").forEach(function (x) {
+          x.setAttribute("aria-selected", String(x === b));
+        });
+      });
+    });
+
+    /* ---- Switch ----------------------------------------------------------- */
+    document.querySelectorAll("[data-switch]").forEach(function (sw) {
+      sw.addEventListener("click", function () {
+        sw.setAttribute("aria-checked", sw.getAttribute("aria-checked") === "true" ? "false" : "true");
+      });
+    });
+
+    /* ---- Scrubber ---------------------------------------------------------
+       Drag at 1ms resolution so the fill tracks the cursor, then snap on
+       release — the fill's width transition tweens it to the grid. */
+    document.querySelectorAll("[data-scrubber]").forEach(function (el) {
+      var fill = el.querySelector(".scrubber-fill");
+      var out = el.querySelector(".scrubber-value");
+      var track = el.querySelector(".scrubber-track");
+      var min = +el.dataset.min, max = +el.dataset.max, step = 25;
+      var value = +el.dataset.value;
+
+      function paint() {
+        var pct = Math.min(Math.max((value - min) / (max - min), 0), 1) * 100;
+        fill.style.width = pct + "%";
+        out.textContent = Math.round(value);
+      }
+      function fromX(x, grid) {
+        var r = el.getBoundingClientRect();
+        var ratio = Math.max(0, Math.min((x - r.left) / r.width, 1));
+        var raw = min + ratio * (max - min);
+        value = Math.max(min, Math.min(max, Math.round(raw / grid) * grid));
+        paint();
+      }
+      track.addEventListener("pointerdown", function (e) {
+        e.preventDefault();
+        el.classList.add("is-dragging");
+        fill.style.transition = "background-color var(--duration-micro) ease";
+        fromX(e.clientX, 1);
+        function move(ev) { fromX(ev.clientX, 1); }
+        function up(ev) {
+          el.classList.remove("is-dragging");
+          fill.style.transition = "";
+          fromX(ev.clientX, step);
+          window.removeEventListener("pointermove", move);
+          window.removeEventListener("pointerup", up);
+        }
+        window.addEventListener("pointermove", move);
+        window.addEventListener("pointerup", up);
+      });
+      paint();
+    });
+
+    /* ---- Toast ------------------------------------------------------------ */
+    var host = document.getElementById("toast-host");
+    document.querySelectorAll("[data-toast]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        host.innerHTML = "";
+        var t = document.createElement("div");
+        t.className = "toast";
+        t.innerHTML = '<span class="flex size-4 text-fg"><svg viewBox="0 0 16 16" fill="none" class="size-4"><path d="M4 8.43l2.46 2.76L12 4.97" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Values copied</span>';
+        host.appendChild(t);
+        setTimeout(function () { t.classList.add("is-closing"); }, 1800);
+        setTimeout(function () { if (t.parentNode) t.parentNode.removeChild(t); }, 2300);
+      });
+    });
+
+    /* ---- Modal ------------------------------------------------------------ */
+    var modal = document.querySelector("[data-modal]");
+    var scrim = document.querySelector("[data-modal-scrim]");
+    function modalSet(open) {
+      [modal, scrim].forEach(function (el) {
+        if (!el) return;
+        el.classList.toggle("is-open", open);
+        el.classList.toggle("is-closing", !open);
+        if (!open) setTimeout(function () { el.classList.remove("is-closing"); }, CLOSE_MS);
+      });
+    }
+    document.querySelectorAll("[data-modal-open]").forEach(function (b) {
+      b.addEventListener("click", function () { modalSet(true); });
+    });
+    document.querySelectorAll("[data-modal-close]").forEach(function (b) {
+      b.addEventListener("click", function () { modalSet(false); });
+    });
+    if (scrim) scrim.addEventListener("click", function () { modalSet(false); });
+  })();
+  </script>
+</body>
+</html>
