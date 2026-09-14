@@ -14,6 +14,18 @@ shadcn/ui is installed on top of it — 61 components — but **none of shadcn's
 colors, shadows, radii or fonts reach the page**. Its variable names are aliased
 onto this repo's tokens in `src/shadcn.css`.
 
+Three routes:
+
+| Route | What it is |
+|---|---|
+| `/` | The **Cluster landing page** — a second brand surface built on the same primitives, tokenised in `src/cluster.css` |
+| `/design-system` | Foundations, components, and the Refine panel shell |
+| `/shadcn` | Every installed shadcn/ui component, rendered through the token bridge |
+
+`/design-system` and `/shadcn` sit in the `app/(design-system)/` route group, which
+is what gives them the site header. The landing page is deliberately outside it —
+it is its own brand and brings its own chrome.
+
 ## Commands
 
 ```bash
@@ -30,7 +42,7 @@ in the repo, vendored shadcn sources included.
 
 ## Architecture
 
-Four CSS layers, imported in `app/globals.css` in this order — the order is
+Five CSS layers, imported in `app/globals.css` in this order — the order is
 load-bearing:
 
 | Layer | Lives in | Contains | Swaps at runtime |
@@ -39,6 +51,7 @@ load-bearing:
 | **Semantic** | `:root` / `html[data-theme="dark"]` in `theme.css` | `--ui-*` — every color and shadow recipe | **yes** |
 | **Bridge** | `@theme inline` in `theme.css` | maps `--ui-*` → Tailwind utilities | emits `var()`, so yes |
 | **shadcn alias** | `:root` + `@theme inline` in `shadcn.css` | maps `--background`, `--primary`, `--border`, … onto `--ui-*`, and Tailwind's shadow scale onto the house recipes | follows the tokens |
+| **Cluster brand** | `:root` + `@theme inline` + `@layer components` in `cluster.css` | `--cl-*` — the landing page's ground, cream bands, glass recipes and `.cl-*` classes | dark-only, so no branch |
 
 The reason for the split: Tailwind v4's `@theme` bakes values into generated
 utilities at build time, so anything defined there can't change at runtime —
@@ -78,16 +91,25 @@ instead.
   house conventions applied by `data-slot`. No literal color belongs here.
 - `src/components.css` — every house component class (buttons, inputs, menus,
   tabs, chips, overlays, motion recipes). No dark-mode rules belong here.
+- `src/cluster.css` — the landing page's `--cl-*` tokens and `.cl-*` classes.
+  It reuses the primitive layer (radii, durations, easings, motion distances)
+  and adds only what a warm dark marketing page needs.
 - `app/globals.css` — build entry; pins `@source` scan targets.
-- `app/layout.tsx` — fonts, the no-flash theme script, header, toast host.
-- `app/page.tsx` — the design-system page. `app/shadcn/page.tsx` — the gallery.
+- `app/layout.tsx` — fonts and the no-flash theme script, nothing else.
+- `app/page.tsx` — the Cluster landing page.
+- `app/(design-system)/layout.tsx` — the site header and toast host, for that
+  group only. `app/(design-system)/design-system/page.tsx` and
+  `.../shadcn/page.tsx` are the two design-system routes.
 - `app/fonts.ts` + `app/fonts/` — self-hosted Inter and Roboto Mono.
 - `components/site/` — the page: header, theme toggle, sections, and the motion
   primitives (`dropdown`, `modal-demo`, `pill-tabs`, `segmented`, `scrubber`,
   `toggle-switch`, `toast-host`).
 - `components/ui/` — vendored shadcn/ui.
 - `components/shadcn-gallery/` — the `/shadcn` demo grid.
-- `hooks/` — `use-disclosure` (open/closing state), `use-theme`, `use-mobile`.
+- `components/cluster/` — the landing page: nav, hero and its agent graph, the
+  bento, the GTM section, testimonials, FAQ, footer, and its icon set.
+- `hooks/` — `use-disclosure` (open/closing state), `use-theme`, `use-reveal`
+  (the landing page's scroll entrance), `use-mobile`.
 - `lib/` — `theme`, `motion` (reads duration tokens), `tokens` and `timeline`
   (page data), `utils` (`cn`).
 
@@ -114,6 +136,14 @@ attribute. If the value you need doesn't exist, add the token first.
 - **`color-mix()`** is used for hover tints and category chips (needs
   Chrome/Edge 111+, Safari 16.2+, Firefox 113+ — swap for literal rgba if older
   support is required).
+- **Glass is a real `backdrop-filter`,** never a flat translucent fill, and it
+  only goes over content worth blurring. The two recipes (`.cl-glass`,
+  `.cl-glass-paper`) each compose a fill, a light top edge, a ring and a drop —
+  a component sets one class, not four properties.
+- **One font family.** Inter carries the display sizes too. It is a little wider
+  than the grotesque the landing-page reference uses, so `.cl-display` and
+  `.cl-h2` carry extra negative tracking to land on the same measure; that
+  compensation is a token on the role, never a per-heading override.
 
 ## Motion
 

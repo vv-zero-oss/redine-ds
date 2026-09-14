@@ -13,15 +13,17 @@ redine-ds/
 │   ├── globals.css         ← build entry (imports the four layers below)
 │   ├── fonts.ts            ← self-hosted Inter + Roboto Mono (next/font/local)
 │   ├── fonts/              ← the two variable .woff2 files
-│   ├── page.tsx            ← the design-system page
-│   └── shadcn/page.tsx     ← every shadcn component on these tokens
+│   ├── page.tsx            ← the Cluster landing page
+│   └── (design-system)/    ← /design-system and /shadcn, plus their shared header
 ├── src/
 │   ├── theme.css           ← tokens: type, color, radius, shadow, motion + dark mode
 │   ├── shadcn.css          ← shadcn variable names aliased onto --ui-* tokens
-│   └── components.css      ← buttons, inputs, selects, menus, tabs, chips, overlays…
+│   ├── components.css      ← buttons, inputs, selects, menus, tabs, chips, overlays…
+│   └── cluster.css         ← the landing page's --cl-* brand tokens and .cl-* classes
 ├── components/
 │   ├── ui/                 ← shadcn/ui (vendored, 61 components)
-│   ├── site/               ← the page itself: header, sections, motion primitives
+│   ├── site/               ← design-system page: header, sections, motion primitives
+│   ├── cluster/            ← the landing page: nav, hero graph, bento, FAQ, footer
 │   └── shadcn-gallery/     ← the /shadcn demo grid
 ├── hooks/                  ← use-disclosure, use-theme, use-mobile
 └── lib/                    ← theme, motion, tokens, timeline, cn
@@ -37,16 +39,17 @@ npm run lint         # next lint
 npm run typecheck    # tsc --noEmit
 ```
 
-Two routes:
+Three routes:
 
 | Route | What it is |
 |---|---|
-| `/` | The design system: foundations, components, and the Refine panel shell |
+| `/` | The **Cluster landing page**, built on the same primitives |
+| `/design-system` | Foundations, components, and the Refine panel shell |
 | `/shadcn` | Every installed shadcn/ui component, rendered through the token bridge |
 
 ---
 
-## Architecture — why four layers
+## Architecture — why five layers
 
 Tailwind v4's `@theme` bakes values into the generated utilities at build time,
 so anything defined there **cannot change at runtime**. That's fine for a type
@@ -60,6 +63,7 @@ So the system splits:
 | **Semantic** | `:root` / `[data-theme="dark"]` | `--ui-*` — every color and shadow recipe | **yes** |
 | **Bridge** | `@theme inline` | maps `--ui-*` → Tailwind utilities | emits `var()`, so yes |
 | **shadcn alias** | `:root` + `@theme inline` in `shadcn.css` | maps shadcn's variable names onto `--ui-*` | follows the tokens |
+| **Cluster brand** | `:root` + `@theme inline` in `cluster.css` | `--cl-*` — the landing page's ground, cream and glass | dark-only, no branch |
 
 `@theme inline` is the key: it emits `var(--ui-surface)` into the utility
 instead of copying the literal. So `bg-surface` follows the theme attribute with
@@ -338,6 +342,38 @@ were fetched from: `questionnaire` and the deprecated `toast` (use `sonner`).
 `combobox`, `data-table`, `date-picker` and `typography` are documentation
 compositions — `combobox` is vendored, the other three are built from the
 primitives that are already here.
+
+## The landing page
+
+`/` is a second brand surface on the same primitive layer. It reuses every
+`@theme` primitive — the radii, the durations, the easings, the motion
+distances — and adds only what a warm dark marketing page needs, under `--cl-*`
+in `src/cluster.css` so the two palettes can never collide. Because there is no
+light counterpart, that file has no `[data-theme]` branch.
+
+Every value in it was sampled from the reference render rather than guessed:
+ground `#212121`, cream band `#d2ccbc`, paper `#e9e6de`, hairlines at 7% white.
+The build matches the reference's vertical rhythm to the pixel at a 1600px
+viewport — header rule, both logo-strip rules, both cream-band edges, both
+testimonial rules and the footer edge all land on the same row, and the page is
+the same 6669px tall.
+
+Two deliberate departures:
+
+- **Type.** The reference sets its display sizes in a condensed grotesque. This
+  system ships one family, so `.cl-display` and `.cl-h2` carry extra negative
+  tracking to land on the same measure at nearly the same cap height. The
+  compensation is a token on the role, not a per-heading override.
+- **Photography.** The testimonial portraits, the avatar in the hero graph and
+  the handwritten gift note are photographs in the reference. They are rendered
+  here as tinted tiles and a CSS paper card.
+
+**Glass** is the one effect the page is built around, so it is a real
+`backdrop-filter`, not a translucent fill: `.cl-glass` (dark, on the page
+ground) and `.cl-glass-paper` (light, over busy content). Each sits over
+something worth blurring on purpose — the signal word-cloud, the fading table
+rows, the agent queue — because a blur with nothing behind it is just a
+rectangle.
 
 ## Known gaps
 

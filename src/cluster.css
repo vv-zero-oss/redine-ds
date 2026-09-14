@@ -1,0 +1,491 @@
+/* ============================================================================
+   Cluster — landing-page brand layer
+   ----------------------------------------------------------------------------
+   A second brand surface on the same primitive layer. It reuses everything in
+   `@theme` from theme.css — the type scale's siblings, the radii, and every
+   duration, easing and motion distance — and adds only what a warm dark
+   marketing page needs that the Refine tool palette does not have: its own
+   ground, its cream bands, and the glass recipes.
+
+   Colors live under `--cl-*` so they can never collide with `--ui-*`. Every
+   value below was sampled from the reference render rather than guessed:
+
+     ground        #212121   cream band   #d2ccbc   paper (light glass) #e9e6de
+     hairline      white 7%  card top edge white 9%
+
+   The page is dark-only by design — there is no light counterpart to clone —
+   so this file has no `[data-theme]` branch. If a light variant is ever added,
+   it goes here as one block, exactly like the dark block in theme.css, and no
+   component class below changes.
+   ========================================================================== */
+
+/* -- 1. Semantic tokens ----------------------------------------------------- */
+:root {
+  /* Ground + surfaces */
+  --cl-bg: #212121;
+  --cl-bg-deep: #1c1c1c;                    /* the node well, inset areas      */
+  --cl-surface: #232323;                    /* bento card base                 */
+  --cl-surface-raised: #2a2a2a;             /* rows inside a card              */
+  --cl-surface-sunken: rgb(255 255 255 / 0.03);
+
+  /* Cream — the light bands and the paper chips */
+  --cl-cream: #d2ccbc;
+  --cl-cream-fg: #1b1a17;
+  --cl-cream-fg-muted: #56534c;
+  --cl-cream-line: rgb(27 26 23 / 0.12);
+  --cl-cream-mark: rgb(27 26 23 / 0.045);   /* the footer wordmark watermark   */
+
+  /* Paper — the near-white pills, agent labels and light glass */
+  --cl-paper: #e9e6de;
+  --cl-paper-fg: #1b1a17;
+  --cl-paper-fg-muted: #5d5a53;
+
+  /* Text */
+  --cl-fg: #f4f2ee;
+  --cl-fg-muted: #9a9791;
+  --cl-fg-subtle: #7e7b76;
+  --cl-fg-faint: #605d58;
+
+  /* Lines — every rule on the page is one of these three */
+  --cl-line: rgb(255 255 255 / 0.07);       /* frame rails, section rules      */
+  --cl-line-soft: rgb(255 255 255 / 0.05);  /* rows inside a card              */
+  --cl-line-strong: rgb(255 255 255 / 0.12);
+
+  /* Accents */
+  --cl-accent: #e2603f;                     /* agent mark                      */
+  --cl-accent-fg: #ffffff;
+  --cl-green: #9fce5c;                      /* uplift chips                    */
+  --cl-green-bg: rgb(159 206 92 / 0.14);
+  --cl-blue: #1585c8;                       /* LinkedIn tile                   */
+
+  /* Fills */
+  --cl-fill: rgb(255 255 255 / 0.05);
+  --cl-fill-hover: rgb(255 255 255 / 0.09);
+  --cl-fill-strong: rgb(255 255 255 / 0.12);
+
+  /* Shadow + glass recipes -------------------------------------------------
+     Dark elevation is a light top edge, never a heavier drop — the same rule
+     the Refine layer follows. Each recipe composes ring + edge + drop so a
+     component sets one property.                                            */
+  --cl-shadow-card:
+    inset 0 1px 0 0 rgb(255 255 255 / 0.055),
+    inset 0 0 0 1px rgb(255 255 255 / 0.045);
+  --cl-shadow-raised:
+    inset 0 1px 0 0 rgb(255 255 255 / 0.07),
+    inset 0 0 0 1px rgb(255 255 255 / 0.05),
+    0 1px 2px 0 rgb(0 0 0 / 0.4);
+  --cl-shadow-paper:
+    inset 0 1px 0 0 rgb(255 255 255 / 0.7),
+    0 1px 2px 0 rgb(0 0 0 / 0.28),
+    0 10px 26px -10px rgb(0 0 0 / 0.55);
+  --cl-shadow-float:
+    0 2px 6px 0 rgb(0 0 0 / 0.32),
+    0 18px 44px -14px rgb(0 0 0 / 0.62);
+
+  /* Glass — the blur is the point, so these carry a real backdrop filter.
+     Two weights: a dark one that sits on the page ground, and a paper one
+     that sits over busy content and lifts it. */
+  --cl-glass-blur: 20px;
+  --cl-glass-blur-sm: 12px;
+  --cl-glass-saturate: 150%;
+  --cl-glass-dark-fill: linear-gradient(
+    180deg,
+    rgb(255 255 255 / 0.085),
+    rgb(255 255 255 / 0.035)
+  );
+  --cl-glass-dark-shadow:
+    inset 0 1px 0 0 rgb(255 255 255 / 0.13),
+    inset 0 0 0 1px rgb(255 255 255 / 0.06),
+    0 16px 40px -14px rgb(0 0 0 / 0.55);
+  --cl-glass-paper-fill: linear-gradient(
+    180deg,
+    rgb(247 245 240 / 0.94),
+    rgb(228 224 215 / 0.88)
+  );
+  --cl-glass-paper-shadow:
+    inset 0 1px 0 0 rgb(255 255 255 / 0.8),
+    inset 0 0 0 1px rgb(27 26 23 / 0.06),
+    0 2px 6px 0 rgb(0 0 0 / 0.3),
+    0 20px 48px -16px rgb(0 0 0 / 0.6);
+
+  /* Page geometry — the reference frame, in one place */
+  --cl-frame: 1420px;   /* the ruled content frame                            */
+  --cl-gutter: 76px;    /* inset from the rail to the content column          */
+}
+
+/* -- 2. Bridge: tokens → Tailwind utilities -------------------------------- */
+@theme inline {
+  --color-cl-bg: var(--cl-bg);
+  --color-cl-bg-deep: var(--cl-bg-deep);
+  --color-cl-surface: var(--cl-surface);
+  --color-cl-surface-raised: var(--cl-surface-raised);
+  --color-cl-cream: var(--cl-cream);
+  --color-cl-cream-fg: var(--cl-cream-fg);
+  --color-cl-cream-fg-muted: var(--cl-cream-fg-muted);
+  --color-cl-paper: var(--cl-paper);
+  --color-cl-paper-fg: var(--cl-paper-fg);
+  --color-cl-paper-fg-muted: var(--cl-paper-fg-muted);
+  --color-cl-fg: var(--cl-fg);
+  --color-cl-fg-muted: var(--cl-fg-muted);
+  --color-cl-fg-subtle: var(--cl-fg-subtle);
+  --color-cl-fg-faint: var(--cl-fg-faint);
+  --color-cl-line: var(--cl-line);
+  --color-cl-line-soft: var(--cl-line-soft);
+  --color-cl-line-strong: var(--cl-line-strong);
+  --color-cl-cream-line: var(--cl-cream-line);
+  --color-cl-accent: var(--cl-accent);
+  --color-cl-green: var(--cl-green);
+  --color-cl-blue: var(--cl-blue);
+  --color-cl-fill: var(--cl-fill);
+  --color-cl-fill-hover: var(--cl-fill-hover);
+}
+
+/* -- 3. Components ---------------------------------------------------------- */
+@layer components {
+  /* ==========================================================================
+     PAGE FRAME
+     The whole page is drawn inside one ruled frame: a centered 1420px column
+     with a hairline down each side, running the full height. Sections add
+     their own horizontal rules; nothing else draws a border.
+     ========================================================================== */
+  .cl-page {
+    background: var(--cl-bg);
+    color: var(--cl-fg);
+    color-scheme: dark;
+    font-family: var(--font-sans);
+  }
+  .cl-frame {
+    @apply relative mx-auto w-full;
+    max-width: var(--cl-frame);
+  }
+  /* The rails are pseudo-elements so they never take part in layout. */
+  .cl-frame::before,
+  .cl-frame::after {
+    content: "";
+    @apply pointer-events-none absolute inset-y-0 z-10 w-px;
+    background: var(--cl-line);
+  }
+  .cl-frame::before { left: 0; }
+  .cl-frame::after { right: 0; }
+  .cl-frame-flush::before,
+  .cl-frame-flush::after { content: none; }
+  /* The footer runs full-bleed cream, so its rails need the ink-on-cream rule
+     rather than the white-on-dark one. */
+  .cl-frame-cream::before,
+  .cl-frame-cream::after { background: var(--cl-cream-line); }
+
+  .cl-gutter { padding-inline: var(--cl-gutter); }
+
+  .cl-rule { @apply h-px w-full; background: var(--cl-line); }
+  .cl-rule-soft { @apply h-px w-full; background: var(--cl-line-soft); }
+
+  /* Warm paper grain. Two offset radial stipples, so the cream bands read as
+     printed stock rather than flat fill — the reference has it and the band
+     looks plastic without it. */
+  .cl-grain {
+    @apply pointer-events-none absolute inset-0;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgb(27 26 23 / 0.055) 1px, transparent 0),
+      radial-gradient(circle at 1px 1px, rgb(27 26 23 / 0.035) 1px, transparent 0);
+    background-size: 22px 22px, 37px 37px;
+    background-position: 0 0, 11px 14px;
+  }
+
+  /* ==========================================================================
+     TYPE
+     Weight 300 on display sizes is what gives the reference its airy feel; the
+     tracking tightens as the size grows, which is the only reason these are
+     roles rather than raw utilities.
+     ========================================================================== */
+  /* The reference sets its display sizes in a condensed grotesque. Inter is
+     the one family this system ships, so the display roles carry extra
+     negative tracking to land on the same measure at the same cap height —
+     the tracking is the token, not a per-heading style. */
+  .cl-display {
+    font-size: 58px;
+    line-height: 1.1;
+    font-weight: var(--font-weight-normal);
+    letter-spacing: -0.031em;
+    color: var(--cl-fg);
+  }
+  .cl-h2 {
+    font-size: 52px;
+    line-height: 1.12;
+    font-weight: var(--font-weight-normal);
+    letter-spacing: -0.034em;
+    color: var(--cl-fg);
+  }
+  .cl-h3 {
+    font-size: 26px;
+    line-height: 1.25;
+    font-weight: var(--font-weight-normal);
+    letter-spacing: -0.015em;
+    color: var(--cl-fg);
+  }
+  .cl-quote {
+    font-size: 22px;
+    line-height: 1.45;
+    font-weight: var(--font-weight-normal);
+    letter-spacing: -0.012em;
+    color: var(--cl-fg);
+  }
+  .cl-lead {
+    font-size: 16px;
+    line-height: 1.62;
+    font-weight: var(--font-weight-normal);
+    color: var(--cl-fg-muted);
+  }
+  .cl-body { font-size: 15px; line-height: 1.6; color: var(--cl-fg-muted); }
+  .cl-label { font-size: 15px; line-height: 1.4; color: var(--cl-fg); }
+  .cl-small { font-size: 13px; line-height: 1.45; color: var(--cl-fg-muted); }
+  .cl-eyebrow {
+    font-size: 11px;
+    line-height: 1.3;
+    font-weight: var(--font-weight-medium);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--cl-fg-subtle);
+  }
+  .cl-card-title {
+    font-size: 17px;
+    line-height: 1.35;
+    font-weight: var(--font-weight-semibold);
+    letter-spacing: -0.006em;
+    color: var(--cl-fg);
+  }
+
+  /* ==========================================================================
+     BUTTONS
+     Two skins only: cream on dark, dark on cream. Both are full pills with a
+     leading arrow that steps forward on hover.
+     ========================================================================== */
+  .cl-btn {
+    @apply relative inline-flex shrink-0 cursor-pointer items-center justify-center
+           gap-2.5 rounded-pill border-0 whitespace-nowrap select-none;
+    height: 47px;
+    padding-inline: 32px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: var(--font-weight-medium);
+    letter-spacing: -0.005em;
+    transition:
+      background-color var(--duration-micro) var(--ease-smooth),
+      color var(--duration-micro) var(--ease-smooth),
+      box-shadow var(--duration-micro) var(--ease-smooth),
+      scale var(--duration-micro) var(--ease-smooth);
+  }
+  .cl-btn:active { scale: 0.97; }
+  .cl-btn-cream {
+    color: var(--cl-paper-fg);
+    background: var(--cl-paper);
+    box-shadow: var(--cl-shadow-paper);
+  }
+  .cl-btn-cream:hover { background: #f2f0ea; }
+  .cl-btn-dark {
+    color: var(--cl-fg);
+    background: #171614;
+  }
+  .cl-btn-dark:hover { background: #262421; }
+  .cl-btn-sm { height: 36px; padding-inline: 22px; font-size: 14px; }
+
+  /* The arrow is its own element so only it moves — the label stays put. */
+  .cl-btn-arrow {
+    @apply inline-flex shrink-0 items-center;
+    transition: translate var(--duration-medium) var(--ease-smooth);
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .cl-btn:hover .cl-btn-arrow { translate: 3px 0; }
+  }
+
+  .cl-nav-link {
+    @apply inline-flex items-center rounded-pill px-3 no-underline;
+    height: 34px;
+    font-size: 15px;
+    color: var(--cl-fg-muted);
+    transition: color var(--duration-fast) var(--ease-smooth);
+  }
+  .cl-nav-link:hover { color: var(--cl-fg); }
+
+  /* ==========================================================================
+     SURFACES
+     ========================================================================== */
+  /* The bento card: a flat base plus one soft highlight rising from the bottom
+     centre, which is what keeps four large dark panels from reading as holes. */
+  .cl-card {
+    @apply relative overflow-hidden;
+    border-radius: 18px;
+    background:
+      radial-gradient(120% 80% at 50% 118%, rgb(255 255 255 / 0.055), transparent 70%),
+      var(--cl-surface);
+    box-shadow: var(--cl-shadow-card);
+  }
+  .cl-row {
+    @apply relative flex items-center gap-3 rounded-xl px-3;
+    min-height: 56px;
+    background: var(--cl-fill);
+  }
+  .cl-tile {
+    @apply grid shrink-0 place-items-center rounded-lg;
+    width: 34px;
+    height: 34px;
+    color: var(--cl-fg-muted);
+    background: var(--cl-fill-hover);
+  }
+
+  /* ==========================================================================
+     GLASS
+     Real backdrop blur, not a flat translucent fill: each of these sits over
+     content on purpose (the word cloud, the table rows, the agent board) so
+     the blur has something to bend.
+     ========================================================================== */
+  .cl-glass {
+    @apply relative;
+    background: var(--cl-glass-dark-fill);
+    box-shadow: var(--cl-glass-dark-shadow);
+    backdrop-filter: blur(var(--cl-glass-blur)) saturate(var(--cl-glass-saturate));
+    -webkit-backdrop-filter: blur(var(--cl-glass-blur)) saturate(var(--cl-glass-saturate));
+  }
+  .cl-glass-paper {
+    @apply relative;
+    color: var(--cl-paper-fg);
+    background: var(--cl-glass-paper-fill);
+    box-shadow: var(--cl-glass-paper-shadow);
+    backdrop-filter: blur(var(--cl-glass-blur)) saturate(180%);
+    -webkit-backdrop-filter: blur(var(--cl-glass-blur)) saturate(180%);
+  }
+  /* Solid paper — same skin, no blur, for chips that sit on flat ground. */
+  .cl-paper {
+    color: var(--cl-paper-fg);
+    background: var(--cl-paper);
+    box-shadow: var(--cl-shadow-paper);
+  }
+
+  /* Agent label — the little cream tags on the graph and in the cards. */
+  .cl-agent-pill {
+    @apply inline-flex items-center gap-2 rounded-lg pl-2 pr-3.5;
+    height: 36px;
+    font-size: 14px;
+    font-weight: var(--font-weight-medium);
+    letter-spacing: -0.004em;
+    color: var(--cl-paper-fg);
+    background: var(--cl-paper);
+    box-shadow: var(--cl-shadow-paper);
+  }
+  .cl-agent-pill-plain { @apply px-[18px]; }
+
+  /* ==========================================================================
+     CHIPS
+     ========================================================================== */
+  .cl-chip {
+    @apply inline-flex items-center justify-center rounded-md px-2 whitespace-nowrap;
+    height: 22px;
+    font-size: 11px;
+    font-weight: var(--font-weight-medium);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--cl-fg-subtle);
+    background: var(--cl-fill);
+  }
+  .cl-chip-strong { color: var(--cl-fg); background: var(--cl-fill-strong); }
+  .cl-chip-green {
+    color: var(--cl-green);
+    background: var(--cl-green-bg);
+    letter-spacing: 0.02em;
+    text-transform: none;
+  }
+
+  /* ==========================================================================
+     FAQ
+     ========================================================================== */
+  .cl-faq-item { border-bottom: 1px solid var(--cl-line); }
+  .cl-faq-trigger {
+    @apply flex w-full cursor-pointer items-center justify-between gap-6
+           border-0 bg-transparent px-0 text-left;
+    padding-block: 24px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: var(--font-weight-normal);
+    letter-spacing: -0.008em;
+    color: var(--cl-fg);
+  }
+  .cl-faq-sign {
+    @apply relative grid shrink-0 place-items-center;
+    width: 18px;
+    height: 18px;
+    color: var(--cl-fg-muted);
+  }
+  .cl-faq-sign::before,
+  .cl-faq-sign::after {
+    content: "";
+    @apply absolute rounded-pill;
+    background: currentColor;
+  }
+  .cl-faq-sign::before { width: 17px; height: 1.4px; }
+  .cl-faq-sign::after {
+    width: 1.4px;
+    height: 17px;
+    transition:
+      scale var(--duration-medium) var(--ease-smooth),
+      opacity var(--duration-medium) var(--ease-smooth);
+  }
+  /* Open state turns the plus into a minus by collapsing the upright only —
+     cheaper and calmer than rotating the whole glyph. */
+  .cl-faq-trigger[aria-expanded="true"] .cl-faq-sign::after {
+    scale: 1 0;
+    opacity: 0;
+  }
+  /* The panel animates its own height via a grid row, so there is no measuring
+     in JS and no jump when the content reflows. */
+  .cl-faq-panel {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition:
+      grid-template-rows var(--duration-medium) var(--ease-smooth),
+      opacity var(--duration-fast) var(--ease-smooth);
+    opacity: 0;
+  }
+  .cl-faq-panel > * { overflow: hidden; }
+  .cl-faq-panel[data-open="true"] { grid-template-rows: 1fr; opacity: 1; }
+
+  /* ==========================================================================
+     GTM PLAYS — the numbered feature list
+     ========================================================================== */
+  .cl-play-progress {
+    @apply relative h-px w-full overflow-hidden;
+    background: var(--cl-line);
+  }
+  .cl-play-progress::after {
+    content: "";
+    @apply absolute inset-y-0 left-0;
+    width: var(--cl-play-progress, 0%);
+    background: var(--cl-fg-muted);
+    transition: width var(--duration-slow) var(--ease-smooth);
+  }
+  .cl-bar {
+    @apply relative overflow-hidden rounded-md;
+    height: 24px;
+  }
+
+  /* ==========================================================================
+     MOTION
+     One entrance, used by every section: a short rise with a cross-fade on the
+     house curve. It is a first-view moment, so it earns 600ms; it never
+     replays, and reduced-motion keeps the fade and drops the travel.
+     ========================================================================== */
+  .cl-reveal {
+    /* These are usually grid items, and a grid item's `auto` minimum lets wide
+       content push the track past the viewport. */
+    min-width: 0;
+    opacity: 0;
+    translate: 0 var(--motion-distance-md);
+    transition:
+      opacity var(--duration-very-slow) var(--ease-smooth),
+      translate var(--duration-very-slow) var(--ease-smooth);
+    transition-delay: var(--cl-reveal-delay, 0ms);
+  }
+  .cl-reveal[data-shown="true"] { opacity: 1; translate: 0 0; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .cl-reveal { translate: 0 0; }
+  }
+}

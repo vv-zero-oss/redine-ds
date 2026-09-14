@@ -3,7 +3,7 @@ import { GitHubIcon, LogoMark, XIcon } from "./icons";
 import { ThemeToggle } from "./theme-toggle";
 
 const NAV = [
-  { href: "/", label: "Transitions" },
+  { href: "/design-system", label: "Transitions" },
   { href: "/shadcn", label: "shadcn/ui" },
 ] as const;
 
@@ -13,7 +13,7 @@ export function SiteHeader() {
       <div className="container-nav">
         <div className="flex min-w-0 items-center gap-2.5">
           <Link
-            href="/"
+            href="/design-system"
             className="flex h-9 shrink-0 items-center gap-1 text-fg no-underline"
             aria-label="Transitions.dev home"
           >
