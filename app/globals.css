@@ -7,12 +7,14 @@
      theme.css     → primitives, semantic tokens, the light/dark token blocks
      shadcn.css    → shadcn's variable names aliased onto those tokens
      components.css→ the house component layer
+     cluster.css   → the Cluster landing page's brand layer (--cl-*)
    ========================================================================== */
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "../src/theme.css";
 @import "../src/shadcn.css";
 @import "../src/components.css";
+@import "../src/cluster.css";
 
 /* Explicit scan targets — pins detection for a mixed app/ + src/ tree. */
 @source "../app";

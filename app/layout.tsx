@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
 import { inter, robotoMono } from "./fonts";
 import { themeInitScript } from "@/lib/theme";
-import { SiteHeader } from "@/components/site/site-header";
-import { ToastHost } from "@/components/site/toast-host";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Transitions — Refine design system",
+  title: {
+    default: "Cluster — GTM tools for your agents",
+    template: "%s",
+  },
   description:
-    "A design system extracted from the Refine panel — tokens, components and motion, rebuilt on Next.js and Tailwind v4.",
+    "Cluster gives your agents access to 50+ GTM data sources, linkedin & email sending infra and the ability to orchestrate hundreds of subagents in parallel.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -22,11 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="color-scheme" content="light dark" />
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
       </head>
-      <body className="min-h-screen bg-bg text-fg antialiased">
-        <SiteHeader />
-        {children}
-        <ToastHost />
-      </body>
+      <body className="min-h-screen bg-bg text-fg antialiased">{children}</body>
     </html>
   );
 }
