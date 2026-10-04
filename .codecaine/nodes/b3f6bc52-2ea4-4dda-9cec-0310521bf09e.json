@@ -1,0 +1,40 @@
+{
+  "id": "b3f6bc52-2ea4-4dda-9cec-0310521bf09e",
+  "type": "section",
+  "tag": "main",
+  "name": "After – Variation 3 Indigo Tiles",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "ztV",
+  "createdAt": "2026-10-04T18:10:45.610Z",
+  "props": {
+    "className": "flex flex-col w-[540px] h-[1170px] overflow-hidden",
+    "data-codecaine-id": "eff64ca5-364e-44fc-a555-056543c69f37"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {
+    "display": "flex",
+    "flexDirection": "column",
+    "width": 540,
+    "height": "1170.69px",
+    "overflow": "hidden",
+    "backgroundColor": "var(--tile-bg)",
+    "color": "var(--tile-text)",
+    "fontFamily": "var(--tile-font)",
+    "fontSize": "var(--tile-text-size)",
+    "borderRadius": "var(--space-10)",
+    "gap": "var(--space-4)",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": -1233,
+    "top": 4794.78,
+    "paddingLeft": "var(--space-6)",
+    "paddingRight": "var(--space-6)"
+  },
+  "updatedAt": "2026-10-04T18:10:58.924Z"
+}

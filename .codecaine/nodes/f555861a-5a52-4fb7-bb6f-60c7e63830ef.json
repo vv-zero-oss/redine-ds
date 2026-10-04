@@ -1,0 +1,20 @@
+{
+  "id": "f555861a-5a52-4fb7-bb6f-60c7e63830ef",
+  "type": "text",
+  "tag": "label",
+  "parent": "34eb9475-3146-4c8c-83a7-a8d02a78e37b",
+  "order": "G",
+  "createdAt": "2026-10-04T18:10:34.295Z",
+  "props": {
+    "for": "location-v2",
+    "text": "Location",
+    "data-codecaine-id": "673914d5-9552-4c5f-9f8a-87dcc8425a6c"
+  },
+  "style": {
+    "fontSize": "var(--space-3)",
+    "letterSpacing": "0.16em",
+    "textTransform": "uppercase",
+    "color": "var(--noir-muted)"
+  },
+  "updatedAt": "2026-10-04T18:10:34.295Z"
+}

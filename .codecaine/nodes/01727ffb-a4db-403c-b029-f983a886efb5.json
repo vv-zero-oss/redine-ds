@@ -1,0 +1,19 @@
+{
+  "id": "01727ffb-a4db-403c-b029-f983a886efb5",
+  "type": "section",
+  "tag": "div",
+  "name": "div",
+  "parent": "970d0fb7-efc7-4735-8e14-0c61d897321c",
+  "order": "l",
+  "createdAt": "2026-10-04T18:10:45.610Z",
+  "props": {
+    "className": "flex flex-col",
+    "data-codecaine-id": "f723ca51-cdbe-4048-ac28-ed8b7576df51"
+  },
+  "style": {
+    "display": "flex",
+    "flexDirection": "column",
+    "gap": "var(--space-1)"
+  },
+  "updatedAt": "2026-10-04T18:10:45.610Z"
+}

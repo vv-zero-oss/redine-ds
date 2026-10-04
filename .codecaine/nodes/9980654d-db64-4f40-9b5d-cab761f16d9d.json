@@ -1,0 +1,18 @@
+{
+  "id": "9980654d-db64-4f40-9b5d-cab761f16d9d",
+  "type": "section",
+  "tag": "div",
+  "name": "div",
+  "parent": "bfda9db6-35be-4686-923c-e2e803f6b34c",
+  "order": "O",
+  "createdAt": "2026-10-04T18:10:34.295Z",
+  "props": {
+    "className": "flex",
+    "data-codecaine-id": "080ffa69-64f9-4013-9021-3cdbec127970"
+  },
+  "style": {
+    "display": "flex",
+    "gap": "var(--space-4)"
+  },
+  "updatedAt": "2026-10-04T18:10:34.295Z"
+}

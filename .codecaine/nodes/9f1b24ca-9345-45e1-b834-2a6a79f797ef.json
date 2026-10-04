@@ -1,0 +1,25 @@
+{
+  "id": "9f1b24ca-9345-45e1-b834-2a6a79f797ef",
+  "type": "text",
+  "tag": "h1",
+  "parent": "953e0270-5a52-414e-96b8-634cd3f5e6fa",
+  "order": "V",
+  "createdAt": "2026-10-04T18:10:34.295Z",
+  "props": {
+    "text": "New Event",
+    "data-codecaine-id": "c7e9062e-738d-4cfa-9bf9-dd72457b729f"
+  },
+  "style": {
+    "marginTop": "0px",
+    "marginRight": "0px",
+    "marginBottom": "0px",
+    "marginLeft": "0px",
+    "fontFamily": "var(--noir-font-display)",
+    "fontSize": "var(--noir-title-size)",
+    "fontWeight": "900",
+    "fontStyle": "italic",
+    "lineHeight": "1.05",
+    "color": "var(--noir-accent)"
+  },
+  "updatedAt": "2026-10-04T18:10:34.302Z"
+}

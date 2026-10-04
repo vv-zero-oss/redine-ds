@@ -1,0 +1,19 @@
+{
+  "id": "97817d5c-10b5-436f-818b-003e69e3a1b2",
+  "type": "text",
+  "tag": "label",
+  "parent": "f660907e-afda-476d-bdf1-fe97e7d1c2f2",
+  "order": "G",
+  "createdAt": "2026-10-04T18:10:45.610Z",
+  "props": {
+    "for": "ends-v3",
+    "text": "Ends",
+    "data-codecaine-id": "eba98083-e912-44c5-9a06-08e3afec1000"
+  },
+  "style": {
+    "fontSize": "var(--tile-label-size)",
+    "fontWeight": "600",
+    "color": "var(--tile-muted)"
+  },
+  "updatedAt": "2026-10-04T18:10:45.610Z"
+}

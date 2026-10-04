@@ -8,5 +8,824 @@
       "kind": "google",
       "family": "Inter"
     }
-  ]
+  ],
+  "variables": {
+    "collections": {
+      "collection:default": {
+        "id": "collection:default",
+        "name": "Tokens",
+        "modes": [
+          {
+            "id": "mode:default",
+            "name": "Default"
+          }
+        ],
+        "activeModeId": "mode:default"
+      }
+    },
+    "variables": {
+      "var:muu4xx5k-1": {
+        "id": "var:muu4xx5k-1",
+        "collectionId": "collection:default",
+        "property": "--space-1",
+        "name": "--space-1",
+        "category": "spacing",
+        "values": {
+          "mode:default": "4px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137366552
+        }
+      },
+      "var:muu4xx94-2": {
+        "id": "var:muu4xx94-2",
+        "collectionId": "collection:default",
+        "property": "--space-2",
+        "name": "--space-2",
+        "category": "spacing",
+        "values": {
+          "mode:default": "8px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137366680
+        }
+      },
+      "var:muu4xxdj-3": {
+        "id": "var:muu4xxdj-3",
+        "collectionId": "collection:default",
+        "property": "--space-3",
+        "name": "--space-3",
+        "category": "spacing",
+        "values": {
+          "mode:default": "12px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137366839
+        }
+      },
+      "var:muu4xxo6-4": {
+        "id": "var:muu4xxo6-4",
+        "collectionId": "collection:default",
+        "property": "--space-4",
+        "name": "--space-4",
+        "category": "spacing",
+        "values": {
+          "mode:default": "16px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137367222
+        }
+      },
+      "var:muu4xxz6-5": {
+        "id": "var:muu4xxz6-5",
+        "collectionId": "collection:default",
+        "property": "--space-5",
+        "name": "--space-5",
+        "category": "spacing",
+        "values": {
+          "mode:default": "20px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137367618
+        }
+      },
+      "var:muu4xyc8-6": {
+        "id": "var:muu4xyc8-6",
+        "collectionId": "collection:default",
+        "property": "--space-6",
+        "name": "--space-6",
+        "category": "spacing",
+        "values": {
+          "mode:default": "24px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137368088
+        }
+      },
+      "var:muu4xymf-7": {
+        "id": "var:muu4xymf-7",
+        "collectionId": "collection:default",
+        "property": "--space-8",
+        "name": "--space-8",
+        "category": "spacing",
+        "values": {
+          "mode:default": "32px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137368455
+        }
+      },
+      "var:muu4xyx3-8": {
+        "id": "var:muu4xyx3-8",
+        "collectionId": "collection:default",
+        "property": "--space-10",
+        "name": "--space-10",
+        "category": "spacing",
+        "values": {
+          "mode:default": "40px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137368839
+        }
+      },
+      "var:muu4xyzq-9": {
+        "id": "var:muu4xyzq-9",
+        "collectionId": "collection:default",
+        "property": "--space-12",
+        "name": "--space-12",
+        "category": "spacing",
+        "values": {
+          "mode:default": "48px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137368934
+        }
+      },
+      "var:muu4xz8k-a": {
+        "id": "var:muu4xz8k-a",
+        "collectionId": "collection:default",
+        "property": "--color-white",
+        "name": "--color-white",
+        "category": "colors",
+        "values": {
+          "mode:default": "#ffffff"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137369252
+        }
+      },
+      "var:muu4xzjs-b": {
+        "id": "var:muu4xzjs-b",
+        "collectionId": "collection:default",
+        "property": "--compact-bg",
+        "name": "--compact-bg",
+        "category": "colors",
+        "values": {
+          "mode:default": "#f2f1ef"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137369656
+        }
+      },
+      "var:muu4xzvy-c": {
+        "id": "var:muu4xzvy-c",
+        "collectionId": "collection:default",
+        "property": "--compact-surface",
+        "name": "--compact-surface",
+        "category": "colors",
+        "values": {
+          "mode:default": "#ffffff"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137370094
+        }
+      },
+      "var:muu4y079-d": {
+        "id": "var:muu4y079-d",
+        "collectionId": "collection:default",
+        "property": "--compact-line",
+        "name": "--compact-line",
+        "category": "colors",
+        "values": {
+          "mode:default": "#e4e2df"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137370501
+        }
+      },
+      "var:muu4y0ie-e": {
+        "id": "var:muu4y0ie-e",
+        "collectionId": "collection:default",
+        "property": "--compact-text",
+        "name": "--compact-text",
+        "category": "colors",
+        "values": {
+          "mode:default": "#1c1a18"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137370902
+        }
+      },
+      "var:muu4y0tf-f": {
+        "id": "var:muu4y0tf-f",
+        "collectionId": "collection:default",
+        "property": "--compact-muted",
+        "name": "--compact-muted",
+        "category": "colors",
+        "values": {
+          "mode:default": "#7a7571"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137371299
+        }
+      },
+      "var:muu4y14x-g": {
+        "id": "var:muu4y14x-g",
+        "collectionId": "collection:default",
+        "property": "--compact-accent",
+        "name": "--compact-accent",
+        "category": "colors",
+        "values": {
+          "mode:default": "#0a6e8a"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137371713
+        }
+      },
+      "var:muu4y1gy-h": {
+        "id": "var:muu4y1gy-h",
+        "collectionId": "collection:default",
+        "property": "--compact-accent-soft",
+        "name": "--compact-accent-soft",
+        "category": "colors",
+        "values": {
+          "mode:default": "rgba(10,110,138,0.12)"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137372146
+        }
+      },
+      "var:muu4y1rx-i": {
+        "id": "var:muu4y1rx-i",
+        "collectionId": "collection:default",
+        "property": "--compact-radius",
+        "name": "--compact-radius",
+        "category": "spacing",
+        "values": {
+          "mode:default": "12px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137372541
+        }
+      },
+      "var:muu4y233-j": {
+        "id": "var:muu4y233-j",
+        "collectionId": "collection:default",
+        "property": "--compact-font",
+        "name": "--compact-font",
+        "category": "font-family",
+        "values": {
+          "mode:default": "Inter, sans-serif"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137372943
+        }
+      },
+      "var:muu4y2en-k": {
+        "id": "var:muu4y2en-k",
+        "collectionId": "collection:default",
+        "property": "--compact-text-size",
+        "name": "--compact-text-size",
+        "category": "spacing",
+        "values": {
+          "mode:default": "17px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137373359
+        }
+      },
+      "var:muu4y2gg-l": {
+        "id": "var:muu4y2gg-l",
+        "collectionId": "collection:default",
+        "property": "--compact-title-size",
+        "name": "--compact-title-size",
+        "category": "spacing",
+        "values": {
+          "mode:default": "34px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137373424
+        }
+      },
+      "var:muu4y2q5-m": {
+        "id": "var:muu4y2q5-m",
+        "collectionId": "collection:default",
+        "property": "--noir-bg",
+        "name": "--noir-bg",
+        "category": "colors",
+        "values": {
+          "mode:default": "#14110f"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137373773
+        }
+      },
+      "var:muu4y31c-n": {
+        "id": "var:muu4y31c-n",
+        "collectionId": "collection:default",
+        "property": "--noir-surface",
+        "name": "--noir-surface",
+        "category": "colors",
+        "values": {
+          "mode:default": "#1f1b18"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137374176
+        }
+      },
+      "var:muu4y3cr-o": {
+        "id": "var:muu4y3cr-o",
+        "collectionId": "collection:default",
+        "property": "--noir-line",
+        "name": "--noir-line",
+        "category": "colors",
+        "values": {
+          "mode:default": "#3a342f"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137374587
+        }
+      },
+      "var:muu4y3o5-p": {
+        "id": "var:muu4y3o5-p",
+        "collectionId": "collection:default",
+        "property": "--noir-text",
+        "name": "--noir-text",
+        "category": "colors",
+        "values": {
+          "mode:default": "#f6efe6"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137374997
+        }
+      },
+      "var:muu4y3zf-q": {
+        "id": "var:muu4y3zf-q",
+        "collectionId": "collection:default",
+        "property": "--noir-muted",
+        "name": "--noir-muted",
+        "category": "colors",
+        "values": {
+          "mode:default": "#a39a90"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137375403
+        }
+      },
+      "var:muu4y4al-r": {
+        "id": "var:muu4y4al-r",
+        "collectionId": "collection:default",
+        "property": "--noir-accent",
+        "name": "--noir-accent",
+        "category": "colors",
+        "values": {
+          "mode:default": "#f2a93b"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137375805
+        }
+      },
+      "var:muu4y4mi-s": {
+        "id": "var:muu4y4mi-s",
+        "collectionId": "collection:default",
+        "property": "--noir-accent-ink",
+        "name": "--noir-accent-ink",
+        "category": "colors",
+        "values": {
+          "mode:default": "#1a1208"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137376234
+        }
+      },
+      "var:muu4y4xt-t": {
+        "id": "var:muu4y4xt-t",
+        "collectionId": "collection:default",
+        "property": "--noir-accent-soft",
+        "name": "--noir-accent-soft",
+        "category": "colors",
+        "values": {
+          "mode:default": "rgba(242,169,59,0.16)"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137376641
+        }
+      },
+      "var:muu4y58v-u": {
+        "id": "var:muu4y58v-u",
+        "collectionId": "collection:default",
+        "property": "--noir-radius-pill",
+        "name": "--noir-radius-pill",
+        "category": "spacing",
+        "values": {
+          "mode:default": "999px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137377039
+        }
+      },
+      "var:muu4y5jn-v": {
+        "id": "var:muu4y5jn-v",
+        "collectionId": "collection:default",
+        "property": "--noir-radius-card",
+        "name": "--noir-radius-card",
+        "category": "spacing",
+        "values": {
+          "mode:default": "4px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137377427
+        }
+      },
+      "var:muu4y5u8-w": {
+        "id": "var:muu4y5u8-w",
+        "collectionId": "collection:default",
+        "property": "--noir-font-display",
+        "name": "--noir-font-display",
+        "category": "font-family",
+        "values": {
+          "mode:default": "\"Playfair Display\", serif"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137377808
+        }
+      },
+      "var:muu4y5w0-x": {
+        "id": "var:muu4y5w0-x",
+        "collectionId": "collection:default",
+        "property": "--noir-font-body",
+        "name": "--noir-font-body",
+        "category": "font-family",
+        "values": {
+          "mode:default": "\"DM Sans\", sans-serif"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137377872
+        }
+      },
+      "var:muu4y663-y": {
+        "id": "var:muu4y663-y",
+        "collectionId": "collection:default",
+        "property": "--noir-title-size",
+        "name": "--noir-title-size",
+        "category": "spacing",
+        "values": {
+          "mode:default": "56px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137378235
+        }
+      },
+      "var:muu4y6gm-z": {
+        "id": "var:muu4y6gm-z",
+        "collectionId": "collection:default",
+        "property": "--noir-text-size",
+        "name": "--noir-text-size",
+        "category": "spacing",
+        "values": {
+          "mode:default": "20px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137378614
+        }
+      },
+      "var:muu4y6t4-10": {
+        "id": "var:muu4y6t4-10",
+        "collectionId": "collection:default",
+        "property": "--tile-bg",
+        "name": "--tile-bg",
+        "category": "colors",
+        "values": {
+          "mode:default": "#eef0fb"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137379064
+        }
+      },
+      "var:muu4y72e-11": {
+        "id": "var:muu4y72e-11",
+        "collectionId": "collection:default",
+        "property": "--tile-surface",
+        "name": "--tile-surface",
+        "category": "colors",
+        "values": {
+          "mode:default": "#ffffff"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137379398
+        }
+      },
+      "var:muu4y81h-12": {
+        "id": "var:muu4y81h-12",
+        "collectionId": "collection:default",
+        "property": "--tile-line",
+        "name": "--tile-line",
+        "category": "colors",
+        "values": {
+          "mode:default": "#d9ddf5"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137380661
+        }
+      },
+      "var:muu4y84h-13": {
+        "id": "var:muu4y84h-13",
+        "collectionId": "collection:default",
+        "property": "--tile-text",
+        "name": "--tile-text",
+        "category": "colors",
+        "values": {
+          "mode:default": "#1b1d3a"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137380769
+        }
+      },
+      "var:muu4y868-14": {
+        "id": "var:muu4y868-14",
+        "collectionId": "collection:default",
+        "property": "--tile-muted",
+        "name": "--tile-muted",
+        "category": "colors",
+        "values": {
+          "mode:default": "#6b6f94"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137380832
+        }
+      },
+      "var:muu4y8ba-15": {
+        "id": "var:muu4y8ba-15",
+        "collectionId": "collection:default",
+        "property": "--tile-accent",
+        "name": "--tile-accent",
+        "category": "colors",
+        "values": {
+          "mode:default": "#5b4be0"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137381014
+        }
+      },
+      "var:muu4y8mm-16": {
+        "id": "var:muu4y8mm-16",
+        "collectionId": "collection:default",
+        "property": "--tile-accent-soft",
+        "name": "--tile-accent-soft",
+        "category": "colors",
+        "values": {
+          "mode:default": "rgba(91,75,224,0.12)"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137381422
+        }
+      },
+      "var:muu4y8xw-17": {
+        "id": "var:muu4y8xw-17",
+        "collectionId": "collection:default",
+        "property": "--tile-radius-card",
+        "name": "--tile-radius-card",
+        "category": "spacing",
+        "values": {
+          "mode:default": "24px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137381828
+        }
+      },
+      "var:muu4y90i-18": {
+        "id": "var:muu4y90i-18",
+        "collectionId": "collection:default",
+        "property": "--tile-radius-control",
+        "name": "--tile-radius-control",
+        "category": "spacing",
+        "values": {
+          "mode:default": "14px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137381922
+        }
+      },
+      "var:muu4y9m0-19": {
+        "id": "var:muu4y9m0-19",
+        "collectionId": "collection:default",
+        "property": "--tile-shadow",
+        "name": "--tile-shadow",
+        "category": "box-shadow",
+        "values": {
+          "mode:default": "0 8px 24px rgba(40,40,120,0.12)"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137382696
+        }
+      },
+      "var:muu4y9w8-1a": {
+        "id": "var:muu4y9w8-1a",
+        "collectionId": "collection:default",
+        "property": "--tile-font",
+        "name": "--tile-font",
+        "category": "font-family",
+        "values": {
+          "mode:default": "\"Space Grotesk\", sans-serif"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137383064
+        }
+      },
+      "var:muu4y9yu-1b": {
+        "id": "var:muu4y9yu-1b",
+        "collectionId": "collection:default",
+        "property": "--tile-title-size",
+        "name": "--tile-title-size",
+        "category": "spacing",
+        "values": {
+          "mode:default": "40px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137383158
+        }
+      },
+      "var:muu4ya76-1c": {
+        "id": "var:muu4ya76-1c",
+        "collectionId": "collection:default",
+        "property": "--tile-text-size",
+        "name": "--tile-text-size",
+        "category": "spacing",
+        "values": {
+          "mode:default": "18px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137383458
+        }
+      },
+      "var:muu4yaif-1d": {
+        "id": "var:muu4yaif-1d",
+        "collectionId": "collection:default",
+        "property": "--tile-label-size",
+        "name": "--tile-label-size",
+        "category": "spacing",
+        "values": {
+          "mode:default": "13px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791137383863
+        }
+      },
+      "var:muu4zdfe-1e": {
+        "id": "var:muu4zdfe-1e",
+        "collectionId": "collection:default",
+        "property": "--space-16",
+        "category": "string",
+        "values": {
+          "mode:default": "64px"
+        },
+        "owner": {
+          "kind": "paste",
+          "nodeId": "c3618d50-559d-4481-9caf-c6acfc64f9ce",
+          "label": "Pasted markup",
+          "at": 1791137434297
+        }
+      }
+    },
+    "order": [
+      "var:muu4xx5k-1",
+      "var:muu4xx94-2",
+      "var:muu4xxdj-3",
+      "var:muu4xxo6-4",
+      "var:muu4xxz6-5",
+      "var:muu4xyc8-6",
+      "var:muu4xymf-7",
+      "var:muu4xyx3-8",
+      "var:muu4xyzq-9",
+      "var:muu4xz8k-a",
+      "var:muu4xzjs-b",
+      "var:muu4xzvy-c",
+      "var:muu4y079-d",
+      "var:muu4y0ie-e",
+      "var:muu4y0tf-f",
+      "var:muu4y14x-g",
+      "var:muu4y1gy-h",
+      "var:muu4y1rx-i",
+      "var:muu4y233-j",
+      "var:muu4y2en-k",
+      "var:muu4y2gg-l",
+      "var:muu4y2q5-m",
+      "var:muu4y31c-n",
+      "var:muu4y3cr-o",
+      "var:muu4y3o5-p",
+      "var:muu4y3zf-q",
+      "var:muu4y4al-r",
+      "var:muu4y4mi-s",
+      "var:muu4y4xt-t",
+      "var:muu4y58v-u",
+      "var:muu4y5jn-v",
+      "var:muu4y5u8-w",
+      "var:muu4y5w0-x",
+      "var:muu4y663-y",
+      "var:muu4y6gm-z",
+      "var:muu4y6t4-10",
+      "var:muu4y72e-11",
+      "var:muu4y81h-12",
+      "var:muu4y84h-13",
+      "var:muu4y868-14",
+      "var:muu4y8ba-15",
+      "var:muu4y8mm-16",
+      "var:muu4y8xw-17",
+      "var:muu4y90i-18",
+      "var:muu4y9m0-19",
+      "var:muu4y9w8-1a",
+      "var:muu4y9yu-1b",
+      "var:muu4ya76-1c",
+      "var:muu4yaif-1d",
+      "var:muu4zdfe-1e"
+    ]
+  }
 }

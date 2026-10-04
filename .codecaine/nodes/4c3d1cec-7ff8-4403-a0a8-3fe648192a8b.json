@@ -1,0 +1,42 @@
+{
+  "id": "4c3d1cec-7ff8-4403-a0a8-3fe648192a8b",
+  "type": "input",
+  "tag": "input",
+  "parent": "11d67217-7f77-4943-ab6f-713e6ad336f7",
+  "order": "V",
+  "createdAt": "2026-10-04T18:10:34.295Z",
+  "props": {
+    "id": "allday-v2",
+    "type": "checkbox",
+    "role": "switch",
+    "checked": "",
+    "className": "cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2",
+    "data-codecaine-id": "9d4af33b-6c90-4b54-9878-3e39e083142c"
+  },
+  "states": {
+    "focus-visible": {
+      "style": {
+        "outlineWidth": 1,
+        "outlineStyle": "solid"
+      }
+    }
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "borderWidth": 0,
+    "borderStyle": "solid",
+    "borderColor": "currentColor",
+    "width": "var(--space-8)",
+    "height": "var(--space-8)",
+    "accentColor": "var(--noir-accent)",
+    "outlineColor": "var(--noir-accent)"
+  },
+  "updatedAt": "2026-10-04T18:10:34.295Z"
+}

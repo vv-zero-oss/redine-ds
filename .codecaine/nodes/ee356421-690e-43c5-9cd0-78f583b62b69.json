@@ -1,0 +1,66 @@
+{
+  "id": "ee356421-690e-43c5-9cd0-78f583b62b69",
+  "type": "input",
+  "tag": "input",
+  "parent": "68359c71-b8af-4f43-9fb4-075ce1bb295e",
+  "order": "V",
+  "createdAt": "2026-10-04T18:10:45.610Z",
+  "props": {
+    "id": "title-v3",
+    "type": "text",
+    "value": "My Event",
+    "className": "cursor-pointer hover:border-[var(--tile-accent)] focus-visible:outline focus-visible:outline-2",
+    "data-codecaine-id": "0ee214ac-1d72-4b4d-938e-c7095d7a50cb"
+  },
+  "states": {
+    "hover": {
+      "style": {
+        "borderColor": "var(--tile-accent)"
+      }
+    },
+    "focus-visible": {
+      "style": {
+        "outlineWidth": 1,
+        "outlineStyle": "solid"
+      }
+    }
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "borderWidth": 0,
+    "borderStyle": "solid",
+    "borderColor": "currentColor",
+    "fontStyle": "inherit",
+    "fontVariantLigatures": "inherit",
+    "fontVariantCaps": "inherit",
+    "fontVariantNumeric": "inherit",
+    "fontVariantEastAsian": "inherit",
+    "fontVariantAlternates": "inherit",
+    "fontVariantPosition": "inherit",
+    "fontVariantEmoji": "inherit",
+    "fontStretch": "inherit",
+    "fontSize": "inherit",
+    "lineHeight": "inherit",
+    "fontFamily": "inherit",
+    "fontOpticalSizing": "inherit",
+    "fontSizeAdjust": "inherit",
+    "fontKerning": "inherit",
+    "fontFeatureSettings": "inherit",
+    "fontVariationSettings": "inherit",
+    "fontLanguageOverride": "inherit",
+    "fontWeight": "600",
+    "color": "var(--tile-text)",
+    "backgroundColor": "var(--tile-bg)",
+    "outlineColor": "var(--tile-accent)",
+    "border": "1px solid var(--tile-line)",
+    "borderRadius": "var(--tile-radius-control)"
+  },
+  "updatedAt": "2026-10-04T18:10:45.610Z"
+}

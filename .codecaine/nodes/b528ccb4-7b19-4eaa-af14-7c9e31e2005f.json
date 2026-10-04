@@ -1,0 +1,83 @@
+{
+  "id": "b528ccb4-7b19-4eaa-af14-7c9e31e2005f",
+  "type": "button",
+  "tag": "button",
+  "parent": "5b59153c-f519-4192-bf62-e1fb1220c633",
+  "order": "l",
+  "createdAt": "2026-10-04T18:10:45.610Z",
+  "props": {
+    "type": "submit",
+    "className": "cursor-pointer hover:brightness-110 active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 disabled:opacity-50",
+    "text": "Create Event",
+    "data-codecaine-id": "ffd6d397-1626-445b-b967-6476af7af09c"
+  },
+  "states": {
+    "focus-visible": {
+      "style": {
+        "outlineWidth": 1,
+        "outlineStyle": "solid"
+      }
+    },
+    "disabled": {
+      "style": {
+        "opacity": 0.5
+      }
+    }
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "borderWidth": 0,
+    "borderStyle": "solid",
+    "borderColor": "currentColor",
+    "backgroundColor": "var(--tile-accent)",
+    "height": "var(--space-12)",
+    "fontStyle": "inherit",
+    "fontVariantLigatures": "inherit",
+    "fontVariantCaps": "inherit",
+    "fontVariantNumeric": "inherit",
+    "fontVariantEastAsian": "inherit",
+    "fontVariantAlternates": "inherit",
+    "fontVariantPosition": "inherit",
+    "fontVariantEmoji": "inherit",
+    "fontStretch": "inherit",
+    "fontSize": "inherit",
+    "lineHeight": "inherit",
+    "fontFamily": "inherit",
+    "fontOpticalSizing": "inherit",
+    "fontSizeAdjust": "inherit",
+    "fontKerning": "inherit",
+    "fontFeatureSettings": "inherit",
+    "fontVariationSettings": "inherit",
+    "fontLanguageOverride": "inherit",
+    "fontWeight": "700",
+    "color": "var(--color-white)",
+    "borderTopWidth": "0px",
+    "borderRightWidth": "0px",
+    "borderBottomWidth": "0px",
+    "borderLeftWidth": "0px",
+    "borderTopStyle": "none",
+    "borderRightStyle": "none",
+    "borderBottomStyle": "none",
+    "borderLeftStyle": "none",
+    "borderTopColor": "currentcolor",
+    "borderRightColor": "currentcolor",
+    "borderBottomColor": "currentcolor",
+    "borderLeftColor": "currentcolor",
+    "borderImageSource": "none",
+    "borderImageSlice": "100%",
+    "borderImageWidth": "1",
+    "borderImageOutset": "0",
+    "borderImageRepeat": "stretch",
+    "boxShadow": "var(--tile-shadow)",
+    "outlineColor": "var(--tile-accent)",
+    "borderRadius": "var(--tile-radius-card)"
+  },
+  "updatedAt": "2026-10-04T18:10:45.610Z"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "9fbc03df-8aca-4a7b-9697-392a98347116",
+  "type": "section",
+  "tag": "div",
+  "name": "div",
+  "parent": "9980654d-db64-4f40-9b5d-cab761f16d9d",
+  "order": "V",
+  "createdAt": "2026-10-04T18:10:34.295Z",
+  "props": {
+    "className": "flex flex-col flex-1",
+    "data-codecaine-id": "a3e81b44-7748-46af-9aa6-b141b9691585"
+  },
+  "style": {
+    "display": "flex",
+    "flexDirection": "column",
+    "flex": "1 1 0%",
+    "gap": "var(--space-2)"
+  },
+  "updatedAt": "2026-10-04T18:10:34.295Z"
+}

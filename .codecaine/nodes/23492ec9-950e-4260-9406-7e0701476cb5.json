@@ -1,0 +1,21 @@
+{
+  "id": "23492ec9-950e-4260-9406-7e0701476cb5",
+  "type": "section",
+  "tag": "header",
+  "name": "header",
+  "parent": "953e0270-5a52-414e-96b8-634cd3f5e6fa",
+  "order": "G",
+  "createdAt": "2026-10-04T18:10:34.295Z",
+  "props": {
+    "className": "flex items-center justify-center",
+    "data-codecaine-id": "3cd550ab-4777-4774-a3e2-c85429ae44d1"
+  },
+  "style": {
+    "display": "flex",
+    "alignItems": "center",
+    "justifyContent": "center",
+    "height": "var(--space-12)",
+    "paddingTop": "var(--space-4)"
+  },
+  "updatedAt": "2026-10-04T18:10:34.302Z"
+}

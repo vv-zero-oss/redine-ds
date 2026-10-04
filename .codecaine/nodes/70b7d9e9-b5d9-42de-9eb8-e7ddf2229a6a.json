@@ -1,0 +1,20 @@
+{
+  "id": "70b7d9e9-b5d9-42de-9eb8-e7ddf2229a6a",
+  "type": "form",
+  "tag": "form",
+  "name": "form",
+  "parent": "ece798c8-cc38-4b22-9bc1-1d351358c3ba",
+  "order": "l",
+  "createdAt": "2026-10-04T18:10:21.328Z",
+  "props": {
+    "onsubmit": "return false",
+    "className": "flex flex-col",
+    "data-codecaine-id": "8f3ce8e5-a451-4b48-9077-1d5df83335fc"
+  },
+  "style": {
+    "display": "flex",
+    "flexDirection": "column",
+    "gap": "var(--space-4)"
+  },
+  "updatedAt": "2026-10-04T18:10:21.336Z"
+}

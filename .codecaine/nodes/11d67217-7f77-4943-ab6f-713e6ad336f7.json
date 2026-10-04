@@ -1,0 +1,19 @@
+{
+  "id": "11d67217-7f77-4943-ab6f-713e6ad336f7",
+  "type": "section",
+  "tag": "div",
+  "name": "div",
+  "parent": "bfda9db6-35be-4686-923c-e2e803f6b34c",
+  "order": "G",
+  "createdAt": "2026-10-04T18:10:34.295Z",
+  "props": {
+    "className": "flex items-center justify-between",
+    "data-codecaine-id": "807672c5-34bd-4b4a-9d31-ac2b280b837e"
+  },
+  "style": {
+    "display": "flex",
+    "alignItems": "center",
+    "justifyContent": "space-between"
+  },
+  "updatedAt": "2026-10-04T18:10:34.295Z"
+}

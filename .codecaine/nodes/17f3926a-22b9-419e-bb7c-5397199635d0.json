@@ -1,0 +1,17 @@
+{
+  "id": "17f3926a-22b9-419e-bb7c-5397199635d0",
+  "type": "text",
+  "tag": "label",
+  "parent": "72e9f997-fdb1-43ae-a7ba-222b46c525e4",
+  "order": "G",
+  "createdAt": "2026-10-04T18:10:21.328Z",
+  "props": {
+    "for": "url-v1",
+    "text": "URL",
+    "data-codecaine-id": "58a558a9-6f9c-4efc-808c-cf046a7ec35a"
+  },
+  "style": {
+    "fontWeight": "600"
+  },
+  "updatedAt": "2026-10-04T18:10:21.328Z"
+}

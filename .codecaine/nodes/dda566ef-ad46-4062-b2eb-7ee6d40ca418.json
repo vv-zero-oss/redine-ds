@@ -1,0 +1,17 @@
+{
+  "id": "dda566ef-ad46-4062-b2eb-7ee6d40ca418",
+  "type": "text",
+  "tag": "label",
+  "parent": "bea034d1-5066-4953-adb2-77ea737485b5",
+  "order": "G",
+  "createdAt": "2026-10-04T18:10:21.328Z",
+  "props": {
+    "for": "starts-v1",
+    "text": "Starts",
+    "data-codecaine-id": "795d610d-b059-40c1-a2d0-c4fa71f4dc99"
+  },
+  "style": {
+    "fontWeight": "600"
+  },
+  "updatedAt": "2026-10-04T18:10:21.328Z"
+}
