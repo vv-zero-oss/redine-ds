@@ -12,7 +12,7 @@
   },
   "style": {
     "position": "absolute",
-    "left": "127px",
+    "left": 200.5,
     "top": "8px",
     "width": "139px",
     "height": "5px",
@@ -23,5 +23,5 @@
     "borderBottomLeftRadius": "100px",
     "backgroundColor": "rgb(0, 0, 0)"
   },
-  "updatedAt": "2026-10-04T17:47:55.820Z"
+  "updatedAt": "2026-10-04T17:58:28.048Z"
 }
