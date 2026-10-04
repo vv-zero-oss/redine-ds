@@ -1,0 +1,25 @@
+{
+  "id": "e9db6b8e-9e7f-4f2d-9b3d-4acd7846ee47",
+  "type": "image",
+  "tag": "img",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "t",
+  "createdAt": "2026-10-04T10:52:01.646Z",
+  "props": {
+    "src": "asset:media/images/4b956e4043df248b1677.png",
+    "alt": "All 7 Frames page 6",
+    "data-codecaine-id": "766007d9-f184-45fd-b5b0-bbac1ed2e8a4"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {
+    "position": "absolute",
+    "left": -3333.2995016704654,
+    "top": 1495.9318494448225,
+    "width": 453,
+    "height": 640
+  },
+  "updatedAt": "2026-10-04T10:52:06.316Z"
+}
