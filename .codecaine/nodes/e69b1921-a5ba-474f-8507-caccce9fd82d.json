@@ -1,0 +1,19 @@
+{
+  "id": "e69b1921-a5ba-474f-8507-caccce9fd82d",
+  "type": "text",
+  "tag": "span",
+  "parent": "e15006e7-6af3-496c-ba2a-fcf39b911cda",
+  "order": "8",
+  "createdAt": "2026-10-04T17:40:20.968Z",
+  "props": {
+    "text": "9:41",
+    "data-codecaine-id": "0f99d9f5-9e24-49af-a9b5-8a1474a2a1e8"
+  },
+  "style": {
+    "fontWeight": "bold",
+    "fontSize": "24.48px",
+    "whiteSpaceCollapse": "preserve",
+    "textWrapMode": "wrap"
+  },
+  "updatedAt": "2026-10-04T17:40:20.968Z"
+}

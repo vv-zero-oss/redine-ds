@@ -1,0 +1,18 @@
+{
+  "id": "e05a48ed-dbd7-479d-99e0-def4f656a540",
+  "type": "text",
+  "tag": "span",
+  "parent": "e15006e7-6af3-496c-ba2a-fcf39b911cda",
+  "order": "S",
+  "createdAt": "2026-10-04T17:40:20.968Z",
+  "props": {
+    "text": "Starts",
+    "data-codecaine-id": "194c07a9-805d-42e7-a489-2ce7c76c38fb"
+  },
+  "style": {
+    "fontSize": "21.9847px",
+    "whiteSpaceCollapse": "preserve",
+    "textWrapMode": "wrap"
+  },
+  "updatedAt": "2026-10-04T17:40:20.968Z"
+}

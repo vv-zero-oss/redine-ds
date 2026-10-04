@@ -1,0 +1,18 @@
+{
+  "id": "119174e1-5627-4725-a33f-5a37e453bd3e",
+  "type": "text",
+  "tag": "span",
+  "parent": "e15006e7-6af3-496c-ba2a-fcf39b911cda",
+  "order": "I",
+  "createdAt": "2026-10-04T17:40:20.968Z",
+  "props": {
+    "text": "My Event",
+    "data-codecaine-id": "d0f3187b-9f55-404e-87ff-e8ac94408825"
+  },
+  "style": {
+    "fontSize": "21.9847px",
+    "whiteSpaceCollapse": "preserve",
+    "textWrapMode": "wrap"
+  },
+  "updatedAt": "2026-10-04T17:40:20.968Z"
+}

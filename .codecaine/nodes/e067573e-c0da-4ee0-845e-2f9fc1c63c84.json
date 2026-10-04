@@ -1,0 +1,18 @@
+{
+  "id": "e067573e-c0da-4ee0-845e-2f9fc1c63c84",
+  "type": "text",
+  "tag": "span",
+  "parent": "e15006e7-6af3-496c-ba2a-fcf39b911cda",
+  "order": "O",
+  "createdAt": "2026-10-04T17:40:20.968Z",
+  "props": {
+    "text": "My Location",
+    "data-codecaine-id": "12bf1fd9-8657-49d7-92ef-4737d4bde9dd"
+  },
+  "style": {
+    "fontSize": "21.9847px",
+    "whiteSpaceCollapse": "preserve",
+    "textWrapMode": "wrap"
+  },
+  "updatedAt": "2026-10-04T17:40:20.968Z"
+}
