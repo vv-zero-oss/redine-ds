@@ -1,0 +1,18 @@
+{
+  "id": "b975d0f4-4fcd-4366-a9b5-5648a8340f41",
+  "type": "text",
+  "tag": "span",
+  "parent": "7aef67e4-76ef-4a1b-9661-8a965fe89f06",
+  "order": "d",
+  "createdAt": "2026-10-04T17:38:36.452Z",
+  "props": {
+    "text": "All-day",
+    "data-codecaine-id": "034a3700-5e59-4f42-b5e9-7cc41341a05b"
+  },
+  "style": {
+    "fontSize": "21.9847px",
+    "whiteSpaceCollapse": "preserve",
+    "textWrapMode": "wrap"
+  },
+  "updatedAt": "2026-10-04T17:38:36.452Z"
+}
