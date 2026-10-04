@@ -1,0 +1,21 @@
+{
+  "id": "4eaa0dc3-05c6-48ff-9b40-583fc16e6e7d",
+  "type": "frame",
+  "tag": "div",
+  "name": "Profile Bar",
+  "parent": "99e7fdd9-404c-4ed0-b84b-7eef365d4507",
+  "order": "V",
+  "createdAt": "2026-10-04T18:01:44.224Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "e9cbdbf9-2d4e-4fd0-a8aa-4d96f477ff78"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "375px",
+    "height": "299px"
+  },
+  "updatedAt": "2026-10-04T18:01:44.224Z"
+}

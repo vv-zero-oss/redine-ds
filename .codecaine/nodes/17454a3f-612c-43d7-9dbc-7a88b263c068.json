@@ -1,0 +1,32 @@
+{
+  "id": "17454a3f-612c-43d7-9dbc-7a88b263c068",
+  "type": "text",
+  "tag": "p",
+  "parent": "d1894c4c-4de9-4c75-9e46-09cd5db3af46",
+  "order": "V",
+  "createdAt": "2026-10-04T18:01:34.747Z",
+  "props": {
+    "text": "Profile",
+    "data-import-type": "figma",
+    "data-codecaine-id": "b1eaaa3f-0ca9-4fb0-be2b-09a4b1d4dacc"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "1.5px",
+    "top": "44px",
+    "fontFamily": "\"SF Pro Text\", sans-serif",
+    "fontSize": "12px",
+    "fontWeight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.01px",
+    "color": "rgba(255, 255, 255, 0.5)",
+    "textAlign": "center",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-04T18:01:34.747Z"
+}

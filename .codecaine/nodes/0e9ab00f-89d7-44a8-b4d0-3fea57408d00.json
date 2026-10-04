@@ -1,0 +1,23 @@
+{
+  "id": "0e9ab00f-89d7-44a8-b4d0-3fea57408d00",
+  "type": "frame",
+  "tag": "div",
+  "name": "Privacy",
+  "parent": "13292080-0689-4ca1-8745-b3b1dc8c73f0",
+  "order": "8",
+  "createdAt": "2026-10-04T18:01:22.696Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "cce49a51-a264-446c-9f2a-0d594852366d"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "636px",
+    "width": "375px",
+    "height": "182px",
+    "overflowX": "hidden",
+    "overflowY": "hidden"
+  },
+  "updatedAt": "2026-10-04T18:01:22.696Z"
+}

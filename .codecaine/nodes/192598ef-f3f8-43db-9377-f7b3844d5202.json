@@ -1,0 +1,21 @@
+{
+  "id": "192598ef-f3f8-43db-9377-f7b3844d5202",
+  "type": "frame",
+  "tag": "div",
+  "name": "Arrow Right",
+  "parent": "37cdbafa-e955-40f9-854d-81551ba26fb0",
+  "order": "V",
+  "createdAt": "2026-10-04T18:01:44.224Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "58ae324e-fc03-44de-a187-c06932bd4590"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "350px",
+    "top": "19.5px",
+    "width": "8px",
+    "height": "13px"
+  },
+  "updatedAt": "2026-10-04T18:01:44.224Z"
+}

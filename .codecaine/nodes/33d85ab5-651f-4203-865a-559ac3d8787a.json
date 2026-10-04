@@ -1,0 +1,31 @@
+{
+  "id": "33d85ab5-651f-4203-865a-559ac3d8787a",
+  "type": "text",
+  "tag": "p",
+  "parent": "d50eca26-3b56-468b-a851-d3d327b54220",
+  "order": "l",
+  "createdAt": "2026-10-04T18:01:34.747Z",
+  "props": {
+    "text": "Notifications",
+    "data-import-type": "figma",
+    "data-codecaine-id": "817134ed-e257-431d-a266-2235f7a6560b"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "16px",
+    "top": "16px",
+    "fontFamily": "\"SF Pro Text\", sans-serif",
+    "fontSize": "17px",
+    "fontWeight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.41px",
+    "color": "rgb(255, 255, 255)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-04T18:01:34.747Z"
+}

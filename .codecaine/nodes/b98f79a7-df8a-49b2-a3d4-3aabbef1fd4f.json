@@ -1,0 +1,23 @@
+{
+  "id": "b98f79a7-df8a-49b2-a3d4-3aabbef1fd4f",
+  "type": "frame",
+  "tag": "div",
+  "name": "1. Bars / 5. Home Indicator / Light",
+  "parent": "66ffe642-bef4-488c-ab11-dfd9076b33a9",
+  "order": "8",
+  "createdAt": "2026-10-04T18:01:44.224Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "c8783c01-0d96-4753-afab-629a3047375b"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "114px",
+    "width": "375px",
+    "height": "34px",
+    "overflowX": "hidden",
+    "overflowY": "hidden"
+  },
+  "updatedAt": "2026-10-04T18:01:44.224Z"
+}

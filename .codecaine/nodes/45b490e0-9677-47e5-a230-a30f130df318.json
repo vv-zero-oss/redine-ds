@@ -1,0 +1,32 @@
+{
+  "id": "45b490e0-9677-47e5-a230-a30f130df318",
+  "type": "text",
+  "tag": "p",
+  "parent": "4e477be9-8a41-4cf5-9579-f25cf89e8daa",
+  "order": "V",
+  "createdAt": "2026-10-04T18:01:34.747Z",
+  "props": {
+    "text": "More actions",
+    "data-import-type": "figma",
+    "data-codecaine-id": "2781729f-0a06-4b6d-bd51-19aafa3ae1c0"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "16px",
+    "top": "0px",
+    "fontFamily": "\"SF Pro Text\", sans-serif",
+    "fontSize": "13px",
+    "fontWeight": "600",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.15px",
+    "textTransform": "uppercase",
+    "color": "rgba(255, 255, 255, 0.5)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-04T18:01:34.747Z"
+}

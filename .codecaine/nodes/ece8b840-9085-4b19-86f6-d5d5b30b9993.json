@@ -1,0 +1,32 @@
+{
+  "id": "ece8b840-9085-4b19-86f6-d5d5b30b9993",
+  "type": "text",
+  "tag": "p",
+  "parent": "1a6aaee3-cf4d-426a-991b-6e21fd6beca8",
+  "order": "O",
+  "createdAt": "2026-10-04T18:01:34.747Z",
+  "props": {
+    "text": "Martha Craig",
+    "data-import-type": "figma",
+    "data-codecaine-id": "84f108ae-e79a-428b-a319-84d5688557ff"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "114.5px",
+    "top": "156px",
+    "fontFamily": "\"SF Pro Display\", sans-serif",
+    "fontSize": "24px",
+    "fontWeight": "700",
+    "lineHeight": "normal",
+    "letterSpacing": "0.33px",
+    "color": "rgb(255, 255, 255)",
+    "textAlign": "center",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-04T18:01:34.747Z"
+}

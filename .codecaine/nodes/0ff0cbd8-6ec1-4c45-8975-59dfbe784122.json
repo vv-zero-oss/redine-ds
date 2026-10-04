@@ -1,0 +1,21 @@
+{
+  "id": "0ff0cbd8-6ec1-4c45-8975-59dfbe784122",
+  "type": "frame",
+  "tag": "div",
+  "name": "Sound",
+  "parent": "78f053af-805a-4639-bfeb-4ef019d2e206",
+  "order": "G",
+  "createdAt": "2026-10-04T18:02:15.368Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "e41fbc03-c4a1-4b3a-8487-6d65a5015e88"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "78px",
+    "top": "696.5px",
+    "width": "51px",
+    "height": "51px"
+  },
+  "updatedAt": "2026-10-04T18:02:15.368Z"
+}

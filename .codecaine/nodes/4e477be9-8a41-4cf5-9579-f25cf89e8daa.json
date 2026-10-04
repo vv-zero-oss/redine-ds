@@ -1,0 +1,23 @@
+{
+  "id": "4e477be9-8a41-4cf5-9579-f25cf89e8daa",
+  "type": "frame",
+  "tag": "div",
+  "name": "More Actions",
+  "parent": "eee033e6-6952-4ff7-b11b-236b1dd4fbff",
+  "order": "G",
+  "createdAt": "2026-10-04T18:01:34.747Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "5b9e4c7e-bc84-4ec6-819a-4e6832759c14"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "481px",
+    "width": "375px",
+    "height": "129px",
+    "overflowX": "hidden",
+    "overflowY": "hidden"
+  },
+  "updatedAt": "2026-10-04T18:01:34.747Z"
+}

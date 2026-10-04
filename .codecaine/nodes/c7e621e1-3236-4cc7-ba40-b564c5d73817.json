@@ -1,0 +1,21 @@
+{
+  "id": "c7e621e1-3236-4cc7-ba40-b564c5d73817",
+  "type": "frame",
+  "tag": "div",
+  "name": "Icon",
+  "parent": "758e3b6d-630d-4877-9385-3b30b5481172",
+  "order": "l",
+  "createdAt": "2026-10-04T18:01:34.747Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "6d548448-9395-4574-b4c6-6460bc454684"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "336.33px",
+    "top": "14.63px",
+    "width": "22px",
+    "height": "23px"
+  },
+  "updatedAt": "2026-10-04T18:01:34.747Z"
+}

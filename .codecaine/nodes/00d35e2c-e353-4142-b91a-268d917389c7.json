@@ -1,0 +1,22 @@
+{
+  "id": "00d35e2c-e353-4142-b91a-268d917389c7",
+  "type": "frame",
+  "tag": "div",
+  "name": "Seperator",
+  "parent": "0e9ab00f-89d7-44a8-b4d0-3fea57408d00",
+  "order": "l",
+  "createdAt": "2026-10-04T18:01:22.696Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "5728810a-541a-4d09-ad9a-76063172f5c2"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "16px",
+    "top": "77.5px",
+    "width": "343px",
+    "height": "1px",
+    "backgroundColor": "rgba(255, 255, 255, 0.2)"
+  },
+  "updatedAt": "2026-10-04T18:01:22.696Z"
+}

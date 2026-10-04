@@ -1,0 +1,21 @@
+{
+  "id": "93eb8d54-3063-43e4-9723-4ecc9438876a",
+  "type": "frame",
+  "tag": "div",
+  "name": "Back",
+  "parent": "4eaa0dc3-05c6-48ff-9b40-583fc16e6e7d",
+  "order": "l",
+  "createdAt": "2026-10-04T18:01:44.224Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "704ebd7e-dae8-47d8-b1a0-86ddb73ae6a1"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "22px",
+    "top": "59px",
+    "width": "13px",
+    "height": "23px"
+  },
+  "updatedAt": "2026-10-04T18:01:44.224Z"
+}

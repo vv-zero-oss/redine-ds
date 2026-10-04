@@ -1,0 +1,22 @@
+{
+  "id": "e1baf6f5-8bd8-4788-9b6b-2ed99771034d",
+  "type": "frame",
+  "tag": "div",
+  "name": "Cellular Connection",
+  "parent": "e47494e0-3316-4d76-ac33-24e1d23de786",
+  "order": "d",
+  "createdAt": "2026-10-04T18:01:22.696Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "6e59dab4-a723-498d-b2a9-449830bef04b"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "293px",
+    "top": "17.67px",
+    "width": "17px",
+    "height": "10.67px",
+    "backgroundColor": "rgb(255, 255, 255)"
+  },
+  "updatedAt": "2026-10-04T18:01:22.696Z"
+}

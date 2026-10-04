@@ -1,0 +1,32 @@
+{
+  "id": "8a1f1d0d-50d5-4cda-ba94-c80e79a1cc81",
+  "type": "text",
+  "tag": "p",
+  "parent": "15492972-4df2-45df-a8c4-cf167d57bd3b",
+  "order": "V",
+  "createdAt": "2026-10-04T18:01:34.747Z",
+  "props": {
+    "text": "Video",
+    "data-import-type": "figma",
+    "data-codecaine-id": "c977670f-d0ef-44a8-ad0e-1b5329e5262b"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "3.5px",
+    "top": "44px",
+    "fontFamily": "\"SF Pro Text\", sans-serif",
+    "fontSize": "12px",
+    "fontWeight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.01px",
+    "color": "rgba(255, 255, 255, 0.5)",
+    "textAlign": "center",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-04T18:01:34.747Z"
+}

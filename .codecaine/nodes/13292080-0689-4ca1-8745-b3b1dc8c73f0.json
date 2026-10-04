@@ -1,0 +1,35 @@
+{
+  "id": "13292080-0689-4ca1-8745-b3b1dc8c73f0",
+  "type": "frame",
+  "tag": "div",
+  "name": "Messanger Profile",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zx",
+  "createdAt": "2026-10-04T18:01:22.696Z",
+  "props": {
+    "importedPlacement": {
+      "position": "relative"
+    },
+    "data-import-type": "figma",
+    "data-codecaine-id": "3d438ee3-ac06-4d66-a45d-5f499fe616ae"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {
+    "width": 375,
+    "height": "812px",
+    "backgroundColor": "rgb(0, 0, 0)",
+    "overflowX": "hidden",
+    "overflowY": "hidden",
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "left": -957.0041946962162,
+    "top": 5904.884883093472
+  },
+  "updatedAt": "2026-10-04T18:01:25.414Z"
+}
