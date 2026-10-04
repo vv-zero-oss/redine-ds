@@ -1,0 +1,31 @@
+{
+  "id": "2358f65b-f2e3-45c2-8da6-ddcfeeac011b",
+  "type": "text",
+  "tag": "p",
+  "name": "Title Text",
+  "parent": "25e328d3-2c44-4df6-9738-8a0789049155",
+  "order": "V",
+  "createdAt": "2026-10-04T17:47:55.820Z",
+  "props": {
+    "text": "My Event",
+    "data-import-type": "figma",
+    "data-codecaine-id": "c4a17434-0fd0-4f13-b977-d660b3efb603"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "310.53px",
+    "top": "21.98px",
+    "width": "317.4px",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "21.98px",
+    "fontWeight": "500",
+    "lineHeight": "1",
+    "color": "rgb(143, 138, 134)",
+    "textAlign": "right"
+  },
+  "updatedAt": "2026-10-04T17:47:55.820Z"
+}

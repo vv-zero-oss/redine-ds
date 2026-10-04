@@ -1,0 +1,39 @@
+{
+  "id": "80f78076-aef0-422c-8ae1-56a30b37f982",
+  "type": "frame",
+  "tag": "div",
+  "name": "After",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zt",
+  "createdAt": "2026-10-04T17:48:06.679Z",
+  "props": {
+    "importedPlacement": {
+      "position": "relative"
+    },
+    "data-import-type": "figma",
+    "data-codecaine-id": "16e55a5b-c983-40a9-9a95-a27874298142"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {
+    "width": 540,
+    "height": "1170.69px",
+    "borderTopLeftRadius": "34.35px",
+    "borderTopRightRadius": "34.35px",
+    "borderBottomRightRadius": "34.35px",
+    "borderBottomLeftRadius": "34.35px",
+    "backgroundColor": "rgb(255, 254, 252)",
+    "overflowX": "hidden",
+    "overflowY": "hidden",
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "left": -1448.3021362984632,
+    "top": 4716.002620268558
+  },
+  "updatedAt": "2026-10-04T17:48:23.287Z"
+}

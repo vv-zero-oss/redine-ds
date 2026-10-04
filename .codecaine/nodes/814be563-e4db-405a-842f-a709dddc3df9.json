@@ -1,0 +1,31 @@
+{
+  "id": "814be563-e4db-405a-842f-a709dddc3df9",
+  "type": "text",
+  "tag": "p",
+  "name": "Location Text",
+  "parent": "60d03d6a-d33f-470c-bd6b-acc9a3b0088b",
+  "order": "V",
+  "createdAt": "2026-10-04T17:48:06.679Z",
+  "props": {
+    "text": "My Location",
+    "data-import-type": "figma",
+    "data-codecaine-id": "9f46d9b2-30fd-45af-a1c2-00656d668451"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "145.65px",
+    "top": "20.61px",
+    "width": "317.4px",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "21.98px",
+    "fontWeight": "500",
+    "lineHeight": "1",
+    "color": "rgb(144, 139, 135)",
+    "textAlign": "right"
+  },
+  "updatedAt": "2026-10-04T17:48:06.679Z"
+}

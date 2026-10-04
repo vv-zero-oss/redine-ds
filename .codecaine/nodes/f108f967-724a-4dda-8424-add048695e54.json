@@ -1,0 +1,31 @@
+{
+  "id": "f108f967-724a-4dda-8424-add048695e54",
+  "type": "text",
+  "tag": "p",
+  "name": "All-day Label",
+  "parent": "09fd0312-32c4-42aa-9af9-94ceb50db743",
+  "order": "G",
+  "createdAt": "2026-10-04T17:48:06.679Z",
+  "props": {
+    "text": "All-day",
+    "data-import-type": "figma",
+    "data-codecaine-id": "bc7a0e41-6577-4361-9ccf-cace4d829f67"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "21.98px",
+    "top": "21.98px",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "21.98px",
+    "fontWeight": "500",
+    "lineHeight": "1",
+    "color": "rgb(25, 22, 20)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-04T17:48:06.679Z"
+}

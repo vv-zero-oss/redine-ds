@@ -1,0 +1,31 @@
+{
+  "id": "a550da97-bf23-463e-88ab-400e0d6ddd1d",
+  "type": "text",
+  "tag": "p",
+  "name": "URL Text",
+  "parent": "91844624-41a2-42ea-9252-c11fcfb4d033",
+  "order": "V",
+  "createdAt": "2026-10-04T17:48:06.679Z",
+  "props": {
+    "text": "https://",
+    "data-import-type": "figma",
+    "data-codecaine-id": "b1353717-e196-438b-9d5f-57a3b73bf67b"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "145.65px",
+    "top": "21.98px",
+    "width": "317.4px",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "21.98px",
+    "fontWeight": "500",
+    "lineHeight": "1",
+    "color": "rgb(144, 139, 135)",
+    "textAlign": "right"
+  },
+  "updatedAt": "2026-10-04T17:48:06.679Z"
+}

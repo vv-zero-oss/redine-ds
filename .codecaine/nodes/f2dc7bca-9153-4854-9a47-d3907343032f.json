@@ -1,0 +1,31 @@
+{
+  "id": "f2dc7bca-9153-4854-9a47-d3907343032f",
+  "type": "text",
+  "tag": "p",
+  "name": "Ends Label",
+  "parent": "89a5a9b7-1c35-4e4a-9049-98471aabeed9",
+  "order": "G",
+  "createdAt": "2026-10-04T17:48:06.679Z",
+  "props": {
+    "text": "Ends",
+    "data-import-type": "figma",
+    "data-codecaine-id": "bd82a36b-95e8-42b5-a843-0e9997c6ad8d"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "21.98px",
+    "top": "20.61px",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "21.98px",
+    "fontWeight": "500",
+    "lineHeight": "1",
+    "color": "rgb(25, 22, 20)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-04T17:48:06.679Z"
+}

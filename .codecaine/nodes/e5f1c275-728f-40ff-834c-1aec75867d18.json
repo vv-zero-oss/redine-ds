@@ -1,0 +1,29 @@
+{
+  "id": "e5f1c275-728f-40ff-834c-1aec75867d18",
+  "type": "frame",
+  "tag": "div",
+  "name": "Notes Container",
+  "parent": "f018ed02-68e2-4570-8b4f-ea3fb8b7edd3",
+  "order": "V",
+  "createdAt": "2026-10-04T17:48:06.679Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "89568c2d-7b3b-4f95-a8ca-f84707b0f166"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "65.95px",
+    "width": "485.04px",
+    "height": "131.91px",
+    "borderTopLeftRadius": "0px",
+    "borderTopRightRadius": "0px",
+    "borderBottomRightRadius": "13.74px",
+    "borderBottomLeftRadius": "13.74px",
+    "borderTopWidth": "1.37px",
+    "borderTopStyle": "solid",
+    "borderTopColor": "rgb(224, 222, 220)",
+    "backgroundColor": "rgb(245, 243, 242)"
+  },
+  "updatedAt": "2026-10-04T17:48:06.679Z"
+}

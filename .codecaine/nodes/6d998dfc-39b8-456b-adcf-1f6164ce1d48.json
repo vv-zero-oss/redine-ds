@@ -1,0 +1,31 @@
+{
+  "id": "6d998dfc-39b8-456b-adcf-1f6164ce1d48",
+  "type": "text",
+  "tag": "p",
+  "name": "Notes Label",
+  "parent": "e5f1c275-728f-40ff-834c-1aec75867d18",
+  "order": "V",
+  "createdAt": "2026-10-04T17:48:06.679Z",
+  "props": {
+    "text": "Notes",
+    "data-import-type": "figma",
+    "data-codecaine-id": "69f869cb-50fa-4a5a-9961-bb0c7bf2f61a"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "21.98px",
+    "top": "20.61px",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "21.98px",
+    "fontWeight": "500",
+    "lineHeight": "1",
+    "color": "rgb(143, 138, 134)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-04T17:48:06.679Z"
+}

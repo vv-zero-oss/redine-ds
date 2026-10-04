@@ -1,0 +1,21 @@
+{
+  "id": "735b7049-e53c-4daa-a73c-6a5111e6e1ee",
+  "type": "frame",
+  "tag": "div",
+  "name": "Time",
+  "parent": "dce712e4-4399-42d3-ad7f-907bf656640b",
+  "order": "G",
+  "createdAt": "2026-10-04T17:47:55.820Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "9c35e0d6-580f-41a9-8cd9-1408d396be26"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "140.5px",
+    "height": "54px"
+  },
+  "updatedAt": "2026-10-04T17:47:55.820Z"
+}

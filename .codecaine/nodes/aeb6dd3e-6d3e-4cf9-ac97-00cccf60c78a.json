@@ -1,0 +1,29 @@
+{
+  "id": "aeb6dd3e-6d3e-4cf9-ac97-00cccf60c78a",
+  "type": "frame",
+  "tag": "div",
+  "name": "Alert Container",
+  "parent": "b01d181e-6c3c-4d06-8238-fbecf136c194",
+  "order": "l",
+  "createdAt": "2026-10-04T17:48:06.679Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "5e3148a6-e432-47bf-9db5-ab9bd8692ce2"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "65.95px",
+    "width": "485.04px",
+    "height": "65.95px",
+    "borderTopLeftRadius": "0px",
+    "borderTopRightRadius": "0px",
+    "borderBottomRightRadius": "13.74px",
+    "borderBottomLeftRadius": "13.74px",
+    "borderTopWidth": "1.37px",
+    "borderTopStyle": "solid",
+    "borderTopColor": "rgb(224, 222, 220)",
+    "backgroundColor": "rgb(245, 243, 242)"
+  },
+  "updatedAt": "2026-10-04T17:48:06.679Z"
+}

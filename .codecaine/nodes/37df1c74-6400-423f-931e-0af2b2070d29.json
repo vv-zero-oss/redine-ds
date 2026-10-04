@@ -1,0 +1,19 @@
+{
+  "id": "37df1c74-6400-423f-931e-0af2b2070d29",
+  "type": "frame",
+  "tag": "div",
+  "name": "Alert Icon",
+  "parent": "0f175ea1-4dda-4c88-b384-62f13896f250",
+  "order": "V",
+  "createdAt": "2026-10-04T17:47:55.820Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "461b6fc7-4807-445b-84b2-cb69c9996959"
+  },
+  "style": {
+    "width": "16.49px",
+    "flexShrink": "0",
+    "height": "16.49px"
+  },
+  "updatedAt": "2026-10-04T17:47:55.820Z"
+}

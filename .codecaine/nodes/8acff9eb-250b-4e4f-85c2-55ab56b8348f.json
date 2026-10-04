@@ -1,0 +1,29 @@
+{
+  "id": "8acff9eb-250b-4e4f-85c2-55ab56b8348f",
+  "type": "text",
+  "tag": "p",
+  "name": "Alert Time",
+  "parent": "0f175ea1-4dda-4c88-b384-62f13896f250",
+  "order": "G",
+  "createdAt": "2026-10-04T17:47:55.820Z",
+  "props": {
+    "text": "15 minutes before",
+    "data-import-type": "figma",
+    "data-codecaine-id": "07aa0a70-4ed3-4f3c-a61a-cc31a9a3be15"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "21.98px",
+    "fontWeight": "500",
+    "lineHeight": "1",
+    "color": "rgb(143, 138, 134)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-04T17:47:55.820Z"
+}

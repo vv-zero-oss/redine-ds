@@ -1,0 +1,36 @@
+{
+  "id": "3cfa1833-2bea-4f99-b4eb-13af8af8a695",
+  "type": "section",
+  "tag": "div",
+  "name": "date",
+  "parent": "5fc23a82-9c1d-4ff7-b16e-37c1b6b9f0e3",
+  "order": "V",
+  "createdAt": "2026-10-04T17:47:55.820Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "87dcd06b-cb0e-4950-a6d1-317b1657ced5"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "306.41px",
+    "top": "6.87px",
+    "width": "156.98px",
+    "height": "49.47px",
+    "borderTopLeftRadius": "9.62px",
+    "borderTopRightRadius": "9.62px",
+    "borderBottomRightRadius": "9.62px",
+    "borderBottomLeftRadius": "9.62px",
+    "backgroundColor": "rgb(217, 216, 215)",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "rowGap": "13.74px",
+    "columnGap": "13.74px",
+    "paddingTop": "13.74px",
+    "paddingRight": "16.49px",
+    "paddingBottom": "13.74px",
+    "paddingLeft": "16.49px"
+  },
+  "updatedAt": "2026-10-04T17:47:55.820Z"
+}

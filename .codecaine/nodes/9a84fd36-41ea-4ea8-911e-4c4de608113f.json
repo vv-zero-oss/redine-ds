@@ -1,0 +1,31 @@
+{
+  "id": "9a84fd36-41ea-4ea8-911e-4c4de608113f",
+  "type": "text",
+  "tag": "p",
+  "name": "Button text",
+  "parent": "e0e21104-2ab4-4429-84ac-b0cbfabcf8c3",
+  "order": "V",
+  "createdAt": "2026-10-04T17:48:06.679Z",
+  "props": {
+    "text": "Create Event",
+    "data-import-type": "figma",
+    "data-codecaine-id": "12342e4a-dd61-4d39-a917-239b90ae33fa"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "172.44px",
+    "top": "21.98px",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "21.98px",
+    "fontWeight": "700",
+    "lineHeight": "1",
+    "color": "rgb(255, 254, 252)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-04T17:48:06.679Z"
+}

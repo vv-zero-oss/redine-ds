@@ -1,0 +1,29 @@
+{
+  "id": "aeb29e9f-3cbe-4a79-a451-3d12aae43ab6",
+  "type": "text",
+  "tag": "p",
+  "name": "Alert Value",
+  "parent": "4a3617a0-9eb8-4c6e-b554-8e7ab03d536c",
+  "order": "V",
+  "createdAt": "2026-10-04T17:48:06.679Z",
+  "props": {
+    "text": "15 minutes before",
+    "data-import-type": "figma",
+    "data-codecaine-id": "0006274c-7ce5-4d38-85ae-6639468b1847"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "21.98px",
+    "fontWeight": "500",
+    "lineHeight": "1",
+    "color": "rgb(0, 102, 153)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-04T17:48:06.679Z"
+}

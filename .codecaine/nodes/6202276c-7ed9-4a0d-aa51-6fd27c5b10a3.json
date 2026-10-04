@@ -1,0 +1,29 @@
+{
+  "id": "6202276c-7ed9-4a0d-aa51-6fd27c5b10a3",
+  "type": "frame",
+  "tag": "div",
+  "name": "Starts Container",
+  "parent": "976d1d7d-7edc-4f35-b8c8-19b12139c839",
+  "order": "G",
+  "createdAt": "2026-10-04T17:48:06.679Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "ce1c3493-b551-4a30-b55e-08e352cb0f7e"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "485.04px",
+    "height": "65.95px",
+    "borderTopLeftRadius": "13.74px",
+    "borderTopRightRadius": "13.74px",
+    "borderBottomRightRadius": "13.74px",
+    "borderBottomLeftRadius": "13.74px",
+    "borderTopWidth": "1.37px",
+    "borderTopStyle": "solid",
+    "borderTopColor": "rgb(224, 222, 220)",
+    "backgroundColor": "rgb(245, 243, 242)"
+  },
+  "updatedAt": "2026-10-04T17:48:06.679Z"
+}

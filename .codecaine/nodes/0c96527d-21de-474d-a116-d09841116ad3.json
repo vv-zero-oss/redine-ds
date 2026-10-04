@@ -1,0 +1,31 @@
+{
+  "id": "0c96527d-21de-474d-a116-d09841116ad3",
+  "type": "text",
+  "tag": "p",
+  "name": "Label",
+  "parent": "62000d84-b245-458e-b3b3-548b73fa1542",
+  "order": "G",
+  "createdAt": "2026-10-04T17:47:55.820Z",
+  "props": {
+    "text": "Alert",
+    "data-import-type": "figma",
+    "data-codecaine-id": "61ab9c79-f7a3-4dc6-883c-e4ccaf045850"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "21.98px",
+    "top": "21.98px",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "21.98px",
+    "fontWeight": "500",
+    "lineHeight": "1",
+    "color": "rgb(25, 22, 20)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-04T17:47:55.820Z"
+}

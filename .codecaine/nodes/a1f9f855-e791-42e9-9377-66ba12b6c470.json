@@ -1,0 +1,31 @@
+{
+  "id": "a1f9f855-e791-42e9-9377-66ba12b6c470",
+  "type": "text",
+  "tag": "p",
+  "name": "Label",
+  "parent": "1ade1f90-18c7-4774-a17d-a3c37800903e",
+  "order": "G",
+  "createdAt": "2026-10-04T17:47:55.820Z",
+  "props": {
+    "text": "All-day",
+    "data-import-type": "figma",
+    "data-codecaine-id": "3fdf4eb7-bd0d-45d8-956a-1821fa804ada"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "21.98px",
+    "top": "21.98px",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "21.98px",
+    "fontWeight": "500",
+    "lineHeight": "1",
+    "color": "rgb(25, 22, 20)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-04T17:47:55.820Z"
+}

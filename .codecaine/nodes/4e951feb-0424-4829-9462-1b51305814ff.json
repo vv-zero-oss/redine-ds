@@ -1,0 +1,27 @@
+{
+  "id": "4e951feb-0424-4829-9462-1b51305814ff",
+  "type": "frame",
+  "tag": "div",
+  "name": "Knob",
+  "parent": "dd87ca4a-8763-4530-b0bd-837704750361",
+  "order": "V",
+  "createdAt": "2026-10-04T17:47:55.820Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "0a36a2c1-c7a0-4738-b455-a86f9d6c1f5d"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "2.75px",
+    "top": "2.75px",
+    "width": "37.1px",
+    "height": "37.1px",
+    "borderTopLeftRadius": "137.4px",
+    "borderTopRightRadius": "137.4px",
+    "borderBottomRightRadius": "137.4px",
+    "borderBottomLeftRadius": "137.4px",
+    "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 1.37px, rgba(0, 0, 0, 0) 0px 4.12px 10.99px 0px, rgba(0, 0, 0, 0) 0px 4.12px 1.37px 0px",
+    "backgroundColor": "rgb(242, 105, 0)"
+  },
+  "updatedAt": "2026-10-04T17:47:55.820Z"
+}

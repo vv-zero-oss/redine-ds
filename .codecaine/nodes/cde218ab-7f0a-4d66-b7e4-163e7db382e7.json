@@ -1,0 +1,28 @@
+{
+  "id": "cde218ab-7f0a-4d66-b7e4-163e7db382e7",
+  "type": "frame",
+  "tag": "div",
+  "name": "Location Container",
+  "parent": "ea894ae5-7082-4aab-b872-fbdba3476b61",
+  "order": "V",
+  "createdAt": "2026-10-04T17:47:55.820Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "b075e480-ab04-47c9-8b4c-982ef973f54f"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "98.93px",
+    "width": "485.04px",
+    "height": "65.95px",
+    "borderTopLeftRadius": "13.74px",
+    "borderTopRightRadius": "13.74px",
+    "borderBottomRightRadius": "13.74px",
+    "borderBottomLeftRadius": "13.74px",
+    "backgroundColor": "rgb(245, 243, 242)",
+    "overflowX": "hidden",
+    "overflowY": "hidden"
+  },
+  "updatedAt": "2026-10-04T17:47:55.820Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6f166eac-5579-4d4d-8329-4171f5924bc5",
+  "type": "text",
+  "tag": "p",
+  "name": "Label",
+  "parent": "5fc23a82-9c1d-4ff7-b16e-37c1b6b9f0e3",
+  "order": "G",
+  "createdAt": "2026-10-04T17:47:55.820Z",
+  "props": {
+    "text": "Ends",
+    "data-import-type": "figma",
+    "data-codecaine-id": "84746ac3-8f0e-4b8b-a13b-41461f2da3e7"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "21.98px",
+    "top": "20.61px",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "21.98px",
+    "fontWeight": "500",
+    "lineHeight": "1",
+    "color": "rgb(25, 22, 20)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-04T17:47:55.820Z"
+}

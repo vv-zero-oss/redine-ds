@@ -1,0 +1,27 @@
+{
+  "id": "c326ed0a-150e-46bf-9614-2817e18ded2b",
+  "type": "frame",
+  "tag": "div",
+  "name": "Home Indicator",
+  "parent": "f3f21505-59bc-4666-9232-5f6d7e4d8e7a",
+  "order": "V",
+  "createdAt": "2026-10-04T17:47:55.820Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "70b77042-45c6-41df-a1a7-07b5b14d76a2"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "127px",
+    "top": "8px",
+    "width": "139px",
+    "height": "5px",
+    "transform": "rotate(180deg)",
+    "borderTopLeftRadius": "100px",
+    "borderTopRightRadius": "100px",
+    "borderBottomRightRadius": "100px",
+    "borderBottomLeftRadius": "100px",
+    "backgroundColor": "rgb(0, 0, 0)"
+  },
+  "updatedAt": "2026-10-04T17:47:55.820Z"
+}
