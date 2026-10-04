@@ -1,0 +1,28 @@
+{
+  "id": "c675e368-f208-468d-91df-8255cda9dccd",
+  "type": "text",
+  "tag": "p",
+  "parent": "20ed1504-fd53-4c76-bd74-21aa44721261",
+  "order": "V",
+  "createdAt": "2026-10-04T17:50:57.339Z",
+  "props": {
+    "text": "Vision OS",
+    "data-import-type": "figma",
+    "data-codecaine-id": "4ae862b3-a7c9-43d4-9566-fd0a930a12a3"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "\"SF Pro Display\", sans-serif",
+    "fontSize": "110.85px",
+    "fontWeight": "500",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-04T17:50:57.339Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6b5f6db3-198d-4485-a196-d3f2790491d2",
+  "type": "text",
+  "tag": "p",
+  "name": "Label",
+  "parent": "a614c81d-a5d4-485f-ad07-23ef4285196e",
+  "order": "V",
+  "createdAt": "2026-10-04T17:50:04.286Z",
+  "props": {
+    "text": "Buy",
+    "data-import-type": "figma",
+    "data-codecaine-id": "24c8cb69-7a4b-4c2f-9a42-43534070cebb"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "\"SF Pro\", sans-serif",
+    "fontSize": "19px",
+    "fontWeight": "500",
+    "lineHeight": "24px",
+    "color": "rgba(255, 255, 255, 0.96)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap",
+    "overflowX": "hidden",
+    "overflowY": "hidden",
+    "textOverflow": "ellipsis"
+  },
+  "updatedAt": "2026-10-04T17:50:04.286Z"
+}

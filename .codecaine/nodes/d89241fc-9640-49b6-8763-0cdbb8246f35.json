@@ -1,0 +1,34 @@
+{
+  "id": "d89241fc-9640-49b6-8763-0cdbb8246f35",
+  "type": "text",
+  "tag": "p",
+  "name": "Title",
+  "parent": "bf2773cf-813b-4377-beb9-8d070171e149",
+  "order": "V",
+  "createdAt": "2026-10-04T17:50:04.286Z",
+  "props": {
+    "text": "£109.99",
+    "data-import-type": "figma",
+    "data-codecaine-id": "5073906c-df29-44c4-8da7-1340b43d609c"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexGrow": "1",
+    "flexShrink": "1",
+    "flexBasis": "0px",
+    "minWidth": "0px",
+    "alignSelf": "stretch",
+    "fontFamily": "\"SF Pro\", sans-serif",
+    "fontSize": "7.11px",
+    "fontWeight": "500",
+    "lineHeight": "9.48px",
+    "color": "rgba(255, 255, 255, 0.96)",
+    "overflowX": "hidden",
+    "overflowY": "hidden",
+    "textOverflow": "ellipsis"
+  },
+  "updatedAt": "2026-10-04T17:50:04.286Z"
+}

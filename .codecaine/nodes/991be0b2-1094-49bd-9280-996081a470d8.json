@@ -1,0 +1,34 @@
+{
+  "id": "991be0b2-1094-49bd-9280-996081a470d8",
+  "type": "text",
+  "tag": "p",
+  "name": "Title",
+  "parent": "70f8e737-aa93-4244-afdf-87562e0011c4",
+  "order": "V",
+  "createdAt": "2026-10-04T17:50:04.286Z",
+  "props": {
+    "text": "Men’s Shoe",
+    "data-import-type": "figma",
+    "data-codecaine-id": "1415de4c-779e-4c7a-8412-5f87a183ed7b"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexGrow": "1",
+    "flexShrink": "1",
+    "flexBasis": "0px",
+    "minWidth": "0px",
+    "alignSelf": "stretch",
+    "fontFamily": "\"SF Pro\", sans-serif",
+    "fontSize": "8.06px",
+    "fontWeight": "500",
+    "lineHeight": "10.43px",
+    "color": "rgba(255, 255, 255, 0.96)",
+    "overflowX": "hidden",
+    "overflowY": "hidden",
+    "textOverflow": "ellipsis"
+  },
+  "updatedAt": "2026-10-04T17:50:04.286Z"
+}

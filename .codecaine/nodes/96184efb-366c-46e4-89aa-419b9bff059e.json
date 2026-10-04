@@ -1,0 +1,21 @@
+{
+  "id": "96184efb-366c-46e4-89aa-419b9bff059e",
+  "type": "frame",
+  "tag": "div",
+  "name": "Group 28",
+  "parent": "1a85e5e2-e16c-4da9-ad1c-8f47a81bcab4",
+  "order": "G",
+  "createdAt": "2026-10-04T17:50:04.286Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "6b6ff0d3-905a-4d14-888b-ab4afa68652d"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "4px",
+    "top": "21px",
+    "width": "137px",
+    "height": "52px"
+  },
+  "updatedAt": "2026-10-04T17:50:04.286Z"
+}

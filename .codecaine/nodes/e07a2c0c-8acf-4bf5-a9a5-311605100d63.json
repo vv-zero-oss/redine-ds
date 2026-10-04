@@ -1,0 +1,28 @@
+{
+  "id": "e07a2c0c-8acf-4bf5-a9a5-311605100d63",
+  "type": "text",
+  "tag": "p",
+  "parent": "3354c87a-0e04-41fd-bd4b-788f365502ba",
+  "order": "V",
+  "createdAt": "2026-10-04T17:50:57.339Z",
+  "props": {
+    "text": "Airbnb App Concept",
+    "data-import-type": "figma",
+    "data-codecaine-id": "e5c730a6-8791-42f8-b264-0b08b6a30c3a"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "\"SF Pro\", sans-serif",
+    "fontSize": "24px",
+    "fontWeight": "700",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-04T17:50:57.339Z"
+}

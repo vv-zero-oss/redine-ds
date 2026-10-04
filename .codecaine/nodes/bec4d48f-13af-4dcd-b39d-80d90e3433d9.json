@@ -1,0 +1,21 @@
+{
+  "id": "bec4d48f-13af-4dcd-b39d-80d90e3433d9",
+  "type": "frame",
+  "tag": "div",
+  "name": "Window and Window Controls",
+  "parent": "cd556986-a2be-4124-bb5e-2246f79b648e",
+  "order": "V",
+  "createdAt": "2026-10-04T17:50:04.286Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "8a7f8ad9-ecfb-4e9c-826b-681b7b9d109b"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "665px",
+    "top": "374px",
+    "width": "1280px",
+    "height": "720px"
+  },
+  "updatedAt": "2026-10-04T17:50:04.286Z"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "3354c87a-0e04-41fd-bd4b-788f365502ba",
+  "type": "section",
+  "tag": "button",
+  "name": "button",
+  "parent": "8e7f4b83-28c0-4bc8-b439-02fa24cf7fee",
+  "order": "V",
+  "createdAt": "2026-10-04T17:50:57.339Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "fdf35e1c-facc-4c97-9963-3d06ceff1601"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": "25.83px",
+    "paddingRight": "51.66px",
+    "paddingBottom": "25.83px",
+    "paddingLeft": "51.66px",
+    "borderWidth": 0,
+    "borderStyle": "solid",
+    "borderColor": "currentColor",
+    "backgroundColor": "rgba(255, 255, 255, 0.3)",
+    "width": "330.33px",
+    "flexShrink": "0",
+    "borderTopLeftRadius": "142.08px",
+    "borderTopRightRadius": "142.08px",
+    "borderBottomRightRadius": "142.08px",
+    "borderBottomLeftRadius": "142.08px",
+    "backdropFilter": "blur(22.6px)",
+    "overflowX": "hidden",
+    "overflowY": "hidden",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "rowGap": "19.37px",
+    "columnGap": "19.37px"
+  },
+  "updatedAt": "2026-10-04T17:50:57.339Z"
+}

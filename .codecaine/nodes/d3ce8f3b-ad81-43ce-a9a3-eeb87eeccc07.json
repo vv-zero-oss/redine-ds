@@ -1,0 +1,25 @@
+{
+  "id": "d3ce8f3b-ad81-43ce-a9a3-eeb87eeccc07",
+  "type": "image",
+  "tag": "img",
+  "name": "ParisRoom - Night",
+  "parent": "03fe9491-370b-42cc-ad72-e214e4f7a30a",
+  "order": "V",
+  "createdAt": "2026-10-04T17:50:04.286Z",
+  "props": {
+    "src": "asset:media/images/ed984e253a2d0bc83379.jpg",
+    "alt": "ParisRoom - Night",
+    "data-import-type": "figma",
+    "data-codecaine-id": "d49f1a51-e003-4e43-96b7-3af0142e4558"
+  },
+  "style": {
+    "display": "block",
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "2992px",
+    "height": "1684px",
+    "objectFit": "cover"
+  },
+  "updatedAt": "2026-10-04T17:50:05.262Z"
+}

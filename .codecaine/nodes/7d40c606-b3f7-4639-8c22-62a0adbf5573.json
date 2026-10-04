@@ -1,0 +1,21 @@
+{
+  "id": "7d40c606-b3f7-4639-8c22-62a0adbf5573",
+  "type": "frame",
+  "tag": "div",
+  "name": "Group 29",
+  "parent": "bec4d48f-13af-4dcd-b39d-80d90e3433d9",
+  "order": "V",
+  "createdAt": "2026-10-04T17:50:04.286Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "57721a37-af90-4c2d-8ff5-ed5b091af7fb"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "186px",
+    "top": "261px",
+    "width": "298px",
+    "height": "157px"
+  },
+  "updatedAt": "2026-10-04T17:50:04.286Z"
+}

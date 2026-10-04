@@ -1,0 +1,25 @@
+{
+  "id": "0eea148b-7dec-4423-bdc9-3a4f82239d21",
+  "type": "frame",
+  "tag": "div",
+  "name": "Controls",
+  "parent": "bec4d48f-13af-4dcd-b39d-80d90e3433d9",
+  "order": "8",
+  "createdAt": "2026-10-04T17:50:04.286Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "730b002d-b268-4b2e-9110-7c4b8fc8eeca"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "720px",
+    "width": "1280px",
+    "height": "37px",
+    "borderTopLeftRadius": "44px",
+    "borderTopRightRadius": "44px",
+    "borderBottomRightRadius": "44px",
+    "borderBottomLeftRadius": "44px"
+  },
+  "updatedAt": "2026-10-04T17:50:04.286Z"
+}

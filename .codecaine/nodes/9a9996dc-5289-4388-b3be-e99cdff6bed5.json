@@ -1,0 +1,35 @@
+{
+  "id": "9a9996dc-5289-4388-b3be-e99cdff6bed5",
+  "type": "frame",
+  "tag": "div",
+  "name": "Row - Inset",
+  "parent": "796ba3ea-2c2d-4d82-b301-4b3ecbcaf382",
+  "order": "l",
+  "createdAt": "2026-10-04T17:50:04.286Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "4f72f950-5a68-43cd-8bfa-2170ca59e890"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "489px",
+    "top": "138.25px",
+    "width": "232px",
+    "height": "94px",
+    "borderTopLeftRadius": "7.59px",
+    "borderTopRightRadius": "7.59px",
+    "borderBottomRightRadius": "7.59px",
+    "borderBottomLeftRadius": "7.59px",
+    "borderBottomWidth": "0.47px",
+    "borderBottomStyle": "solid",
+    "borderBottomColor": "rgba(255, 255, 255, 0.07)",
+    "backgroundImage": "linear-gradient(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)), linear-gradient(rgba(214, 214, 214, 0.45), rgba(214, 214, 214, 0.45))",
+    "backgroundSize": "auto, auto",
+    "backgroundPositionX": "center, center",
+    "backgroundPositionY": "center, center",
+    "backgroundRepeat": "no-repeat, no-repeat",
+    "overflowX": "hidden",
+    "overflowY": "hidden"
+  },
+  "updatedAt": "2026-10-04T17:50:04.286Z"
+}

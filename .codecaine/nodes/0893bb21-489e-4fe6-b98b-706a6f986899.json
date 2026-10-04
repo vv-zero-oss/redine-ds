@@ -1,0 +1,32 @@
+{
+  "id": "0893bb21-489e-4fe6-b98b-706a6f986899",
+  "type": "text",
+  "tag": "p",
+  "name": "Title",
+  "parent": "e593f428-6cbe-49db-9b38-3ea59a8dbeb1",
+  "order": "V",
+  "createdAt": "2026-10-04T17:50:04.286Z",
+  "props": {
+    "text": "Nike Dunk Low Retro",
+    "data-import-type": "figma",
+    "data-codecaine-id": "60b5e8c7-eaea-4905-834d-718644ddc0e7"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "width": "128px",
+    "flexShrink": "0",
+    "alignSelf": "stretch",
+    "fontFamily": "\"SF Pro\", sans-serif",
+    "fontSize": "11.38px",
+    "fontWeight": "700",
+    "lineHeight": "15.17px",
+    "color": "rgba(255, 255, 255, 0.96)",
+    "overflowX": "hidden",
+    "overflowY": "hidden",
+    "textOverflow": "ellipsis"
+  },
+  "updatedAt": "2026-10-04T17:50:04.286Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "a9cc6acd-b2fe-473d-8b1d-d8576593f6c4",
+  "type": "image",
+  "tag": "img",
+  "name": "air-max-90-gore-tex-shoes-fQjC4b 1",
+  "parent": "1a85e5e2-e16c-4da9-ad1c-8f47a81bcab4",
+  "order": "V",
+  "createdAt": "2026-10-04T17:50:04.286Z",
+  "props": {
+    "src": "asset:media/images/a175006c839b08fcb296.png",
+    "alt": "air-max-90-gore-tex-shoes-fQjC4b 1",
+    "data-import-type": "figma",
+    "data-codecaine-id": "93cc7dfa-e65c-4178-8623-e053d120d929"
+  },
+  "style": {
+    "display": "block",
+    "position": "absolute",
+    "left": "90.6px",
+    "top": "1.83px",
+    "width": "186.02px",
+    "height": "90.1px",
+    "objectFit": "fill"
+  },
+  "updatedAt": "2026-10-04T17:50:04.800Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "adcc63a0-7ada-4116-92f6-3f2e8241620c",
+  "type": "frame",
+  "tag": "div",
+  "name": "Tab 4",
+  "parent": "9791ee80-6d9f-479f-9084-5a63dffb223d",
+  "order": "V",
+  "createdAt": "2026-10-04T17:50:04.286Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "6a3a8e9c-a26b-418a-ab1e-64e56c95ca20"
+  },
+  "style": {
+    "width": "44px",
+    "height": "44px",
+    "flexShrink": "0",
+    "borderTopLeftRadius": "100px",
+    "borderTopRightRadius": "100px",
+    "borderBottomRightRadius": "100px",
+    "borderBottomLeftRadius": "100px",
+    "position": "relative"
+  },
+  "updatedAt": "2026-10-04T17:50:04.286Z"
+}
