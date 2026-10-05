@@ -1,0 +1,31 @@
+{
+  "id": "484bafbc-9cf5-4967-928d-8662903e9f33",
+  "type": "text",
+  "tag": "p",
+  "name": "Headline 1",
+  "parent": "73987051-ab42-495d-aaf2-663ab458afb2",
+  "order": "O",
+  "createdAt": "2026-10-05T04:35:10.175Z",
+  "props": {
+    "text": "Alexander",
+    "data-import-type": "figma",
+    "data-codecaine-id": "23f686bf-f05b-4d35-892c-632d978b47b5"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "48px",
+    "top": "183px",
+    "width": "984px",
+    "fontFamily": "\"Instrument Sans\", sans-serif",
+    "fontSize": "120px",
+    "fontWeight": "700",
+    "lineHeight": "1",
+    "letterSpacing": "-3.6px",
+    "color": "rgb(92, 62, 152)"
+  },
+  "updatedAt": "2026-10-05T04:35:10.175Z"
+}

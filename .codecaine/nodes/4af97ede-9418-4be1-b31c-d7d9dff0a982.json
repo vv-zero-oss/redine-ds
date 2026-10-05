@@ -1,0 +1,32 @@
+{
+  "id": "4af97ede-9418-4be1-b31c-d7d9dff0a982",
+  "type": "text",
+  "tag": "p",
+  "name": "Headline 2",
+  "parent": "73987051-ab42-495d-aaf2-663ab458afb2",
+  "order": "G",
+  "createdAt": "2026-10-05T04:35:10.175Z",
+  "props": {
+    "text": "Turns 30!",
+    "data-import-type": "figma",
+    "data-codecaine-id": "aafe203b-a72e-4b2e-bf85-ab184dd22a23"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "487px",
+    "top": "329px",
+    "width": "545px",
+    "fontFamily": "\"Instrument Sans\", sans-serif",
+    "fontSize": "120px",
+    "fontWeight": "700",
+    "lineHeight": "normal",
+    "letterSpacing": "-3.6px",
+    "color": "rgb(92, 62, 152)",
+    "textAlign": "right"
+  },
+  "updatedAt": "2026-10-05T04:35:10.175Z"
+}

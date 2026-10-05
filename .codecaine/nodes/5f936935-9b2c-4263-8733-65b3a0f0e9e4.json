@@ -1,0 +1,35 @@
+{
+  "id": "5f936935-9b2c-4263-8733-65b3a0f0e9e4",
+  "type": "frame",
+  "tag": "div",
+  "name": "Organic shape birthday Instagram portrait post",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzzzV",
+  "createdAt": "2026-10-05T04:35:22.779Z",
+  "props": {
+    "importedPlacement": {
+      "position": "relative"
+    },
+    "data-import-type": "figma",
+    "data-codecaine-id": "754853bf-7280-4b1d-85b1-df35581906fd"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {
+    "width": 1080,
+    "height": "1350px",
+    "backgroundColor": "rgb(228, 224, 243)",
+    "overflowX": "hidden",
+    "overflowY": "hidden",
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "left": 10328,
+    "top": 16771
+  },
+  "updatedAt": "2026-10-05T04:35:22.779Z"
+}
