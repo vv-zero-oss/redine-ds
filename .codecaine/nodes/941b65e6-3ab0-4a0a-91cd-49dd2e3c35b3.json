@@ -1,0 +1,27 @@
+{
+  "id": "941b65e6-3ab0-4a0a-91cd-49dd2e3c35b3",
+  "type": "text",
+  "tag": "p",
+  "parent": "db4bd3c5-9795-4cf0-8d99-d2365ca87286",
+  "order": "V",
+  "createdAt": "2026-10-05T04:21:04.674Z",
+  "props": {
+    "text": "We need to update the Terraform config before the Kubernetes cluster auto-scales the PyTorch jobs are already queued in MLflow",
+    "data-import-type": "figma",
+    "data-codecaine-id": "3b83b37e-d5d3-4743-a50c-153056894529"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "width": "723.07px",
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "23.38px",
+    "fontWeight": "400",
+    "lineHeight": "1.24",
+    "color": "rgb(255, 255, 255)"
+  },
+  "updatedAt": "2026-10-05T04:21:04.674Z"
+}

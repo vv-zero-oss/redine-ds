@@ -7,6 +7,10 @@
     {
       "kind": "google",
       "family": "Inter"
+    },
+    {
+      "kind": "google",
+      "family": "Lemon"
     }
   ],
   "variables": {
