@@ -1,0 +1,39 @@
+{
+  "id": "fbaa08a6-e266-40cb-82d7-fe01df05a0e9",
+  "type": "section",
+  "tag": "figure",
+  "name": "figure",
+  "parent": "7b659e68-806e-459d-bde3-f8f05fac1597",
+  "order": "l",
+  "createdAt": "2026-10-05T07:05:18.248Z",
+  "props": {
+    "data-aurora": "stage",
+    "importedWidth": 1200,
+    "data-codecaine-id": "28028215-1bb0-43a3-85e7-575e91e71895"
+  },
+  "script": "const stage = element;\n    const toggle = stage.querySelector('[data-aurora=\"toggle\"]');\n    const label = stage.querySelector('[data-aurora=\"toggle-label\"]');\n    const iconPause = stage.querySelector('[data-aurora=\"icon-pause\"]');\n    const iconPlay = stage.querySelector('[data-aurora=\"icon-play\"]');\n\n    const read = (name, fallback) => {\n      const value = getComputedStyle(stage).getPropertyValue(name).trim();\n      return value || fallback;\n    };\n    const ms = (name, fallback) => parseFloat(read(name, fallback)) || parseFloat(fallback);\n    const ease = read('--aurora-ease-breathe', 'cubic-bezier(0.37, 0, 0.63, 1)');\n\n    const spin = (key, duration, direction) => {\n      const node = stage.querySelector('[data-aurora=\"' + key + '\"]');\n      if (!node) return null;\n      const from = direction > 0 ? 'rotate(0deg)' : 'rotate(360deg)';\n      const to = direction > 0 ? 'rotate(360deg)' : 'rotate(0deg)';\n      return node.animate(\n        [{ transform: from }, { transform: to }],\n        { duration: duration, iterations: Infinity, easing: 'linear' }\n      );\n    };\n\n    const animations = [];\n    const main = spin('orbit-main', ms('--aurora-duration-orbit', '14000ms'), 1);\n    const inner = spin('orbit-inner', ms('--aurora-duration-orbit-inner', '9000ms'), -1);\n    const outer = spin('orbit-outer', ms('--aurora-duration-orbit-outer', '22000ms'), 1);\n    [main, inner, outer].forEach((a) => { if (a) animations.push(a); });\n\n    const halo = stage.querySelector('[data-aurora=\"halo\"]');\n    if (halo) {\n      animations.push(halo.animate(\n        [\n          { transform: 'scale(0.94)', opacity: 0.55 },\n          { transform: 'scale(1.06)', opacity: 1 },\n          { transform: 'scale(0.94)', opacity: 0.55 }\n        ],\n        { duration: ms('--aurora-duration-breathe', '4200ms'), iterations: Infinity, easing: ease }\n      ));\n    }\n\n    const twinkle = ms('--aurora-duration-twinkle', '2600ms');\n    stage.querySelectorAll('[data-aurora=\"mote\"]').forEach((mote, index) => {\n      animations.push(mote.animate(\n        [{ opacity: 0.15 }, { opacity: 0.9 }, { opacity: 0.15 }],\n        {\n          duration: twinkle + index * 320,\n          delay: -index * 410,\n          iterations: Infinity,\n          easing: ease\n        }\n      ));\n    });\n\n    const calm = window.matchMedia('(prefers-reduced-motion: reduce)');\n\n    const setPlaying = (playing) => {\n      animations.forEach((a) => { playing ? a.play() : a.pause(); });\n      toggle.setAttribute('aria-pressed', playing ? 'false' : 'true');\n      label.textContent = playing ? 'Pause orbits' : 'Play orbits';\n      iconPause.hidden = !playing;\n      iconPause.style.display = playing ? 'block' : 'none';\n      iconPlay.hidden = playing;\n      iconPlay.style.display = playing ? 'none' : 'block';\n    };\n\n    const applyCalm = () => {\n      if (calm.matches) {\n        animations.forEach((a) => { a.currentTime = 0; a.pause(); });\n        toggle.disabled = true;\n        toggle.setAttribute('aria-pressed', 'true');\n        toggle.title = 'Motion is off because this device asks for reduced motion';\n        label.textContent = 'Motion off';\n        iconPause.hidden = true;\n        iconPause.style.display = 'none';\n        iconPlay.hidden = false;\n        iconPlay.style.display = 'block';\n      } else {\n        toggle.disabled = false;\n        toggle.removeAttribute('title');\n        setPlaying(true);\n      }\n    };\n\n    toggle.addEventListener('click', () => {\n      setPlaying(toggle.getAttribute('aria-pressed') === 'true');\n    });\n    calm.addEventListener('change', applyCalm);\n    applyCalm();",
+  "sizing": {
+    "width": "fixed",
+    "height": "hug"
+  },
+  "style": {
+    "top": 0,
+    "right": "0px",
+    "bottom": "0px",
+    "left": 0,
+    "paddingTop": "0px",
+    "paddingRight": "0px",
+    "paddingBottom": "0px",
+    "paddingLeft": "0px",
+    "display": "grid",
+    "gridTemplateColumns": "1fr",
+    "gridTemplateRows": "1fr",
+    "pointerEvents": "none",
+    "width": 1200,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T07:05:18.248Z"
+}

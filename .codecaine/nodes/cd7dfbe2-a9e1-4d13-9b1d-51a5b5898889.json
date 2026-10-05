@@ -1,0 +1,15 @@
+{
+  "id": "cd7dfbe2-a9e1-4d13-9b1d-51a5b5898889",
+  "type": "text",
+  "tag": "span",
+  "parent": "840f6c4c-a08d-4b5c-bb9b-9a780c867c68",
+  "order": "l",
+  "createdAt": "2026-10-05T07:05:18.248Z",
+  "props": {
+    "data-aurora": "toggle-label",
+    "text": "Pause orbits",
+    "data-codecaine-id": "9c1c8836-442f-4172-be40-af257b088974"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T07:05:18.248Z"
+}
