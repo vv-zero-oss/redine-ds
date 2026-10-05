@@ -4,7 +4,7 @@
   "tag": "div",
   "name": "Live project",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
-  "order": "zzzzzzzzzzzx",
+  "order": "z",
   "breakpoints": [
     {
       "id": "desktop",
@@ -39,8 +39,8 @@
     "height": 1936.7176228669075,
     "position": "absolute",
     "backgroundColor": "#ffffff",
-    "left": 5380.336104197824,
-    "top": 592.5234381694156
+    "left": 4506.823914778106,
+    "top": 1042.5314049826275
   },
-  "updatedAt": "2026-10-05T12:23:51.672Z"
+  "updatedAt": "2026-10-05T12:26:12.971Z"
 }

@@ -3,7 +3,7 @@
   "type": "image",
   "tag": "img",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
-  "order": "zzzzzzzzzzxl",
+  "order": "U",
   "createdAt": "2026-10-05T12:10:19.980Z",
   "props": {
     "src": "asset:media/images/16d9719848e1c90fd8d3.png",
