@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { SiteShell } from "@/components/landing/site-shell";
 import { Hero } from "@/components/landing/hero";
-import { ProductCover } from "@/components/landing/product-cover";
 import { Features } from "@/components/landing/features";
 import { Gallery } from "@/components/landing/gallery";
 
@@ -22,7 +21,6 @@ export default function LandingPage() {
   return (
     <SiteShell>
       <Hero />
-      <ProductCover />
       <Features />
       <Gallery />
     </SiteShell>
