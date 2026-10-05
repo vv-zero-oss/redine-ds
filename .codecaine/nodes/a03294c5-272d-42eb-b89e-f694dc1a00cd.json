@@ -10,11 +10,11 @@
     "data-styles-preset": "iAX0uyvQs",
     "dir": "auto",
     "data-codecaine-id": "c44eca96-96ca-48cd-9c9b-0d83a1fbd3cb",
-    "text": "From inspiration to creation."
+    "text": "Design tool that works along"
   },
   "sizing": {
     "width": "fixed",
-    "height": "fixed"
+    "height": "hug"
   },
   "style": {
     "boxSizing": "border-box",
@@ -108,5 +108,5 @@
     "--framer-text-alignment": "center",
     "--framer-text-color": "var(--token-3e7d342c-a5e5-4556-ae33-887ada111c73, rgb(20, 20, 20))"
   },
-  "updatedAt": "2026-10-05T12:05:11.206Z"
+  "updatedAt": "2026-10-05T12:07:43.260Z"
 }
