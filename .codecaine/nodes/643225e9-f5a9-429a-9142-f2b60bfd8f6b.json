@@ -1,0 +1,47 @@
+{
+  "id": "643225e9-f5a9-429a-9142-f2b60bfd8f6b",
+  "type": "liveproject",
+  "tag": "div",
+  "name": "Live project",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zt",
+  "breakpoints": [
+    {
+      "id": "desktop",
+      "label": "Desktop",
+      "minWidth": 1280,
+      "width": 1280
+    },
+    {
+      "id": "tablet",
+      "label": "Tablet",
+      "minWidth": 800,
+      "width": 834
+    },
+    {
+      "id": "mobile",
+      "label": "Mobile",
+      "minWidth": 0,
+      "width": 390
+    }
+  ],
+  "createdAt": "2026-10-05T13:25:02.811Z",
+  "props": {
+    "src": "https://www.apple.com/iphone-duo/",
+    "data-codecaine-id": "b085f2c0-9469-4d96-ae0f-2da7971f35c2",
+    "view": "viewport"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "hug"
+  },
+  "style": {
+    "width": 1280,
+    "height": 900,
+    "position": "absolute",
+    "backgroundColor": "#ffffff",
+    "left": 2968.564445937676,
+    "top": -527.4215327501914
+  },
+  "updatedAt": "2026-10-05T13:25:20.198Z"
+}
