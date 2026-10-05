@@ -4,7 +4,7 @@
   "tag": "div",
   "name": "Pasted markup",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
-  "order": "K",
+  "order": "d",
   "createdAt": "2026-10-05T12:06:15.621Z",
   "props": {
     "pastedGroup": true,
@@ -22,8 +22,8 @@
     "marginBottom": 0,
     "marginLeft": 0,
     "position": "absolute",
-    "left": 359.53882839571975,
-    "top": -11.615559156505482
+    "left": -170.88403118036342,
+    "top": -100.5029745103628
   },
-  "updatedAt": "2026-10-05T12:06:34.158Z"
+  "updatedAt": "2026-10-05T12:32:56.771Z"
 }
