@@ -1,0 +1,21 @@
+{
+  "id": "71516529-3742-4754-b1b8-cc24f5c31ca0",
+  "type": "frame",
+  "tag": "div",
+  "name": "Photo",
+  "parent": "471a2a9c-fa0c-456b-a6a0-54fa7b153638",
+  "order": "G",
+  "createdAt": "2026-10-05T04:12:27.691Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "aa59e5e9-ab2a-47ce-bc60-83074bda991f"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "26.45px",
+    "top": "26px",
+    "width": "115px",
+    "height": "115px"
+  },
+  "updatedAt": "2026-10-05T04:12:27.691Z"
+}

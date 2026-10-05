@@ -1,0 +1,32 @@
+{
+  "id": "c2cb4f2d-fea4-4cdc-a116-bee2cd83e025",
+  "type": "text",
+  "tag": "p",
+  "parent": "d55321eb-f90b-4b17-ac06-79037adb83fb",
+  "order": "l",
+  "createdAt": "2026-10-05T04:12:27.691Z",
+  "props": {
+    "text": "Jacob West",
+    "data-import-type": "figma",
+    "data-codecaine-id": "b4a0504c-06c4-4b75-86c7-8c9bef54f6fd"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "121.5px",
+    "top": "195px",
+    "fontFamily": "\"SF Pro Display\", sans-serif",
+    "fontSize": "24px",
+    "fontWeight": "700",
+    "lineHeight": "normal",
+    "letterSpacing": "0.33px",
+    "color": "rgb(255, 255, 255)",
+    "textAlign": "center",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T04:12:27.691Z"
+}

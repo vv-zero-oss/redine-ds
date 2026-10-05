@@ -1,0 +1,23 @@
+{
+  "id": "5003e265-4bf3-404a-bdcc-fde42d9ae147",
+  "type": "frame",
+  "tag": "header",
+  "name": "Top Bar",
+  "parent": "de4c75db-bda2-4933-bfd0-286ee885e322",
+  "order": "V",
+  "createdAt": "2026-10-05T04:12:27.691Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "1e852ba3-4cb2-4b40-93b8-b01db8f1ccae"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "375px",
+    "height": "88px",
+    "overflowX": "hidden",
+    "overflowY": "hidden"
+  },
+  "updatedAt": "2026-10-05T04:12:27.691Z"
+}

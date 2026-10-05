@@ -1,0 +1,22 @@
+{
+  "id": "72bc65df-7752-4ad9-8c92-f4a299b25570",
+  "type": "frame",
+  "tag": "div",
+  "name": "Wifi",
+  "parent": "394c296d-00fe-4536-b481-473d259f8c10",
+  "order": "V",
+  "createdAt": "2026-10-05T04:12:27.691Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "50efbce3-0d87-4df1-80f0-105a8125d557"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "315px",
+    "top": "17.33px",
+    "width": "15.33px",
+    "height": "11px",
+    "backgroundColor": "rgb(255, 255, 255)"
+  },
+  "updatedAt": "2026-10-05T04:12:27.691Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "bcf51622-3793-4d87-b15e-e215954a0a22",
+  "type": "frame",
+  "tag": "div",
+  "name": "Switch",
+  "parent": "e7ff82bc-3be8-4556-bf35-71f5de79952e",
+  "order": "G",
+  "createdAt": "2026-10-05T04:12:27.691Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "8e7b3e6c-4295-4419-a582-e55dcc69f348"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "308px",
+    "top": "15px",
+    "width": "51px",
+    "height": "31px"
+  },
+  "updatedAt": "2026-10-05T04:12:27.691Z"
+}

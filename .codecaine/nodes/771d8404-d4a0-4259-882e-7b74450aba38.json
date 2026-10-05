@@ -1,0 +1,22 @@
+{
+  "id": "771d8404-d4a0-4259-882e-7b74450aba38",
+  "type": "frame",
+  "tag": "div",
+  "name": "Oval",
+  "parent": "ca6f2f29-635c-4d80-8fc6-30191d55a61e",
+  "order": "C",
+  "createdAt": "2026-10-05T04:12:27.691Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "574052e1-e91e-4053-be03-5c230a0322c1"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "150.43px",
+    "top": "105.45px",
+    "width": "7.8px",
+    "height": "14.42px",
+    "backgroundColor": "rgb(5, 132, 254)"
+  },
+  "updatedAt": "2026-10-05T04:12:27.691Z"
+}
