@@ -3,6 +3,13 @@
   "id": "686ae30c-a8c6-47e3-beeb-ad2a43689901",
   "name": "redine-ds",
   "rootId": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "canvasFill": {
+    "backgroundColor": "#f2f2f2",
+    "backgroundImage": "none",
+    "backgroundRepeat": "no-repeat",
+    "backgroundSize": "auto",
+    "backgroundPosition": "0% 0%"
+  },
   "fonts": [
     {
       "kind": "google",
