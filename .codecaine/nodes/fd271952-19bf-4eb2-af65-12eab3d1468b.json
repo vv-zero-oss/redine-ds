@@ -10,7 +10,7 @@
     "data-styles-preset": "vHNtk6NeS",
     "dir": "auto",
     "data-codecaine-id": "7d03f39e-d528-4c5e-9c90-52bafac059a8",
-    "text": "Collect your favorite designs and upload your own screenshots into one place."
+    "text": "Refer anything that you would like too"
   },
   "sizing": {
     "width": "fixed",
@@ -109,5 +109,5 @@
     "--framer-text-alignment": "center",
     "--framer-text-color": "var(--token-662d2a7f-e597-4a32-be93-c2f821051388, rgb(113, 113, 113))"
   },
-  "updatedAt": "2026-10-05T12:05:11.214Z"
+  "updatedAt": "2026-10-05T12:09:58.003Z"
 }
