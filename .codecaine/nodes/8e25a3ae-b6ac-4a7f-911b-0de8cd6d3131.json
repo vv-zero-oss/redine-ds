@@ -1,0 +1,34 @@
+{
+  "id": "8e25a3ae-b6ac-4a7f-911b-0de8cd6d3131",
+  "type": "frame",
+  "tag": "div",
+  "name": "Teamworks",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzz",
+  "createdAt": "2026-10-05T04:14:24.678Z",
+  "props": {
+    "importedPlacement": {
+      "position": "relative"
+    },
+    "data-import-type": "figma",
+    "data-codecaine-id": "1fa8fac1-0e7a-4176-a895-573686c40843"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {
+    "width": 515.48,
+    "height": "368.84px",
+    "overflowX": "hidden",
+    "overflowY": "hidden",
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "left": -673,
+    "top": 9160
+  },
+  "updatedAt": "2026-10-05T04:14:24.678Z"
+}
