@@ -8,7 +8,7 @@
   "props": {
     "class": "text-[17px] font-semibold tracking-[-0.01em] text-foreground",
     "data-codecaine-id": "624b5e9a-04a1-487a-83ea-5ad4a48557a7",
-    "text": "Built for agents"
+    "text": "Built for agents saiDA"
   },
   "sizing": {
     "width": "fixed",
@@ -70,12 +70,12 @@
     "borderTopRightRadius": "0px",
     "borderBottomRightRadius": "0px",
     "borderBottomLeftRadius": "0px",
-    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundColor": "#0083ff",
     "backgroundImage": "none",
     "backgroundSize": "auto",
     "backgroundPositionX": "0%",
     "backgroundPositionY": "0%",
-    "backgroundRepeat": "repeat",
+    "backgroundRepeat": "no-repeat",
     "color": "lab(100 0 0)",
     "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
     "fontSize": "17px",
@@ -102,7 +102,8 @@
     "listStyleImage": "none",
     "listStyleType": "disc",
     "verticalAlign": "baseline",
-    "cursor": "auto"
+    "cursor": "auto",
+    "backgroundPosition": "0% 0%"
   },
-  "updatedAt": "2026-10-05T06:40:13.711Z"
+  "updatedAt": "2026-10-05T06:56:04.533Z"
 }
