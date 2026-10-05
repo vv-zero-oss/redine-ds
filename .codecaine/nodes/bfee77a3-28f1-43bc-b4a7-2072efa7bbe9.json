@@ -1,0 +1,14 @@
+{
+  "id": "bfee77a3-28f1-43bc-b4a7-2072efa7bbe9",
+  "type": "text",
+  "tag": "span",
+  "parent": "97d07506-1276-49c5-89f4-bf92a32db60a",
+  "order": "l",
+  "createdAt": "2026-10-05T09:41:15.439Z",
+  "props": {
+    "text": "New content weekly.",
+    "data-codecaine-id": "519a0630-3e1f-42e3-bc36-180d291337b7"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T09:41:15.439Z"
+}

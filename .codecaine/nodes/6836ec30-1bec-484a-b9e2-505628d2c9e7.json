@@ -3,8 +3,8 @@
   "type": "frame",
   "tag": "div",
   "name": "div",
-  "parent": "1fd6c593-3e64-4b6f-8fd7-1fb9da573b0a",
-  "order": "V",
+  "parent": "7a389267-2763-4318-b066-45a359693beb",
+  "order": "G",
   "createdAt": "2026-10-05T06:40:13.711Z",
   "props": {
     "class": "transition-transform duration-500 ease-out group-hover:-translate-y-0.5 border border-foreground/10 bg-[color-mix(in_oklch,var(--card),var(--primary)_9%)] shadow-[0_24px_50px_-24px_rgba(0,0,0,0.6),inset_0_1px_0_0_rgba(255,255,255,0.06)] dark:border-white/10 dark:bg-[linear-gradient(180deg,color-mix(in_oklch,var(--card),white_9%),color-mix(in_oklch,var(--card),white_3%))] dark:shadow-[0_10px_24px_-10px_rgba(0,0,0,0.8),0_2px_6px_rgba(0,0,0,0.6),inset_0_1px_0_0_rgba(255,255,255,0.16),inset_0_-1px_0_0_rgba(0,0,0,0.5)] grid size-24 place-items-center rounded-full text-foreground/85",
@@ -104,5 +104,5 @@
     "verticalAlign": "baseline",
     "cursor": "auto"
   },
-  "updatedAt": "2026-10-05T06:40:13.711Z"
+  "updatedAt": "2026-10-05T06:55:57.782Z"
 }

@@ -32,12 +32,16 @@
     "boxShadow": "var(--flight-shadow-card)",
     "fontFamily": "var(--recollect-font)",
     "background": "var(--flight-card-bg)",
-    "borderRadius": "var(--flight-radius-card)",
+    "borderRadius": 46,
     "marginTop": 0,
     "marginRight": 0,
     "marginBottom": 0,
     "marginLeft": 0,
-    "height": "auto"
+    "height": "auto",
+    "borderTopLeftRadius": "",
+    "borderTopRightRadius": "",
+    "borderBottomRightRadius": "",
+    "borderBottomLeftRadius": ""
   },
-  "updatedAt": "2026-10-05T06:46:23.202Z"
+  "updatedAt": "2026-10-05T06:57:14.413Z"
 }

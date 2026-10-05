@@ -3,8 +3,8 @@
   "type": "frame",
   "tag": "div",
   "name": "div",
-  "parent": "8f02e90e-b532-4464-9b22-d370d2106ed4",
-  "order": "V",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzzzzzzzx",
   "createdAt": "2026-10-05T06:28:50.128Z",
   "props": {
     "data-codecaine-id": "c4307747-be3b-42f6-838a-de462b9fffd9"
@@ -101,8 +101,10 @@
     "height": "160px",
     "overflowX": "visible",
     "overflowY": "visible",
-    "position": "relative",
-    "width": "239px"
+    "position": "absolute",
+    "width": "239px",
+    "left": 2721.65625,
+    "top": 1502.96875
   },
-  "updatedAt": "2026-10-05T06:28:50.128Z"
+  "updatedAt": "2026-10-05T09:35:57.652Z"
 }

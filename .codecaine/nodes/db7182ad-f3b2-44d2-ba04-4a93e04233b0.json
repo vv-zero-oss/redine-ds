@@ -1,0 +1,14 @@
+{
+  "id": "db7182ad-f3b2-44d2-ba04-4a93e04233b0",
+  "type": "text",
+  "tag": "span",
+  "parent": "1465a3cf-3d13-434b-8495-1dca5ae7e63e",
+  "order": "G",
+  "createdAt": "2026-10-05T09:41:53.327Z",
+  "props": {
+    "text": "Never run out of",
+    "data-codecaine-id": "b134ad3a-e027-4cf3-b17e-90e0f5e96578"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T09:41:53.327Z"
+}

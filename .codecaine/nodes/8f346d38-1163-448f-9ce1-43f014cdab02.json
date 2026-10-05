@@ -74,13 +74,13 @@
     "borderTopRightRadius": "0px",
     "borderBottomRightRadius": "0px",
     "borderBottomLeftRadius": "0px",
-    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundColor": "rgba(255, 0, 0, 0)",
     "backgroundImage": "none",
     "backgroundSize": "auto",
     "backgroundPositionX": "0%",
     "backgroundPositionY": "0%",
-    "backgroundRepeat": "repeat",
-    "color": "oklab(0.999998 -0.00000980496 0.0000234246 / 0.85)",
+    "backgroundRepeat": "no-repeat",
+    "color": "rgba(0, 128, 0, 0.85)",
     "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
     "fontSize": "16px",
     "fontWeight": "400",
@@ -106,7 +106,8 @@
     "listStyleImage": "none",
     "listStyleType": "disc",
     "verticalAlign": "middle",
-    "cursor": "auto"
+    "cursor": "auto",
+    "backgroundPosition": "0% 0%"
   },
-  "updatedAt": "2026-10-05T06:40:13.711Z"
+  "updatedAt": "2026-10-05T06:55:42.709Z"
 }
