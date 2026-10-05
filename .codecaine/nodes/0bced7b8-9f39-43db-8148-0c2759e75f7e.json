@@ -1,0 +1,29 @@
+{
+  "id": "0bced7b8-9f39-43db-8148-0c2759e75f7e",
+  "type": "frame",
+  "tag": "div",
+  "name": "Avatar",
+  "parent": "b40681d1-1c0d-43ce-8d06-62e0f3bf3f2a",
+  "order": "l",
+  "createdAt": "2026-10-05T14:15:50.060Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "58d0eeff-8126-410f-bc5d-b0c374c99e76"
+  },
+  "style": {
+    "width": "24px",
+    "flexShrink": "0",
+    "height": "24px",
+    "borderTopLeftRadius": "200px",
+    "borderTopRightRadius": "200px",
+    "borderBottomRightRadius": "200px",
+    "borderBottomLeftRadius": "200px",
+    "outlineColor": "rgb(255, 255, 255)",
+    "outlineStyle": "solid",
+    "outlineWidth": "2px",
+    "outlineOffset": "0px",
+    "backgroundColor": "rgb(249, 245, 255)",
+    "position": "relative"
+  },
+  "updatedAt": "2026-10-05T14:15:50.060Z"
+}

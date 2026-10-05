@@ -1,0 +1,29 @@
+{
+  "id": "609c1264-1f9a-4646-834f-91337e2f3c0c",
+  "type": "text",
+  "tag": "p",
+  "name": "Text",
+  "parent": "60b66248-5377-47e4-8f8f-f1fd6a050738",
+  "order": "G",
+  "createdAt": "2026-10-05T14:15:50.060Z",
+  "props": {
+    "text": "Web app integrations",
+    "data-import-type": "figma",
+    "data-codecaine-id": "bb6b7f14-d19e-4b0e-8422-f76f6bc6101e"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "lineHeight": "20px",
+    "color": "rgb(23, 23, 23)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T14:15:50.060Z"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "cbef18e0-0735-451c-be5a-bf65c5893c75",
+  "type": "text",
+  "tag": "p",
+  "name": "Supporting text",
+  "parent": "c2b915a7-0a38-43a4-a1e6-d94015c268bd",
+  "order": "V",
+  "createdAt": "2026-10-05T14:15:50.060Z",
+  "props": {
+    "text": "getcirooles.com",
+    "data-import-type": "figma",
+    "data-codecaine-id": "d3556f8b-a613-4fa1-ae38-c2b9fb8235af"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "lineHeight": "20px",
+    "color": "rgb(82, 82, 82)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T14:15:50.060Z"
+}

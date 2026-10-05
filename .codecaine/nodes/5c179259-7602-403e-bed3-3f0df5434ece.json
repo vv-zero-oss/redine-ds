@@ -1,0 +1,29 @@
+{
+  "id": "5c179259-7602-403e-bed3-3f0df5434ece",
+  "type": "text",
+  "tag": "p",
+  "name": "Text",
+  "parent": "a5c57237-dfa6-48d4-b9e5-cc55022ffd0f",
+  "order": "G",
+  "createdAt": "2026-10-05T14:15:50.060Z",
+  "props": {
+    "text": "Company",
+    "data-import-type": "figma",
+    "data-codecaine-id": "a2a6d0da-e717-456e-ad5e-d01a354208e7"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "12px",
+    "fontWeight": "500",
+    "lineHeight": "18px",
+    "color": "rgb(82, 82, 82)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T14:15:50.060Z"
+}

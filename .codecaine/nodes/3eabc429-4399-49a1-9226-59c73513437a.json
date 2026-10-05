@@ -1,0 +1,29 @@
+{
+  "id": "3eabc429-4399-49a1-9226-59c73513437a",
+  "type": "text",
+  "tag": "p",
+  "parent": "4e67b94c-0eae-4543-85b1-77c0058f42f5",
+  "order": "K",
+  "createdAt": "2026-10-05T14:15:50.060Z",
+  "props": {
+    "text": "May",
+    "data-import-type": "figma",
+    "data-codecaine-id": "5e3dd757-655c-4111-8b92-2561ed441b24"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "12px",
+    "fontWeight": "400",
+    "lineHeight": "18px",
+    "color": "rgb(82, 82, 82)",
+    "textAlign": "center",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T14:15:50.060Z"
+}

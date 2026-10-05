@@ -1,0 +1,29 @@
+{
+  "id": "3b987963-b463-4cca-8b31-186d2d1842ae",
+  "type": "text",
+  "tag": "p",
+  "name": "Text",
+  "parent": "c2b915a7-0a38-43a4-a1e6-d94015c268bd",
+  "order": "G",
+  "createdAt": "2026-10-05T14:15:50.060Z",
+  "props": {
+    "text": "Circooles",
+    "data-import-type": "figma",
+    "data-codecaine-id": "55b716df-0a67-4b9c-99d2-3fa15dc92a73"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "500",
+    "lineHeight": "20px",
+    "color": "rgb(23, 23, 23)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T14:15:50.060Z"
+}

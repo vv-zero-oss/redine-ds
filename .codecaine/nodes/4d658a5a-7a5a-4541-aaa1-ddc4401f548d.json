@@ -1,0 +1,20 @@
+{
+  "id": "4d658a5a-7a5a-4541-aaa1-ddc4401f548d",
+  "type": "frame",
+  "tag": "div",
+  "name": "_Activitiy gauge",
+  "parent": "452600aa-be13-4516-8212-0aa66b2abcc1",
+  "order": "V",
+  "createdAt": "2026-10-05T14:15:50.060Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "98953eab-f597-4c4a-8d83-1bad6fc2c5ad"
+  },
+  "style": {
+    "width": "240px",
+    "flexShrink": "0",
+    "height": "240px",
+    "position": "relative"
+  },
+  "updatedAt": "2026-10-05T14:15:50.060Z"
+}

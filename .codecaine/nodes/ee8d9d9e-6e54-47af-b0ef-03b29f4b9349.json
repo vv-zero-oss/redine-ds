@@ -1,0 +1,29 @@
+{
+  "id": "ee8d9d9e-6e54-47af-b0ef-03b29f4b9349",
+  "type": "text",
+  "tag": "p",
+  "name": "Text",
+  "parent": "e916d8d6-6be2-4d64-b258-090af0bd21e4",
+  "order": "G",
+  "createdAt": "2026-10-05T14:15:50.060Z",
+  "props": {
+    "text": "Command+R",
+    "data-import-type": "figma",
+    "data-codecaine-id": "7fe3a9f7-c386-4320-a39a-f1f211ca7404"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "500",
+    "lineHeight": "20px",
+    "color": "rgb(23, 23, 23)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T14:15:50.060Z"
+}

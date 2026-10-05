@@ -1,0 +1,29 @@
+{
+  "id": "7ca34368-6de1-4a0d-b0be-9f9c156ea9e2",
+  "type": "section",
+  "tag": "div",
+  "name": "Pagination",
+  "parent": "085f7320-4db9-41f7-880a-af399bf42c97",
+  "order": "V",
+  "createdAt": "2026-10-05T14:15:50.060Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "73d7e932-86c6-4cc8-90b9-26dc6634c927"
+  },
+  "style": {
+    "alignSelf": "stretch",
+    "flexShrink": "0",
+    "borderTopWidth": "1px",
+    "borderTopStyle": "solid",
+    "borderTopColor": "rgb(229, 229, 229)",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "space-between",
+    "alignItems": "center",
+    "paddingTop": "11px",
+    "paddingRight": "24px",
+    "paddingBottom": "16px",
+    "paddingLeft": "24px"
+  },
+  "updatedAt": "2026-10-05T14:15:50.060Z"
+}

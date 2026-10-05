@@ -1,0 +1,29 @@
+{
+  "id": "c7cfef47-5acc-4195-87d4-f488dfa69252",
+  "type": "text",
+  "tag": "p",
+  "name": "Text",
+  "parent": "abdcfdaa-3837-4020-9c7e-06644bb4139f",
+  "order": "G",
+  "createdAt": "2026-10-05T14:15:50.060Z",
+  "props": {
+    "text": "Design software",
+    "data-import-type": "figma",
+    "data-codecaine-id": "77fa20e2-63cd-4b60-9b21-6551d0aac59c"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "lineHeight": "20px",
+    "color": "rgb(23, 23, 23)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T14:15:50.060Z"
+}

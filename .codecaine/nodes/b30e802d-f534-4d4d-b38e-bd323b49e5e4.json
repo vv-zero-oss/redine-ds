@@ -1,0 +1,22 @@
+{
+  "id": "b30e802d-f534-4d4d-b38e-bd323b49e5e4",
+  "type": "section",
+  "tag": "div",
+  "name": "Checkbox",
+  "parent": "d56541d6-8c66-4fb6-9ca5-756d16e9cdb8",
+  "order": "G",
+  "createdAt": "2026-10-05T14:15:50.060Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "67115400-2c83-4c45-a713-6aa54ec0fae1"
+  },
+  "style": {
+    "width": "20px",
+    "flexShrink": "0",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "center",
+    "alignItems": "center"
+  },
+  "updatedAt": "2026-10-05T14:15:50.060Z"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "7b53207f-d010-416e-86f7-56e72ec6e722",
+  "type": "section",
+  "tag": "div",
+  "name": "Text and supporting text",
+  "parent": "68c2daf3-668a-424b-9e86-4f0dc6b49deb",
+  "order": "V",
+  "createdAt": "2026-10-05T14:15:50.060Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "1ed25a57-16f5-4e55-a7cd-766fe708dec4"
+  },
+  "style": {
+    "flexShrink": "0",
+    "alignSelf": "stretch",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start"
+  },
+  "updatedAt": "2026-10-05T14:15:50.060Z"
+}

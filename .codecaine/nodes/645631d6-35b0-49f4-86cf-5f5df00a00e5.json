@@ -1,0 +1,20 @@
+{
+  "id": "645631d6-35b0-49f4-86cf-5f5df00a00e5",
+  "type": "frame",
+  "tag": "div",
+  "name": "Divider",
+  "parent": "9bc58860-0048-400c-b4f9-7a304c6c84d3",
+  "order": "V",
+  "createdAt": "2026-10-05T14:15:50.060Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "c8f0b747-ef46-4652-ad65-6e96d2724a4b"
+  },
+  "style": {
+    "alignSelf": "stretch",
+    "height": "1px",
+    "flexShrink": "0",
+    "backgroundColor": "rgb(229, 229, 229)"
+  },
+  "updatedAt": "2026-10-05T14:15:50.060Z"
+}

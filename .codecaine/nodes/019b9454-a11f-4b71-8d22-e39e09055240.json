@@ -1,0 +1,29 @@
+{
+  "id": "019b9454-a11f-4b71-8d22-e39e09055240",
+  "type": "text",
+  "tag": "p",
+  "name": "Text",
+  "parent": "b165af9e-fe70-45e1-be8c-b330ad531a87",
+  "order": "G",
+  "createdAt": "2026-10-05T14:15:50.060Z",
+  "props": {
+    "text": "Productivity app",
+    "data-import-type": "figma",
+    "data-codecaine-id": "61593a58-b50f-4a8e-97d8-61c1b53f9e48"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "lineHeight": "20px",
+    "color": "rgb(23, 23, 23)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T14:15:50.060Z"
+}

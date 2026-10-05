@@ -1,0 +1,29 @@
+{
+  "id": "c0df8703-9bac-4551-9c8a-620126d201ce",
+  "type": "text",
+  "tag": "p",
+  "name": "Text",
+  "parent": "0b4adaf5-e254-4854-9dd6-21cdc1bf9bae",
+  "order": "G",
+  "createdAt": "2026-10-05T14:15:50.060Z",
+  "props": {
+    "text": "Sisyphus",
+    "data-import-type": "figma",
+    "data-codecaine-id": "8f17e7f1-2a74-4071-a15f-b59688f32193"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "500",
+    "lineHeight": "20px",
+    "color": "rgb(23, 23, 23)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T14:15:50.060Z"
+}

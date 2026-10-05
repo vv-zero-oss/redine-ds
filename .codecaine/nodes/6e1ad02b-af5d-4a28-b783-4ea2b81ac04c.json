@@ -1,0 +1,26 @@
+{
+  "id": "6e1ad02b-af5d-4a28-b783-4ea2b81ac04c",
+  "type": "frame",
+  "tag": "div",
+  "name": "Background",
+  "parent": "9b34c680-309f-41df-853c-8109dadfb694",
+  "order": "G",
+  "createdAt": "2026-10-05T14:15:50.060Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "d5091cdc-bf52-4096-b6b9-d16415754947"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "128px",
+    "height": "8px",
+    "borderTopLeftRadius": "4px",
+    "borderTopRightRadius": "4px",
+    "borderBottomRightRadius": "4px",
+    "borderBottomLeftRadius": "4px",
+    "backgroundColor": "rgb(245, 245, 245)"
+  },
+  "updatedAt": "2026-10-05T14:15:50.060Z"
+}

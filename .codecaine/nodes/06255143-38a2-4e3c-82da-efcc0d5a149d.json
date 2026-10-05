@@ -1,0 +1,29 @@
+{
+  "id": "06255143-38a2-4e3c-82da-efcc0d5a149d",
+  "type": "text",
+  "tag": "p",
+  "name": "Text",
+  "parent": "fa82da4b-4059-4828-a49b-c730eccab57a",
+  "order": "V",
+  "createdAt": "2026-10-05T14:15:50.060Z",
+  "props": {
+    "text": "Add customer",
+    "data-import-type": "figma",
+    "data-codecaine-id": "e0358783-b790-4bf5-9887-4a055be2ce85"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "600",
+    "lineHeight": "20px",
+    "color": "rgb(255, 255, 255)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T14:15:50.060Z"
+}

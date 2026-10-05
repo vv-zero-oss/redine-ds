@@ -1,0 +1,29 @@
+{
+  "id": "53288693-ec37-4969-be3c-c35a427d3d7f",
+  "type": "text",
+  "tag": "p",
+  "name": "Supporting text",
+  "parent": "a48bb772-928a-4aee-9f7d-ebd8775c6ff1",
+  "order": "V",
+  "createdAt": "2026-10-05T14:15:50.060Z",
+  "props": {
+    "text": "Time Letter spacing, invoicing and expenses",
+    "data-import-type": "figma",
+    "data-codecaine-id": "8009d729-fb12-40a1-9234-b99779a11344"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "lineHeight": "20px",
+    "color": "rgb(82, 82, 82)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T14:15:50.060Z"
+}

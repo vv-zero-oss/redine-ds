@@ -1,0 +1,21 @@
+{
+  "id": "03a6d643-9706-48fc-b021-5c5c5e22ae54",
+  "type": "frame",
+  "tag": "div",
+  "name": "_Chart data",
+  "parent": "e9ed0234-fd9d-4c43-9348-856a4b772962",
+  "order": "V",
+  "createdAt": "2026-10-05T14:15:50.060Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "c2f94ecf-f55e-42d3-9617-e51459d8442e"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "18px",
+    "width": "990px",
+    "height": "198px"
+  },
+  "updatedAt": "2026-10-05T14:15:50.060Z"
+}
