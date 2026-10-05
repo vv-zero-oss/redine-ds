@@ -1,0 +1,46 @@
+{
+  "id": "16562c7c-56b1-4b1f-bced-2699e7741955",
+  "type": "liveproject",
+  "tag": "div",
+  "name": "Live project",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzzzzzzzzzzx",
+  "breakpoints": [
+    {
+      "id": "desktop",
+      "label": "Desktop",
+      "minWidth": 1280,
+      "width": 1280
+    },
+    {
+      "id": "tablet",
+      "label": "Tablet",
+      "minWidth": 800,
+      "width": 834
+    },
+    {
+      "id": "mobile",
+      "label": "Mobile",
+      "minWidth": 0,
+      "width": 390
+    }
+  ],
+  "createdAt": "2026-10-05T12:14:08.736Z",
+  "props": {
+    "src": "http://localhost:3100",
+    "data-codecaine-id": "44b45669-926c-47ed-8b2d-669681df6cac"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "hug"
+  },
+  "style": {
+    "width": 1208.0306944884378,
+    "height": 1936.7176228669075,
+    "position": "absolute",
+    "backgroundColor": "#ffffff",
+    "left": 5127.1825949446,
+    "top": 168.30542828286497
+  },
+  "updatedAt": "2026-10-05T12:14:08.736Z"
+}
