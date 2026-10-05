@@ -1,0 +1,23 @@
+{
+  "id": "af369196-adab-422d-8115-43a9d3538ea1",
+  "type": "text",
+  "tag": "h3",
+  "parent": "6f416903-73f2-4573-a3ce-3fa330fd4ded",
+  "order": "G",
+  "createdAt": "2026-10-05T06:36:01.024Z",
+  "props": {
+    "text": "C · Light paper",
+    "data-codecaine-id": "a31964c5-c56d-4aa2-8a0b-5482e6c4bbd0"
+  },
+  "style": {
+    "marginTop": "0px",
+    "marginRight": "0px",
+    "marginBottom": "0px",
+    "marginLeft": "0px",
+    "fontSize": "var(--recollect-label-size)",
+    "lineHeight": "var(--recollect-label-line)",
+    "color": "var(--noir-text)",
+    "fontWeight": "500"
+  },
+  "updatedAt": "2026-10-05T06:36:01.024Z"
+}

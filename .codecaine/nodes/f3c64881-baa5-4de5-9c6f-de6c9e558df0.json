@@ -1,0 +1,30 @@
+{
+  "id": "f3c64881-baa5-4de5-9c6f-de6c9e558df0",
+  "type": "frame",
+  "tag": "svg",
+  "name": "Rectangle",
+  "parent": "feb82dc7-b991-4a4e-a06e-07143fbf6e83",
+  "order": "G",
+  "createdAt": "2026-10-05T06:35:53.449Z",
+  "props": {
+    "width": "182",
+    "height": "42",
+    "viewBox": "0 0 182 42",
+    "fill": "none",
+    "overflow": "visible",
+    "xmlns": "http://www.w3.org/2000/svg",
+    "innerMarkup": "<path transform=\"matrix(1 0 0 1 0 0)\" d=\"M0 0L182 0L182 42L0 42L0 0Z\" fill=\"#434343\" fill-rule=\"evenodd\"></path>",
+    "data-import-type": "figma",
+    "data-codecaine-id": "add0b40c-0a48-4a15-8523-01fe0f8cf960"
+  },
+  "style": {
+    "display": "block",
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "182px",
+    "height": "42px",
+    "filter": "drop-shadow(rgb(0, 0, 0) 0px 1px 0px)"
+  },
+  "updatedAt": "2026-10-05T06:35:53.449Z"
+}

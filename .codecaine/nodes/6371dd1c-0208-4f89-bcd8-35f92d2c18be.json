@@ -1,0 +1,31 @@
+{
+  "id": "6371dd1c-0208-4f89-bcd8-35f92d2c18be",
+  "type": "text",
+  "tag": "p",
+  "name": "Do you know what tim",
+  "parent": "f9915284-cd91-410d-ac5a-c83e45fdd0dc",
+  "order": "V",
+  "createdAt": "2026-10-05T06:35:53.449Z",
+  "props": {
+    "text": "Do you know what time is it?",
+    "data-import-type": "figma",
+    "data-codecaine-id": "96e8d7f9-fb0b-4c2b-8eac-7d29ab5660f0"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "52px",
+    "top": "7.5px",
+    "width": "196px",
+    "fontFamily": "\"SF Pro Text\", sans-serif",
+    "fontSize": "17px",
+    "fontWeight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.41px",
+    "color": "rgb(255, 255, 255)"
+  },
+  "updatedAt": "2026-10-05T06:35:53.449Z"
+}

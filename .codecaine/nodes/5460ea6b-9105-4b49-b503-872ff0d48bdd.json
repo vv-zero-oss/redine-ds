@@ -1,0 +1,19 @@
+{
+  "id": "5460ea6b-9105-4b49-b503-872ff0d48bdd",
+  "type": "section",
+  "tag": "li",
+  "name": "li",
+  "parent": "41380ea3-a75c-4927-8359-3729c513d4b7",
+  "order": "l",
+  "createdAt": "2026-10-05T06:36:01.024Z",
+  "props": {
+    "data-codecaine-id": "034ac04f-f790-4190-90c9-a8a4b3cc0fc0"
+  },
+  "style": {
+    "display": "flex",
+    "flexDirection": "column",
+    "width": "var(--recollect-card-width)",
+    "gap": "var(--space-3)"
+  },
+  "updatedAt": "2026-10-05T06:36:01.024Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "a452460f-c0a6-4875-a992-4c477b7082cd",
+  "type": "frame",
+  "tag": "div",
+  "name": "Search Field",
+  "parent": "d4f6d56b-cbc8-4b1a-8e6f-77a18ea93950",
+  "order": "V",
+  "createdAt": "2026-10-05T06:35:53.449Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "899cf6b9-56bb-4ab2-b1bf-1332e376f0cb"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "52px",
+    "top": "8px",
+    "width": "311px",
+    "height": "36px",
+    "overflowX": "hidden",
+    "overflowY": "hidden"
+  },
+  "updatedAt": "2026-10-05T06:35:53.449Z"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "e8604f09-ea30-4acb-9302-059e73305a4b",
+  "type": "text",
+  "tag": "p",
+  "parent": "6f416903-73f2-4573-a3ce-3fa330fd4ded",
+  "order": "V",
+  "createdAt": "2026-10-05T06:36:01.024Z",
+  "props": {
+    "text": "Keeps the original dark ink. The card stands out.",
+    "data-codecaine-id": "e17854b4-371c-4c6b-be5f-2be0200ff257"
+  },
+  "style": {
+    "marginTop": "0px",
+    "marginRight": "0px",
+    "marginBottom": "0px",
+    "marginLeft": "0px",
+    "color": "var(--noir-muted)",
+    "fontSize": "var(--recollect-label-size)",
+    "lineHeight": "var(--recollect-label-line)"
+  },
+  "updatedAt": "2026-10-05T06:36:01.024Z"
+}

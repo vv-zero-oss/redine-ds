@@ -794,6 +794,284 @@
           "label": "Pasted markup",
           "at": 1791137434297
         }
+      },
+      "var:muuvketh-1": {
+        "id": "var:muuvketh-1",
+        "collectionId": "collection:default",
+        "property": "--recollect-radius-card",
+        "name": "--recollect-radius-card",
+        "category": "spacing",
+        "values": {
+          "mode:default": "16px"
+        },
+        "description": "Corner radius of the Recollect sign-in card.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182085893
+        }
+      },
+      "var:muuvkfa0-2": {
+        "id": "var:muuvkfa0-2",
+        "collectionId": "collection:default",
+        "property": "--recollect-radius-button",
+        "name": "--recollect-radius-button",
+        "category": "spacing",
+        "values": {
+          "mode:default": "12px"
+        },
+        "description": "Corner radius of the button inside the Recollect card.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182086488
+        }
+      },
+      "var:muuvkfxv-3": {
+        "id": "var:muuvkfxv-3",
+        "collectionId": "collection:default",
+        "property": "--recollect-font",
+        "name": "--recollect-font",
+        "category": "font-family",
+        "values": {
+          "mode:default": "timelessSans, \"timelessSans Fallback\", system-ui, sans-serif"
+        },
+        "description": "Font of the Recollect card.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182087347
+        }
+      },
+      "var:muuvkged-4": {
+        "id": "var:muuvkged-4",
+        "collectionId": "collection:default",
+        "property": "--recollect-label-size",
+        "name": "--recollect-label-size",
+        "category": "spacing",
+        "values": {
+          "mode:default": "13px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182087941
+        }
+      },
+      "var:muuvkgsc-5": {
+        "id": "var:muuvkgsc-5",
+        "collectionId": "collection:default",
+        "property": "--recollect-label-line",
+        "name": "--recollect-label-line",
+        "category": "spacing",
+        "values": {
+          "mode:default": "16px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182088444
+        }
+      },
+      "var:muuvkh7l-6": {
+        "id": "var:muuvkh7l-6",
+        "collectionId": "collection:default",
+        "property": "--recollect-icon-size",
+        "name": "--recollect-icon-size",
+        "category": "spacing",
+        "values": {
+          "mode:default": "64px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182088993
+        }
+      },
+      "var:muuvkhmp-7": {
+        "id": "var:muuvkhmp-7",
+        "collectionId": "collection:default",
+        "property": "--recollect-card-width",
+        "name": "--recollect-card-width",
+        "category": "spacing",
+        "values": {
+          "mode:default": "176px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182089537
+        }
+      },
+      "var:muuvki3e-8": {
+        "id": "var:muuvki3e-8",
+        "collectionId": "collection:default",
+        "property": "--recollect-button-height",
+        "name": "--recollect-button-height",
+        "category": "spacing",
+        "values": {
+          "mode:default": "32px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182090138
+        }
+      },
+      "var:muuvkitr-9": {
+        "id": "var:muuvkitr-9",
+        "collectionId": "collection:default",
+        "property": "--glass-dark-fill",
+        "name": "--glass-dark-fill",
+        "category": "colors",
+        "values": {
+          "mode:default": "rgba(255,255,255,0.08)"
+        },
+        "description": "Frosted-glass fill for cards sitting on a dark background.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182091087
+        }
+      },
+      "var:muuvkjv7-a": {
+        "id": "var:muuvkjv7-a",
+        "collectionId": "collection:default",
+        "property": "--glass-dark-edge",
+        "name": "--glass-dark-edge",
+        "category": "box-shadow",
+        "values": {
+          "mode:default": "inset 0 1px 0 rgba(255,255,255,0.18), inset 0 0 0 1px rgba(255,255,255,0.10), 0 12px 32px rgba(0,0,0,0.40)"
+        },
+        "description": "Light top edge + hairline ring + drop for glass on dark.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182092435
+        }
+      },
+      "var:muuvkkah-b": {
+        "id": "var:muuvkkah-b",
+        "collectionId": "collection:default",
+        "property": "--glass-dark-blur",
+        "name": "--glass-dark-blur",
+        "category": "string",
+        "values": {
+          "mode:default": "blur(20px)"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182092985
+        }
+      },
+      "var:muuvkksh-c": {
+        "id": "var:muuvkksh-c",
+        "collectionId": "collection:default",
+        "property": "--button-on-dark-fill",
+        "name": "--button-on-dark-fill",
+        "category": "colors",
+        "values": {
+          "mode:default": "rgba(255,255,255,0.14)"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182093633
+        }
+      },
+      "var:muuvklan-d": {
+        "id": "var:muuvklan-d",
+        "collectionId": "collection:default",
+        "property": "--button-on-dark-fill-hover",
+        "name": "--button-on-dark-fill-hover",
+        "category": "colors",
+        "values": {
+          "mode:default": "rgba(255,255,255,0.22)"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182094287
+        }
+      },
+      "var:muuvkmaq-e": {
+        "id": "var:muuvkmaq-e",
+        "collectionId": "collection:default",
+        "property": "--surface-dark-edge",
+        "name": "--surface-dark-edge",
+        "category": "box-shadow",
+        "values": {
+          "mode:default": "inset 0 1px 0 rgba(255,255,255,0.08), inset 0 0 0 1px var(--noir-line), 0 12px 32px rgba(0,0,0,0.45)"
+        },
+        "description": "Opaque dark card: light top edge, ring, drop.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182095586
+        }
+      },
+      "var:muuvkn2r-f": {
+        "id": "var:muuvkn2r-f",
+        "collectionId": "collection:default",
+        "property": "--paper-on-dark-fill",
+        "name": "--paper-on-dark-fill",
+        "category": "colors",
+        "values": {
+          "mode:default": "rgba(255,255,255,0.92)"
+        },
+        "description": "Near-opaque light card that keeps dark ink readable on a dark page.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182096595
+        }
+      },
+      "var:muuvkns2-g": {
+        "id": "var:muuvkns2-g",
+        "collectionId": "collection:default",
+        "property": "--paper-on-dark-edge",
+        "name": "--paper-on-dark-edge",
+        "category": "box-shadow",
+        "values": {
+          "mode:default": "inset 0 0 0 1px rgba(255,255,255,0.6), 0 12px 32px rgba(0,0,0,0.45)"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182097506
+        }
+      },
+      "var:muuvkoci-h": {
+        "id": "var:muuvkoci-h",
+        "collectionId": "collection:default",
+        "property": "--focus-ring-on-dark",
+        "name": "--focus-ring-on-dark",
+        "category": "box-shadow",
+        "values": {
+          "mode:default": "0 0 0 2px var(--noir-bg), 0 0 0 4px var(--noir-accent)"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182098242
+        }
+      },
+      "var:muuvkplf-i": {
+        "id": "var:muuvkplf-i",
+        "collectionId": "collection:default",
+        "property": "--dark-backdrop",
+        "name": "--dark-backdrop",
+        "category": "gradient",
+        "values": {
+          "mode:default": "radial-gradient(120% 90% at 20% 0%, rgba(242,169,59,0.22), transparent 60%), radial-gradient(90% 80% at 100% 100%, rgba(91,75,224,0.28), transparent 60%), #14110f"
+        },
+        "description": "Sample dark page behind the variants, with colour so the glass has something to blur.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182099859
+        }
       }
     },
     "order": [
@@ -846,7 +1124,25 @@
       "var:muu4y9yu-1b",
       "var:muu4ya76-1c",
       "var:muu4yaif-1d",
-      "var:muu4zdfe-1e"
+      "var:muu4zdfe-1e",
+      "var:muuvketh-1",
+      "var:muuvkfa0-2",
+      "var:muuvkfxv-3",
+      "var:muuvkged-4",
+      "var:muuvkgsc-5",
+      "var:muuvkh7l-6",
+      "var:muuvkhmp-7",
+      "var:muuvki3e-8",
+      "var:muuvkitr-9",
+      "var:muuvkjv7-a",
+      "var:muuvkkah-b",
+      "var:muuvkksh-c",
+      "var:muuvklan-d",
+      "var:muuvkmaq-e",
+      "var:muuvkn2r-f",
+      "var:muuvkns2-g",
+      "var:muuvkoci-h",
+      "var:muuvkplf-i"
     ]
   }
 }

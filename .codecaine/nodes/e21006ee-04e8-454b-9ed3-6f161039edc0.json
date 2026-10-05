@@ -1,0 +1,31 @@
+{
+  "id": "e21006ee-04e8-454b-9ed3-6f161039edc0",
+  "type": "text",
+  "tag": "p",
+  "parent": "f14e5db9-5701-4149-b712-4c5809183442",
+  "order": "V",
+  "createdAt": "2026-10-05T06:35:53.449Z",
+  "props": {
+    "text": "Trending",
+    "data-import-type": "figma",
+    "data-codecaine-id": "a5792730-a3f2-4bc9-9f88-29c0bcaf713e"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "28px",
+    "top": "5px",
+    "fontFamily": "\"SF Pro Text\", sans-serif",
+    "fontSize": "12px",
+    "fontWeight": "500",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.01px",
+    "color": "rgb(255, 255, 255)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T06:35:53.449Z"
+}

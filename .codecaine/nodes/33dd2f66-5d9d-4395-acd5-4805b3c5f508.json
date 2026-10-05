@@ -1,0 +1,21 @@
+{
+  "id": "33dd2f66-5d9d-4395-acd5-4805b3c5f508",
+  "type": "frame",
+  "tag": "div",
+  "name": "Keyboard Alphabetic",
+  "parent": "d0cdf974-9009-484b-bed7-ef329ef0b446",
+  "order": "G",
+  "createdAt": "2026-10-05T06:35:53.449Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "bb3d4275-053d-484e-84f0-5dd7882f54d6"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "44px",
+    "width": "375px",
+    "height": "291px"
+  },
+  "updatedAt": "2026-10-05T06:35:53.449Z"
+}

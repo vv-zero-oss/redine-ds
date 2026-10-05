@@ -1,0 +1,23 @@
+{
+  "id": "fa83bf1f-1f07-4d88-b52c-5065ad52c4fe",
+  "type": "frame",
+  "tag": "div",
+  "name": "Active Tab",
+  "parent": "8c6fdc78-1596-4bbb-a7b1-9b1a5366a99f",
+  "order": "G",
+  "createdAt": "2026-10-05T06:35:53.449Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "c5bd7f6a-31e9-41c0-a2a6-5b0836889d2d"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "131.5px",
+    "top": "8px",
+    "width": "112px",
+    "height": "28px",
+    "overflowX": "hidden",
+    "overflowY": "hidden"
+  },
+  "updatedAt": "2026-10-05T06:35:53.449Z"
+}

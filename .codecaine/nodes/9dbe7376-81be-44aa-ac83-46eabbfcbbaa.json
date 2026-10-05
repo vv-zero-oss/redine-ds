@@ -1,0 +1,23 @@
+{
+  "id": "9dbe7376-81be-44aa-ac83-46eabbfcbbaa",
+  "type": "frame",
+  "tag": "div",
+  "name": "Keyboard Alphabetic - Autocomplete Bar",
+  "parent": "d0cdf974-9009-484b-bed7-ef329ef0b446",
+  "order": "V",
+  "createdAt": "2026-10-05T06:35:53.449Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "f301ef16-389c-4a6e-a1c1-6fceb06ddc33"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "375px",
+    "height": "44px",
+    "overflowX": "hidden",
+    "overflowY": "hidden"
+  },
+  "updatedAt": "2026-10-05T06:35:53.449Z"
+}

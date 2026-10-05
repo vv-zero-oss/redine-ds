@@ -1,0 +1,23 @@
+{
+  "id": "45601963-9cbc-4021-90e5-2a6c48d88384",
+  "type": "text",
+  "tag": "h2",
+  "parent": "349c6cc2-f4e9-4333-b6c0-c59b382de150",
+  "order": "G",
+  "createdAt": "2026-10-05T06:36:01.024Z",
+  "props": {
+    "text": "Recollect card on a dark background",
+    "data-codecaine-id": "f730bc51-eb1d-4476-9259-7ddb7f965e5a"
+  },
+  "style": {
+    "marginTop": "0px",
+    "marginRight": "0px",
+    "marginBottom": "0px",
+    "marginLeft": "0px",
+    "color": "var(--noir-text)",
+    "fontSize": "var(--tile-text-size)",
+    "lineHeight": "var(--space-6)",
+    "fontWeight": "500"
+  },
+  "updatedAt": "2026-10-05T06:36:01.024Z"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "42edf2cf-b238-4643-91e7-ec1e014570d8",
+  "type": "frame",
+  "tag": "svg",
+  "name": "Battery",
+  "parent": "e38dc7cb-6f8f-4aa1-8b25-2ab27c92c019",
+  "order": "G",
+  "createdAt": "2026-10-05T06:35:53.449Z",
+  "props": {
+    "width": "24.32803726196289",
+    "height": "11.333333015441895",
+    "viewBox": "0 0 24.32803726196289 11.333333015441895",
+    "fill": "none",
+    "overflow": "visible",
+    "xmlns": "http://www.w3.org/2000/svg",
+    "innerMarkup": "<path transform=\"matrix(1 0 0 1 23 3.667)\" d=\"M0 0L0 4C0.8 3.66 1.33 2.87 1.33 2C1.33 1.13 0.8 0.34 0 0Z\" fill=\"#FFFFFF\" fill-opacity=\"0.4\"></path><rect transform=\"matrix(1 0 0 1 2 2)\" width=\"18\" height=\"7.333333492279053\" rx=\"1.3333333730697632\" fill=\"#FFFFFF\"></rect>",
+    "data-import-type": "figma",
+    "data-codecaine-id": "97d304c7-bfe9-43f9-94b4-e70c47e83a10"
+  },
+  "style": {
+    "display": "block",
+    "position": "absolute",
+    "left": "335.33px",
+    "top": "17.33px",
+    "width": "24.33px",
+    "height": "11.33px"
+  },
+  "updatedAt": "2026-10-05T06:35:53.449Z"
+}

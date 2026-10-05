@@ -1,0 +1,33 @@
+{
+  "id": "e6dcbe4d-0ade-42b1-ac3b-e5b1de716eb3",
+  "type": "text",
+  "tag": "p",
+  "name": "Symbol",
+  "parent": "681125ac-811b-48d9-9034-a898b6a9ef85",
+  "order": "V",
+  "createdAt": "2026-10-05T06:35:53.449Z",
+  "props": {
+    "text": "D",
+    "data-import-type": "figma",
+    "data-codecaine-id": "cfea8f78-51fe-45ba-9f27-f3b7c334cf73"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "8.53px",
+    "top": "8px",
+    "fontFamily": "\"SF Pro Text\", sans-serif",
+    "fontSize": "22.5px",
+    "fontWeight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.55px",
+    "color": "rgb(255, 255, 255)",
+    "textAlign": "center",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T06:35:53.449Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "1c9810db-f16c-475b-97cd-edf6c204e561",
+  "type": "text",
+  "tag": "p",
+  "parent": "8c6fdc78-1596-4bbb-a7b1-9b1a5366a99f",
+  "order": "V",
+  "createdAt": "2026-10-05T06:35:53.449Z",
+  "props": {
+    "text": "Emoji",
+    "data-import-type": "figma",
+    "data-codecaine-id": "01fa167c-416a-4b5e-bc38-2ed4ee320ace"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "282px",
+    "top": "14px",
+    "fontFamily": "\"SF Pro Text\", sans-serif",
+    "fontSize": "13px",
+    "fontWeight": "700",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.1px",
+    "textTransform": "uppercase",
+    "color": "rgba(255, 255, 255, 0.5)",
+    "textAlign": "center",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T06:35:53.449Z"
+}

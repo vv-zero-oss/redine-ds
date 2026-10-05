@@ -1,0 +1,35 @@
+{
+  "id": "8337a051-bbe8-4f77-8708-bd8c02054b0d",
+  "type": "frame",
+  "tag": "div",
+  "name": "Messanger GIFs Searching",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzzzzzzz",
+  "createdAt": "2026-10-05T06:35:53.449Z",
+  "props": {
+    "importedPlacement": {
+      "position": "relative"
+    },
+    "data-import-type": "figma",
+    "data-codecaine-id": "fc2fe5b1-53db-4e56-91e1-fcfd51c96678"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {
+    "width": 375,
+    "height": "812px",
+    "backgroundColor": "rgb(0, 0, 0)",
+    "overflowX": "hidden",
+    "overflowY": "hidden",
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "left": 3703.8534691201576,
+    "top": 1975.5027402784153
+  },
+  "updatedAt": "2026-10-05T06:35:55.161Z"
+}

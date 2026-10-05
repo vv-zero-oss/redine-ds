@@ -1,0 +1,21 @@
+{
+  "id": "e7ab55d7-d5f8-449f-b1e9-f0751ec2b4b5",
+  "type": "frame",
+  "tag": "div",
+  "name": "Camera and Modes",
+  "parent": "741b57f0-90b6-4243-8df9-699db9bfa1cc",
+  "order": "8",
+  "createdAt": "2026-10-05T06:35:36.406Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "188c4bc1-bfbb-4888-a6da-f98cbf8f37fd"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "-0.5px",
+    "top": "584px",
+    "width": "375.5px",
+    "height": "228px"
+  },
+  "updatedAt": "2026-10-05T06:35:36.406Z"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "1a4af13d-16de-4afa-a859-6b2eb66f4b30",
+  "type": "section",
+  "tag": "article",
+  "name": "article",
+  "parent": "5460ea6b-9105-4b49-b503-872ff0d48bdd",
+  "order": "G",
+  "createdAt": "2026-10-05T06:36:01.024Z",
+  "props": {
+    "aria-label": "Option C: Light paper",
+    "data-codecaine-id": "3cc529f1-200c-4480-8949-a85269d3521a"
+  },
+  "style": {
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "center",
+    "width": "var(--recollect-card-width)",
+    "paddingTop": "var(--space-5)",
+    "paddingRight": "var(--space-2)",
+    "paddingBottom": "var(--space-2)",
+    "paddingLeft": "var(--space-2)",
+    "boxShadow": "var(--paper-on-dark-edge)",
+    "backdropFilter": "var(--glass-dark-blur)",
+    "gap": "var(--space-3)",
+    "borderRadius": "var(--recollect-radius-card)",
+    "background": "var(--paper-on-dark-fill)"
+  },
+  "updatedAt": "2026-10-05T06:36:01.024Z"
+}

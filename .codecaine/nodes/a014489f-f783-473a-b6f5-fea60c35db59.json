@@ -1,0 +1,21 @@
+{
+  "id": "a014489f-f783-473a-b6f5-fea60c35db59",
+  "type": "frame",
+  "tag": "div",
+  "name": "Shift",
+  "parent": "33dd2f66-5d9d-4395-acd5-4805b3c5f508",
+  "order": "E",
+  "createdAt": "2026-10-05T06:35:53.449Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "ab123465-7db4-4a2b-b2a8-89ebe8dde635"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "3px",
+    "top": "116px",
+    "width": "42px",
+    "height": "42px"
+  },
+  "updatedAt": "2026-10-05T06:35:53.449Z"
+}

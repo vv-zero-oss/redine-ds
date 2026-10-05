@@ -1,0 +1,23 @@
+{
+  "id": "f14e5db9-5701-4149-b712-4c5809183442",
+  "type": "frame",
+  "tag": "div",
+  "name": "Popular",
+  "parent": "5312af91-e798-49a7-8ec6-bf42d5848c48",
+  "order": "V",
+  "createdAt": "2026-10-05T06:35:53.449Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "af9f7d73-b7f6-43f4-9956-dce5997d9813"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "16px",
+    "top": "68px",
+    "width": "87px",
+    "height": "24px",
+    "overflowX": "hidden",
+    "overflowY": "hidden"
+  },
+  "updatedAt": "2026-10-05T06:35:53.449Z"
+}

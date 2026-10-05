@@ -1,0 +1,21 @@
+{
+  "id": "56a6ee6a-f9ec-458d-afc5-444540e46375",
+  "type": "frame",
+  "tag": "div",
+  "name": "Search GIFs",
+  "parent": "5312af91-e798-49a7-8ec6-bf42d5848c48",
+  "order": "G",
+  "createdAt": "2026-10-05T06:35:53.449Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "db910a12-1f8f-4963-af97-ffd2388443c1"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "375px",
+    "height": "152px"
+  },
+  "updatedAt": "2026-10-05T06:35:53.449Z"
+}

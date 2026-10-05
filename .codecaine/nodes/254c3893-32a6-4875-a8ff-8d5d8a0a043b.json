@@ -1,0 +1,23 @@
+{
+  "id": "254c3893-32a6-4875-a8ff-8d5d8a0a043b",
+  "type": "frame",
+  "tag": "div",
+  "name": "Rectangle",
+  "parent": "24d2ab02-829d-49cf-b71b-9846b68b8b89",
+  "order": "8",
+  "createdAt": "2026-10-05T06:35:53.449Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "ba45a6c6-5255-4342-b1a9-05ce8f59fe64"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "375px",
+    "height": "96px",
+    "backdropFilter": "blur(27.18px)",
+    "backgroundColor": "rgba(17, 17, 17, 0.6)"
+  },
+  "updatedAt": "2026-10-05T06:35:53.449Z"
+}
