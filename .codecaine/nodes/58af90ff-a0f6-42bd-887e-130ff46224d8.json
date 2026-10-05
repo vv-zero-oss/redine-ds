@@ -12,12 +12,12 @@
   },
   "style": {
     "position": "absolute",
-    "left": 0,
-    "top": 52,
+    "left": "0px",
+    "top": "60px",
     "width": "375px",
     "height": "60px",
     "overflowX": "hidden",
     "overflowY": "hidden"
   },
-  "updatedAt": "2026-10-05T05:38:21.325Z"
+  "updatedAt": "2026-10-05T05:35:31.696Z"
 }

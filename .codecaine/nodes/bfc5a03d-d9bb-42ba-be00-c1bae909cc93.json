@@ -1,0 +1,25 @@
+{
+  "id": "bfc5a03d-d9bb-42ba-be00-c1bae909cc93",
+  "type": "image",
+  "tag": "img",
+  "name": "iPhone 17 Pro - Silver - Portrait",
+  "parent": "e96a9845-71d4-4883-a13d-0f7a86d2e6f6",
+  "order": "V",
+  "createdAt": "2026-10-05T05:40:22.001Z",
+  "props": {
+    "src": "asset:media/images/8f3cfaabd6138c8e6e1b.png",
+    "alt": "iPhone 17 Pro - Silver - Portrait",
+    "data-import-type": "figma",
+    "data-codecaine-id": "b2a429f8-1bf4-4281-a0d7-4e8c12ae6d50"
+  },
+  "style": {
+    "display": "block",
+    "position": "absolute",
+    "left": "-24px",
+    "top": "-23px",
+    "width": "450px",
+    "height": "920px",
+    "objectFit": "cover"
+  },
+  "updatedAt": "2026-10-05T05:40:24.539Z"
+}

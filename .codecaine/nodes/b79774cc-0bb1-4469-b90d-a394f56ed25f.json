@@ -1,0 +1,29 @@
+{
+  "id": "b79774cc-0bb1-4469-b90d-a394f56ed25f",
+  "type": "frame",
+  "tag": "svg",
+  "name": "Icon",
+  "parent": "50a78df5-9813-4ed5-88e5-e98fc1b4cdcd",
+  "order": "V",
+  "createdAt": "2026-10-05T05:40:22.001Z",
+  "props": {
+    "width": "28",
+    "height": "28",
+    "viewBox": "0 0 28 28",
+    "fill": "none",
+    "overflow": "visible",
+    "xmlns": "http://www.w3.org/2000/svg",
+    "innerMarkup": "<path transform=\"matrix(1 0 0 1 9.333 9.333)\" d=\"M9.33 4.67C9.33 7.24 7.24 9.33 4.67 9.33C2.09 9.33 0 7.24 0 4.67C0 2.09 2.09 0 4.67 0C7.24 0 9.33 2.09 9.33 4.67\" fill=\"none\" stroke=\"#0A0A0A\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path transform=\"matrix(1 0 0 1 14 2.333)\" d=\"M0 0L0 2.33\" fill=\"none\" stroke=\"#0A0A0A\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path transform=\"matrix(1 0 0 1 14 23.333)\" d=\"M0 0L0 2.33\" fill=\"none\" stroke=\"#0A0A0A\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path transform=\"matrix(1 0 0 1 5.752 5.752)\" d=\"M0 0L1.65 1.65\" fill=\"none\" stroke=\"#0A0A0A\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path transform=\"matrix(1 0 0 1 20.603 20.603)\" d=\"M0 0L1.64 1.64\" fill=\"none\" stroke=\"#0A0A0A\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path transform=\"matrix(1 0 0 1 2.333 14)\" d=\"M0 0L2.33 0\" fill=\"none\" stroke=\"#0A0A0A\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path transform=\"matrix(1 0 0 1 23.333 14)\" d=\"M0 0L2.33 0\" fill=\"none\" stroke=\"#0A0A0A\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path transform=\"matrix(1 0 0 1 5.752 20.603)\" d=\"M1.65 0L0 1.64\" fill=\"none\" stroke=\"#0A0A0A\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path transform=\"matrix(1 0 0 1 20.603 5.752)\" d=\"M1.64 0L0 1.65\" fill=\"none\" stroke=\"#0A0A0A\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>",
+    "data-import-type": "figma",
+    "data-codecaine-id": "2202e546-43b2-431e-b95f-f0bc1be5e7d1"
+  },
+  "style": {
+    "display": "block",
+    "position": "absolute",
+    "left": "116px",
+    "top": "28px",
+    "width": "28px",
+    "height": "28px"
+  },
+  "updatedAt": "2026-10-05T05:40:22.001Z"
+}

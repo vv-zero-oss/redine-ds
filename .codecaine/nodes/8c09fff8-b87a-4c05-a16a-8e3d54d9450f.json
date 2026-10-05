@@ -1,0 +1,32 @@
+{
+  "id": "8c09fff8-b87a-4c05-a16a-8e3d54d9450f",
+  "type": "text",
+  "tag": "p",
+  "parent": "fc03ec4c-7e7a-46a9-b3fa-9d13fbe873a3",
+  "order": "G",
+  "createdAt": "2026-10-05T05:40:22.001Z",
+  "props": {
+    "text": "Feels",
+    "data-import-type": "figma",
+    "data-codecaine-id": "4084b818-0295-4bd6-a347-d073c6a2fae5"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "fontFamily": "\"Locale Mono\", monospace",
+    "fontSize": "14px",
+    "fontWeight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "-0.15px",
+    "textTransform": "uppercase",
+    "color": "rgb(17, 36, 107)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T05:40:22.001Z"
+}

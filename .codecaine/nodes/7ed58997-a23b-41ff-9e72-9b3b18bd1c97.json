@@ -1,0 +1,21 @@
+{
+  "id": "7ed58997-a23b-41ff-9e72-9b3b18bd1c97",
+  "type": "frame",
+  "tag": "div",
+  "name": "Weekly",
+  "parent": "0af6ac97-93f6-4083-9aeb-f143fe183c85",
+  "order": "G",
+  "createdAt": "2026-10-05T05:40:22.001Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "d33a624e-2d54-4b76-bbea-33b60ddda0f8"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "24px",
+    "top": "499px",
+    "width": "354px",
+    "height": "280px"
+  },
+  "updatedAt": "2026-10-05T05:40:22.001Z"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "cab3dc75-ec2d-40f2-8911-820166ba0f36",
+  "type": "frame",
+  "tag": "div",
+  "name": "Text",
+  "parent": "13e400f4-ff58-4afb-96cb-abbe4800ec58",
+  "order": "V",
+  "createdAt": "2026-10-05T05:40:22.001Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "f099af04-5caa-412e-a61a-58d012afa527"
+  },
+  "style": {
+    "width": "48.33px",
+    "flexShrink": "0",
+    "height": "20px",
+    "position": "relative"
+  },
+  "updatedAt": "2026-10-05T05:40:22.001Z"
+}

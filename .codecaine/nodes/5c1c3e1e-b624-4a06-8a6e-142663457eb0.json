@@ -1,0 +1,21 @@
+{
+  "id": "5c1c3e1e-b624-4a06-8a6e-142663457eb0",
+  "type": "frame",
+  "tag": "div",
+  "name": "Container",
+  "parent": "a0d392e4-257f-4648-ac61-1617eaaecc73",
+  "order": "l",
+  "createdAt": "2026-10-05T05:40:22.001Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "a1c18702-9213-4f8a-afba-ab24e48062f0"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "115.33px",
+    "top": "0px",
+    "width": "23.62px",
+    "height": "24px"
+  },
+  "updatedAt": "2026-10-05T05:40:22.001Z"
+}

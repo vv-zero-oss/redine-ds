@@ -1,0 +1,23 @@
+{
+  "id": "4099ece2-2da5-46e1-af8b-41d721e54169",
+  "type": "frame",
+  "tag": "div",
+  "name": "Top Location Button",
+  "parent": "0af6ac97-93f6-4083-9aeb-f143fe183c85",
+  "order": "l",
+  "createdAt": "2026-10-05T05:40:22.001Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "8b19cc1c-1c7e-4629-9a3f-efcda503d351"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "24px",
+    "top": "82px",
+    "width": "354px",
+    "height": "24px",
+    "overflowX": "hidden",
+    "overflowY": "hidden"
+  },
+  "updatedAt": "2026-10-05T05:40:22.001Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "e8d7e43c-9130-4ad3-8abe-930d48a4f002",
+  "type": "frame",
+  "tag": "div",
+  "name": "Bottoms Details",
+  "parent": "235f7d2a-e0db-4e7f-b6c4-3f90abd3e5ad",
+  "order": "V",
+  "createdAt": "2026-10-05T05:40:22.001Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "dfea8df5-7ea6-4520-b885-c4fc6daa9ee1"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "338px",
+    "height": "294px"
+  },
+  "updatedAt": "2026-10-05T05:40:22.001Z"
+}

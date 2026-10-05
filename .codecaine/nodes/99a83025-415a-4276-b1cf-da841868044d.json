@@ -1,0 +1,27 @@
+{
+  "id": "99a83025-415a-4276-b1cf-da841868044d",
+  "type": "frame",
+  "tag": "svg",
+  "name": "Icon",
+  "parent": "0a253956-3a7f-4068-b036-f5684cb96aed",
+  "order": "G",
+  "createdAt": "2026-10-05T05:40:22.001Z",
+  "props": {
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16",
+    "fill": "none",
+    "overflow": "visible",
+    "xmlns": "http://www.w3.org/2000/svg",
+    "innerMarkup": "<path transform=\"matrix(1 0 0 1 2 3.533)\" d=\"M2.67 7.33C4.13 7.33 5.33 6.11 5.33 4.63C5.33 3.86 4.95 3.13 4.19 2.51C3.43 1.89 2.86 0.97 2.67 0C2.47 0.97 1.91 1.89 1.14 2.51C0.37 3.12 0 3.87 0 4.63C0 6.11 1.2 7.33 2.67 7.33\" fill=\"none\" stroke=\"#6A7282\" stroke-width=\"1.3333333730697632\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path transform=\"matrix(1 0 0 1 6.06 2.013)\" d=\"M2.31 2.39C2.77 1.65 3.1 0.85 3.27 0C3.61 1.67 4.61 3.27 5.94 4.33C7.27 5.4 7.94 6.67 7.94 8C7.94 8.92 7.67 9.82 7.16 10.59C6.66 11.36 5.93 11.96 5.08 12.31C4.23 12.67 3.29 12.76 2.39 12.58C1.48 12.41 0.65 11.96 0 11.31\" fill=\"none\" stroke=\"#6A7282\" stroke-width=\"1.3333333730697632\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>",
+    "data-import-type": "figma",
+    "data-codecaine-id": "fb9da376-6394-40f3-bcf8-ec8cb1b06d6d"
+  },
+  "style": {
+    "display": "block",
+    "width": "16px",
+    "flexShrink": "0",
+    "height": "16px"
+  },
+  "updatedAt": "2026-10-05T05:40:22.001Z"
+}

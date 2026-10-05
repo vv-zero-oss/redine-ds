@@ -1,0 +1,21 @@
+{
+  "id": "782a5518-4c05-4f63-870e-46a6f019ce31",
+  "type": "frame",
+  "tag": "div",
+  "name": "Temp",
+  "parent": "0af6ac97-93f6-4083-9aeb-f143fe183c85",
+  "order": "d",
+  "createdAt": "2026-10-05T05:40:22.001Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "e841df31-b476-4a77-b4ca-6a022a6ada1b"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "24px",
+    "top": "138px",
+    "width": "354px",
+    "height": "188px"
+  },
+  "updatedAt": "2026-10-05T05:40:22.001Z"
+}

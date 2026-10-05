@@ -1,0 +1,31 @@
+{
+  "id": "eb6871a5-8622-4e81-bb07-d02ad20eb661",
+  "type": "text",
+  "tag": "p",
+  "parent": "2d69e548-c8b2-4fe0-999c-ba6df799c40b",
+  "order": "V",
+  "createdAt": "2026-10-05T05:40:22.001Z",
+  "props": {
+    "text": "Sunset",
+    "data-import-type": "figma",
+    "data-codecaine-id": "67ee676a-03b5-4608-8f59-026d7a88e855"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "0px",
+    "top": "0.5px",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "-0.15px",
+    "color": "rgb(106, 114, 130)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T05:40:22.001Z"
+}

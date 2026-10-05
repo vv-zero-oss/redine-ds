@@ -1,0 +1,21 @@
+{
+  "id": "821f3773-a625-435c-bb19-27734cf7e750",
+  "type": "frame",
+  "tag": "div",
+  "name": "Hourly",
+  "parent": "0af6ac97-93f6-4083-9aeb-f143fe183c85",
+  "order": "V",
+  "createdAt": "2026-10-05T05:40:22.001Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "c6f8ca67-6836-42cc-8acd-1c6127fe8593"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "24px",
+    "top": "358px",
+    "width": "354px",
+    "height": "109px"
+  },
+  "updatedAt": "2026-10-05T05:40:22.001Z"
+}
