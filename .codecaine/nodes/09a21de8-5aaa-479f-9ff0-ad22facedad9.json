@@ -10,7 +10,7 @@
     "data-styles-preset": "mVM_adhUD",
     "dir": "auto",
     "data-codecaine-id": "4a1b5968-f2ad-4d7d-87f1-e2f2aca4baa6",
-    "text": "Save to collections"
+    "text": "@mention your anything on the board"
   },
   "sizing": {
     "width": "fixed",
@@ -108,5 +108,5 @@
     "--framer-text-alignment": "center",
     "--framer-text-color": "var(--token-3e7d342c-a5e5-4556-ae33-887ada111c73, rgb(20, 20, 20))"
   },
-  "updatedAt": "2026-10-05T12:05:11.213Z"
+  "updatedAt": "2026-10-05T12:10:13.723Z"
 }
