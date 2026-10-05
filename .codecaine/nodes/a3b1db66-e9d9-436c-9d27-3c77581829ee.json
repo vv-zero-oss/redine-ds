@@ -1,0 +1,14 @@
+{
+  "id": "a3b1db66-e9d9-436c-9d27-3c77581829ee",
+  "type": "text",
+  "tag": "strong",
+  "parent": "ad0553a5-2394-421a-8cfb-1dcc3eb47378",
+  "order": "4",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "text": "It is a third project with the SDK in it.",
+    "data-codecaine-id": "4a8b1c51-c274-4275-b36c-cb4f2c08de8b"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

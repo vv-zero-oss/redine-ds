@@ -1,0 +1,14 @@
+{
+  "id": "2b67bc02-89ab-406b-b0db-30161f29266f",
+  "type": "text",
+  "tag": "em",
+  "parent": "4d8f3929-7aff-4e6d-ba4c-9493a83ec369",
+  "order": "G",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "text": "inside",
+    "data-codecaine-id": "b4bc4414-a7bf-4fa6-9a6e-a8f842026337"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

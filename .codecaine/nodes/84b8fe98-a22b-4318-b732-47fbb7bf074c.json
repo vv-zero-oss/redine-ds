@@ -1,0 +1,23 @@
+{
+  "id": "84b8fe98-a22b-4318-b732-47fbb7bf074c",
+  "type": "text",
+  "tag": "code",
+  "parent": "c31e4d32-ab55-4e9e-b2e9-a6d4197bf6a5",
+  "order": "8",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "className": "font-mono text-sm bg-neutral-100 rounded px-1",
+    "text": "ButtonLink",
+    "data-codecaine-id": "dbcb5545-504b-4045-a4b6-6d8c35f824a7"
+  },
+  "style": {
+    "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", monospace",
+    "fontSize": 14,
+    "lineHeight": 1.4286,
+    "backgroundColor": "#f5f5f5",
+    "borderRadius": 4,
+    "paddingLeft": 4,
+    "paddingRight": 4
+  },
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

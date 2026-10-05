@@ -1,0 +1,15 @@
+{
+  "id": "79289ef9-e033-46c7-8772-83c5237bb086",
+  "type": "text",
+  "tag": "code",
+  "parent": "2762f9a7-ff36-48f5-8646-4f41f0efda1f",
+  "order": "V",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "className": "language-bash",
+    "text": "npm run scaffold # :3100, the project on the board npm --prefix web run dev # :3300, framed for the SDK shots RENDERER_ONLY=1 npx vite --port 5273 # the editor npm run shots:site",
+    "data-codecaine-id": "ce97fa17-dd00-463d-b27c-949bd6b20769"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

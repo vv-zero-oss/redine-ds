@@ -1,0 +1,15 @@
+{
+  "id": "7f22032d-5cbd-4bb6-9ab2-5c6c0966217c",
+  "type": "text",
+  "tag": "code",
+  "parent": "53071a9f-25e6-48e5-b056-e23cc17d3488",
+  "order": "V",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "className": "language-bash",
+    "text": "npm --prefix web run dev node e2e/landing-page.mjs",
+    "data-codecaine-id": "e48351ba-dd8d-482f-be9e-0d98940e02e3"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

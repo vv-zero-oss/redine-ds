@@ -1,0 +1,14 @@
+{
+  "id": "3c073ce6-1e64-41f3-98e3-7702190bed53",
+  "type": "text",
+  "tag": "span",
+  "parent": "c31e4d32-ab55-4e9e-b2e9-a6d4197bf6a5",
+  "order": "h",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "text": " and the component map comes back empty; take ",
+    "data-codecaine-id": "bce3ad3c-2b6a-4174-beb9-60d06389d11a"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

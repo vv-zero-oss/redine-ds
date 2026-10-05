@@ -1,0 +1,23 @@
+{
+  "id": "ad10d348-c3cb-48b4-a8d1-d499ac0d16d2",
+  "type": "text",
+  "tag": "h2",
+  "parent": "c5bed438-7214-47bc-887f-fc35091b2882",
+  "order": "X",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "className": "text-3xl font-semibold leading-tight mt-8 mb-4",
+    "text": "The pictures",
+    "data-codecaine-id": "144b1fba-f0be-4792-8004-e49973154772"
+  },
+  "style": {
+    "marginTop": 32,
+    "marginRight": 0,
+    "marginBottom": 16,
+    "marginLeft": 0,
+    "fontSize": 30,
+    "lineHeight": 1.25,
+    "fontWeight": 600
+  },
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

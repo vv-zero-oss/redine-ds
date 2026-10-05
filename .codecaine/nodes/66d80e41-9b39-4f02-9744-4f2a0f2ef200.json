@@ -1,0 +1,23 @@
+{
+  "id": "66d80e41-9b39-4f02-9744-4f2a0f2ef200",
+  "type": "text",
+  "tag": "code",
+  "parent": "fa7eb843-85a8-4cf7-a347-4ded2ecb9a2e",
+  "order": "8",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "className": "font-mono text-sm bg-neutral-100 rounded px-1",
+    "text": "Act",
+    "data-codecaine-id": "e9adfd86-a079-4d50-8096-8d0828cb7732"
+  },
+  "style": {
+    "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", monospace",
+    "fontSize": 14,
+    "lineHeight": 1.4286,
+    "backgroundColor": "#f5f5f5",
+    "borderRadius": 4,
+    "paddingLeft": 4,
+    "paddingRight": 4
+  },
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

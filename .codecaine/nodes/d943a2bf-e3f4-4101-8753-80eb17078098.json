@@ -1,0 +1,14 @@
+{
+  "id": "d943a2bf-e3f4-4101-8753-80eb17078098",
+  "type": "text",
+  "tag": "span",
+  "parent": "4d8f3929-7aff-4e6d-ba4c-9493a83ec369",
+  "order": "8",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "text": "It is a shot suite rather than a test, so it checks only the things that would make a picture a lie: that the project connected and answered with a tree, that the click selected an element ",
+    "data-codecaine-id": "b1d51e14-0595-4634-a81d-128a9089b828"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

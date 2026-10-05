@@ -1,0 +1,14 @@
+{
+  "id": "670c4805-ec0a-4ef3-84f4-5bfabd4bb5da",
+  "type": "text",
+  "tag": "span",
+  "parent": "dfaa35b1-fbd0-4a84-a352-5c51a7fa6c13",
+  "order": "8",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "text": "Every screenshot on the page is the running editor, in ",
+    "data-codecaine-id": "e782800b-40be-4c38-a840-7d6b1969c3de"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

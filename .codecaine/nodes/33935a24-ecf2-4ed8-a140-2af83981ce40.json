@@ -1,0 +1,23 @@
+{
+  "id": "33935a24-ecf2-4ed8-a140-2af83981ce40",
+  "type": "text",
+  "tag": "h2",
+  "parent": "c5bed438-7214-47bc-887f-fc35091b2882",
+  "order": "G",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "className": "text-3xl font-semibold leading-tight mt-8 mb-4",
+    "text": "What it is for, besides being read",
+    "data-codecaine-id": "326c74e6-9a3e-4ab7-a974-651c604ab464"
+  },
+  "style": {
+    "marginTop": 32,
+    "marginRight": 0,
+    "marginBottom": 16,
+    "marginLeft": 0,
+    "fontSize": 30,
+    "lineHeight": 1.25,
+    "fontWeight": 600
+  },
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

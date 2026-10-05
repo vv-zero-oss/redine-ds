@@ -1,0 +1,14 @@
+{
+  "id": "25ecdf0d-1a36-4b47-abb0-a61fda7c837a",
+  "type": "frame",
+  "tag": "tr",
+  "name": "tr",
+  "parent": "3993c64f-e2bd-48f5-a344-ecb0f1cf399f",
+  "order": "V",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "data-codecaine-id": "988dcbbd-ca99-4d36-b8e1-09a98214c4e3"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

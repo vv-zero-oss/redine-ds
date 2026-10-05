@@ -1,0 +1,14 @@
+{
+  "id": "ac0c7301-b394-42b2-b325-bd6cd4bb3e95",
+  "type": "text",
+  "tag": "span",
+  "parent": "54264eaa-3e17-490f-96a1-9c5a731b1c9e",
+  "order": "G",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "text": " has no Next equivalent: it reads prop types at dev-server start so ",
+    "data-codecaine-id": "8a53be80-a31c-4b01-9b44-cef0c95eaf3d"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

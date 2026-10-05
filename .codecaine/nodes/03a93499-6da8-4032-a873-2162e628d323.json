@@ -1,0 +1,14 @@
+{
+  "id": "03a93499-6da8-4032-a873-2162e628d323",
+  "type": "text",
+  "tag": "span",
+  "parent": "2c1fa852-dcba-43a6-98c3-a2c76f95a936",
+  "order": "l",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "text": ", including the section that says what the editor does not do yet.",
+    "data-codecaine-id": "4b460763-1912-4cad-a61c-0bb0a3298494"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

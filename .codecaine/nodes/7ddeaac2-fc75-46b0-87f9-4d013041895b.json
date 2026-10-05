@@ -1,0 +1,23 @@
+{
+  "id": "7ddeaac2-fc75-46b0-87f9-4d013041895b",
+  "type": "text",
+  "tag": "code",
+  "parent": "fae34d40-fa90-483e-90f9-1220f423b170",
+  "order": "V",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "className": "font-mono text-sm bg-neutral-100 rounded px-1",
+    "text": "npm --prefix web run dev",
+    "data-codecaine-id": "f2d01528-369a-44fe-9b0b-726304ca5b2c"
+  },
+  "style": {
+    "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", monospace",
+    "fontSize": 14,
+    "lineHeight": 1.4286,
+    "backgroundColor": "#f5f5f5",
+    "borderRadius": 4,
+    "paddingLeft": 4,
+    "paddingRight": 4
+  },
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

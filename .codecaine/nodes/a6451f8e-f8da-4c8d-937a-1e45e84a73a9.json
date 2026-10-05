@@ -1,0 +1,14 @@
+{
+  "id": "a6451f8e-f8da-4c8d-937a-1e45e84a73a9",
+  "type": "text",
+  "tag": "span",
+  "parent": "4d8f3929-7aff-4e6d-ba4c-9493a83ec369",
+  "order": "l",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "text": ". A frame that never loaded looks exactly like one that did, at this size.",
+    "data-codecaine-id": "c862ad4c-ce52-44a3-801c-22615a8fa1bb"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

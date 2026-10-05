@@ -1,0 +1,14 @@
+{
+  "id": "1b6827f7-e1b6-417f-ae02-515027de55b2",
+  "type": "text",
+  "tag": "span",
+  "parent": "9963aae7-139b-4cd5-80ce-b6ac0acff3a3",
+  "order": "G",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "text": " has to be planted before ",
+    "data-codecaine-id": "89b1c0f3-7512-4eac-960a-e71d7e87e20b"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

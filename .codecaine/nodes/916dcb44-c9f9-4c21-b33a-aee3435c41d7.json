@@ -1,0 +1,23 @@
+{
+  "id": "916dcb44-c9f9-4c21-b33a-aee3435c41d7",
+  "type": "text",
+  "tag": "code",
+  "parent": "6c5ef653-8024-4e41-9cca-376cf99ea77f",
+  "order": "V",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "className": "font-mono text-sm bg-neutral-100 rounded px-1",
+    "text": "instrumentation-client.ts",
+    "data-codecaine-id": "03a5ace0-2a98-47a4-adb4-543f82f4daed"
+  },
+  "style": {
+    "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", monospace",
+    "fontSize": 14,
+    "lineHeight": 1.4286,
+    "backgroundColor": "#f5f5f5",
+    "borderRadius": 4,
+    "paddingLeft": 4,
+    "paddingRight": 4
+  },
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

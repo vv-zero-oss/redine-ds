@@ -1,0 +1,23 @@
+{
+  "id": "a7f69fd6-096e-4594-8adc-5662959c0547",
+  "type": "text",
+  "tag": "h2",
+  "parent": "c5bed438-7214-47bc-887f-fc35091b2882",
+  "order": "p",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "className": "text-3xl font-semibold leading-tight mt-8 mb-4",
+    "text": "Checking it",
+    "data-codecaine-id": "8b5e178b-f92f-4fff-b574-e82fd371cec0"
+  },
+  "style": {
+    "marginTop": 32,
+    "marginRight": 0,
+    "marginBottom": 16,
+    "marginLeft": 0,
+    "fontSize": 30,
+    "lineHeight": 1.25,
+    "fontWeight": 600
+  },
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

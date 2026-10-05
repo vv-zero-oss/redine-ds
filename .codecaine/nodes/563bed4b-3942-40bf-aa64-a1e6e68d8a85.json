@@ -1,0 +1,14 @@
+{
+  "id": "563bed4b-3942-40bf-aa64-a1e6e68d8a85",
+  "type": "text",
+  "tag": "span",
+  "parent": "54264eaa-3e17-490f-96a1-9c5a731b1c9e",
+  "order": "l",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "text": " is a dropdown rather than a text field, and it is a Vite plugin. Every prop is still read and still writable here; it is a field instead of a menu.",
+    "data-codecaine-id": "cf7e4027-085f-442c-ba26-44cd70b9013d"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

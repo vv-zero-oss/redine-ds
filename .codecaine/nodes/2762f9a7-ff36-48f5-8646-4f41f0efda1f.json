@@ -1,0 +1,30 @@
+{
+  "id": "2762f9a7-ff36-48f5-8646-4f41f0efda1f",
+  "type": "frame",
+  "tag": "pre",
+  "name": "pre",
+  "parent": "c5bed438-7214-47bc-887f-fc35091b2882",
+  "order": "d",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "className": "bg-neutral-100 rounded-md p-4 text-sm font-mono mb-4 whitespace-pre",
+    "data-codecaine-id": "29425eb9-6e23-42d4-983e-39be17d07cc5"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 16,
+    "marginLeft": 0,
+    "backgroundColor": "#f5f5f5",
+    "borderRadius": 6,
+    "paddingTop": 16,
+    "paddingRight": 16,
+    "paddingBottom": 16,
+    "paddingLeft": 16,
+    "fontSize": 14,
+    "lineHeight": 1.4286,
+    "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", monospace",
+    "whiteSpace": "pre"
+  },
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

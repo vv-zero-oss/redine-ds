@@ -1,0 +1,14 @@
+{
+  "id": "e7f0bcb6-0ac6-4402-9182-6a61d974d1a8",
+  "type": "text",
+  "tag": "span",
+  "parent": "fae34d40-fa90-483e-90f9-1220f423b170",
+  "order": "G",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "text": "Or, from the repository root, ",
+    "data-codecaine-id": "de6bd917-ac10-4682-8350-895db12fcb39"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

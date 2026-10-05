@@ -1,0 +1,14 @@
+{
+  "id": "66bf8bc5-0c23-4ede-9e0e-dbeec8b3cc90",
+  "type": "text",
+  "tag": "strong",
+  "parent": "2c1fa852-dcba-43a6-98c3-a2c76f95a936",
+  "order": "8",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "text": "It says what this thing is.",
+    "data-codecaine-id": "51ec8f58-f6b3-4390-9b32-7cd05aa9f7fb"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "6c5ef653-8024-4e41-9cca-376cf99ea77f",
+  "type": "frame",
+  "tag": "td",
+  "name": "td",
+  "parent": "b92fae8c-0858-4154-ac71-26fcbc03ea72",
+  "order": "G",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "className": "border border-neutral-300 px-3 py-2 align-top",
+    "data-codecaine-id": "c1d28ddb-5aea-4c88-a652-6ff4d1051689"
+  },
+  "style": {
+    "borderWidth": 1,
+    "borderStyle": "solid",
+    "borderColor": "#d4d4d4",
+    "paddingLeft": 12,
+    "paddingRight": 12,
+    "paddingTop": 8,
+    "paddingBottom": 8,
+    "verticalAlign": "top"
+  },
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

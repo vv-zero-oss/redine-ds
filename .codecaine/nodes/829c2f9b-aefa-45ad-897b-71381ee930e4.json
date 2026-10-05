@@ -1,0 +1,24 @@
+{
+  "id": "829c2f9b-aefa-45ad-897b-71381ee930e4",
+  "type": "text",
+  "tag": "td",
+  "parent": "aec682ff-e268-49da-9cbc-947b4842a09e",
+  "order": "V",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "className": "border border-neutral-300 px-3 py-2 align-top",
+    "text": "The SDK names an element after the component whose output it begins, and it finds that by walking the fiber React hung off the DOM node. A server component leaves no fiber, so a page built out of server components answers with host elements and nothing else.",
+    "data-codecaine-id": "5815c619-8e38-42dd-a431-87846dc2a966"
+  },
+  "style": {
+    "borderWidth": 1,
+    "borderStyle": "solid",
+    "borderColor": "#d4d4d4",
+    "paddingLeft": 12,
+    "paddingRight": 12,
+    "paddingTop": 8,
+    "paddingBottom": 8,
+    "verticalAlign": "top"
+  },
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}

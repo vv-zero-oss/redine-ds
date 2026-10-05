@@ -1,0 +1,23 @@
+{
+  "id": "d7f03562-5b07-443d-9813-6b0226d4dea8",
+  "type": "text",
+  "tag": "code",
+  "parent": "fa7eb843-85a8-4cf7-a347-4ded2ecb9a2e",
+  "order": "K",
+  "createdAt": "2026-10-05T12:08:41.573Z",
+  "props": {
+    "className": "font-mono text-sm bg-neutral-100 rounded px-1",
+    "text": "Hero",
+    "data-codecaine-id": "d1139bb8-7cbc-4942-a765-3595ec5a9b5e"
+  },
+  "style": {
+    "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", monospace",
+    "fontSize": 14,
+    "lineHeight": 1.4286,
+    "backgroundColor": "#f5f5f5",
+    "borderRadius": 4,
+    "paddingLeft": 4,
+    "paddingRight": 4
+  },
+  "updatedAt": "2026-10-05T12:08:41.573Z"
+}
