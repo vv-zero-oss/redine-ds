@@ -2,7 +2,7 @@
   "id": "8ed35e89-500c-4685-b405-3495d429b59d",
   "type": "section",
   "tag": "section",
-  "name": "section",
+  "name": "Recollect card – dark mode options",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
   "order": "zzzzzzzx",
   "createdAt": "2026-10-05T06:36:01.024Z",
@@ -26,14 +26,15 @@
     "paddingLeft": "var(--space-10)",
     "background": "var(--dark-backdrop)",
     "borderRadius": "var(--tile-radius-card)",
-    "width": 1200,
+    "width": "fit-content",
     "marginTop": 0,
     "marginRight": 0,
     "marginBottom": 0,
     "marginLeft": 0,
     "position": "absolute",
     "left": 3928,
-    "top": 1500
+    "top": 1500,
+    "height": "fit-content"
   },
-  "updatedAt": "2026-10-05T06:36:01.031Z"
+  "updatedAt": "2026-10-05T06:36:07.403Z"
 }
