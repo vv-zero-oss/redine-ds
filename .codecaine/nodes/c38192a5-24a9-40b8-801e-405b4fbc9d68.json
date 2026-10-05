@@ -1,0 +1,31 @@
+{
+  "id": "c38192a5-24a9-40b8-801e-405b4fbc9d68",
+  "type": "text",
+  "tag": "p",
+  "parent": "7eb53851-f3a8-411d-be3d-d5e4e27533e9",
+  "order": "V",
+  "createdAt": "2026-10-05T13:51:22.989Z",
+  "props": {
+    "text": "People",
+    "data-import-type": "figma",
+    "data-codecaine-id": "badd9f33-f4c3-4446-8a3e-73a0c0551b9c"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "68px",
+    "top": "20px",
+    "fontFamily": "\"SF Pro Text\", sans-serif",
+    "fontSize": "17px",
+    "fontWeight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.41px",
+    "color": "rgb(255, 255, 255)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T13:51:22.989Z"
+}

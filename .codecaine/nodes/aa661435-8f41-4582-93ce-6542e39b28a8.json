@@ -1,0 +1,29 @@
+{
+  "id": "aa661435-8f41-4582-93ce-6542e39b28a8",
+  "type": "frame",
+  "tag": "svg",
+  "name": "Oval",
+  "parent": "6b3b35d5-c2d1-47b9-a16b-0a69aebd6790",
+  "order": "D",
+  "createdAt": "2026-10-05T13:51:22.989Z",
+  "props": {
+    "width": "10.031319618225098",
+    "height": "12.51126480102539",
+    "viewBox": "0 0 10.031319618225098 12.51126480102539",
+    "fill": "none",
+    "overflow": "visible",
+    "xmlns": "http://www.w3.org/2000/svg",
+    "innerMarkup": "<path transform=\"matrix(1 0 0 1 0 0)\" d=\"M9.8 10.22C7.67 6.8 5.27 3.56 2.63 0.52C2.09 -0.11 1.14 -0.18 0.52 0.37C-0.11 0.91 -0.18 1.86 0.37 2.48C2.9 5.41 5.21 8.53 7.26 11.81C7.7 12.51 8.62 12.72 9.33 12.28C10.03 11.84 10.24 10.92 9.8 10.22Z\" fill=\"#0584FE\"></path>",
+    "data-import-type": "figma",
+    "data-codecaine-id": "f2ae6970-e68b-4721-b8f4-496571258ea8"
+  },
+  "style": {
+    "display": "block",
+    "position": "absolute",
+    "left": "140.44px",
+    "top": "32.44px",
+    "width": "10.03px",
+    "height": "12.51px"
+  },
+  "updatedAt": "2026-10-05T13:51:22.989Z"
+}

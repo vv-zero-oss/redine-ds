@@ -1,0 +1,21 @@
+{
+  "id": "6b3b35d5-c2d1-47b9-a16b-0a69aebd6790",
+  "type": "frame",
+  "tag": "div",
+  "name": "Code",
+  "parent": "29a723b5-9c95-4ff5-bff1-dee99e091091",
+  "order": "V",
+  "createdAt": "2026-10-05T13:51:22.989Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "8fe5030c-00f3-4e34-9832-d9c33fd2cff3"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "168px",
+    "height": "167px"
+  },
+  "updatedAt": "2026-10-05T13:51:22.989Z"
+}

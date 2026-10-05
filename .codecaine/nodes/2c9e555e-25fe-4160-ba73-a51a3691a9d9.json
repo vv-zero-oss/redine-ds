@@ -1,0 +1,23 @@
+{
+  "id": "2c9e555e-25fe-4160-ba73-a51a3691a9d9",
+  "type": "frame",
+  "tag": "div",
+  "name": "Time Style",
+  "parent": "422f3f76-c114-490a-9f56-218aeb2bef39",
+  "order": "l",
+  "createdAt": "2026-10-05T13:51:22.989Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "fb0a1aa8-8d20-4b09-ac3f-bbfa9eba3616"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "21px",
+    "top": "14px",
+    "width": "54px",
+    "height": "18px",
+    "overflowX": "hidden",
+    "overflowY": "hidden"
+  },
+  "updatedAt": "2026-10-05T13:51:22.989Z"
+}

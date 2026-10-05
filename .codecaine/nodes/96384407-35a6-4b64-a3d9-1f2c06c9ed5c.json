@@ -1,0 +1,26 @@
+{
+  "id": "96384407-35a6-4b64-a3d9-1f2c06c9ed5c",
+  "type": "frame",
+  "tag": "div",
+  "name": "Line",
+  "parent": "09164a6d-3135-4fd3-802a-fd5fc50cabcd",
+  "order": "V",
+  "createdAt": "2026-10-05T13:51:22.989Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "03a7d09e-69d5-4c6e-bcf1-12f30d7a07f1"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "121px",
+    "top": "20px",
+    "width": "134px",
+    "height": "5px",
+    "borderTopLeftRadius": "100px",
+    "borderTopRightRadius": "100px",
+    "borderBottomRightRadius": "100px",
+    "borderBottomLeftRadius": "100px",
+    "backgroundColor": "rgb(255, 255, 255)"
+  },
+  "updatedAt": "2026-10-05T13:51:22.989Z"
+}

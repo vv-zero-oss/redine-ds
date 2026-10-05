@@ -7,7 +7,7 @@
   "order": "V",
   "createdAt": "2026-10-05T13:51:14.294Z",
   "props": {
-    "src": "https://s3-alpha-sig.figma.com/img/e462/a00d/5369e49969dd11ab9038d3877f85996c?Expires=1791763200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=AhrmEBR6iseDsUh-Jp9kr-LN2Qhf8~MFFVd1QJejC1mlpgeBCSSeXSZALbpCaG6bPoTdBbXpSQmsQNS7tlTEynhz28pYMQfb~JtlrOAyDiR1Tx8B06K394-tnPnnmfXVVXNHEoCovB2whvwWu3hyfbuSiuOW5ybD42TzadGDQESdT1~aILMQApVeyBbAE6HKFyk5ZHdoJ~2kwQaapM39ysxpDM137xyDT46cTctubANXFm7M1quL3XWcV04lk8eotKDQq~iw-nh5NheXJHqA52~wQ~j2srWBFylKpYZeLSLauNJ-UoKvuto-Tu8mX2NswMCBUU3aQV52koYPii0W1Q__",
+    "src": "asset:media/images/dc10413de698ce16f9b7.png",
     "alt": "Rectangle",
     "data-import-type": "figma",
     "data-codecaine-id": "ac19cfd8-d18b-4bc7-ac8d-6388d841d524"
@@ -25,5 +25,5 @@
     "borderBottomLeftRadius": "2px",
     "objectFit": "cover"
   },
-  "updatedAt": "2026-10-05T13:51:14.294Z"
+  "updatedAt": "2026-10-05T13:51:27.946Z"
 }

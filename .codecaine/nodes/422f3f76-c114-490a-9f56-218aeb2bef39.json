@@ -1,0 +1,23 @@
+{
+  "id": "422f3f76-c114-490a-9f56-218aeb2bef39",
+  "type": "frame",
+  "tag": "div",
+  "name": "1. Bars / 1. Status Bar / iPhone X / Dark",
+  "parent": "3dbbd087-8988-48d1-b4b9-f066d81b3b7b",
+  "order": "l",
+  "createdAt": "2026-10-05T13:51:22.989Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "24f76435-71bc-497c-9746-1f52a199b83b"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "375px",
+    "height": "44px",
+    "overflowX": "hidden",
+    "overflowY": "hidden"
+  },
+  "updatedAt": "2026-10-05T13:51:22.989Z"
+}

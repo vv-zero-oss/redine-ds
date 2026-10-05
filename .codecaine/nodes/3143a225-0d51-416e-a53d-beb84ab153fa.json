@@ -1,0 +1,32 @@
+{
+  "id": "3143a225-0d51-416e-a53d-beb84ab153fa",
+  "type": "text",
+  "tag": "p",
+  "name": "Notifications & Soun",
+  "parent": "c0624a5f-0952-46b1-a7c6-b02cf9e28ef9",
+  "order": "V",
+  "createdAt": "2026-10-05T13:51:22.989Z",
+  "props": {
+    "text": "Notifications & Sounds",
+    "data-import-type": "figma",
+    "data-codecaine-id": "8909106b-e850-4402-b9ef-19cebcf809c4"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "68px",
+    "top": "20px",
+    "fontFamily": "\"SF Pro Text\", sans-serif",
+    "fontSize": "17px",
+    "fontWeight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.41px",
+    "color": "rgb(255, 255, 255)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T13:51:22.989Z"
+}

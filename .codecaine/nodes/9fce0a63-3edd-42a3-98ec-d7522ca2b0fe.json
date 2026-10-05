@@ -1,0 +1,21 @@
+{
+  "id": "9fce0a63-3edd-42a3-98ec-d7522ca2b0fe",
+  "type": "frame",
+  "tag": "div",
+  "name": "⬛ Background",
+  "parent": "09164a6d-3135-4fd3-802a-fd5fc50cabcd",
+  "order": "G",
+  "createdAt": "2026-10-05T13:51:22.989Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "ff36dc5f-830c-4137-a9e2-09ada8bacafc"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "375px",
+    "height": "34px"
+  },
+  "updatedAt": "2026-10-05T13:51:22.989Z"
+}

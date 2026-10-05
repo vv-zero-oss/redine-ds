@@ -1,0 +1,21 @@
+{
+  "id": "29a723b5-9c95-4ff5-bff1-dee99e091091",
+  "type": "frame",
+  "tag": "div",
+  "name": "Person Code",
+  "parent": "850e38e2-f509-42bd-a942-160becf93c78",
+  "order": "V",
+  "createdAt": "2026-10-05T13:51:22.989Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "50a8d7db-7189-484e-bb7c-5c8bd4c224c1"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "104px",
+    "top": "16px",
+    "width": "168px",
+    "height": "167px"
+  },
+  "updatedAt": "2026-10-05T13:51:22.989Z"
+}

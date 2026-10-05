@@ -1,0 +1,35 @@
+{
+  "id": "3dbbd087-8988-48d1-b4b9-f066d81b3b7b",
+  "type": "frame",
+  "tag": "div",
+  "name": "Messanger Settings",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzl",
+  "createdAt": "2026-10-05T13:51:22.989Z",
+  "props": {
+    "importedPlacement": {
+      "position": "relative"
+    },
+    "data-import-type": "figma",
+    "data-codecaine-id": "088431c0-8fdf-4782-babe-2d1fc21809a5"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {
+    "width": 375,
+    "height": "812px",
+    "backgroundColor": "rgb(0, 0, 0)",
+    "overflowX": "hidden",
+    "overflowY": "hidden",
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "left": 6426.017607897612,
+    "top": 3632.1066145983427
+  },
+  "updatedAt": "2026-10-05T13:51:26.344Z"
+}

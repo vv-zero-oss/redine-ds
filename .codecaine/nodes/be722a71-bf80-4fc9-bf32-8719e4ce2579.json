@@ -1,0 +1,26 @@
+{
+  "id": "be722a71-bf80-4fc9-bf32-8719e4ce2579",
+  "type": "image",
+  "tag": "img",
+  "name": "Photo",
+  "parent": "29a723b5-9c95-4ff5-bff1-dee99e091091",
+  "order": "G",
+  "createdAt": "2026-10-05T13:51:22.989Z",
+  "props": {
+    "src": "asset:media/images/7c0ebf069bba99db4c20.png",
+    "alt": "Photo",
+    "data-import-type": "figma",
+    "data-codecaine-id": "dbee90f5-f3cb-450a-8f55-737bb35813ac"
+  },
+  "style": {
+    "display": "block",
+    "position": "absolute",
+    "left": "26.45px",
+    "top": "26px",
+    "width": "115px",
+    "height": "115px",
+    "clipPath": "path(evenodd, \"M 57.5 115 C 89.26 115 115 89.26 115 57.5 C 115 25.74 89.26 0 57.5 0 C 25.74 0 0 25.74 0 57.5 C 0 89.26 25.74 115 57.5 115 Z\")",
+    "objectFit": "cover"
+  },
+  "updatedAt": "2026-10-05T13:51:23.756Z"
+}
