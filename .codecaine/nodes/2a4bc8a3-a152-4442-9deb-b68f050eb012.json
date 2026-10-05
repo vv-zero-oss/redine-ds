@@ -70,7 +70,7 @@
     "borderTopRightRadius": "",
     "borderBottomRightRadius": "",
     "borderBottomLeftRadius": "",
-    "backgroundColor": "rgba(0, 150, 250, 0.12)",
+    "backgroundColor": "#0096fa",
     "backgroundImage": "none",
     "backgroundSize": "auto",
     "backgroundPositionX": "0%",
@@ -108,5 +108,5 @@
     "borderRadius": 14,
     "backgroundPosition": "0% 0%"
   },
-  "updatedAt": "2026-10-05T17:00:30.977Z"
+  "updatedAt": "2026-10-05T17:00:34.495Z"
 }
