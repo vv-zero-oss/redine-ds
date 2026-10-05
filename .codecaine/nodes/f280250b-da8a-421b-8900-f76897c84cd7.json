@@ -1,0 +1,33 @@
+{
+  "id": "f280250b-da8a-421b-8900-f76897c84cd7",
+  "type": "section",
+  "tag": "article",
+  "name": "article",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzzzzzzzx",
+  "createdAt": "2026-10-05T09:33:09.816Z",
+  "props": {
+    "aria-label": "Option A: Frosted glass",
+    "data-codecaine-id": "baf70223-13e9-4bb5-9cc4-26d72f15d0e3"
+  },
+  "style": {
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "center",
+    "width": 176,
+    "paddingTop": "var(--space-5)",
+    "paddingRight": "var(--space-2)",
+    "paddingBottom": "var(--space-2)",
+    "paddingLeft": "var(--space-2)",
+    "boxShadow": "var(--glass-dark-edge)",
+    "backdropFilter": "var(--glass-dark-blur)",
+    "gap": "var(--space-3)",
+    "borderRadius": "var(--recollect-radius-card)",
+    "background": "var(--glass-dark-fill)",
+    "position": "absolute",
+    "left": 3683.7000271515617,
+    "top": 1698.6351821413937,
+    "height": 136
+  },
+  "updatedAt": "2026-10-05T09:33:11.292Z"
+}

@@ -4,7 +4,7 @@
   "tag": "li",
   "name": "li",
   "parent": "41380ea3-a75c-4927-8359-3729c513d4b7",
-  "order": "G",
+  "order": "4",
   "createdAt": "2026-10-05T06:36:01.024Z",
   "props": {
     "data-codecaine-id": "dd64a729-edc9-4e05-952d-eac8da338cf8"
@@ -12,8 +12,8 @@
   "style": {
     "display": "flex",
     "flexDirection": "column",
-    "width": "var(--recollect-card-width)",
+    "width": "176px",
     "gap": "var(--space-3)"
   },
-  "updatedAt": "2026-10-05T06:36:01.024Z"
+  "updatedAt": "2026-10-05T09:33:11.020Z"
 }
