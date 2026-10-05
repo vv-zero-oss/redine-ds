@@ -1,20 +1,20 @@
 {
-  "id": "9efaea9b-c1f4-452e-8871-5135e798c3ca",
+  "id": "12b6fa04-7d6c-4fc7-a5b0-b231521bef52",
   "type": "frame",
   "tag": "div",
   "name": "div",
-  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
-  "order": "zzzzzzl",
-  "createdAt": "2026-10-05T06:23:43.288Z",
+  "parent": "248da42d-8a75-456b-b66e-45bfa8e1353e",
+  "order": "V",
+  "createdAt": "2026-10-05T06:28:30.571Z",
   "props": {
-    "data-codecaine-id": "53f7f56f-a8c9-411a-9087-7b216effd635",
-    "data-retune-from": "http://127.0.0.1:55432"
+    "data-codecaine-id": "b6457685-ff59-4abb-854d-fe9a154c97aa"
   },
   "sizing": {
     "width": "fixed",
     "height": "fixed"
   },
   "style": {
+    "bottom": "0px",
     "boxSizing": "border-box",
     "display": "block",
     "flexDirection": "row",
@@ -40,6 +40,7 @@
     "gridColumnStart": "auto",
     "gridRowEnd": "auto",
     "gridColumnEnd": "auto",
+    "width": "108.375px",
     "minWidth": "0px",
     "minHeight": "0px",
     "maxWidth": "none",
@@ -85,6 +86,7 @@
     "whiteSpaceCollapse": "collapse",
     "textWrapMode": "wrap",
     "opacity": "1",
+    "boxShadow": "none",
     "textShadow": "none",
     "objectFit": "fill",
     "aspectRatio": "auto",
@@ -92,20 +94,19 @@
     "listStyleImage": "none",
     "listStyleType": "disc",
     "verticalAlign": "baseline",
-    "cursor": "auto",
-    "backgroundColor": "rgb(1, 1, 1)",
-    "borderTopLeftRadius": "20.95px",
-    "borderTopRightRadius": "20.95px",
-    "borderBottomRightRadius": "20.95px",
-    "borderBottomLeftRadius": "20.95px",
-    "boxShadow": "rgba(0, 0, 0, 0.2) 4.76249px 2.8575px 11.43px 0px, rgba(0, 0, 0, 0.18) 18.0975px 11.43px 20.955px 0px, rgba(0, 0, 0, 0.1) 40.0049px 24.765px 28.575px 0px, rgba(0, 0, 0, 0.03) 70.4849px 44.7674px 33.3375px 0px, rgba(0, 0, 0, 0) 110.49px 69.5324px 36.195px 0px",
-    "height": 92,
+    "cursor": "pointer",
+    "backgroundColor": "rgba(0, 0, 0, 0.05)",
+    "borderTopLeftRadius": "2.77px",
+    "borderTopRightRadius": "2.77px",
+    "borderBottomRightRadius": "2.77px",
+    "borderBottomLeftRadius": "2.77px",
+    "height": "12.9439px",
+    "left": "19.416px",
     "overflowX": "visible",
     "overflowY": "visible",
-    "width": 301,
     "position": "absolute",
-    "left": 2793.2213283112333,
-    "top": 2490.8018978442165
+    "right": "19.5458px",
+    "top": "0px"
   },
-  "updatedAt": "2026-10-05T06:24:15.567Z"
+  "updatedAt": "2026-10-05T06:28:30.571Z"
 }

@@ -1,14 +1,13 @@
 {
-  "id": "9efaea9b-c1f4-452e-8871-5135e798c3ca",
+  "id": "1b28dd66-494e-471d-9b19-4c56803dc9e4",
   "type": "frame",
   "tag": "div",
   "name": "div",
-  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
-  "order": "zzzzzzl",
-  "createdAt": "2026-10-05T06:23:43.288Z",
+  "parent": "f851bc2c-80f0-4092-9064-ae13517f143e",
+  "order": "8",
+  "createdAt": "2026-10-05T06:28:50.128Z",
   "props": {
-    "data-codecaine-id": "53f7f56f-a8c9-411a-9087-7b216effd635",
-    "data-retune-from": "http://127.0.0.1:55432"
+    "data-codecaine-id": "327b2660-2939-4486-b253-899f0b3ce697"
   },
   "sizing": {
     "width": "fixed",
@@ -40,6 +39,8 @@
     "gridColumnStart": "auto",
     "gridRowEnd": "auto",
     "gridColumnEnd": "auto",
+    "width": "239px",
+    "height": "160px",
     "minWidth": "0px",
     "minHeight": "0px",
     "maxWidth": "none",
@@ -85,7 +86,10 @@
     "whiteSpaceCollapse": "collapse",
     "textWrapMode": "wrap",
     "opacity": "1",
+    "boxShadow": "none",
     "textShadow": "none",
+    "overflowX": "visible",
+    "overflowY": "visible",
     "objectFit": "fill",
     "aspectRatio": "auto",
     "listStylePosition": "outside",
@@ -93,19 +97,16 @@
     "listStyleType": "disc",
     "verticalAlign": "baseline",
     "cursor": "auto",
-    "backgroundColor": "rgb(1, 1, 1)",
-    "borderTopLeftRadius": "20.95px",
-    "borderTopRightRadius": "20.95px",
-    "borderBottomRightRadius": "20.95px",
-    "borderBottomLeftRadius": "20.95px",
-    "boxShadow": "rgba(0, 0, 0, 0.2) 4.76249px 2.8575px 11.43px 0px, rgba(0, 0, 0, 0.18) 18.0975px 11.43px 20.955px 0px, rgba(0, 0, 0, 0.1) 40.0049px 24.765px 28.575px 0px, rgba(0, 0, 0, 0.03) 70.4849px 44.7674px 33.3375px 0px, rgba(0, 0, 0, 0) 110.49px 69.5324px 36.195px 0px",
-    "height": 92,
-    "overflowX": "visible",
-    "overflowY": "visible",
-    "width": 301,
-    "position": "absolute",
-    "left": 2793.2213283112333,
-    "top": 2490.8018978442165
+    "backgroundColor": "rgba(252, 252, 252, 0.05)",
+    "borderTopLeftRadius": "18px",
+    "borderTopRightRadius": "18px",
+    "borderBottomRightRadius": "18px",
+    "borderBottomLeftRadius": "18px",
+    "top": "0px",
+    "right": "0px",
+    "bottom": "0px",
+    "left": "0px",
+    "position": "absolute"
   },
-  "updatedAt": "2026-10-05T06:24:15.567Z"
+  "updatedAt": "2026-10-05T06:28:50.128Z"
 }

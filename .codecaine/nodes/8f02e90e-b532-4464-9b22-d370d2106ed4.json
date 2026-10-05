@@ -1,14 +1,17 @@
 {
-  "id": "9efaea9b-c1f4-452e-8871-5135e798c3ca",
+  "id": "8f02e90e-b532-4464-9b22-d370d2106ed4",
   "type": "frame",
   "tag": "div",
   "name": "div",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
-  "order": "zzzzzzl",
-  "createdAt": "2026-10-05T06:23:43.288Z",
+  "order": "zzzzzzz",
+  "createdAt": "2026-10-05T06:28:50.128Z",
   "props": {
-    "data-codecaine-id": "53f7f56f-a8c9-411a-9087-7b216effd635",
-    "data-retune-from": "http://127.0.0.1:55432"
+    "class": "hf-phone-drop",
+    "data-hf-intro": "",
+    "data-codecaine-id": "ebc630ed-c817-4967-8830-41f0a8ba1079",
+    "data-retune-from": "http://127.0.0.1:55432",
+    "carriedBackdrop": "rgb(230, 231, 233)"
   },
   "sizing": {
     "width": "fixed",
@@ -64,6 +67,11 @@
     "borderRightColor": "rgb(0, 0, 0)",
     "borderBottomColor": "rgb(0, 0, 0)",
     "borderLeftColor": "rgb(0, 0, 0)",
+    "borderTopLeftRadius": "0px",
+    "borderTopRightRadius": "0px",
+    "borderBottomRightRadius": "0px",
+    "borderBottomLeftRadius": "0px",
+    "backgroundColor": "rgb(230, 231, 233)",
     "backgroundImage": "none",
     "backgroundSize": "auto",
     "backgroundPositionX": "0%",
@@ -85,7 +93,10 @@
     "whiteSpaceCollapse": "collapse",
     "textWrapMode": "wrap",
     "opacity": "1",
+    "boxShadow": "none",
     "textShadow": "none",
+    "overflowX": "visible",
+    "overflowY": "visible",
     "objectFit": "fill",
     "aspectRatio": "auto",
     "listStylePosition": "outside",
@@ -93,19 +104,11 @@
     "listStyleType": "disc",
     "verticalAlign": "baseline",
     "cursor": "auto",
-    "backgroundColor": "rgb(1, 1, 1)",
-    "borderTopLeftRadius": "20.95px",
-    "borderTopRightRadius": "20.95px",
-    "borderBottomRightRadius": "20.95px",
-    "borderBottomLeftRadius": "20.95px",
-    "boxShadow": "rgba(0, 0, 0, 0.2) 4.76249px 2.8575px 11.43px 0px, rgba(0, 0, 0, 0.18) 18.0975px 11.43px 20.955px 0px, rgba(0, 0, 0, 0.1) 40.0049px 24.765px 28.575px 0px, rgba(0, 0, 0, 0.03) 70.4849px 44.7674px 33.3375px 0px, rgba(0, 0, 0, 0) 110.49px 69.5324px 36.195px 0px",
-    "height": 92,
-    "overflowX": "visible",
-    "overflowY": "visible",
-    "width": 301,
+    "height": 160,
+    "width": 239,
     "position": "absolute",
-    "left": 2793.2213283112333,
-    "top": 2490.8018978442165
+    "left": 3137.3882413196698,
+    "top": 1295.9338110642796
   },
-  "updatedAt": "2026-10-05T06:24:15.567Z"
+  "updatedAt": "2026-10-05T06:28:59.789Z"
 }

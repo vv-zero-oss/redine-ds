@@ -1,20 +1,20 @@
 {
-  "id": "9efaea9b-c1f4-452e-8871-5135e798c3ca",
+  "id": "3517bb0f-7052-4999-835a-c280748b58b7",
   "type": "frame",
   "tag": "div",
   "name": "div",
-  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
-  "order": "zzzzzzl",
-  "createdAt": "2026-10-05T06:23:43.288Z",
+  "parent": "e17fe941-67fa-4f39-a9b9-754b087bbf85",
+  "order": "O",
+  "createdAt": "2026-10-05T06:28:30.571Z",
   "props": {
-    "data-codecaine-id": "53f7f56f-a8c9-411a-9087-7b216effd635",
-    "data-retune-from": "http://127.0.0.1:55432"
+    "data-codecaine-id": "a9fcd784-24fd-4fe0-b810-a6f051e7b5b2"
   },
   "sizing": {
     "width": "fixed",
     "height": "fixed"
   },
   "style": {
+    "bottom": "412.5px",
     "boxSizing": "border-box",
     "display": "block",
     "flexDirection": "row",
@@ -40,6 +40,7 @@
     "gridColumnStart": "auto",
     "gridRowEnd": "auto",
     "gridColumnEnd": "auto",
+    "width": "314.078px",
     "minWidth": "0px",
     "minHeight": "0px",
     "maxWidth": "none",
@@ -92,20 +93,20 @@
     "listStyleImage": "none",
     "listStyleType": "disc",
     "verticalAlign": "baseline",
-    "cursor": "auto",
-    "backgroundColor": "rgb(1, 1, 1)",
-    "borderTopLeftRadius": "20.95px",
-    "borderTopRightRadius": "20.95px",
-    "borderBottomRightRadius": "20.95px",
-    "borderBottomLeftRadius": "20.95px",
-    "boxShadow": "rgba(0, 0, 0, 0.2) 4.76249px 2.8575px 11.43px 0px, rgba(0, 0, 0, 0.18) 18.0975px 11.43px 20.955px 0px, rgba(0, 0, 0, 0.1) 40.0049px 24.765px 28.575px 0px, rgba(0, 0, 0, 0.03) 70.4849px 44.7674px 33.3375px 0px, rgba(0, 0, 0, 0) 110.49px 69.5324px 36.195px 0px",
-    "height": 92,
+    "cursor": "pointer",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "borderTopLeftRadius": "4.62px",
+    "borderTopRightRadius": "4.62px",
+    "borderBottomRightRadius": "0px",
+    "borderBottomLeftRadius": "0px",
+    "boxShadow": "rgba(0, 0, 0, 0.15) 0px 0.231142px 0px 0px, rgba(0, 0, 0, 0.05) 0px -0.231142px 0px 0px inset",
+    "height": "24.501px",
+    "left": "0px",
     "overflowX": "visible",
     "overflowY": "visible",
-    "width": 301,
     "position": "absolute",
-    "left": 2793.2213283112333,
-    "top": 2490.8018978442165
+    "right": "-0.0794067px",
+    "top": "0px"
   },
-  "updatedAt": "2026-10-05T06:24:15.567Z"
+  "updatedAt": "2026-10-05T06:28:30.571Z"
 }
