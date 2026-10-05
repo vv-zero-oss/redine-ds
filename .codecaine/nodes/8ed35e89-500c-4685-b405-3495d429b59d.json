@@ -23,7 +23,7 @@
     "paddingTop": "var(--space-10)",
     "paddingRight": "var(--space-10)",
     "paddingBottom": "var(--space-10)",
-    "paddingLeft": 641,
+    "paddingLeft": 31,
     "background": "var(--dark-backdrop)",
     "borderRadius": "var(--tile-radius-card)",
     "width": "fit-content",
@@ -36,5 +36,5 @@
     "top": 1501.3936587811484,
     "height": "fit-content"
   },
-  "updatedAt": "2026-10-05T07:29:30.274Z"
+  "updatedAt": "2026-10-05T07:35:12.785Z"
 }
