@@ -8,7 +8,7 @@
   "props": {
     "class": "text-[17px] font-semibold tracking-[-0.01em] text-foreground",
     "data-codecaine-id": "624b5e9a-04a1-487a-83ea-5ad4a48557a7",
-    "text": "Built for agents"
+    "text": "Built for Sahil"
   },
   "sizing": {
     "width": "fixed",
@@ -104,5 +104,5 @@
     "verticalAlign": "baseline",
     "cursor": "auto"
   },
-  "updatedAt": "2026-10-05T06:40:13.711Z"
+  "updatedAt": "2026-10-05T06:55:19.456Z"
 }
