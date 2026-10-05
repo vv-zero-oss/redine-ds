@@ -12,7 +12,7 @@
     "data-retune-from": "http://127.0.0.1:55481"
   },
   "sizing": {
-    "width": "fixed",
+    "width": "hug",
     "height": "fixed"
   },
   "style": {
@@ -109,5 +109,5 @@
     "top": 0,
     "borderRadius": 22
   },
-  "updatedAt": "2026-10-05T16:55:21.676Z"
+  "updatedAt": "2026-10-05T16:58:11.212Z"
 }

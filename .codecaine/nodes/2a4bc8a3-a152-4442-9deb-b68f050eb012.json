@@ -1,14 +1,14 @@
 {
-  "id": "e59cca92-e22d-4bb5-8a11-3231ddd0182d",
+  "id": "2a4bc8a3-a152-4442-9deb-b68f050eb012",
   "type": "button",
   "tag": "button",
   "parent": "20f96054-da97-4b4e-970d-00acbcb44904",
-  "order": "G",
-  "createdAt": "2026-10-05T16:29:25.929Z",
+  "order": "S",
+  "createdAt": "2026-10-05T16:58:30.142Z",
   "props": {
     "class": "flex h-[30px] w-[158px] items-center gap-[7px] rounded-[11px] bg-white/12 px-[10px] text-[13px] text-white/40 leading-none transition-colors hover:bg-white/18 active:scale-95",
     "type": "button",
-    "data-codecaine-id": "bb0e28b1-7c5d-44f2-902a-341bd41e5175"
+    "data-codecaine-id": "83edf5c1-da24-492d-9e47-54c46bf903c8"
   },
   "sizing": {
     "width": "fixed",
@@ -107,5 +107,5 @@
     "top": 360.82224723269013,
     "borderRadius": 14
   },
-  "updatedAt": "2026-10-05T16:58:23.092Z"
+  "updatedAt": "2026-10-05T16:58:30.142Z"
 }

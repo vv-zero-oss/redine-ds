@@ -10,7 +10,7 @@
     "data-codecaine-id": "3f8907cf-febf-4171-bea9-233bd0cfcb96"
   },
   "sizing": {
-    "width": "fixed",
+    "width": "hug",
     "height": "fixed"
   },
   "style": {
@@ -21,5 +21,5 @@
     "left": 1526.8823874054792,
     "top": 354.13177006609595
   },
-  "updatedAt": "2026-10-05T16:55:24.403Z"
+  "updatedAt": "2026-10-05T16:58:35.805Z"
 }
