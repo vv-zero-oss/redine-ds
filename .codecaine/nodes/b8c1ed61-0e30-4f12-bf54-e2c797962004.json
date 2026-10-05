@@ -1,0 +1,29 @@
+{
+  "id": "b8c1ed61-0e30-4f12-bf54-e2c797962004",
+  "type": "frame",
+  "tag": "svg",
+  "name": "Icon",
+  "parent": "66283804-ebe2-4235-a9d4-c3d1a9c7a26d",
+  "order": "G",
+  "createdAt": "2026-10-05T13:51:14.294Z",
+  "props": {
+    "width": "64",
+    "height": "64",
+    "viewBox": "0 0 64 64",
+    "fill": "none",
+    "overflow": "visible",
+    "xmlns": "http://www.w3.org/2000/svg",
+    "innerMarkup": "<path transform=\"matrix(1 0 0 1 0 0)\" d=\"M32 64C49.67 64 64 49.67 64 32C64 14.33 49.67 0 32 0C14.33 0 0 14.33 0 32C0 49.67 14.33 64 32 64Z\" fill=\"#70A0FE\" fill-rule=\"evenodd\"></path><path d=\"M36.5 47.05C36.5 49.23 34.49 51 32 51C29.61 51 27.66 49.37 27.51 47.31L27.5 47.05L36.5 47.05ZM31.98 13.5C38.41 13.5 42.49 18.04 43.62 25.33L45.18 36.85L45.18 36.85C46.28 41.11 48.5 39.66 48.5 41.99C48.5 43.48 47.05 44.18 44.15 44.08L43.73 44.07L20.27 44.07L19.85 44.08C16.95 44.18 15.5 43.48 15.5 41.99C15.5 39.74 17.56 41.01 18.7 37.28L18.82 36.85C18.82 36.85 20.03 28.17 20.38 25.33C21.48 18.23 25.38 13.73 31.53 13.51L31.98 13.5Z\" fill=\"#FFFFFF\" fill-rule=\"evenodd\"></path>",
+    "data-import-type": "figma",
+    "data-codecaine-id": "633abbfd-4e9e-4437-aebd-5f9fbd866a16"
+  },
+  "style": {
+    "display": "block",
+    "position": "absolute",
+    "left": "12px",
+    "top": "0px",
+    "width": "64px",
+    "height": "64px"
+  },
+  "updatedAt": "2026-10-05T13:51:14.294Z"
+}

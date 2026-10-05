@@ -1,0 +1,21 @@
+{
+  "id": "2464202f-22f8-4a06-bc92-016d62018df5",
+  "type": "frame",
+  "tag": "div",
+  "name": "Message Group",
+  "parent": "0a169feb-7a36-4839-b6ad-2ebde2b2bfc6",
+  "order": "8",
+  "createdAt": "2026-10-05T13:51:14.294Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "b433ed86-0545-4ac0-897c-b2f778584951"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "258px",
+    "width": "260px",
+    "height": "94px"
+  },
+  "updatedAt": "2026-10-05T13:51:14.294Z"
+}

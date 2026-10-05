@@ -1,0 +1,31 @@
+{
+  "id": "1aef24ab-3efa-4dc7-a1fc-1d869359fbff",
+  "type": "text",
+  "tag": "p",
+  "parent": "1a0e1cbd-d815-4659-bb4e-0a66ba262f95",
+  "order": "V",
+  "createdAt": "2026-10-05T13:51:14.294Z",
+  "props": {
+    "text": "Games",
+    "data-import-type": "figma",
+    "data-codecaine-id": "772e41f3-5f14-41f3-9a5e-a572fa86cd3b"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "0px",
+    "top": "70px",
+    "width": "88px",
+    "fontFamily": "\"SF Pro Text\", sans-serif",
+    "fontSize": "13px",
+    "fontWeight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.08px",
+    "color": "rgb(255, 255, 255)",
+    "textAlign": "center"
+  },
+  "updatedAt": "2026-10-05T13:51:14.294Z"
+}

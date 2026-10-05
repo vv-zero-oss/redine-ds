@@ -1,0 +1,18 @@
+{
+  "id": "bd0f62b3-737a-4f8f-9c0c-24e566b3bf67",
+  "type": "text",
+  "tag": "span",
+  "parent": "0f49b617-dd8a-4b96-acc1-24e1bffa8d2c",
+  "order": "V",
+  "createdAt": "2026-10-05T13:51:14.294Z",
+  "props": {
+    "text": "😎",
+    "data-import-type": "figma",
+    "data-codecaine-id": "25909b9f-197c-409e-be7e-952426e008d4"
+  },
+  "style": {
+    "fontFamily": "Roboto, sans-serif",
+    "fontWeight": "400"
+  },
+  "updatedAt": "2026-10-05T13:51:14.294Z"
+}

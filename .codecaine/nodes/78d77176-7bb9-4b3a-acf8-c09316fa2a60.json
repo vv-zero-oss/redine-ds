@@ -1,0 +1,35 @@
+{
+  "id": "78d77176-7bb9-4b3a-acf8-c09316fa2a60",
+  "type": "frame",
+  "tag": "div",
+  "name": "Messanger Chat Actions",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzV",
+  "createdAt": "2026-10-05T13:51:14.294Z",
+  "props": {
+    "importedPlacement": {
+      "position": "relative"
+    },
+    "data-import-type": "figma",
+    "data-codecaine-id": "f61aa5bc-88e3-40c7-bb4b-8848ac939df6"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {
+    "width": 375,
+    "height": "812px",
+    "backgroundColor": "rgb(0, 0, 0)",
+    "overflowX": "hidden",
+    "overflowY": "hidden",
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "left": 5991,
+    "top": 3646
+  },
+  "updatedAt": "2026-10-05T13:51:14.294Z"
+}

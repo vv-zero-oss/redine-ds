@@ -1,0 +1,31 @@
+{
+  "id": "c740d422-d7b0-40ae-bd73-9183c0f89cc2",
+  "type": "text",
+  "tag": "p",
+  "parent": "951e7c6b-247d-4497-820d-11ca8ce4431a",
+  "order": "V",
+  "createdAt": "2026-10-05T13:51:14.294Z",
+  "props": {
+    "text": "I think top two are:",
+    "data-import-type": "figma",
+    "data-codecaine-id": "ef9ef179-fc3f-492c-8545-7c321e241778"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "12px",
+    "top": "7.5px",
+    "fontFamily": "\"SF Pro Text\", sans-serif",
+    "fontSize": "17px",
+    "fontWeight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.41px",
+    "color": "rgb(255, 255, 255)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T13:51:14.294Z"
+}

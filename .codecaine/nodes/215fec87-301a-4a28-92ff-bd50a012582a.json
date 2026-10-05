@@ -1,0 +1,18 @@
+{
+  "id": "215fec87-301a-4a28-92ff-bd50a012582a",
+  "type": "text",
+  "tag": "span",
+  "parent": "0f49b617-dd8a-4b96-acc1-24e1bffa8d2c",
+  "order": "G",
+  "createdAt": "2026-10-05T13:51:14.294Z",
+  "props": {
+    "text": "It’s morning in Tokyo",
+    "data-import-type": "figma",
+    "data-codecaine-id": "ae1a1ec3-3062-40ba-94ed-ae0fc4540797"
+  },
+  "style": {
+    "fontFamily": "\"SF Pro Text\", sans-serif",
+    "fontWeight": "400"
+  },
+  "updatedAt": "2026-10-05T13:51:14.294Z"
+}

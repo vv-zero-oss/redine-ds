@@ -1,0 +1,31 @@
+{
+  "id": "a4066ee8-9b7f-49be-aa99-4bd5bd9e1a02",
+  "type": "text",
+  "tag": "p",
+  "parent": "68fc5131-8b6a-4de3-9d93-b38823556e43",
+  "order": "G",
+  "createdAt": "2026-10-05T13:51:14.294Z",
+  "props": {
+    "text": "Messenger",
+    "data-import-type": "figma",
+    "data-codecaine-id": "ec679567-0fa2-4141-ba5a-91b1fbcc138f"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "98px",
+    "top": "71px",
+    "fontFamily": "\"SF Pro Text\", sans-serif",
+    "fontSize": "13px",
+    "fontWeight": "500",
+    "lineHeight": "18px",
+    "letterSpacing": "-0.08px",
+    "color": "rgba(255, 255, 255, 0.5)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T13:51:14.294Z"
+}

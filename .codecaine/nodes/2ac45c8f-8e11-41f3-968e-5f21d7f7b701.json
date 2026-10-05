@@ -1,0 +1,21 @@
+{
+  "id": "2ac45c8f-8e11-41f3-968e-5f21d7f7b701",
+  "type": "frame",
+  "tag": "div",
+  "name": "Inner Actions",
+  "parent": "e13b5ec7-1c2d-415c-b416-e43fe2fbee62",
+  "order": "V",
+  "createdAt": "2026-10-05T13:51:14.294Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "1e42a181-a650-4ba9-bd83-ad0abf2f07f9"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "12px",
+    "top": "20px",
+    "width": "352px",
+    "height": "86px"
+  },
+  "updatedAt": "2026-10-05T13:51:14.294Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "736b579d-2314-4032-afd2-a3928a84ce6a",
+  "type": "frame",
+  "tag": "div",
+  "name": "Message",
+  "parent": "0a169feb-7a36-4839-b6ad-2ebde2b2bfc6",
+  "order": "G",
+  "createdAt": "2026-10-05T13:51:14.294Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "cce04fb4-a658-40a3-a39c-1f224344f90b"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "132px",
+    "top": "176px",
+    "width": "227px",
+    "height": "36px"
+  },
+  "updatedAt": "2026-10-05T13:51:14.294Z"
+}

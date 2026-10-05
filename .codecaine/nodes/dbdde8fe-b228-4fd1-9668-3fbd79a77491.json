@@ -1,0 +1,29 @@
+{
+  "id": "dbdde8fe-b228-4fd1-9668-3fbd79a77491",
+  "type": "frame",
+  "tag": "svg",
+  "name": "Icon",
+  "parent": "7dba5ced-9274-429b-abad-48d7ce3cd808",
+  "order": "G",
+  "createdAt": "2026-10-05T13:51:14.294Z",
+  "props": {
+    "width": "64",
+    "height": "64",
+    "viewBox": "0 0 64 64",
+    "fill": "none",
+    "overflow": "visible",
+    "xmlns": "http://www.w3.org/2000/svg",
+    "innerMarkup": "<path transform=\"matrix(1 0 0 1 0 0)\" d=\"M32 64C49.67 64 64 49.67 64 32C64 14.33 49.67 0 32 0C14.33 0 0 14.33 0 32C0 49.67 14.33 64 32 64Z\" fill=\"#0498FE\" fill-rule=\"evenodd\"></path><path transform=\"matrix(1 0 0 1 11.096 15.773)\" d=\"M1.68 11.26L33.85 0.14C35.15 -0.31 36.58 0.38 37.03 1.68C37.21 2.21 37.21 2.79 37.03 3.32L25.9 35.48C25.45 36.79 24.03 37.48 22.72 37.03C21.99 36.78 21.42 36.2 21.17 35.48L16.98 23.29C16.48 21.83 15.33 20.69 13.88 20.19L1.69 15.99C0.38 15.54 -0.31 14.12 0.14 12.81C0.39 12.09 0.96 11.52 1.68 11.26Z\" fill=\"#FFFFFF\" fill-rule=\"evenodd\"></path>",
+    "data-import-type": "figma",
+    "data-codecaine-id": "7294372b-bdca-4396-afab-24fc9414875e"
+  },
+  "style": {
+    "display": "block",
+    "position": "absolute",
+    "left": "12px",
+    "top": "0px",
+    "width": "64px",
+    "height": "64px"
+  },
+  "updatedAt": "2026-10-05T13:51:14.294Z"
+}

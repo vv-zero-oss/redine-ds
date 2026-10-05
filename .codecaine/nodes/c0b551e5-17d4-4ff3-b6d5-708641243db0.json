@@ -1,0 +1,31 @@
+{
+  "id": "c0b551e5-17d4-4ff3-b6d5-708641243db0",
+  "type": "text",
+  "tag": "p",
+  "name": "What is the most pop",
+  "parent": "2464202f-22f8-4a06-bc92-016d62018df5",
+  "order": "G",
+  "createdAt": "2026-10-05T13:51:14.294Z",
+  "props": {
+    "text": "What is the most popular meal in Japan?",
+    "data-import-type": "figma",
+    "data-codecaine-id": "d6a0bf7f-9e97-4578-bd83-12b696f56604"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "52px",
+    "top": "7.5px",
+    "width": "196px",
+    "fontFamily": "\"SF Pro Text\", sans-serif",
+    "fontSize": "17px",
+    "fontWeight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.41px",
+    "color": "rgb(255, 255, 255)"
+  },
+  "updatedAt": "2026-10-05T13:51:14.294Z"
+}
