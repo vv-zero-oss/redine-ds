@@ -1,10 +1,10 @@
 {
-  "id": "58e92c57-78ec-4d83-9806-78c8d2afb1d6",
+  "id": "dcf5d22d-df6c-4219-9ca4-5c107ed7892f",
   "type": "liveproject",
   "tag": "div",
   "name": "Live project",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
-  "order": "z",
+  "order": "zV",
   "breakpoints": [
     {
       "id": "desktop",
@@ -25,10 +25,10 @@
       "width": 390
     }
   ],
-  "createdAt": "2026-10-05T12:51:41.349Z",
+  "createdAt": "2026-10-05T13:16:50.520Z",
   "props": {
     "src": "http://localhost:3000/",
-    "data-codecaine-id": "e33a8db7-f808-4f1c-a30e-1618277dd661"
+    "data-codecaine-id": "284bce9a-8875-45d2-b6e4-0bfac3c7193a"
   },
   "sizing": {
     "width": "fixed",
@@ -39,8 +39,8 @@
     "height": 900,
     "position": "absolute",
     "backgroundColor": "#ffffff",
-    "left": 5314.977419392079,
-    "top": -769.9253144293343
+    "left": -269.4155991771081,
+    "top": -365.3345811226864
   },
-  "updatedAt": "2026-10-05T12:56:05.677Z"
+  "updatedAt": "2026-10-05T13:17:09.238Z"
 }

@@ -1,0 +1,483 @@
+/* ============================================================================
+   Landing — the `/` page's brand layer
+   ----------------------------------------------------------------------------
+   A light marketing surface on the same primitive layer. It reuses `@theme`
+   from theme.css — the Inter face, the pill radius, every duration and easing —
+   and adds only what this page needs that the Refine tool palette does not:
+   its ink, its grey wash, its display type and its section rhythm.
+
+   Every value was measured from the "Interactive frame" design on the board
+   (a 1280px reference), then made fluid: the reference sizes are the desktop
+   values, and the two breakpoints below step them down rather than letting
+   anything sit at a hand-placed position.
+
+   Colors live under `--lp-*` so they can never collide with `--ui-*`. The
+   page is light-only by design — the reference has no dark counterpart — so
+   this file has no `[data-theme]` branch. If one is ever added it goes here as
+   one block, and no component class below changes.
+   ========================================================================== */
+
+/* -- 1. Tokens -------------------------------------------------------------- */
+:root {
+  /* Ground + ink */
+  --lp-bg: #ffffff;
+  --lp-ink: #141414;                        /* headings, primary button       */
+  --lp-ink-hover: #2e2e2e;                  /* primary button hover           */
+  --lp-fg-muted: #717171;                   /* lede, card copy                */
+  --lp-fg-faint: #adadad;                   /* idle tab label                 */
+  --lp-on-ink: #ffffff;
+  --lp-wash: rgb(64 64 64 / 0.06);          /* media wells, ghost hover       */
+  --lp-wash-strong: rgb(64 64 64 / 0.1);    /* ghost press                    */
+  --lp-line: rgb(65 65 65 / 0.16);          /* outline button ring            */
+  --lp-shine: rgb(255 255 255 / 0.1);       /* CTA highlight sweep            */
+  --lp-focus: #141414;
+
+  /* Shadow recipes — borders are inset shadows, never `border` */
+  --lp-ring: inset 0 0 0 1px var(--lp-line);
+  --lp-shadow-tab: 0 1px 2px 0 rgb(0 0 0 / 0.04);
+
+  /* Type — display roles carry their own tracking */
+  --lp-text-display: 80px;   --lp-text-display--lh: 80px;
+  --lp-text-h2: 56px;        --lp-text-h2--lh: 56px;
+  --lp-text-lede: 20px;      --lp-text-lede--lh: 26px;
+  --lp-text-h3: 20px;        --lp-text-h3--lh: 26px;
+  --lp-text-body: 16px;      --lp-text-body--lh: 22px;
+  --lp-tracking-display: -0.6px;
+  --lp-tracking-body: -0.16px;
+  --lp-tracking-label: 0.2px;
+  --lp-weight-display: 900;
+  --lp-weight-h2: 652;
+  --lp-weight-body: 456;
+  --lp-weight-light: 300;
+
+  /* Spacing — a 4px scale; every gap and pad below is one of these */
+  --lp-space-1: 4px;
+  --lp-space-3: 12px;
+  --lp-space-4: 16px;
+  --lp-space-5: 20px;
+  --lp-space-8: 32px;
+  --lp-space-10: 40px;
+  --lp-space-20: 80px;
+  --lp-space-28: 112px;
+  --lp-space-45: 180px;
+
+  /* Section rhythm */
+  --lp-gutter: var(--lp-space-5);           /* page edge → content            */
+  --lp-section-top: var(--lp-space-45);
+  --lp-section-bottom: var(--lp-space-20);
+  --lp-section-gap: var(--lp-space-20);     /* title block → its content      */
+  --lp-hero-bottom: var(--lp-space-28);
+
+  /* Measures */
+  --lp-measure-text: 834px;
+  --lp-measure-wide: 1262px;
+  --lp-measure-page: 1240px;
+
+  /* Radii */
+  --lp-radius-cover: 24px;
+  --lp-radius-media: 16px;
+  --lp-radius-phone: 24px;
+
+  /* Media geometry (the reference's own ratios) */
+  --lp-cover-ratio: 1.89967;
+  --lp-cover-inset-top: 6.45%;              /* 80 / 1240                      */
+  --lp-cover-inset-x: 7.1%;                 /* 88 / 1240                      */
+  --lp-cover-media-ratio: 1.5;
+  --lp-card-ratio: 1.0992;
+  --lp-phone-ratio: 0.439655;
+  --lp-phone-width: 268px;
+  --lp-logo: 88px;
+  --lp-cta-height: 44px;
+  --lp-tabs-height: 42px;
+
+  /* Motion — the ticker is ambient, so it is the one long duration */
+  --lp-ticker-duration: 60s;
+}
+
+@media (max-width: 1023px) {
+  :root {
+    --lp-text-display: 60px;  --lp-text-display--lh: 60px;
+    --lp-text-h2: 44px;       --lp-text-h2--lh: 46px;
+    --lp-section-top: 128px;
+    --lp-hero-bottom: var(--lp-space-20);
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --lp-text-display: 44px;  --lp-text-display--lh: 46px;
+    --lp-text-h2: 34px;       --lp-text-h2--lh: 38px;
+    --lp-text-lede: 18px;     --lp-text-lede--lh: 24px;
+    --lp-section-top: 96px;
+    --lp-section-bottom: var(--lp-space-10);
+    --lp-section-gap: var(--lp-space-10);
+    --lp-hero-bottom: var(--lp-space-10);
+    --lp-radius-cover: 16px;
+    --lp-radius-media: 12px;
+    --lp-radius-phone: 18px;
+    --lp-phone-width: 200px;
+    --lp-logo: 72px;
+  }
+}
+
+/* -- 2. Components ---------------------------------------------------------- */
+@layer components {
+  .lp-page {
+    background: var(--lp-bg);
+    color: var(--lp-ink);
+    font-family: var(--font-sans);
+    overflow-x: clip;
+  }
+
+  /* A centred column with the page gutter. Variants pick the measure. */
+  .lp-container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: calc(var(--lp-measure-page) + 2 * var(--lp-gutter));
+    margin-inline: auto;
+    padding-inline: var(--lp-gutter);
+  }
+  .lp-container-text {
+    max-width: calc(var(--lp-measure-text) + 2 * var(--lp-gutter));
+  }
+
+  .lp-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--lp-section-gap);
+    padding-top: var(--lp-section-top);
+    padding-bottom: var(--lp-section-bottom);
+  }
+
+  /* -- Type roles -- */
+  .lp-display {
+    margin: 0;
+    font-size: var(--lp-text-display);
+    line-height: var(--lp-text-display--lh);
+    font-weight: var(--lp-weight-display);
+    letter-spacing: var(--lp-tracking-display);
+    text-align: center;
+    text-wrap: balance;
+    color: var(--lp-ink);
+  }
+  .lp-h2 {
+    margin: 0;
+    font-size: var(--lp-text-h2);
+    line-height: var(--lp-text-h2--lh);
+    font-weight: var(--lp-weight-h2);
+    letter-spacing: var(--lp-tracking-display);
+    text-align: center;
+    text-wrap: balance;
+    color: var(--lp-ink);
+  }
+  .lp-lede {
+    margin: 0;
+    font-size: var(--lp-text-lede);
+    line-height: var(--lp-text-lede--lh);
+    font-weight: var(--lp-weight-light);
+    text-align: center;
+    text-wrap: balance;
+    color: var(--lp-fg-muted);
+  }
+  .lp-h3 {
+    margin: 0;
+    font-size: var(--lp-text-h3);
+    line-height: var(--lp-text-h3--lh);
+    font-weight: var(--font-weight-semibold);
+    text-align: center;
+    color: var(--lp-ink);
+  }
+  .lp-body {
+    margin: 0;
+    font-size: var(--lp-text-body);
+    line-height: var(--lp-text-body--lh);
+    font-weight: var(--lp-weight-body);
+    letter-spacing: var(--lp-tracking-body);
+    text-align: center;
+    text-wrap: balance;
+    color: var(--lp-fg-muted);
+  }
+
+  /* -- Hero -- */
+  .lp-hero {
+    padding-top: var(--lp-section-top);
+    padding-bottom: var(--lp-hero-bottom);
+  }
+  .lp-hero-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--lp-space-10);
+  }
+  .lp-hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--lp-space-5);
+  }
+  .lp-logo {
+    display: block;
+    width: var(--lp-logo);
+    height: var(--lp-logo);
+    object-fit: cover;
+    opacity: 0.8;
+  }
+  .lp-ctas {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: var(--lp-space-3);
+  }
+
+  /* -- Pill CTAs -- */
+  .lp-btn {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    height: var(--lp-cta-height);
+    padding-inline: var(--lp-space-4);
+    border-radius: var(--radius-pill);
+    font-size: var(--lp-text-body);
+    line-height: var(--lp-text-body--lh);
+    font-weight: var(--font-weight-semibold);
+    letter-spacing: var(--lp-tracking-label);
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: clip;
+    isolation: isolate;
+    transition-property: background-color, scale;
+    transition-duration: var(--duration-micro);
+    transition-timing-function: var(--ease-smooth);
+  }
+  .lp-btn:focus-visible {
+    outline: 2px solid var(--lp-focus);
+    outline-offset: 2px;
+  }
+  .lp-btn:active { scale: 0.97; }
+
+  .lp-btn-primary {
+    background: var(--lp-ink);
+    color: var(--lp-on-ink);
+  }
+  .lp-btn-primary:hover { background: var(--lp-ink-hover); }
+
+  /* The highlight: a 45° light strip parked past the right edge, swept
+     across on hover. Hard-light keeps it a glint rather than a grey wash. */
+  .lp-btn-shine {
+    position: absolute;
+    top: -100%;
+    bottom: -100%;
+    left: calc(100% + 38px);
+    width: 32px;
+    background: var(--lp-shine);
+    mix-blend-mode: hard-light;
+    rotate: 45deg;
+    pointer-events: none;
+    z-index: 1;
+    transition: translate var(--duration-very-slow) var(--ease-smooth);
+  }
+  .lp-btn-primary:hover .lp-btn-shine { translate: -220px 0; }
+
+  .lp-btn-outline {
+    background: transparent;
+    color: var(--lp-ink);
+    box-shadow: var(--lp-ring);
+    backdrop-filter: blur(40px);
+  }
+  .lp-btn-outline:hover { background: var(--lp-wash); }
+  .lp-btn-outline:active { background: var(--lp-wash-strong); }
+
+  .lp-btn-icon {
+    width: 20px;
+    height: 20px;
+    flex: none;
+  }
+
+  /* -- Product cover: a grey well with the demo video rising out of it -- */
+  .lp-cover {
+    position: relative;
+    margin: 0;
+    aspect-ratio: var(--lp-cover-ratio);
+    padding: var(--lp-cover-inset-top) var(--lp-cover-inset-x) 0;
+    border-radius: var(--lp-radius-cover);
+    background: var(--lp-wash);
+    overflow: clip;
+  }
+  .lp-cover-media {
+    display: block;
+    width: 100%;
+    aspect-ratio: var(--lp-cover-media-ratio);
+    border-radius: var(--lp-radius-media);
+    object-fit: cover;
+  }
+
+  /* -- Feature cards -- */
+  .lp-cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--lp-space-5);
+    width: 100%;
+    max-width: var(--lp-measure-wide);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .lp-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--lp-space-5);
+  }
+  .lp-card-media {
+    position: relative;
+    aspect-ratio: var(--lp-card-ratio);
+    border-radius: var(--lp-radius-media);
+    background: var(--lp-wash);
+    overflow: clip;
+  }
+  .lp-card-media video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .lp-card-meta {
+    display: flex;
+    flex-direction: column;
+    gap: var(--lp-space-1);
+  }
+
+  @media (max-width: 767px) {
+    .lp-cards {
+      grid-template-columns: minmax(0, 1fr);
+      gap: var(--lp-space-10);
+      max-width: 480px;
+    }
+  }
+
+  /* -- Patterns: title block, tab switcher, tickers -- */
+  .lp-title-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--lp-space-10);
+  }
+
+  .lp-tabs {
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    height: var(--lp-tabs-height);
+    padding: var(--lp-space-1);
+    border-radius: var(--radius-pill);
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .lp-tabs::-webkit-scrollbar { display: none; }
+
+  /* The sliding pill. JS writes only where it sits (--tab-x / --tab-w);
+     the curve and the duration are CSS's. */
+  .lp-tabs-indicator {
+    position: absolute;
+    top: var(--lp-space-1);
+    bottom: var(--lp-space-1);
+    left: 0;
+    width: var(--tab-w, 0px);
+    translate: var(--tab-x, 0px) 0;
+    border-radius: var(--radius-pill);
+    box-shadow: var(--lp-shadow-tab);
+    pointer-events: none;
+    transition: translate var(--duration-medium) var(--ease-smooth);
+  }
+
+  .lp-tab {
+    position: relative;
+    z-index: 1;
+    flex: none;
+    padding: 6px var(--lp-space-4);
+    border: 0;
+    border-radius: var(--radius-pill);
+    background: transparent;
+    font: inherit;
+    font-size: var(--lp-text-body);
+    line-height: var(--lp-text-body--lh);
+    font-weight: var(--font-weight-semibold);
+    white-space: nowrap;
+    color: var(--lp-fg-faint);
+    cursor: pointer;
+    user-select: none;
+    transition: color var(--duration-fast) var(--ease-smooth);
+  }
+  .lp-tab:hover { color: var(--lp-fg-muted); }
+  .lp-tab[aria-selected="true"] { color: var(--lp-ink); }
+  .lp-tab:focus-visible {
+    outline: 2px solid var(--lp-focus);
+    outline-offset: -2px;
+  }
+
+  /* All four tickers share one grid cell and cross-fade. */
+  .lp-tickers {
+    display: grid;
+    width: 100%;
+  }
+  .lp-ticker {
+    grid-area: 1 / 1;
+    overflow: clip;
+    transition: opacity var(--duration-slow) var(--ease-smooth);
+  }
+  .lp-ticker[data-state="inactive"] {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  /* The list is rendered twice end-to-end and slides by exactly one copy,
+     so the loop has no seam. */
+  .lp-ticker-track {
+    display: flex;
+    gap: var(--lp-space-5);
+    width: max-content;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    animation: lp-ticker var(--lp-ticker-duration) linear infinite;
+  }
+  .lp-ticker[data-state="inactive"] .lp-ticker-track,
+  .lp-ticker:hover .lp-ticker-track {
+    animation-play-state: paused;
+  }
+
+  .lp-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--lp-space-5);
+    width: var(--lp-phone-width);
+    flex: none;
+  }
+  .lp-screen-label {
+    margin: 0;
+    font-size: var(--lp-text-body);
+    line-height: var(--lp-text-body--lh);
+    font-weight: var(--lp-weight-light);
+    letter-spacing: var(--lp-tracking-label);
+    text-align: center;
+    color: var(--lp-ink);
+  }
+  .lp-screen-media {
+    display: block;
+    width: 100%;
+    aspect-ratio: var(--lp-phone-ratio);
+    border-radius: var(--lp-radius-phone);
+    background: var(--lp-wash);
+    object-fit: cover;
+  }
+}
+
+@keyframes lp-ticker {
+  to { transform: translateX(calc(-50% - var(--lp-space-5) / 2)); }
+}

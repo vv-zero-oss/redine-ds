@@ -5,11 +5,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "Cluster — GTM tools for your agents",
+    default: "Codecaine — The canvas for your real code",
     template: "%s",
   },
   description:
-    "Cluster gives your agents access to 50+ GTM data sources, linkedin & email sending infra and the ability to orchestrate hundreds of subagents in parallel.",
+    "A design canvas that works on your real code.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

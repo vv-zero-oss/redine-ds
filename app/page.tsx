@@ -1,38 +1,31 @@
 import type { Metadata } from "next";
-import { SiteNav } from "@/components/cluster/site-nav";
-import { Hero } from "@/components/cluster/hero";
-import { Workspace } from "@/components/cluster/workspace";
-import { GtmPlays } from "@/components/cluster/gtm-plays";
-import { Faq } from "@/components/cluster/faq";
-import { CreamBand, SiteFooter, Testimonials } from "@/components/cluster/sections";
+import { Hero } from "@/components/landing/hero";
+import { ProductCover } from "@/components/landing/product-cover";
+import { Features } from "@/components/landing/features";
+import { Patterns } from "@/components/landing/patterns";
 
 export const metadata: Metadata = {
-  title: "Cluster — GTM tools for your agents",
+  title: "Codecaine — The canvas for your real code",
   description:
-    "Cluster gives your agents access to 50+ GTM data sources, linkedin & email sending infra and the ability to orchestrate hundreds of subagents in parallel so you can execute any GTM play.",
+    "Start with what you already have: a design canvas that works on your real code. Import from your clipboard, @mention anything on the board and leave comments.",
 };
 
 /**
  * The landing page.
  *
- * Everything between the header and the footer lives inside one ruled frame —
- * a centred 1420px column with a hairline down each side — because that frame
- * is the page's structure, not decoration: every section rule starts and stops
- * on it. The closing cream block is the one full-bleed element.
+ * One column of sections in normal flow — no hand-placed positions — so it
+ * reflows at every width. Spacing, type and media ratios are `--lp-*` tokens
+ * in src/landing.css, which step down at the tablet and mobile breakpoints.
  */
-export default function ClusterPage() {
+export default function LandingPage() {
   return (
-    <div className="cl-page min-h-screen">
-      <SiteNav />
-      <main className="cl-frame">
+    <div className="lp-page min-h-screen">
+      <main>
         <Hero />
-        <Workspace />
-        <CreamBand />
-        <GtmPlays />
-        <Testimonials />
-        <Faq />
+        <ProductCover />
+        <Features />
+        <Patterns />
       </main>
-      <SiteFooter />
     </div>
   );
 }

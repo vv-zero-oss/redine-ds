@@ -18,7 +18,7 @@ Three routes:
 
 | Route | What it is |
 |---|---|
-| `/` | The **Cluster landing page** — a second brand surface built on the same primitives, tokenised in `src/cluster.css` |
+| `/` | The **landing page** — a light marketing surface built on the same primitives, tokenised in `src/landing.css` |
 | `/design-system` | Foundations, components, and the Refine panel shell |
 | `/shadcn` | Every installed shadcn/ui component, rendered through the token bridge |
 
@@ -51,7 +51,7 @@ load-bearing:
 | **Semantic** | `:root` / `html[data-theme="dark"]` in `theme.css` | `--ui-*` — every color and shadow recipe | **yes** |
 | **Bridge** | `@theme inline` in `theme.css` | maps `--ui-*` → Tailwind utilities | emits `var()`, so yes |
 | **shadcn alias** | `:root` + `@theme inline` in `shadcn.css` | maps `--background`, `--primary`, `--border`, … onto `--ui-*`, and Tailwind's shadow scale onto the house recipes | follows the tokens |
-| **Cluster brand** | `:root` + `@theme inline` + `@layer components` in `cluster.css` | `--cl-*` — the landing page's ground, cream bands, glass recipes and `.cl-*` classes | dark-only, so no branch |
+| **Landing brand** | `:root` + `@layer components` in `landing.css` | `--lp-*` — the landing page's ink, wash, display type, 4px spacing scale and `.lp-*` classes | light-only, so no branch |
 
 The reason for the split: Tailwind v4's `@theme` bakes values into generated
 utilities at build time, so anything defined there can't change at runtime —
@@ -91,12 +91,13 @@ instead.
   house conventions applied by `data-slot`. No literal color belongs here.
 - `src/components.css` — every house component class (buttons, inputs, menus,
   tabs, chips, overlays, motion recipes). No dark-mode rules belong here.
-- `src/cluster.css` — the landing page's `--cl-*` tokens and `.cl-*` classes.
-  It reuses the primitive layer (radii, durations, easings, motion distances)
-  and adds only what a warm dark marketing page needs.
+- `src/landing.css` — the landing page's `--lp-*` tokens and `.lp-*` classes.
+  It reuses the primitive layer (font, pill radius, durations, easings) and
+  adds only what a light marketing page needs. Responsive steps are token
+  overrides at 1023px and 767px, never per-component sizes.
 - `app/globals.css` — build entry; pins `@source` scan targets.
 - `app/layout.tsx` — fonts and the no-flash theme script, nothing else.
-- `app/page.tsx` — the Cluster landing page.
+- `app/page.tsx` — the landing page.
 - `app/(design-system)/layout.tsx` — the site header and toast host, for that
   group only. `app/(design-system)/design-system/page.tsx` and
   `.../shadcn/page.tsx` are the two design-system routes.
@@ -106,10 +107,9 @@ instead.
   `toggle-switch`, `toast-host`).
 - `components/ui/` — vendored shadcn/ui.
 - `components/shadcn-gallery/` — the `/shadcn` demo grid.
-- `components/cluster/` — the landing page: nav, hero and its agent graph, the
-  bento, the GTM section, testimonials, FAQ, footer, and its icon set.
-- `hooks/` — `use-disclosure` (open/closing state), `use-theme`, `use-reveal`
-  (the landing page's scroll entrance), `use-mobile`.
+- `components/landing/` — the landing page: hero, product cover, feature
+  cards, and the pattern tabs + tickers (the only client component).
+- `hooks/` — `use-disclosure` (open/closing state), `use-theme`, `use-mobile`.
 - `lib/` — `theme`, `motion` (reads duration tokens), `tokens` and `timeline`
   (page data), `utils` (`cn`).
 
@@ -137,13 +137,11 @@ attribute. If the value you need doesn't exist, add the token first.
   Chrome/Edge 111+, Safari 16.2+, Firefox 113+ — swap for literal rgba if older
   support is required).
 - **Glass is a real `backdrop-filter`,** never a flat translucent fill, and it
-  only goes over content worth blurring. The two recipes (`.cl-glass`,
-  `.cl-glass-paper`) each compose a fill, a light top edge, a ring and a drop —
-  a component sets one class, not four properties.
-- **One font family.** Inter carries the display sizes too. It is a little wider
-  than the grotesque the landing-page reference uses, so `.cl-display` and
-  `.cl-h2` carry extra negative tracking to land on the same measure; that
-  compensation is a token on the role, never a per-heading override.
+  only goes over content worth blurring.
+- **One font family.** Inter carries the display sizes too; `.lp-display` and
+  `.lp-h2` carry their tracking as a token on the role, never a per-heading
+  override. The landing page's 44px pill CTA (`--lp-cta-height`) is a
+  marketing-surface token, not a fourth control height for the app UI.
 
 ## Motion
 
