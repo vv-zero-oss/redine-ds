@@ -1,0 +1,24 @@
+{
+  "id": "8c6bce4f-caa6-4800-a1b3-d10c089d7b08",
+  "type": "section",
+  "tag": "div",
+  "name": "Frame 204",
+  "parent": "54c18da4-be38-44dd-aca4-eaa9da035647",
+  "order": "V",
+  "createdAt": "2026-10-05T07:03:11.729Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "6f7ebefd-c477-4e9b-9117-6fb14b6a68a6"
+  },
+  "style": {
+    "flexShrink": "0",
+    "height": "120px",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start",
+    "rowGap": "78px",
+    "columnGap": "78px"
+  },
+  "updatedAt": "2026-10-05T07:03:11.729Z"
+}

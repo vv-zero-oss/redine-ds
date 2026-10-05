@@ -1,0 +1,15 @@
+{
+  "id": "73c02de4-d4ec-490c-8e18-116d30ef2144",
+  "type": "text",
+  "tag": "span",
+  "parent": "308eeed4-7404-4976-b78e-b01e5206355c",
+  "order": "G",
+  "createdAt": "2026-10-05T07:03:11.729Z",
+  "props": {
+    "text": "pauphone ",
+    "data-import-type": "figma",
+    "data-codecaine-id": "02890b33-ec85-42a5-bc7f-108be1aa64fd"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T07:03:11.729Z"
+}

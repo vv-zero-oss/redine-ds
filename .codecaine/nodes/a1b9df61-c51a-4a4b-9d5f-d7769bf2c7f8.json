@@ -1,0 +1,56 @@
+{
+  "id": "a1b9df61-c51a-4a4b-9d5f-d7769bf2c7f8",
+  "type": "frame",
+  "tag": "div",
+  "name": "13",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzzzzzzzz",
+  "createdAt": "2026-10-05T07:03:40.075Z",
+  "props": {
+    "importedPlacement": {
+      "position": "relative"
+    },
+    "data-import-type": "figma",
+    "data-codecaine-id": "c1cfdb66-e5bb-41d8-80f1-67079f1963dc"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {
+    "width": 390,
+    "height": "844px",
+    "borderTopLeftRadius": "4px",
+    "borderTopRightRadius": "4px",
+    "borderBottomRightRadius": "4px",
+    "borderBottomLeftRadius": "4px",
+    "borderTopWidth": "3px",
+    "borderRightWidth": "3px",
+    "borderBottomWidth": "3px",
+    "borderLeftWidth": "3px",
+    "borderTopStyle": "solid",
+    "borderRightStyle": "solid",
+    "borderBottomStyle": "solid",
+    "borderLeftStyle": "solid",
+    "borderTopColor": "rgb(224, 224, 224)",
+    "borderRightColor": "rgb(224, 224, 224)",
+    "borderBottomColor": "rgb(224, 224, 224)",
+    "borderLeftColor": "rgb(224, 224, 224)",
+    "borderImageSource": "none",
+    "borderImageSlice": "100%",
+    "borderImageWidth": "1",
+    "borderImageOutset": "0",
+    "borderImageRepeat": "stretch",
+    "backgroundColor": "rgb(252, 252, 252)",
+    "overflowX": "hidden",
+    "overflowY": "hidden",
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "left": 6801.581945353345,
+    "top": 7087.003587785824
+  },
+  "updatedAt": "2026-10-05T07:03:44.062Z"
+}

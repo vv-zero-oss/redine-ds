@@ -1,0 +1,30 @@
+{
+  "id": "4494e416-7be8-4939-8808-b5e0bdeb3003",
+  "type": "text",
+  "tag": "p",
+  "parent": "b117079e-fdc3-4e39-9eef-8947a258d375",
+  "order": "V",
+  "createdAt": "2026-10-05T07:03:40.075Z",
+  "props": {
+    "text": "Add to bag",
+    "data-import-type": "figma",
+    "data-codecaine-id": "1d50218d-ec4e-4316-99db-8ec80860923c"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "\"Proxima Nova\", sans-serif",
+    "fontSize": "10px",
+    "fontWeight": "300",
+    "lineHeight": "1",
+    "letterSpacing": "3px",
+    "textTransform": "uppercase",
+    "color": "rgb(0, 0, 0)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T07:03:40.075Z"
+}

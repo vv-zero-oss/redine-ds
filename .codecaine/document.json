@@ -1503,6 +1503,470 @@
           "label": "This file",
           "at": 1791182753576
         }
+      },
+      "var:muuwin4l-1": {
+        "id": "var:muuwin4l-1",
+        "collectionId": "collection:default",
+        "property": "--aurora-spark-amber",
+        "name": "--aurora-spark-amber",
+        "category": "colors",
+        "values": {
+          "mode:default": "#ffb020"
+        },
+        "description": "Warm end of the orbiting arc gradients.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183682965
+        }
+      },
+      "var:muuwiru4-2": {
+        "id": "var:muuwiru4-2",
+        "collectionId": "collection:default",
+        "property": "--aurora-spark-magenta",
+        "name": "--aurora-spark-magenta",
+        "category": "colors",
+        "values": {
+          "mode:default": "#ff4d9d"
+        },
+        "description": "Hot pink of the first orbiting arc and its spark.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183689068
+        }
+      },
+      "var:muuwiwq0-3": {
+        "id": "var:muuwiwq0-3",
+        "collectionId": "collection:default",
+        "property": "--aurora-spark-violet",
+        "name": "--aurora-spark-violet",
+        "category": "colors",
+        "values": {
+          "mode:default": "#7c5cff"
+        },
+        "description": "Violet of the counter-rotating arc and the halo.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183695400
+        }
+      },
+      "var:muuwj2nu-4": {
+        "id": "var:muuwj2nu-4",
+        "collectionId": "collection:default",
+        "property": "--aurora-spark-cyan",
+        "name": "--aurora-spark-cyan",
+        "category": "colors",
+        "values": {
+          "mode:default": "#22d3ee"
+        },
+        "description": "Cyan of the inner arc, its spark and the focus ring.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183703098
+        }
+      },
+      "var:muuwjbco-5": {
+        "id": "var:muuwjbco-5",
+        "collectionId": "collection:default",
+        "property": "--aurora-spark-lime",
+        "name": "--aurora-spark-lime",
+        "category": "colors",
+        "values": {
+          "mode:default": "#a3e635"
+        },
+        "description": "Lime of the slow outer arc and its spark.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183714360
+        }
+      },
+      "var:muuwjkk6-6": {
+        "id": "var:muuwjkk6-6",
+        "collectionId": "collection:default",
+        "property": "--aurora-halo-soft",
+        "name": "--aurora-halo-soft",
+        "category": "colors",
+        "values": {
+          "mode:default": "rgba(124,92,255,0.30)"
+        },
+        "description": "Centre of the breathing halo behind the orbit.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183726294
+        }
+      },
+      "var:muuwjpc4-7": {
+        "id": "var:muuwjpc4-7",
+        "collectionId": "collection:default",
+        "property": "--aurora-halo-warm",
+        "name": "--aurora-halo-warm",
+        "category": "colors",
+        "values": {
+          "mode:default": "rgba(255,77,157,0.18)"
+        },
+        "description": "Outer tint of the breathing halo, before it fades to nothing.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183732484
+        }
+      },
+      "var:muuwjxy7-8": {
+        "id": "var:muuwjxy7-8",
+        "collectionId": "collection:default",
+        "property": "--aurora-track",
+        "name": "--aurora-track",
+        "category": "colors",
+        "values": {
+          "mode:default": "rgba(255,255,255,0.09)"
+        },
+        "description": "The still ring the coloured arcs travel along.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183743647
+        }
+      },
+      "var:muuwk3et-9": {
+        "id": "var:muuwk3et-9",
+        "collectionId": "collection:default",
+        "property": "--aurora-ring-radius",
+        "name": "--aurora-ring-radius",
+        "category": "spacing",
+        "values": {
+          "mode:default": "84px"
+        },
+        "description": "Radius of the main orbit ring, clear of the 128px well.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183750725
+        }
+      },
+      "var:muuwk97b-a": {
+        "id": "var:muuwk97b-a",
+        "collectionId": "collection:default",
+        "property": "--aurora-ring-width",
+        "name": "--aurora-ring-width",
+        "category": "spacing",
+        "values": {
+          "mode:default": "2px"
+        },
+        "description": "Stroke width of every orbit arc and of the still track.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183758231
+        }
+      },
+      "var:muuwkdkm-b": {
+        "id": "var:muuwkdkm-b",
+        "collectionId": "collection:default",
+        "property": "--aurora-spark-size",
+        "name": "--aurora-spark-size",
+        "category": "spacing",
+        "values": {
+          "mode:default": "5px"
+        },
+        "description": "Radius of a spark riding an orbit.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183763894
+        }
+      },
+      "var:muuwkhov-c": {
+        "id": "var:muuwkhov-c",
+        "collectionId": "collection:default",
+        "property": "--aurora-duration-orbit",
+        "name": "--aurora-duration-orbit",
+        "category": "string",
+        "values": {
+          "mode:default": "14000ms"
+        },
+        "description": "One full turn of the main orbit arc and its spark.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183769231
+        }
+      },
+      "var:muuwklm5-d": {
+        "id": "var:muuwklm5-d",
+        "collectionId": "collection:default",
+        "property": "--aurora-duration-orbit-inner",
+        "name": "--aurora-duration-orbit-inner",
+        "category": "string",
+        "values": {
+          "mode:default": "9000ms"
+        },
+        "description": "One full counter-turn of the inner cyan orbit.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183774317
+        }
+      },
+      "var:muuwkoyv-e": {
+        "id": "var:muuwkoyv-e",
+        "collectionId": "collection:default",
+        "property": "--aurora-duration-orbit-outer",
+        "name": "--aurora-duration-orbit-outer",
+        "category": "string",
+        "values": {
+          "mode:default": "22000ms"
+        },
+        "description": "One full turn of the slow outer lime orbit.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183778663
+        }
+      },
+      "var:muuwksai-f": {
+        "id": "var:muuwksai-f",
+        "collectionId": "collection:default",
+        "property": "--aurora-duration-breathe",
+        "name": "--aurora-duration-breathe",
+        "category": "string",
+        "values": {
+          "mode:default": "4200ms"
+        },
+        "description": "One breath of the halo: swelling out and settling back.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183782970
+        }
+      },
+      "var:muuwkvms-g": {
+        "id": "var:muuwkvms-g",
+        "collectionId": "collection:default",
+        "property": "--aurora-duration-twinkle",
+        "name": "--aurora-duration-twinkle",
+        "category": "string",
+        "values": {
+          "mode:default": "2600ms"
+        },
+        "description": "One fade up and down of a scattered dust mote.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183787300
+        }
+      },
+      "var:muuwl1qz-h": {
+        "id": "var:muuwl1qz-h",
+        "collectionId": "collection:default",
+        "property": "--aurora-duration-control",
+        "name": "--aurora-duration-control",
+        "category": "string",
+        "values": {
+          "mode:default": "180ms"
+        },
+        "description": "Hover, press and focus transitions on the motion toggle.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183795227
+        }
+      },
+      "var:muuwl4pl-i": {
+        "id": "var:muuwl4pl-i",
+        "collectionId": "collection:default",
+        "property": "--aurora-ease-breathe",
+        "name": "--aurora-ease-breathe",
+        "category": "string",
+        "values": {
+          "mode:default": "cubic-bezier(0.37, 0, 0.63, 1)"
+        },
+        "description": "Symmetrical in-and-out curve for the halo and the motes.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183799066
+        }
+      },
+      "var:muuwl7az-j": {
+        "id": "var:muuwl7az-j",
+        "collectionId": "collection:default",
+        "property": "--aurora-control-fill",
+        "name": "--aurora-control-fill",
+        "category": "colors",
+        "values": {
+          "mode:default": "rgba(255,255,255,0.10)"
+        },
+        "description": "Rest fill of the motion toggle on the dark card.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183802427
+        }
+      },
+      "var:muuwlaq8-k": {
+        "id": "var:muuwlaq8-k",
+        "collectionId": "collection:default",
+        "property": "--aurora-control-fill-hover",
+        "name": "--aurora-control-fill-hover",
+        "category": "colors",
+        "values": {
+          "mode:default": "rgba(255,255,255,0.18)"
+        },
+        "description": "Hover fill of the motion toggle.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183806864
+        }
+      },
+      "var:muuwlcwc-l": {
+        "id": "var:muuwlcwc-l",
+        "collectionId": "collection:default",
+        "property": "--aurora-control-fill-active",
+        "name": "--aurora-control-fill-active",
+        "category": "colors",
+        "values": {
+          "mode:default": "rgba(255,255,255,0.26)"
+        },
+        "description": "Pressed fill of the motion toggle.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183809676
+        }
+      },
+      "var:muuwlew4-m": {
+        "id": "var:muuwlew4-m",
+        "collectionId": "collection:default",
+        "property": "--aurora-control-text",
+        "name": "--aurora-control-text",
+        "category": "colors",
+        "values": {
+          "mode:default": "rgba(255,255,255,0.86)"
+        },
+        "description": "Label and icon colour of the motion toggle.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183812260
+        }
+      },
+      "var:muuwlm0d-n": {
+        "id": "var:muuwlm0d-n",
+        "collectionId": "collection:default",
+        "property": "--aurora-control-ring",
+        "name": "--aurora-control-ring",
+        "category": "box-shadow",
+        "values": {
+          "mode:default": "inset 0 0 0 1px rgba(255,255,255,0.16), inset 0 1px 0 rgba(255,255,255,0.10)"
+        },
+        "description": "Hairline ring and light top edge of the motion toggle — an inset shadow, so the control never changes size.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183821485
+        }
+      },
+      "var:muuwloyu-o": {
+        "id": "var:muuwloyu-o",
+        "collectionId": "collection:default",
+        "property": "--aurora-focus-ring",
+        "name": "--aurora-focus-ring",
+        "category": "box-shadow",
+        "values": {
+          "mode:default": "inset 0 0 0 1px rgba(255,255,255,0.16), 0 0 0 2px #0a0a0a, 0 0 0 4px var(--aurora-spark-cyan)"
+        },
+        "description": "Focus-visible ring of the motion toggle, offset from the dark card.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183825318
+        }
+      },
+      "var:muuwlsp9-p": {
+        "id": "var:muuwlsp9-p",
+        "collectionId": "collection:default",
+        "property": "--aurora-control-height",
+        "name": "--aurora-control-height",
+        "category": "spacing",
+        "values": {
+          "mode:default": "24px"
+        },
+        "description": "Height of the chip-sized motion toggle sitting inside the artwork.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183830157
+        }
+      },
+      "var:muuwlvi0-q": {
+        "id": "var:muuwlvi0-q",
+        "collectionId": "collection:default",
+        "property": "--aurora-radius-pill",
+        "name": "--aurora-radius-pill",
+        "category": "spacing",
+        "values": {
+          "mode:default": "999px"
+        },
+        "description": "Fully rounded corner for the motion toggle.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183833784
+        }
+      },
+      "var:muuwm4io-r": {
+        "id": "var:muuwm4io-r",
+        "collectionId": "collection:default",
+        "property": "--aurora-label-size",
+        "name": "--aurora-label-size",
+        "category": "spacing",
+        "values": {
+          "mode:default": "11px"
+        },
+        "description": "Label size on the motion toggle.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183845472
+        }
+      },
+      "var:muuwm6fh-s": {
+        "id": "var:muuwm6fh-s",
+        "collectionId": "collection:default",
+        "property": "--aurora-label-line",
+        "name": "--aurora-label-line",
+        "category": "spacing",
+        "values": {
+          "mode:default": "12px"
+        },
+        "description": "Line height of the motion toggle label.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183847949
+        }
+      },
+      "var:muuwm8nw-t": {
+        "id": "var:muuwm8nw-t",
+        "collectionId": "collection:default",
+        "property": "--aurora-disabled-opacity",
+        "name": "--aurora-disabled-opacity",
+        "category": "number",
+        "values": {
+          "mode:default": "0.45"
+        },
+        "description": "Opacity of the motion toggle when the visitor asks for reduced motion and there is nothing to pause.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791183850844
+        }
       }
     },
     "order": [
@@ -1600,7 +2064,36 @@
       "var:muuvyps4-16",
       "var:muuvypvl-17",
       "var:muuvypxz-18",
-      "var:muuvyq08-19"
+      "var:muuvyq08-19",
+      "var:muuwin4l-1",
+      "var:muuwiru4-2",
+      "var:muuwiwq0-3",
+      "var:muuwj2nu-4",
+      "var:muuwjbco-5",
+      "var:muuwjkk6-6",
+      "var:muuwjpc4-7",
+      "var:muuwjxy7-8",
+      "var:muuwk3et-9",
+      "var:muuwk97b-a",
+      "var:muuwkdkm-b",
+      "var:muuwkhov-c",
+      "var:muuwklm5-d",
+      "var:muuwkoyv-e",
+      "var:muuwksai-f",
+      "var:muuwkvms-g",
+      "var:muuwl1qz-h",
+      "var:muuwl4pl-i",
+      "var:muuwl7az-j",
+      "var:muuwlaq8-k",
+      "var:muuwlcwc-l",
+      "var:muuwlew4-m",
+      "var:muuwlm0d-n",
+      "var:muuwloyu-o",
+      "var:muuwlsp9-p",
+      "var:muuwlvi0-q",
+      "var:muuwm4io-r",
+      "var:muuwm6fh-s",
+      "var:muuwm8nw-t"
     ]
   }
 }

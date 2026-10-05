@@ -1,0 +1,28 @@
+{
+  "id": "4158d3d7-c516-49c2-af40-13b547f6bc79",
+  "type": "frame",
+  "tag": "svg",
+  "name": "Frame 200",
+  "parent": "5ff1b4ec-35ef-4764-8517-9c7a4206cffd",
+  "order": "G",
+  "createdAt": "2026-10-05T07:03:11.729Z",
+  "props": {
+    "width": "32",
+    "height": "32",
+    "viewBox": "0 0 32 32",
+    "fill": "none",
+    "overflow": "visible",
+    "xmlns": "http://www.w3.org/2000/svg",
+    "innerMarkup": "<rect transform=\"matrix(1 0 0 1 0 0)\" width=\"32\" height=\"32\" rx=\"16\" fill=\"#F2F2F2\"></rect><path transform=\"matrix(1 0 0 1 12 10)\" d=\"M7.41 10.59L2.83 6L7.41 1.41L6 0L0 6L6 12L7.41 10.59\" fill=\"#323232\"></path>",
+    "data-import-type": "figma",
+    "data-codecaine-id": "ad09f4e9-c4aa-4ee4-a448-6e6a3d4d25d4"
+  },
+  "style": {
+    "display": "block",
+    "position": "absolute",
+    "left": "21px",
+    "top": "51px",
+    "width": "32px"
+  },
+  "updatedAt": "2026-10-05T07:03:11.729Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "d94cb722-1a19-48f9-9b48-b351d6f3e7b0",
+  "type": "frame",
+  "tag": "p",
+  "name": "pauphone mid",
+  "parent": "76df849f-f393-4945-bd7b-9faff84fcfc5",
+  "order": "V",
+  "createdAt": "2026-10-05T07:03:11.729Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "b0dd1fea-253f-4421-8849-5d8a6fe8ee55"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "\"Proxima Nova\", sans-serif",
+    "fontSize": "10px",
+    "fontWeight": "300",
+    "lineHeight": "1",
+    "letterSpacing": "3px",
+    "textTransform": "uppercase",
+    "color": "rgb(0, 0, 0)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T07:03:11.729Z"
+}

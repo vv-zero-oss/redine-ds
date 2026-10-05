@@ -1,0 +1,29 @@
+{
+  "id": "75cb4051-7bba-412c-8afd-5a86a3ac0cf3",
+  "type": "frame",
+  "tag": "svg",
+  "name": "Notch",
+  "parent": "1dc3edde-3034-442c-92a6-1d2a3dd320b0",
+  "order": "V",
+  "createdAt": "2026-10-05T07:03:11.729Z",
+  "props": {
+    "width": "219",
+    "height": "30",
+    "viewBox": "0 0 219 30",
+    "fill": "none",
+    "overflow": "visible",
+    "xmlns": "http://www.w3.org/2000/svg",
+    "innerMarkup": "<path transform=\"matrix(1 0 0 1 0 0)\" d=\"M0 0L219 0L219 0C216.89 0.6 215.42 2.5 215.35 4.68L215.32 5.56L215.32 5.56C215.32 19.06 204.38 30 190.88 30L28.12 30C14.62 30 3.68 19.06 3.68 5.56L3.68 5.56L3.65 4.68C3.58 2.5 2.11 0.6 0 0L0 0\" fill=\"#000000\"></path>",
+    "data-import-type": "figma",
+    "data-codecaine-id": "5951a961-7a95-49eb-a3dc-1099c4a194d1"
+  },
+  "style": {
+    "display": "block",
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "219px",
+    "height": "30px"
+  },
+  "updatedAt": "2026-10-05T07:03:11.729Z"
+}

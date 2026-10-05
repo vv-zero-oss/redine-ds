@@ -1,0 +1,27 @@
+{
+  "id": "99cc3fd0-bb81-4616-accf-fb8706f44112",
+  "type": "frame",
+  "tag": "div",
+  "name": "Rectangle 34",
+  "parent": "5ff1b4ec-35ef-4764-8517-9c7a4206cffd",
+  "order": "4",
+  "createdAt": "2026-10-05T07:03:11.729Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "69c5b135-e016-45da-becb-bd43f74e9227"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "-1px",
+    "top": "-3px",
+    "width": "386px",
+    "height": "609px",
+    "transform": "rotate(180deg)",
+    "backgroundImage": "url(\"asset:media/images/4c6013cb0c0443764966.jpg\"), linear-gradient(rgb(242, 242, 242), rgb(242, 242, 242))",
+    "backgroundSize": "cover, auto",
+    "backgroundPositionX": "center, center",
+    "backgroundPositionY": "center, center",
+    "backgroundRepeat": "no-repeat, no-repeat"
+  },
+  "updatedAt": "2026-10-05T07:03:12.775Z"
+}

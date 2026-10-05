@@ -1,0 +1,30 @@
+{
+  "id": "ad597907-cfba-434f-a5d6-98f0e353d4c3",
+  "type": "text",
+  "tag": "p",
+  "parent": "15d6a790-22a5-42dd-829e-92fe29d0e203",
+  "order": "G",
+  "createdAt": "2026-10-05T07:03:40.075Z",
+  "props": {
+    "text": "Hi, lorum ipsum",
+    "data-import-type": "figma",
+    "data-codecaine-id": "b973a948-1632-49c2-ae26-92dae22da123"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "\"Proxima Nova\", sans-serif",
+    "fontSize": "18px",
+    "fontWeight": "700",
+    "lineHeight": "1",
+    "letterSpacing": "3px",
+    "textTransform": "uppercase",
+    "color": "rgb(0, 0, 0)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T07:03:40.075Z"
+}

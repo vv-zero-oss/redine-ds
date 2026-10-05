@@ -1,0 +1,21 @@
+{
+  "id": "1dc3edde-3034-442c-92a6-1d2a3dd320b0",
+  "type": "frame",
+  "tag": "div",
+  "name": "Notch",
+  "parent": "0d6c7adb-3e60-4cf7-907e-ec69e7d2b280",
+  "order": "G",
+  "createdAt": "2026-10-05T07:03:11.729Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "edfb0e43-5e61-44f1-a3c4-32ae6891f6bb"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "85px",
+    "top": "-2px",
+    "width": "219px",
+    "height": "30px"
+  },
+  "updatedAt": "2026-10-05T07:03:11.729Z"
+}

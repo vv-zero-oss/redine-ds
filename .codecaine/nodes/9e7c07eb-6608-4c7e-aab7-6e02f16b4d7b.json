@@ -1,0 +1,18 @@
+{
+  "id": "9e7c07eb-6608-4c7e-aab7-6e02f16b4d7b",
+  "type": "text",
+  "tag": "span",
+  "parent": "d94cb722-1a19-48f9-9b48-b351d6f3e7b0",
+  "order": "V",
+  "createdAt": "2026-10-05T07:03:11.729Z",
+  "props": {
+    "text": "mid",
+    "data-import-type": "figma",
+    "data-codecaine-id": "da4381f9-32df-4d49-aff5-370a63013bda"
+  },
+  "style": {
+    "fontFamily": "\"Proxima Nova\", sans-serif",
+    "fontWeight": "700"
+  },
+  "updatedAt": "2026-10-05T07:03:11.729Z"
+}

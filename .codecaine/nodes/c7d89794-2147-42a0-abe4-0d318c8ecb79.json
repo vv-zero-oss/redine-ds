@@ -1,0 +1,30 @@
+{
+  "id": "c7d89794-2147-42a0-abe4-0d318c8ecb79",
+  "type": "text",
+  "tag": "p",
+  "parent": "d034f264-ea03-4354-b040-ce6d278e18a2",
+  "order": "V",
+  "createdAt": "2026-10-05T07:03:40.075Z",
+  "props": {
+    "text": "Buy Now",
+    "data-import-type": "figma",
+    "data-codecaine-id": "7da378f5-907b-41c1-a4be-e7393d9a714f"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "\"Proxima Nova\", sans-serif",
+    "fontSize": "10px",
+    "fontWeight": "300",
+    "lineHeight": "1",
+    "letterSpacing": "3px",
+    "textTransform": "uppercase",
+    "color": "rgb(255, 255, 255)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T07:03:40.075Z"
+}
