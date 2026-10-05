@@ -1,0 +1,32 @@
+{
+  "id": "b4a93309-3443-4138-b0d8-643d997e389d",
+  "type": "frame",
+  "tag": "div",
+  "name": "Appicon",
+  "parent": "a9dcb1f1-2910-41eb-8142-8b45c8aa50bd",
+  "order": "G",
+  "createdAt": "2026-10-05T04:32:17.211Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "edcdff0e-5410-43bd-90c7-2453413384f3"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "1026px",
+    "height": "1026px",
+    "borderTopLeftRadius": "90px",
+    "borderTopRightRadius": "90px",
+    "borderBottomRightRadius": "90px",
+    "borderBottomLeftRadius": "90px",
+    "backgroundImage": "radial-gradient(1026px 513px at 50% 0%, rgba(234, 134, 51, 0.2) 0%, rgba(255, 242, 224, 0.2) 100%), linear-gradient(rgb(215, 215, 215) 0%, rgb(255, 242, 224) 100%)",
+    "backgroundSize": "auto, auto",
+    "backgroundPositionX": "center, center",
+    "backgroundPositionY": "center, center",
+    "backgroundRepeat": "no-repeat, no-repeat",
+    "overflowX": "hidden",
+    "overflowY": "hidden"
+  },
+  "updatedAt": "2026-10-05T04:32:17.211Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "75e3f47b-f761-4d7a-a9bc-c79c391ad643",
+  "type": "text",
+  "tag": "p",
+  "parent": "87977ae4-7a36-4337-af11-479d39364d49",
+  "order": "G",
+  "createdAt": "2026-10-05T04:32:17.211Z",
+  "props": {
+    "text": "tella",
+    "data-import-type": "figma",
+    "data-codecaine-id": "7b21670b-c7c1-485f-8791-d9480ce437ef"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "0px",
+    "top": "7.14px",
+    "fontFamily": "Lemon, sans-serif",
+    "fontSize": "206.5px",
+    "fontWeight": "400",
+    "lineHeight": "1",
+    "letterSpacing": "-26.85px",
+    "color": "rgb(255, 255, 255)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap",
+    "WebkitTextStrokeWidth": "25.72px",
+    "WebkitTextStrokeColor": "rgb(234, 82, 40)"
+  },
+  "updatedAt": "2026-10-05T04:32:17.211Z"
+}

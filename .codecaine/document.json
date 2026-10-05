@@ -11,6 +11,10 @@
     {
       "kind": "google",
       "family": "Lemon"
+    },
+    {
+      "kind": "google",
+      "family": "Poppins"
     }
   ],
   "variables": {

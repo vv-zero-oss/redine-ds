@@ -1,0 +1,22 @@
+{
+  "id": "87977ae4-7a36-4337-af11-479d39364d49",
+  "type": "frame",
+  "tag": "div",
+  "name": "tellaflow-logo",
+  "parent": "b4a93309-3443-4138-b0d8-643d997e389d",
+  "order": "V",
+  "createdAt": "2026-10-05T04:32:17.211Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "c673d4fe-a778-4af0-95ea-88d4b0ec3b87"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "57px",
+    "top": "384px",
+    "width": "911.45px",
+    "height": "214.14px",
+    "filter": "drop-shadow(rgba(36, 36, 36, 0.1) 0px 2.86px 52.86px)"
+  },
+  "updatedAt": "2026-10-05T04:32:17.211Z"
+}
