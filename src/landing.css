@@ -57,6 +57,7 @@
   --lp-space-2: 8px;
   --lp-space-2-5: 10px;
   --lp-space-3: 12px;
+  --lp-space-3-5: 14px;
   --lp-space-4: 16px;
   --lp-space-5: 20px;
   --lp-space-7: 28px;
@@ -64,6 +65,7 @@
   --lp-space-10: 40px;
   --lp-space-20: 80px;
   --lp-space-28: 112px;
+  --lp-space-30: 120px;
   --lp-space-45: 180px;
 
   /* Section rhythm */
@@ -97,6 +99,26 @@
 
   /* Motion — the ticker is ambient, so it is the one long duration */
   --lp-ticker-duration: 60s;
+
+  /* Gallery — Shipped with Framer, measured from framer.com at 1440px */
+  --lp-text-h2-sm: 44px;     --lp-text-h2-sm--lh: 48.4px;
+  --lp-tracking-h2-sm: -0.04em;                  /* -1.76px at 44px           */
+  --lp-text-label: 14px;     --lp-text-label--lh: 14px;
+  --lp-tracking-label-tight: -0.02em;            /* -0.28px at 14px           */
+  --lp-weight-label: 540;
+  --lp-gallery-pad-block: var(--lp-space-30);
+  --lp-gallery-gap: var(--lp-space-10);          /* header → rows             */
+  --lp-gallery-shot-gap: var(--lp-space-2-5);    /* between shots and rows    */
+  --lp-gallery-width: 1200px;
+  --lp-gallery-row: 450px;                       /* shot height               */
+  --lp-gallery-wide-ratio: 1.5556;               /* 700 / 450 — desktop shot  */
+  --lp-gallery-tall-ratio: 0.4889;               /* 220 / 450 — phone shot    */
+  --lp-radius-shot: 15px;
+  --lp-radius-gallery-cta: var(--radius-md);     /* 8px                       */
+  --lp-gallery-cta-height: 34px;
+  --lp-gallery-duration: 40s;                    /* one loop of a row         */
+  --lp-gallery-drift: 120px;                     /* scroll push, each way     */
+  --lp-gallery-rise: 24px;                       /* header entrance distance  */
 
   /* Site nav — measured one to one from kobbe.io's header and mega menu.
      Its warm greys are its own, so they get their own names. */
@@ -135,6 +157,7 @@
     --lp-text-h2: 44px;       --lp-text-h2--lh: 46px;
     --lp-section-top: 128px;
     --lp-hero-bottom: var(--lp-space-20);
+    --lp-gallery-row: 360px;
   }
 }
 
@@ -152,6 +175,10 @@
     --lp-radius-phone: 18px;
     --lp-phone-width: 200px;
     --lp-logo: 72px;
+    --lp-text-h2-sm: 32px;    --lp-text-h2-sm--lh: 36px;
+    --lp-gallery-pad-block: var(--lp-space-20);
+    --lp-gallery-row: 280px;
+    --lp-gallery-drift: 60px;
   }
 }
 
@@ -751,6 +778,131 @@
     .lp-nav-col + .lp-nav-col { box-shadow: inset 0 1px 0 var(--lp-nav-divider); }
     .lp-nav-links-grid { grid-template-columns: minmax(0, 1fr); }
   }
+  /* -- Gallery: Shipped with Framer ---------------------------------------
+     Two rows of shots drift in opposite directions (the track's transform);
+     scroll pushes each row the other way on top (the row's translate), so
+     the two never fight over one property. */
+  .lp-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--lp-gallery-gap);
+    padding: var(--lp-gallery-pad-block) var(--lp-gutter);
+    overflow-x: clip;
+  }
+  .lp-gallery-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: var(--lp-space-4);
+    width: 100%;
+    max-width: var(--lp-gallery-width);
+  }
+  .lp-gallery-title {
+    margin: 0;
+    font-size: var(--lp-text-h2-sm);
+    line-height: var(--lp-text-h2-sm--lh);
+    font-weight: var(--font-weight-medium);
+    letter-spacing: var(--lp-tracking-h2-sm);
+    color: var(--lp-ink);
+  }
+  .lp-gallery-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: var(--lp-gallery-cta-height);
+    padding: var(--lp-space-2-5) var(--lp-space-3-5);
+    border-radius: var(--lp-radius-gallery-cta);
+    background: var(--lp-wash);
+    font-size: var(--lp-text-label);
+    line-height: var(--lp-text-label--lh);
+    font-weight: var(--lp-weight-label);
+    letter-spacing: var(--lp-tracking-label-tight);
+    color: var(--lp-ink);
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    transition-property: background-color, scale;
+    transition-duration: var(--duration-micro);
+    transition-timing-function: var(--ease-smooth);
+  }
+  .lp-gallery-cta:hover { background: var(--lp-wash-strong); }
+  .lp-gallery-cta:active { scale: 0.97; }
+  .lp-gallery-cta:focus-visible {
+    outline: 2px solid var(--lp-focus);
+    outline-offset: 2px;
+  }
+
+  .lp-gallery-rows {
+    display: flex;
+    flex-direction: column;
+    gap: var(--lp-gallery-shot-gap);
+    width: 100%;
+    max-width: var(--lp-gallery-width);
+    overflow: clip;
+  }
+  .lp-gallery-row { display: flex; }
+  .lp-gallery-track {
+    display: flex;
+    gap: var(--lp-gallery-shot-gap);
+    width: max-content;
+    margin: 0;
+    margin-inline-start: calc(-1 * var(--lp-gallery-drift));  /* room for the scroll push */
+    padding: 0;
+    list-style: none;
+    animation: lp-gallery-drift var(--lp-gallery-duration) linear infinite;
+  }
+  .lp-gallery-row:nth-child(even) .lp-gallery-track {
+    animation-direction: reverse;
+  }
+  .lp-gallery-shot {
+    flex: none;
+    height: var(--lp-gallery-row);
+    aspect-ratio: var(--lp-gallery-wide-ratio);
+    border-radius: var(--lp-radius-shot);
+    background: var(--lp-wash);
+    overflow: clip;
+  }
+  .lp-gallery-shot[data-shape="tall"] { aspect-ratio: var(--lp-gallery-tall-ratio); }
+  .lp-gallery-shot img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Scroll: rows slide apart as the section crosses the viewport, and the
+     header rises in on entry. Browsers without view() timelines keep the
+     drift and show everything at rest. */
+  @supports (animation-timeline: view()) {
+    .lp-gallery-row {
+      animation: lp-gallery-push linear both;
+      animation-timeline: view();
+    }
+    .lp-gallery-row:nth-child(even) { animation-direction: reverse; }
+    .lp-gallery-head {
+      animation: lp-gallery-rise linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 100%;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .lp-gallery-row,
+    .lp-gallery-head { animation: none; }
+  }
+}
+
+@keyframes lp-gallery-drift {
+  to { transform: translateX(calc(-50% - var(--lp-gallery-shot-gap) / 2)); }
+}
+@keyframes lp-gallery-push {
+  from { translate: var(--lp-gallery-drift) 0; }
+  to { translate: calc(-1 * var(--lp-gallery-drift)) 0; }
+}
+@keyframes lp-gallery-rise {
+  from { opacity: 0; translate: 0 var(--lp-gallery-rise); }
+  to { opacity: 1; translate: 0 0; }
 }
 
 @keyframes lp-ticker {
