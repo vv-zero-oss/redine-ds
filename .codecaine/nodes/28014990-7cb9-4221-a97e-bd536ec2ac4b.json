@@ -1,0 +1,14 @@
+{
+  "id": "28014990-7cb9-4221-a97e-bd536ec2ac4b",
+  "type": "text",
+  "tag": "li",
+  "parent": "23d7193e-3ad8-45ec-9715-477dc978e93e",
+  "order": "8",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Real application loaded on the canvas.",
+    "data-codecaine-id": "3a4b2ab2-3121-46cf-b060-249e1f0bf8c9"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

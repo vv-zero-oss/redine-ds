@@ -1,0 +1,19 @@
+{
+  "id": "eeea69c4-96aa-4e19-b1c8-7a3bc2389f4c",
+  "type": "text",
+  "tag": "h1",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "2",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Scene 0 — Hero",
+    "data-codecaine-id": "968b50f2-b17b-4608-92f4-cead7b82bd8e"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

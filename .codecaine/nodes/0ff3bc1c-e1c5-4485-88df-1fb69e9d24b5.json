@@ -1,0 +1,19 @@
+{
+  "id": "0ff3bc1c-e1c5-4485-88df-1fb69e9d24b5",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "3G",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Show Code Frame sitting idle.",
+    "data-codecaine-id": "a1b625fe-dd31-4f1b-8689-fc53e46bbf73"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

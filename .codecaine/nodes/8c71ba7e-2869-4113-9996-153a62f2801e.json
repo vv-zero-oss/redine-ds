@@ -1,0 +1,14 @@
+{
+  "id": "8c71ba7e-2869-4113-9996-153a62f2801e",
+  "type": "text",
+  "tag": "strong",
+  "parent": "5c7dafe8-f973-4092-bb46-b2d30d11871f",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "You already have an app. Start there.",
+    "data-codecaine-id": "b384c47f-c121-4fff-b599-7fcddcaa52bf"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

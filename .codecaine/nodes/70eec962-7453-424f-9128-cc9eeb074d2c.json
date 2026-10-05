@@ -1,0 +1,19 @@
+{
+  "id": "70eec962-7453-424f-9128-cc9eeb074d2c",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "EG",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "@hero",
+    "data-codecaine-id": "8d90ed63-3fda-4a96-86ce-cdebc172e10e"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "9d1ab45f-ecd6-4b1f-af80-5a5d3dfbeb98",
+  "type": "text",
+  "tag": "span",
+  "parent": "a2452c56-8aa2-4a2f-9dec-06de9b9d0a75",
+  "order": "l",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": ", not receiving a screenshot.",
+    "data-codecaine-id": "ca07dbae-7fa3-44eb-a78b-da1375241879"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "4cbdb3cd-d83e-42ba-a938-7bf822e1cb69",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "E",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Then:",
+    "data-codecaine-id": "feaec8ad-7f69-4c57-8632-97a00565305d"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "335d3d1d-2235-4ad4-8e5c-7ceeafccaf25",
+  "type": "text",
+  "tag": "td",
+  "parent": "66c6c83e-ab13-4023-a2dc-e1d1f5e441dd",
+  "order": "l",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Real app loads; select layers; show real code",
+    "data-codecaine-id": "c0b0af14-63d1-4a50-a8c5-ab6250d00704"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "b3636ca1-9f26-4c21-9328-13401b317e65",
+  "type": "text",
+  "tag": "strong",
+  "parent": "ae647bbb-466b-4a44-af72-ab0c1bc1ff6c",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "The new interaction plays.",
+    "data-codecaine-id": "ecd75cb2-dfd2-460c-b878-f3fb58a74662"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

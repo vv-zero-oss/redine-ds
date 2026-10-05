@@ -1,0 +1,14 @@
+{
+  "id": "bf1b9383-f452-415d-b49a-f42665598639",
+  "type": "text",
+  "tag": "strong",
+  "parent": "87fd5e8f-ba7f-4dd9-a5f2-5e4a4cd2c6b1",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Don't explain what you mean. Show it.",
+    "data-codecaine-id": "65c397b9-c869-4144-bf22-81de3e575fd3"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

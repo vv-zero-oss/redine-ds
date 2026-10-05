@@ -1,0 +1,14 @@
+{
+  "id": "6a2ea492-cd99-4d1b-9994-0145f4441a96",
+  "type": "text",
+  "tag": "em",
+  "parent": "8c636a4f-3492-4d25-a87e-0e9f3c8d66c0",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "I had an idea → I changed the actual product.",
+    "data-codecaine-id": "5f62f693-bc15-4b09-8efa-86e0c08469e2"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

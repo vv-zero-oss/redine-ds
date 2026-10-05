@@ -1,0 +1,24 @@
+{
+  "id": "a1d297e5-6b80-4c34-b2cb-4005283d728e",
+  "type": "frame",
+  "tag": "ul",
+  "name": "ul",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "A",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "data-codecaine-id": "0397f1bf-069a-4e60-bbe6-1c0c866868c8"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 40,
+    "listStyleType": "disc"
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

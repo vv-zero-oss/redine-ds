@@ -1,0 +1,14 @@
+{
+  "id": "3af150e3-e4c9-4836-97f2-95810b09bf53",
+  "type": "text",
+  "tag": "strong",
+  "parent": "acae63fe-6511-4b34-9410-972d9e698799",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "The canvas for your real code.",
+    "data-codecaine-id": "c6592693-41a9-483f-9acf-b3c0f05673cc"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

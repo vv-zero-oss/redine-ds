@@ -1,0 +1,19 @@
+{
+  "id": "86810cee-f66a-46ff-a6fa-103e72987360",
+  "type": "text",
+  "tag": "h1",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "4V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Scene 1 — Start with what you already have",
+    "data-codecaine-id": "7c1a4892-1e41-445b-ae61-7ee3ea52f423"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

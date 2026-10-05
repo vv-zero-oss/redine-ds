@@ -1,0 +1,14 @@
+{
+  "id": "7a52b0f2-b6ab-4b80-83bb-651657ed1b93",
+  "type": "text",
+  "tag": "strong",
+  "parent": "fc238a29-a4dd-45e6-9dca-7c4f7c46e68f",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "AI proposes → human judges → AI adjusts → human decides.",
+    "data-codecaine-id": "2ab948ea-bbe2-4405-9263-640d4723e86d"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

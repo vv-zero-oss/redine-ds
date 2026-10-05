@@ -1,0 +1,22 @@
+{
+  "id": "88138ea7-861d-4060-99e4-264a09b30845",
+  "type": "frame",
+  "tag": "hr",
+  "name": "hr",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "p",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "data-codecaine-id": "d9685dfa-0fad-4bff-aacf-3008a9668ad6"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "borderTopWidth": 1,
+    "borderStyle": "solid",
+    "color": "inherit"
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

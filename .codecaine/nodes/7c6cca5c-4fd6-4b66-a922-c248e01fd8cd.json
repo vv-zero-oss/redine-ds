@@ -1,0 +1,19 @@
+{
+  "id": "7c6cca5c-4fd6-4b66-a922-c248e01fd8cd",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "BV",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "The point is:",
+    "data-codecaine-id": "b061040a-fb98-4c08-a5a7-7e12a6f79698"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

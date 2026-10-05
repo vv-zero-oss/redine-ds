@@ -1,0 +1,14 @@
+{
+  "id": "1940da0d-3473-4cfb-80f2-3dbb4f5e634f",
+  "type": "text",
+  "tag": "li",
+  "parent": "a1d297e5-6b80-4c34-b2cb-4005283d728e",
+  "order": "l",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Add some spacing.",
+    "data-codecaine-id": "21b2cc63-b072-43a3-9657-8c1a7ae718d9"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

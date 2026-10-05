@@ -1,0 +1,14 @@
+{
+  "id": "ab786bea-5f8e-47c4-b6f4-b199db10a9b1",
+  "type": "text",
+  "tag": "strong",
+  "parent": "7ada444e-3af8-45b0-a937-738111027874",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "AI doing the work while you watch.",
+    "data-codecaine-id": "3e248f14-e96b-4b68-b885-baf7a598904e"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

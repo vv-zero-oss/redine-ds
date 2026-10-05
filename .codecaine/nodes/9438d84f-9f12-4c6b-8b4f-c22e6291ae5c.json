@@ -1,0 +1,19 @@
+{
+  "id": "9438d84f-9f12-4c6b-8b4f-c22e6291ae5c",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "8l",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Just start shaping it.",
+    "data-codecaine-id": "78ae1d4c-7e06-49ae-a705-42e54eebbde3"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

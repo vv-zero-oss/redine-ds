@@ -1,0 +1,14 @@
+{
+  "id": "4b275b65-7a50-4e17-9b56-83ff0c9bdcaa",
+  "type": "text",
+  "tag": "li",
+  "parent": "a1d297e5-6b80-4c34-b2cb-4005283d728e",
+  "order": "G",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Drag the headline slightly upward.",
+    "data-codecaine-id": "3979487d-2390-4d0f-a98b-cdabbce82c16"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

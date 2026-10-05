@@ -1,0 +1,19 @@
+{
+  "id": "3e67d1df-139c-44dd-9a36-d2212e62a4e6",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "OV",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "No paragraph explaining screen sharing.",
+    "data-codecaine-id": "4a671aa0-7baf-413b-bf6a-8deabbe6e939"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

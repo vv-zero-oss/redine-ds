@@ -1,0 +1,14 @@
+{
+  "id": "f7ba7806-6889-449d-bacc-faf9c780f990",
+  "type": "text",
+  "tag": "strong",
+  "parent": "38ad953d-22ce-4d38-ae5c-e4134cd2783e",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Canvas → Code",
+    "data-codecaine-id": "507158df-c4b1-43d5-9b08-edf721629f6b"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

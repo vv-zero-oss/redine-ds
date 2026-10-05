@@ -1,0 +1,14 @@
+{
+  "id": "a1805621-153e-43ae-b4a7-4c9eba8647ab",
+  "type": "text",
+  "tag": "strong",
+  "parent": "57dc675b-991e-41ef-8b50-317a0244dcb9",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Your AI.",
+    "data-codecaine-id": "46af421a-7f69-4264-84ab-5561d39ef363"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

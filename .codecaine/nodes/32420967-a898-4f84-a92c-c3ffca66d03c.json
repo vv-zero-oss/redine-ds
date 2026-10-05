@@ -1,0 +1,19 @@
+{
+  "id": "32420967-a898-4f84-a92c-c3ffca66d03c",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "Zl",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "This is where I would address the human/AI relationship.",
+    "data-codecaine-id": "636b3b50-21df-477e-9bd1-1aee3ff61a91"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

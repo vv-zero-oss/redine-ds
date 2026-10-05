@@ -1,0 +1,14 @@
+{
+  "id": "95f33eb5-4c6f-4037-af50-d773a14e0203",
+  "type": "text",
+  "tag": "strong",
+  "parent": "842bc84b-22e0-4c9e-9616-3b24c4f1070e",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Done",
+    "data-codecaine-id": "d1eeb26b-9068-4bd8-979b-22ebfcecd467"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

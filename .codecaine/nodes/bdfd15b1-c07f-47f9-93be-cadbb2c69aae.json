@@ -1,0 +1,19 @@
+{
+  "id": "bdfd15b1-c07f-47f9-93be-cadbb2c69aae",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "8V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "When you have an idea, you shouldn't have to stop and figure out which tool to open.",
+    "data-codecaine-id": "01575fd6-693c-47cd-b11b-e4a9ddb9e2be"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "9385c72e-1dcc-46bb-a825-b7dc5c050094",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "KV",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "For example:",
+    "data-codecaine-id": "36134f24-005d-4bad-9b86-4019b1e7bad9"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

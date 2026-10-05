@@ -1,0 +1,14 @@
+{
+  "id": "c7ff766e-efaf-40c9-9d88-4d2d1e72a0a3",
+  "type": "text",
+  "tag": "td",
+  "parent": "14b90077-12de-40d1-a64a-73519fec72e2",
+  "order": "l",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Canvas ↔ code → GitHub → push",
+    "data-codecaine-id": "6933a6af-1379-43eb-990e-6d0821dc93cb"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

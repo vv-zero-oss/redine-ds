@@ -1,0 +1,19 @@
+{
+  "id": "55daefcb-e3e4-4b0a-b7e9-de9654c36c7b",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "W",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Then changes it.",
+    "data-codecaine-id": "09abb683-c58e-46e3-baba-228264dd98c7"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

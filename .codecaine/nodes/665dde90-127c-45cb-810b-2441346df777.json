@@ -1,0 +1,14 @@
+{
+  "id": "665dde90-127c-45cb-810b-2441346df777",
+  "type": "text",
+  "tag": "li",
+  "parent": "4df9092a-2dd9-45c8-a284-3980d031ffa4",
+  "order": "O",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "User zooms out.",
+    "data-codecaine-id": "6149cd8f-dfca-4511-8345-a7c1fbe3db36"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

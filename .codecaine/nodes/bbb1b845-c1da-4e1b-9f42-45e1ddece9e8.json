@@ -1,0 +1,19 @@
+{
+  "id": "bbb1b845-c1da-4e1b-9f42-45e1ddece9e8",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "z",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "For example, Scene 2 could literally just be:",
+    "data-codecaine-id": "2975cddc-2999-4ada-b8fd-5379a9798828"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

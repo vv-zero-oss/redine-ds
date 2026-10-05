@@ -1,0 +1,14 @@
+{
+  "id": "34a98229-d9a8-4b60-9933-bae2d0ac7856",
+  "type": "text",
+  "tag": "strong",
+  "parent": "d18ed8c1-d0af-467f-8540-e508c1dc78d8",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "This is a place where you can think through a product, not just generate one.",
+    "data-codecaine-id": "b7baa2ce-7ce6-4302-ba01-32c2cd9756c6"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

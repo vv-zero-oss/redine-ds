@@ -1,0 +1,14 @@
+{
+  "id": "ba0bf415-0628-4b4d-86c9-9efe9fed0fb7",
+  "type": "text",
+  "tag": "strong",
+  "parent": "94543ec4-bcad-4054-b89d-dd821915b85a",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "A website or animation is playing.",
+    "data-codecaine-id": "6fbab508-4e64-4ce4-8a0a-faa09f78703d"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

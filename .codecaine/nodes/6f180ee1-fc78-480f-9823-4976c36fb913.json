@@ -1,0 +1,14 @@
+{
+  "id": "6f180ee1-fc78-480f-9823-4976c36fb913",
+  "type": "text",
+  "tag": "strong",
+  "parent": "8d501ba2-6466-4de9-818b-60bfc866a7fb",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "The thing you were designing is the thing you just shipped.",
+    "data-codecaine-id": "8289e6ca-b400-4a2d-a65f-7c522c96cad9"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

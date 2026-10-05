@@ -1,0 +1,19 @@
+{
+  "id": "e0f14576-d418-49a9-857f-37850468a6f2",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "SV",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Now the canvas contains:",
+    "data-codecaine-id": "f5d8e404-43de-469b-8aaa-78b306f5a6c4"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

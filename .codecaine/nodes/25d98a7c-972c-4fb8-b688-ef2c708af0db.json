@@ -1,0 +1,14 @@
+{
+  "id": "25d98a7c-972c-4fb8-b688-ef2c708af0db",
+  "type": "text",
+  "tag": "td",
+  "parent": "2787fb0b-e152-46a1-a89b-3b571e9ff36e",
+  "order": "l",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Import existing project",
+    "data-codecaine-id": "40f65148-e340-43f9-891c-d370107d0cce"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

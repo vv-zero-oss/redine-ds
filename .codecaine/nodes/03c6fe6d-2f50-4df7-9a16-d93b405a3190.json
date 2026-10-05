@@ -1,0 +1,14 @@
+{
+  "id": "03c6fe6d-2f50-4df7-9a16-d93b405a3190",
+  "type": "text",
+  "tag": "li",
+  "parent": "253a5042-e6f5-4c94-9abe-69adf2ec3843",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "The application immediately updates.",
+    "data-codecaine-id": "9c535195-9b33-4dec-ba22-83fe47ac0989"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

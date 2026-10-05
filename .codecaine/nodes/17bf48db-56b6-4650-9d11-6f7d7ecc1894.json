@@ -1,0 +1,14 @@
+{
+  "id": "17bf48db-56b6-4650-9d11-6f7d7ecc1894",
+  "type": "text",
+  "tag": "strong",
+  "parent": "c593d03c-3f49-447b-9f7a-62e774505531",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "canvas ↔ code",
+    "data-codecaine-id": "40cf3614-7ccd-492a-9330-4018336c1d15"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

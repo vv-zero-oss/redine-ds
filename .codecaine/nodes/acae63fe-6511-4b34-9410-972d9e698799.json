@@ -1,0 +1,19 @@
+{
+  "id": "acae63fe-6511-4b34-9410-972d9e698799",
+  "type": "frame",
+  "tag": "h3",
+  "name": "h3",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "2G",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "data-codecaine-id": "e09dce98-5a82-4e77-a613-7c6508a6800c"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

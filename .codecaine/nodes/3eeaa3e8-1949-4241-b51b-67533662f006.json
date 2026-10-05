@@ -1,0 +1,14 @@
+{
+  "id": "3eeaa3e8-1949-4241-b51b-67533662f006",
+  "type": "text",
+  "tag": "li",
+  "parent": "23d7193e-3ad8-45ec-9715-477dc978e93e",
+  "order": "t",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Nothing too dramatic.",
+    "data-codecaine-id": "751d3c7b-04c9-4678-8485-c5c0f1da9f7c"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

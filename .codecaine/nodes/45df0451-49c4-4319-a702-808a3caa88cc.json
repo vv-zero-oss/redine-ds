@@ -1,0 +1,14 @@
+{
+  "id": "45df0451-49c4-4319-a702-808a3caa88cc",
+  "type": "text",
+  "tag": "li",
+  "parent": "bb01efdf-bbd3-4e3c-b94b-94f14bbd4565",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "A panel slides in.",
+    "data-codecaine-id": "414ac409-578a-4c3e-bcf9-2de97b3869d5"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

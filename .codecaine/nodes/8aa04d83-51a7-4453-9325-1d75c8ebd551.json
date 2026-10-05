@@ -1,0 +1,14 @@
+{
+  "id": "8aa04d83-51a7-4453-9325-1d75c8ebd551",
+  "type": "text",
+  "tag": "th",
+  "parent": "a3c81f90-cf83-482c-a86b-d6bf4bfb903d",
+  "order": "l",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "What happens in Code Frame",
+    "data-codecaine-id": "4b5a74d0-eb7d-4c4a-b990-f91765d22bb7"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

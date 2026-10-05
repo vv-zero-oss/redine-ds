@@ -1,0 +1,14 @@
+{
+  "id": "992e6b0b-d286-4afd-bf6b-2935e2d765cf",
+  "type": "text",
+  "tag": "th",
+  "parent": "a3c81f90-cf83-482c-a86b-d6bf4bfb903d",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Headline",
+    "data-codecaine-id": "1c67fb2e-a247-4706-8c2d-85005697f493"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

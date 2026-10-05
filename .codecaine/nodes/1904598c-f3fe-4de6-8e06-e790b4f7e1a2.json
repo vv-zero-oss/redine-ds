@@ -1,0 +1,22 @@
+{
+  "id": "1904598c-f3fe-4de6-8e06-e790b4f7e1a2",
+  "type": "frame",
+  "tag": "hr",
+  "name": "hr",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "TV",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "data-codecaine-id": "99e37583-da65-4911-8cde-3032fe8d35f0"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "borderTopWidth": 1,
+    "borderStyle": "solid",
+    "color": "inherit"
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

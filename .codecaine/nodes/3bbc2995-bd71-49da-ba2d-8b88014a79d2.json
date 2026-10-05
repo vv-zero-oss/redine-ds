@@ -1,0 +1,19 @@
+{
+  "id": "3bbc2995-bd71-49da-ba2d-8b88014a79d2",
+  "type": "text",
+  "tag": "h1",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "pG",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Scene 9 — The bigger idea",
+    "data-codecaine-id": "68b19a3d-a90e-4f27-8dfd-cc4d354fd59f"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

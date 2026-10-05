@@ -1,0 +1,19 @@
+{
+  "id": "3c0b7f4e-9c28-4c1c-90e0-d1cb8125a0f7",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "u",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Maybe the user zooms out and the infinite canvas is now filled with:",
+    "data-codecaine-id": "1d5788ee-7edf-4b4b-99bf-ebe8b3e559a0"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

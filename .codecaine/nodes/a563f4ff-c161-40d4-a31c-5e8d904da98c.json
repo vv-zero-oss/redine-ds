@@ -1,0 +1,14 @@
+{
+  "id": "a563f4ff-c161-40d4-a31c-5e8d904da98c",
+  "type": "text",
+  "tag": "td",
+  "parent": "292ea8b6-8e7f-4617-af54-d83198db56db",
+  "order": "l",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "AI change → human rejects/refines → AI adjusts",
+    "data-codecaine-id": "ec3a609f-f9dd-459b-b2f4-ec0ca93312d4"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

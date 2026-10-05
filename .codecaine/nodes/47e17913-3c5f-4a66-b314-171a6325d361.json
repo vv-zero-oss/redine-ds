@@ -1,0 +1,14 @@
+{
+  "id": "47e17913-3c5f-4a66-b314-171a6325d361",
+  "type": "text",
+  "tag": "li",
+  "parent": "4df9092a-2dd9-45c8-a284-3980d031ffa4",
+  "order": "d",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Cursor selects a component from the reference.",
+    "data-codecaine-id": "44aeabc9-4831-446b-8511-5b1d7cb90ef0"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

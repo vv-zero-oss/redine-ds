@@ -1,0 +1,19 @@
+{
+  "id": "51a1ac33-debb-4024-a62e-1466ca4773f6",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "bV",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "The user looks at it.",
+    "data-codecaine-id": "221a4533-b051-4389-bfb3-ca49b120659d"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

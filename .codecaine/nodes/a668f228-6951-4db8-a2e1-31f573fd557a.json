@@ -1,0 +1,19 @@
+{
+  "id": "a668f228-6951-4db8-a2e1-31f573fd557a",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "m",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Progress indicator.",
+    "data-codecaine-id": "68c7ea06-dc50-4560-a7aa-aed96d3dc165"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

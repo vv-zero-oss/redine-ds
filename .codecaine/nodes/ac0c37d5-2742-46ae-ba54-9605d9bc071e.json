@@ -1,0 +1,19 @@
+{
+  "id": "ac0c37d5-2742-46ae-ba54-9605d9bc071e",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "WV",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "@navbar",
+    "data-codecaine-id": "a857b89b-5bed-4196-9487-669ef64d3523"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

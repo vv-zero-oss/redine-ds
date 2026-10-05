@@ -1,0 +1,14 @@
+{
+  "id": "a75cb9bc-9743-4208-b250-9cdd02ac887a",
+  "type": "text",
+  "tag": "li",
+  "parent": "bb01efdf-bbd3-4e3c-b94b-94f14bbd4565",
+  "order": "l",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "A hover interaction happens.",
+    "data-codecaine-id": "5dfa5e07-2288-4220-9145-8fb60690b322"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

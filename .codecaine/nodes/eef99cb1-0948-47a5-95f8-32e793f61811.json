@@ -10,11 +10,11 @@
     "data-styles-preset": "Vn8FdyhhU",
     "dir": "auto",
     "data-codecaine-id": "835204d9-3db8-4287-a3d0-076510cf170a",
-    "text": "Discover real-world design inspiration."
+    "text": "Start with what you already have"
   },
   "sizing": {
     "width": "fixed",
-    "height": "fixed"
+    "height": "hug"
   },
   "style": {
     "boxSizing": "border-box",
@@ -81,7 +81,7 @@
     "color": "rgb(20, 20, 20)",
     "fontFamily": "Inter",
     "fontSize": "80px",
-    "fontWeight": "652",
+    "fontWeight": "900",
     "fontStyle": "normal",
     "lineHeight": "80px",
     "letterSpacing": "-0.6px",
@@ -107,5 +107,5 @@
     "cursor": "auto",
     "textWrapStyle": "balance"
   },
-  "updatedAt": "2026-10-05T12:05:11.190Z"
+  "updatedAt": "2026-10-05T12:06:57.585Z"
 }

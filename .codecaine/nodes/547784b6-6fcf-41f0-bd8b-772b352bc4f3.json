@@ -1,0 +1,19 @@
+{
+  "id": "547784b6-6fcf-41f0-bd8b-772b352bc4f3",
+  "type": "text",
+  "tag": "p",
+  "parent": "b9ed1af0-9dbe-4597-befa-1f453f0e0581",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Improve checkout experience",
+    "data-codecaine-id": "5340b2f6-319a-4171-8efc-3eaf6ec8ca63"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

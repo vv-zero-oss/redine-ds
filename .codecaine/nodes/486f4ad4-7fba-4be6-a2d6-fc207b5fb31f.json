@@ -1,0 +1,29 @@
+{
+  "id": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "type": "frame",
+  "tag": "div",
+  "name": "Pasted markup",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzzzzzzzzzx",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "pastedGroup": true,
+    "importedWidth": 1200,
+    "data-codecaine-id": "85826064-deee-412f-bfac-6b0f18b59e86"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "hug"
+  },
+  "style": {
+    "width": 1200,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": 359.53882839571975,
+    "top": -11.615559156505482
+  },
+  "updatedAt": "2026-10-05T12:06:34.158Z"
+}

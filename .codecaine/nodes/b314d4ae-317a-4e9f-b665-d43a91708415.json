@@ -1,0 +1,19 @@
+{
+  "id": "b314d4ae-317a-4e9f-b665-d43a91708415",
+  "type": "frame",
+  "tag": "p",
+  "name": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "4",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "data-codecaine-id": "b62e4602-f674-4d9c-8707-2fa9fae70107"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

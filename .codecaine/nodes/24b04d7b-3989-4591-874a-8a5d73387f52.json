@@ -1,0 +1,14 @@
+{
+  "id": "24b04d7b-3989-4591-874a-8a5d73387f52",
+  "type": "text",
+  "tag": "th",
+  "parent": "a3c81f90-cf83-482c-a86b-d6bf4bfb903d",
+  "order": "G",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Scene",
+    "data-codecaine-id": "05b6add3-6526-48ab-8de0-f1b94bf6f885"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "3acb08c5-55e9-4c4b-aff9-5b42e4f2658d",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "QV",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "This time don't use Magic Cast.",
+    "data-codecaine-id": "20f5fe20-8b4d-4411-8e1b-e94f8de5061f"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

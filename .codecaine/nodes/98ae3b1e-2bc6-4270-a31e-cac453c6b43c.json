@@ -1,0 +1,19 @@
+{
+  "id": "98ae3b1e-2bc6-4270-a31e-cac453c6b43c",
+  "type": "text",
+  "tag": "p",
+  "parent": "c63107bb-7921-494c-b7f4-4695ca0a376c",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Updated Hero\nModified 4 properties",
+    "data-codecaine-id": "3e1074d9-e79f-4546-832c-7de8eb5dc168"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

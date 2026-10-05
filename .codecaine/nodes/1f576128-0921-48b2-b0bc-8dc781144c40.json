@@ -1,0 +1,19 @@
+{
+  "id": "1f576128-0921-48b2-b0bc-8dc781144c40",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "tG",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Finish with the reason you're building it.",
+    "data-codecaine-id": "85b3b8d0-4268-4985-89b1-3c28e5c408e4"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

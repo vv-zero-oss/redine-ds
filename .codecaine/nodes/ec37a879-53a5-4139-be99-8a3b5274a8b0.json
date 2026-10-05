@@ -1,0 +1,14 @@
+{
+  "id": "ec37a879-53a5-4139-be99-8a3b5274a8b0",
+  "type": "text",
+  "tag": "li",
+  "parent": "bb01efdf-bbd3-4e3c-b94b-94f14bbd4565",
+  "order": "G",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "A menu animates.",
+    "data-codecaine-id": "ef09a0a4-9e1b-450e-8e08-741e00cbd23b"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "5e7b2555-b1d8-4147-8a5c-7fabb232ed7e",
+  "type": "text",
+  "tag": "td",
+  "parent": "0467af85-a0e7-4144-a9c4-ccea0add2b85",
+  "order": "l",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Import live website → reference beside app → remix",
+    "data-codecaine-id": "ed657ebc-f6a8-4f5a-885d-9895bfb36c3d"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

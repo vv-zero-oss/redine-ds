@@ -1,0 +1,14 @@
+{
+  "id": "cf8141b3-4e06-4076-a294-151006a4c90f",
+  "type": "text",
+  "tag": "li",
+  "parent": "cf2a228b-896b-48a7-9aef-79be33969a05",
+  "order": "8",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Typography changes.",
+    "data-codecaine-id": "d32f5440-64ac-4f74-9016-c97ca303f0f7"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

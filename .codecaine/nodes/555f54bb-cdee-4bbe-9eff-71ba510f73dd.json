@@ -1,0 +1,14 @@
+{
+  "id": "555f54bb-cdee-4bbe-9eff-71ba510f73dd",
+  "type": "text",
+  "tag": "strong",
+  "parent": "caf7493d-769b-42ce-a7fd-2a9bff9ef481",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Give this more breathing room.",
+    "data-codecaine-id": "d381cbc1-bc93-4ccc-a2c9-f362273add3d"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

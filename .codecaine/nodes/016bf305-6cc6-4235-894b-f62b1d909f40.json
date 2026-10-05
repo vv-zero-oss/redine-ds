@@ -1,0 +1,14 @@
+{
+  "id": "016bf305-6cc6-4235-894b-f62b1d909f40",
+  "type": "text",
+  "tag": "strong",
+  "parent": "44804294-44cb-42a4-8a2c-e47cfc1177e3",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Push",
+    "data-codecaine-id": "65571b2a-8c11-4349-80a9-1d5377f8a8a7"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

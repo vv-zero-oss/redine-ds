@@ -1,0 +1,14 @@
+{
+  "id": "146a95b7-1563-4b58-84f4-91a315452dd2",
+  "type": "text",
+  "tag": "li",
+  "parent": "a1d297e5-6b80-4c34-b2cb-4005283d728e",
+  "order": "d",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Resize an image.",
+    "data-codecaine-id": "63fd468e-6c63-4889-9b60-af98ee0ddddf"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

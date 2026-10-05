@@ -1,0 +1,14 @@
+{
+  "id": "2e790b48-d290-459f-b1e0-76f614e1aa15",
+  "type": "text",
+  "tag": "strong",
+  "parent": "f2d62413-a496-4aaf-aae1-a72a929c3624",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Let AI do the heavy lifting.",
+    "data-codecaine-id": "f22ecc46-3c65-4bd8-bf6c-bbec8a571a3f"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

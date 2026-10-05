@@ -1,0 +1,19 @@
+{
+  "id": "d7324da9-51c9-4ce4-80a5-b6482d508016",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "Ud",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Cursor clicks somewhere.",
+    "data-codecaine-id": "8fea9a99-7370-4fab-8c19-ca768a757eef"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

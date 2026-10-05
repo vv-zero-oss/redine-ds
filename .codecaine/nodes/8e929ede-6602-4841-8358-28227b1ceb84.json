@@ -1,0 +1,19 @@
+{
+  "id": "8e929ede-6602-4841-8358-28227b1ceb84",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "aV",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Show AI making a fairly significant change.",
+    "data-codecaine-id": "791835b6-051f-45e8-a41d-65489d35cb2e"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

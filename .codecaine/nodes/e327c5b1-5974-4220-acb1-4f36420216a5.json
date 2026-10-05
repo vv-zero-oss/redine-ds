@@ -1,0 +1,14 @@
+{
+  "id": "e327c5b1-5974-4220-acb1-4f36420216a5",
+  "type": "text",
+  "tag": "strong",
+  "parent": "2891821f-aff2-42fb-8043-12e6d94d0033",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "You already know how to code.",
+    "data-codecaine-id": "f25249d4-1fa8-490f-bbac-70496441058f"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

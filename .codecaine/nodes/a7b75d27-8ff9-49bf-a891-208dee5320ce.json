@@ -1,0 +1,19 @@
+{
+  "id": "a7b75d27-8ff9-49bf-a891-208dee5320ce",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "rG",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Then the mockup slowly shows:",
+    "data-codecaine-id": "34d31e69-3404-419c-8702-2853d2e01e39"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

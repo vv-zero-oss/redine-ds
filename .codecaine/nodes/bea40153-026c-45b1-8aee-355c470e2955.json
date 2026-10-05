@@ -1,0 +1,19 @@
+{
+  "id": "bea40153-026c-45b1-8aee-355c470e2955",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "Ol",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "The user just watched:",
+    "data-codecaine-id": "bb0d3c38-f0df-4f07-aec2-832164d06a8a"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

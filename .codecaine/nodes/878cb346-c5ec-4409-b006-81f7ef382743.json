@@ -1,0 +1,21 @@
+{
+  "id": "878cb346-c5ec-4409-b006-81f7ef382743",
+  "type": "text",
+  "tag": "pre",
+  "parent": "49b0c8bc-c3a6-411e-adbb-7149c83c352f",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "dir": "ltr",
+    "text": "Hero\n ├─ Heading\n ├─ Description\n ├─ CTA\n └─ Image",
+    "data-codecaine-id": "ab8ccc51-ac57-4b2d-8023-d557849c2956"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "whiteSpace": "pre"
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

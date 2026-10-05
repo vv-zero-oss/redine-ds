@@ -1,0 +1,14 @@
+{
+  "id": "81076570-46d3-4b80-ba3b-310c1aa5d790",
+  "type": "text",
+  "tag": "li",
+  "parent": "bb01efdf-bbd3-4e3c-b94b-94f14bbd4565",
+  "order": "8",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "A card expands.",
+    "data-codecaine-id": "0b0ddf38-b644-449f-aab2-97087e0de142"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

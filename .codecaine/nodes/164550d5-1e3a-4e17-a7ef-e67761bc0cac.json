@@ -1,0 +1,14 @@
+{
+  "id": "164550d5-1e3a-4e17-a7ef-e67761bc0cac",
+  "type": "text",
+  "tag": "td",
+  "parent": "c1af40ce-48e2-44b1-b910-ef37861aa6bc",
+  "order": "l",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Manually visually edit the real app",
+    "data-codecaine-id": "4fa87867-fda3-46df-a01b-332ae4360b61"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

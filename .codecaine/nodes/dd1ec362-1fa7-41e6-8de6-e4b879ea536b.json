@@ -1,0 +1,25 @@
+{
+  "id": "dd1ec362-1fa7-41e6-8de6-e4b879ea536b",
+  "type": "frame",
+  "tag": "ol",
+  "name": "ol",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "6G",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "start": "1",
+    "data-codecaine-id": "50229e37-7ed9-4a4c-a0cf-a96f32ea90d4"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 40,
+    "listStyleType": "decimal"
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

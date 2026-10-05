@@ -1,0 +1,19 @@
+{
+  "id": "e4fd54f8-9806-43d8-b549-70ea817e3a03",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "zG",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "…and the mouse moves a button 12px, changes some spacing, looks at it, changes it back, and settles.",
+    "data-codecaine-id": "3d56763b-6c41-4467-978a-36e6b46649d1"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "29e25884-727a-43b3-b591-4ce0f07b0cbc",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "j",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Show actual code.",
+    "data-codecaine-id": "1c626806-03ee-484a-a147-84d3ee589c77"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

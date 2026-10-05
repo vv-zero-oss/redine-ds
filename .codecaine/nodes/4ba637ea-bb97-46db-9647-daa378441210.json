@@ -1,0 +1,19 @@
+{
+  "id": "4ba637ea-bb97-46db-9647-daa378441210",
+  "type": "text",
+  "tag": "h3",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "5V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Mockup",
+    "data-codecaine-id": "908228db-d4de-4dab-a198-4643e4c3d792"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

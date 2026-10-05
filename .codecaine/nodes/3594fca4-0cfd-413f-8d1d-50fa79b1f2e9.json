@@ -1,0 +1,14 @@
+{
+  "id": "3594fca4-0cfd-413f-8d1d-50fa79b1f2e9",
+  "type": "text",
+  "tag": "strong",
+  "parent": "e7143370-96e2-459f-9d11-f3ddf4749b97",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Short human headline on the left/top → Code Frame mockup in the gray box → the mockup performs exactly what the headline says.",
+    "data-codecaine-id": "71a93005-bc43-44f3-80a4-d8714fbe6278"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

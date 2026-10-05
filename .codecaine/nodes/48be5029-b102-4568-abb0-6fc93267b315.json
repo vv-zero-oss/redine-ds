@@ -1,0 +1,14 @@
+{
+  "id": "48be5029-b102-4568-abb0-6fc93267b315",
+  "type": "text",
+  "tag": "li",
+  "parent": "4df9092a-2dd9-45c8-a284-3980d031ffa4",
+  "order": "8",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Cursor copies/imports a page.",
+    "data-codecaine-id": "4d9c7d84-301c-472e-a3c7-42c91af13b18"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

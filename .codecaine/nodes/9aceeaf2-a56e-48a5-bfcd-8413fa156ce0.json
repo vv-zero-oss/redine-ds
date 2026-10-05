@@ -1,0 +1,14 @@
+{
+  "id": "9aceeaf2-a56e-48a5-bfcd-8413fa156ce0",
+  "type": "text",
+  "tag": "strong",
+  "parent": "35b25c37-f5c7-434f-8296-1acbfd28e964",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "See that interaction? I want something like that when this card opens.",
+    "data-codecaine-id": "f40b2416-c042-45fa-9239-9311c909f25b"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

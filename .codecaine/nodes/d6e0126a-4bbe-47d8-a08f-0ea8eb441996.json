@@ -1,0 +1,19 @@
+{
+  "id": "d6e0126a-4bbe-47d8-a08f-0ea8eb441996",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "5G",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Bring the thing you're already building.",
+    "data-codecaine-id": "3adeacdc-1cd2-4e12-8fc8-06e1aaa0cd4e"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

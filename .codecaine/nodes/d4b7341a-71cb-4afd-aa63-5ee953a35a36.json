@@ -1,0 +1,19 @@
+{
+  "id": "d4b7341a-71cb-4afd-aa63-5ee953a35a36",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "AG",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Then show the corresponding code updating in the code panel.",
+    "data-codecaine-id": "bcea5bba-4057-401e-b95a-6c79771d5f34"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

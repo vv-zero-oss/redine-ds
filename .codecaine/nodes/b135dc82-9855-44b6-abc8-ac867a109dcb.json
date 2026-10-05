@@ -1,0 +1,14 @@
+{
+  "id": "b135dc82-9855-44b6-abc8-ac867a109dcb",
+  "type": "text",
+  "tag": "td",
+  "parent": "01535b68-7876-4755-9d0c-0ffbdf819437",
+  "order": "l",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "@checkout, @navbar, @pricing → AI edits them",
+    "data-codecaine-id": "99cd829b-0362-4af4-8034-ee7d09288c68"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

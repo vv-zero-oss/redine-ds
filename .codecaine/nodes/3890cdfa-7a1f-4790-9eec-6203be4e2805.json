@@ -1,0 +1,14 @@
+{
+  "id": "3890cdfa-7a1f-4790-9eec-6203be4e2805",
+  "type": "text",
+  "tag": "li",
+  "parent": "e7ecfd11-8ba0-4f0f-91dd-fc40a7c6c4b5",
+  "order": "G",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "their application",
+    "data-codecaine-id": "27a00f3c-a43a-4d2b-96a5-8494ec9262fd"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

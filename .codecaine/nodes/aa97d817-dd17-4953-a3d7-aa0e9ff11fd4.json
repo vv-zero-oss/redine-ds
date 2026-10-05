@@ -1,0 +1,14 @@
+{
+  "id": "aa97d817-dd17-4953-a3d7-aa0e9ff11fd4",
+  "type": "text",
+  "tag": "strong",
+  "parent": "e8353c56-cd51-49e2-a4d1-ffd0f58041c9",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "AI can do the work. You make the calls.",
+    "data-codecaine-id": "2f0efcb5-25eb-448a-93ad-3ea9c095d53a"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

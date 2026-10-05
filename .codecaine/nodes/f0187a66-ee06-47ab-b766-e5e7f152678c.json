@@ -1,0 +1,14 @@
+{
+  "id": "f0187a66-ee06-47ab-b766-e5e7f152678c",
+  "type": "text",
+  "tag": "li",
+  "parent": "393de46d-14f5-4733-9661-7c7ff970e3f7",
+  "order": "G",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "AI modifies their product card.",
+    "data-codecaine-id": "e7803467-018c-40cf-a2d3-a43e2c8549c5"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

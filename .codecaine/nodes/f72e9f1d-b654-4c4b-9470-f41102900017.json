@@ -1,0 +1,19 @@
+{
+  "id": "f72e9f1d-b654-4c4b-9470-f41102900017",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "lV",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Click:",
+    "data-codecaine-id": "d842e177-010a-4132-8d8c-2b94b44963ff"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

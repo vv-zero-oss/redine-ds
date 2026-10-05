@@ -1,0 +1,19 @@
+{
+  "id": "da64426a-2ad8-461a-a690-fec6f89db05d",
+  "type": "frame",
+  "tag": "blockquote",
+  "name": "blockquote",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "X",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "data-codecaine-id": "523ed398-233f-481e-8566-a0818c98d0af"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

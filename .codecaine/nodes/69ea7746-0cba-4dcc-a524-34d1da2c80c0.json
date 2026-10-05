@@ -1,0 +1,19 @@
+{
+  "id": "69ea7746-0cba-4dcc-a524-34d1da2c80c0",
+  "type": "frame",
+  "tag": "h3",
+  "name": "h3",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "8G",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "data-codecaine-id": "91fe27ca-244f-403d-bfab-056114e380d2"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

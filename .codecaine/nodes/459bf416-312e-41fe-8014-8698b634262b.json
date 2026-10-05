@@ -1,0 +1,14 @@
+{
+  "id": "459bf416-312e-41fe-8014-8698b634262b",
+  "type": "text",
+  "tag": "li",
+  "parent": "a1d297e5-6b80-4c34-b2cb-4005283d728e",
+  "order": "O",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Increase the width.",
+    "data-codecaine-id": "0798666c-6742-4276-8ea8-1425e05a4e33"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

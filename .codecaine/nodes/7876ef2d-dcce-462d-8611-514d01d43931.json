@@ -1,0 +1,14 @@
+{
+  "id": "7876ef2d-dcce-462d-8611-514d01d43931",
+  "type": "text",
+  "tag": "strong",
+  "parent": "10fec54c-d38c-4226-a826-be5b1fb0b572",
+  "order": "V",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "storyboard",
+    "data-codecaine-id": "9e293959-d978-445a-a89a-090aaa74f527"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

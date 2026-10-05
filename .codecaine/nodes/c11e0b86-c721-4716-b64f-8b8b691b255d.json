@@ -1,0 +1,19 @@
+{
+  "id": "c11e0b86-c721-4716-b64f-8b8b691b255d",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "R",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Show a live website being imported.",
+    "data-codecaine-id": "9d5a31e8-722d-4da9-8b1e-0f02c49b297a"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

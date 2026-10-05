@@ -1,0 +1,14 @@
+{
+  "id": "36604528-1e52-4cc5-bfa3-e71ab17a325f",
+  "type": "text",
+  "tag": "span",
+  "parent": "3e95065e-71ae-4b62-8b46-6563258c8004",
+  "order": "G",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Cursor clicks",
+    "data-codecaine-id": "89f4d25b-565e-4cd5-b141-c74777e2514c"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

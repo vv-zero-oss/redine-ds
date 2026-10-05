@@ -1,0 +1,19 @@
+{
+  "id": "026260b3-8b4e-4163-ad11-4c91e27830b6",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "5",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Don't ask people to recreate their product in another tool.",
+    "data-codecaine-id": "e566c478-1358-4d17-b1c7-2bc43162aead"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

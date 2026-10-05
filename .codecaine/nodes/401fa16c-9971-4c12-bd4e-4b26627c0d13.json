@@ -1,0 +1,19 @@
+{
+  "id": "401fa16c-9971-4c12-bd4e-4b26627c0d13",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "qV",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "You don't need another workflow to learn.",
+    "data-codecaine-id": "2cffd018-31e1-4a0a-bc21-3ad53cb8e91b"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

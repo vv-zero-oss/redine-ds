@@ -1,0 +1,14 @@
+{
+  "id": "630a7984-2f2a-483b-a281-1ab35efe3525",
+  "type": "text",
+  "tag": "li",
+  "parent": "a1d297e5-6b80-4c34-b2cb-4005283d728e",
+  "order": "8",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "Cursor selects the hero.",
+    "data-codecaine-id": "93c10292-5f7c-41ee-a58d-098fa8db3ed5"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}

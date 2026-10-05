@@ -1,0 +1,19 @@
+{
+  "id": "dc5d792b-109a-44c4-900b-909de690cd22",
+  "type": "text",
+  "tag": "p",
+  "parent": "486f4ad4-7fba-4be6-a2d6-fc207b5fb31f",
+  "order": "KG",
+  "createdAt": "2026-10-05T12:06:15.621Z",
+  "props": {
+    "text": "The mockup now shows another window/browser/video.",
+    "data-codecaine-id": "fed44672-fd07-4813-82d4-200dff6baa20"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0
+  },
+  "updatedAt": "2026-10-05T12:06:15.621Z"
+}
