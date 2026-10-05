@@ -1,0 +1,21 @@
+{
+  "id": "45f85c3a-5e95-4a8f-bbc6-858db76b3f3c",
+  "type": "frame",
+  "tag": "div",
+  "name": "Hang up",
+  "parent": "eb4d6bc6-8182-4170-8f6f-25c09b3496f7",
+  "order": "V",
+  "createdAt": "2026-10-05T04:11:54.350Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "689e5f1b-5778-4c21-80bd-b8d2946670aa"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "246px",
+    "top": "696.5px",
+    "width": "51px",
+    "height": "51px"
+  },
+  "updatedAt": "2026-10-05T04:11:54.350Z"
+}
