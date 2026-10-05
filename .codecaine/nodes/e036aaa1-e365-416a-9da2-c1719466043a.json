@@ -4,7 +4,7 @@
   "tag": "div",
   "name": "Column",
   "parent": "3c88ced3-06f3-4ae6-b987-1818940ef6a8",
-  "order": "O",
+  "order": "4",
   "createdAt": "2026-10-05T14:15:50.060Z",
   "props": {
     "data-import-type": "figma",
