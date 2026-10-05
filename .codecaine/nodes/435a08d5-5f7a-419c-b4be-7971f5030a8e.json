@@ -2,8 +2,8 @@
   "id": "435a08d5-5f7a-419c-b4be-7971f5030a8e",
   "type": "image",
   "tag": "img",
-  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
-  "order": "n",
+  "parent": "2e1f6b3e-67c1-49fc-aea1-810f8a14821c",
+  "order": "UV",
   "createdAt": "2026-10-05T12:10:19.982Z",
   "props": {
     "src": "asset:media/images/9fe531107acd13b1510a.png",
@@ -15,11 +15,8 @@
     "height": "fixed"
   },
   "style": {
-    "position": "absolute",
-    "left": 10694.846196797425,
-    "top": 2588.3885888776217,
     "width": 640,
     "height": 452
   },
-  "updatedAt": "2026-10-05T12:13:56.319Z"
+  "updatedAt": "2026-10-05T12:31:10.098Z"
 }

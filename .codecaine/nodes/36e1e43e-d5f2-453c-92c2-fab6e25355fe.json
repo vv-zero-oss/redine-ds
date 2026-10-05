@@ -2,7 +2,7 @@
   "id": "36e1e43e-d5f2-453c-92c2-fab6e25355fe",
   "type": "image",
   "tag": "img",
-  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "parent": "2e1f6b3e-67c1-49fc-aea1-810f8a14821c",
   "order": "f",
   "createdAt": "2026-10-05T12:10:19.981Z",
   "props": {
@@ -15,11 +15,8 @@
     "height": "fixed"
   },
   "style": {
-    "position": "absolute",
-    "left": 11374.84619679742,
-    "top": 2096.3885888776217,
     "width": 640,
     "height": 452
   },
-  "updatedAt": "2026-10-05T12:13:56.319Z"
+  "updatedAt": "2026-10-05T12:31:10.098Z"
 }
