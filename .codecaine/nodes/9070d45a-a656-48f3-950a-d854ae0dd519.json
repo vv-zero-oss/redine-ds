@@ -1,0 +1,25 @@
+{
+  "id": "9070d45a-a656-48f3-950a-d854ae0dd519",
+  "type": "image",
+  "tag": "img",
+  "parent": "a0617f03-4718-4187-b95c-60df1a1c8c8a",
+  "order": "O",
+  "createdAt": "2026-10-05T12:36:04.359Z",
+  "props": {
+    "src": "asset:media/images/e30878e5578e24e0ca09.png",
+    "alt": "codecaine party pup 256",
+    "data-codecaine-id": "8b5e9881-9b02-4fa2-87b9-b1379ad6557c"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {
+    "left": 1970.764620808618,
+    "top": 193.1037567723852,
+    "width": 88,
+    "height": 88,
+    "opacity": 0.8
+  },
+  "updatedAt": "2026-10-05T12:36:36.854Z"
+}
