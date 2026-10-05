@@ -10,7 +10,7 @@
     "data-styles-preset": "mVM_adhUD",
     "dir": "auto",
     "data-codecaine-id": "0a3df7fd-5b36-4eb5-b34f-aa11c5466645",
-    "text": "Copy to Figma"
+    "text": "Import Anything......."
   },
   "sizing": {
     "width": "fixed",
@@ -108,5 +108,5 @@
     "--framer-text-alignment": "center",
     "--framer-text-color": "var(--token-3e7d342c-a5e5-4556-ae33-887ada111c73, rgb(20, 20, 20))"
   },
-  "updatedAt": "2026-10-05T12:05:11.209Z"
+  "updatedAt": "2026-10-05T13:19:07.091Z"
 }

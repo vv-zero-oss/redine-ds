@@ -303,6 +303,7 @@
     position: relative;
     margin: 0;
     aspect-ratio: var(--lp-cover-ratio);
+    min-height: 0;                          /* the ratio wins; the video is cropped */
     padding: var(--lp-cover-inset-top) var(--lp-cover-inset-x) 0;
     border-radius: var(--lp-radius-cover);
     background: var(--lp-wash);

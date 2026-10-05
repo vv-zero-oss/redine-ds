@@ -6,7 +6,7 @@
 export function ProductCover() {
   return (
     <div className="lp-container">
-      <figure className="lp-cover">
+      <figure id="hero-layer" className="lp-cover">
         <video
           className="lp-cover-media"
           src="https://framerusercontent.com/assets/TcvHfVe9bKWL2Gwru24KshXLEno.mp4"
