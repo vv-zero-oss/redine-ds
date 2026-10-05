@@ -2,6 +2,7 @@
   "id": "ae6b7744-d223-49be-8bfd-44bbedff4119",
   "type": "video",
   "tag": "video",
+  "name": "hbb",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
   "order": "zzzl",
   "createdAt": "2026-10-05T16:27:16.224Z",
@@ -114,5 +115,5 @@
     "left": 2599.002999810875,
     "top": 214.52630611601148
   },
-  "updatedAt": "2026-10-05T16:29:54.588Z"
+  "updatedAt": "2026-10-05T18:27:26.829Z"
 }
