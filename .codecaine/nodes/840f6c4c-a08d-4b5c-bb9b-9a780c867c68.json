@@ -2,7 +2,7 @@
   "id": "840f6c4c-a08d-4b5c-bb9b-9a780c867c68",
   "type": "section",
   "tag": "button",
-  "name": "button",
+  "name": "MotionToggle",
   "parent": "fbaa08a6-e266-40cb-82d7-fe01df05a0e9",
   "order": "V",
   "createdAt": "2026-10-05T07:05:18.248Z",
@@ -27,6 +27,19 @@
     "focus-visible": {
       "style": {
         "boxShadow": "var(--aurora-focus-ring)"
+      }
+    },
+    "disabled": {
+      "style": {
+        "opacity": "var(--aurora-disabled-opacity)",
+        "cursor": "not-allowed",
+        "backgroundColor": "var(--aurora-control-fill)"
+      }
+    },
+    ":disabled": {
+      "style": {
+        "opacity": "var(--aurora-disabled-opacity)",
+        "cursor": "not-allowed"
       }
     }
   },
@@ -84,5 +97,5 @@
     "gap": "var(--space-1)",
     "borderRadius": "var(--aurora-radius-pill)"
   },
-  "updatedAt": "2026-10-05T07:05:18.248Z"
+  "updatedAt": "2026-10-05T07:12:58.092Z"
 }
