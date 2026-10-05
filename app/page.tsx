@@ -3,7 +3,6 @@ import { SiteNav } from "@/components/landing/site-nav";
 import { Hero } from "@/components/landing/hero";
 import { ProductCover } from "@/components/landing/product-cover";
 import { Features } from "@/components/landing/features";
-import { Patterns } from "@/components/landing/patterns";
 
 export const metadata: Metadata = {
   title: "Codecaine — The canvas for your real code",
@@ -26,7 +25,6 @@ export default function LandingPage() {
         <Hero />
         <ProductCover />
         <Features />
-        <Patterns />
       </main>
     </div>
   );

@@ -29,7 +29,7 @@
   "props": {
     "src": "http://localhost:3000/",
     "data-codecaine-id": "284bce9a-8875-45d2-b6e4-0bfac3c7193a",
-    "view": "viewport"
+    "view": "artboard"
   },
   "sizing": {
     "width": "fixed",
@@ -40,8 +40,8 @@
     "height": 900,
     "position": "absolute",
     "backgroundColor": "#ffffff",
-    "left": 203.5177144194658,
-    "top": -444.84513271064094
+    "left": -146.4907902463448,
+    "top": -214.80461875100627
   },
-  "updatedAt": "2026-10-05T13:30:56.232Z"
+  "updatedAt": "2026-10-05T13:42:18.696Z"
 }

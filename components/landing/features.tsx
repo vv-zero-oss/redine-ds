@@ -1,7 +1,7 @@
 const FEATURES = [
   {
-    title: "Copy to Figma",
-    body: "Import anything you have on clipboard, open live pages.",
+    title: "Import Anything...",
+    body: "We are out to build a truly open canvas you can import all types of multimedia files PDF, CSV, HTML, Doc and even Live website",
     video: "https://framerusercontent.com/assets/MkRqx95luhv3HrzWUVBPk3lbk.mp4",
   },
   {
