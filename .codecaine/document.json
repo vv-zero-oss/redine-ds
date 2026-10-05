@@ -1439,6 +1439,70 @@
           "label": "This file",
           "at": 1791182619546
         }
+      },
+      "var:muuvyps4-16": {
+        "id": "var:muuvyps4-16",
+        "collectionId": "collection:default",
+        "property": "--flight-duration-enter",
+        "name": "--flight-duration-enter",
+        "category": "string",
+        "values": {
+          "mode:default": "640ms"
+        },
+        "description": "Blur fade-in of the card and each of its parts when it arrives on screen.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182753284
+        }
+      },
+      "var:muuvypvl-17": {
+        "id": "var:muuvypvl-17",
+        "collectionId": "collection:default",
+        "property": "--flight-stagger-enter",
+        "name": "--flight-stagger-enter",
+        "category": "string",
+        "values": {
+          "mode:default": "70ms"
+        },
+        "description": "Gap between each part's blur fade-in, in reading order.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182753409
+        }
+      },
+      "var:muuvypxz-18": {
+        "id": "var:muuvypxz-18",
+        "collectionId": "collection:default",
+        "property": "--flight-blur-enter",
+        "name": "--flight-blur-enter",
+        "category": "string",
+        "values": {
+          "mode:default": "blur(8px)"
+        },
+        "description": "How out of focus a part starts before it fades in.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182753495
+        }
+      },
+      "var:muuvyq08-19": {
+        "id": "var:muuvyq08-19",
+        "collectionId": "collection:default",
+        "property": "--flight-distance-enter",
+        "name": "--flight-distance-enter",
+        "category": "spacing",
+        "values": {
+          "mode:default": "6px"
+        },
+        "description": "How far below its place a part starts before it fades in.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182753576
+        }
       }
     },
     "order": [
@@ -1532,7 +1596,11 @@
       "var:muuvqhr8-12",
       "var:muuvqif7-13",
       "var:muuvqism-14",
-      "var:muuvvul6-15"
+      "var:muuvvul6-15",
+      "var:muuvyps4-16",
+      "var:muuvypvl-17",
+      "var:muuvypxz-18",
+      "var:muuvyq08-19"
     ]
   }
 }
