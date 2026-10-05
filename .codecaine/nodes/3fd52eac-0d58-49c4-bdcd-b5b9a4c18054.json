@@ -4,7 +4,7 @@
   "tag": "div",
   "name": "div",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
-  "order": "x",
+  "order": "s",
   "createdAt": "2026-10-05T12:27:28.458Z",
   "props": {
     "class": "mx-auto max-w-[1400px] px-5 py-24 md:px-10 lg:py-32",
@@ -106,8 +106,8 @@
     "verticalAlign": "baseline",
     "cursor": "auto",
     "position": "absolute",
-    "left": 5897.659628235144,
-    "top": 1626.3906250000034
+    "left": 5041.947729024605,
+    "top": -49.6812749762657
   },
-  "updatedAt": "2026-10-05T12:27:33.212Z"
+  "updatedAt": "2026-10-05T13:21:30.434Z"
 }
