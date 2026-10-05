@@ -1,0 +1,14 @@
+{
+  "id": "3aea773b-12bd-43da-82ce-78eb3dfd0324",
+  "type": "text",
+  "tag": "span",
+  "parent": "c24a7f15-e434-4a81-8bc2-f57fdf943b91",
+  "order": "V",
+  "createdAt": "2026-10-05T16:29:34.783Z",
+  "props": {
+    "text": "Native iOS, iPad & Android apps",
+    "data-codecaine-id": "cd7faa81-0fc6-42a0-bd90-e5d6a8faaf86"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T16:29:34.783Z"
+}

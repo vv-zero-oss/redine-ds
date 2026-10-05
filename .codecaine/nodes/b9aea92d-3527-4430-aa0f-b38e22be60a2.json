@@ -1,0 +1,14 @@
+{
+  "id": "b9aea92d-3527-4430-aa0f-b38e22be60a2",
+  "type": "text",
+  "tag": "span",
+  "parent": "d62b81b8-7bab-41ef-a6ef-320f67f7ffa2",
+  "order": "V",
+  "createdAt": "2026-10-05T16:29:34.783Z",
+  "props": {
+    "text": "Shared & Public collections",
+    "data-codecaine-id": "81cbb5eb-185b-4ff9-8c57-3e73c8747872"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T16:29:34.783Z"
+}

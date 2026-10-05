@@ -1,0 +1,14 @@
+{
+  "id": "6ca1283e-7c48-42b7-824a-888c3b33e4da",
+  "type": "text",
+  "tag": "span",
+  "parent": "cbebfc67-2d90-4ba5-9b38-6c218cf6cb91",
+  "order": "V",
+  "createdAt": "2026-10-05T16:29:34.783Z",
+  "props": {
+    "text": "AI enrichment up to 300 items",
+    "data-codecaine-id": "124c92bd-e158-4443-9d5d-cdca6b5089c4"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T16:29:34.783Z"
+}

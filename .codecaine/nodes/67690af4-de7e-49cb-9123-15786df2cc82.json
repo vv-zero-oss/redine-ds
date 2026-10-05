@@ -1,0 +1,14 @@
+{
+  "id": "67690af4-de7e-49cb-9123-15786df2cc82",
+  "type": "text",
+  "tag": "span",
+  "parent": "6df9144b-5334-4bc1-8d45-5045d4ed3652",
+  "order": "V",
+  "createdAt": "2026-10-05T16:29:34.783Z",
+  "props": {
+    "text": "Sync X (twitter) bookmarks",
+    "data-codecaine-id": "30fb8a46-b846-48bc-af9b-1233a17ed627"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T16:29:34.783Z"
+}

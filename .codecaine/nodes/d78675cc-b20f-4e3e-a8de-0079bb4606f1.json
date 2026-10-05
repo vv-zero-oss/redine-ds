@@ -1,0 +1,14 @@
+{
+  "id": "d78675cc-b20f-4e3e-a8de-0079bb4606f1",
+  "type": "text",
+  "tag": "span",
+  "parent": "a14aa34d-f18c-4f22-b3c8-baad8781fc2f",
+  "order": "V",
+  "createdAt": "2026-10-05T16:29:34.783Z",
+  "props": {
+    "text": "Import from Raindrop/Chrome",
+    "data-codecaine-id": "90eb580c-910e-44b4-8291-88244d26b3b1"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T16:29:34.783Z"
+}

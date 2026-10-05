@@ -1,0 +1,14 @@
+{
+  "id": "c8e4070c-c6a1-4db1-a103-575d1fee706e",
+  "type": "text",
+  "tag": "span",
+  "parent": "4149ab35-885a-4957-970e-8a4da6473d55",
+  "order": "V",
+  "createdAt": "2026-10-05T16:29:34.783Z",
+  "props": {
+    "text": "Sync history of Insta bookmarks",
+    "data-codecaine-id": "1f509fcb-e73b-4135-aba6-bd337f2a4123"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T16:29:34.783Z"
+}

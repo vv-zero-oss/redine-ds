@@ -5,6 +5,7 @@ import { ArrowRight } from "@/components/landing/hero";
 import { ProductCover } from "@/components/landing/product-cover";
 import { Features } from "@/components/landing/features";
 import { FeatureList } from "@/components/landing/feature-list";
+import { AgentShowcase } from "@/components/landing/agent-showcase";
 
 export const metadata: Metadata = {
   title: "Features — Codecaine",
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
     "Everything the canvas does: edit your real code, keep your tokens, import anything, and work beside agents on the board.",
 };
 
-/** The features page: the shared shell, a header, then the feature sections. */
+/** The features page: the shared shell, a header, the agent showcase, then the feature sections. */
 export default function FeaturesPage() {
   return (
     <SiteShell>
@@ -30,6 +31,7 @@ export default function FeaturesPage() {
           <ArrowRight />
         </a>
       </PageHeader>
+      <AgentShowcase />
       <ProductCover />
       <Features />
       <FeatureList />

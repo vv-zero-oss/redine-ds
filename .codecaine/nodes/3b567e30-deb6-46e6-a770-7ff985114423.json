@@ -1,0 +1,14 @@
+{
+  "id": "3b567e30-deb6-46e6-a770-7ff985114423",
+  "type": "text",
+  "tag": "span",
+  "parent": "e59cca92-e22d-4bb5-8a11-3231ddd0182d",
+  "order": "V",
+  "createdAt": "2026-10-05T16:29:25.929Z",
+  "props": {
+    "text": "Add current URL",
+    "data-codecaine-id": "d14cf9cc-8e96-41bc-a51d-fa249582d11f"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T16:29:25.929Z"
+}

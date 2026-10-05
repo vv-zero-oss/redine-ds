@@ -1,0 +1,14 @@
+{
+  "id": "132da424-47c0-487b-ac34-c73bc64b8654",
+  "type": "text",
+  "tag": "span",
+  "parent": "faa0eee1-aca9-490a-aade-923efb1e2b80",
+  "order": "V",
+  "createdAt": "2026-10-05T16:29:34.783Z",
+  "props": {
+    "text": "Unlimited collections",
+    "data-codecaine-id": "b50f20cb-6fc6-4bca-9674-4a9380d768c3"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T16:29:34.783Z"
+}

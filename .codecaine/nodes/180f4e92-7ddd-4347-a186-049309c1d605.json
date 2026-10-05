@@ -1,0 +1,14 @@
+{
+  "id": "180f4e92-7ddd-4347-a186-049309c1d605",
+  "type": "text",
+  "tag": "span",
+  "parent": "4b2b3fc6-c8cc-4df3-bc8e-cf66d0386fd3",
+  "order": "V",
+  "createdAt": "2026-10-05T16:29:34.783Z",
+  "props": {
+    "text": "Search by text inside images",
+    "data-codecaine-id": "e0274046-1264-4a8b-bf4e-1d898a75b44d"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T16:29:34.783Z"
+}

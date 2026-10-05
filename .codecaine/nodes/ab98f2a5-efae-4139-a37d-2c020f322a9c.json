@@ -1,0 +1,14 @@
+{
+  "id": "ab98f2a5-efae-4139-a37d-2c020f322a9c",
+  "type": "text",
+  "tag": "span",
+  "parent": "8c82b41f-9573-4c4d-ae89-d44afe49e404",
+  "order": "G",
+  "createdAt": "2026-10-05T16:29:43.507Z",
+  "props": {
+    "text": "Recollect",
+    "data-codecaine-id": "0cbcb3f2-a5d9-4be0-898b-2e35039c1eeb"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T16:29:43.507Z"
+}

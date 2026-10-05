@@ -1,0 +1,14 @@
+{
+  "id": "bfed9f11-0c1e-47ec-b19d-9b74f65f26c6",
+  "type": "text",
+  "tag": "span",
+  "parent": "e940deaf-fc87-422c-a739-793e75a5c2b4",
+  "order": "V",
+  "createdAt": "2026-10-05T16:29:34.783Z",
+  "props": {
+    "text": "Sync Instagram bookmarks",
+    "data-codecaine-id": "e0d3b9d3-2c50-44a3-bfee-2134894eb404"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T16:29:34.783Z"
+}

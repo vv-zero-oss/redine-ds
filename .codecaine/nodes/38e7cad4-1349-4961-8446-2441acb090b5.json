@@ -1,0 +1,14 @@
+{
+  "id": "38e7cad4-1349-4961-8446-2441acb090b5",
+  "type": "text",
+  "tag": "span",
+  "parent": "a89434e9-afb8-4eb6-91bd-a064a73ef827",
+  "order": "V",
+  "createdAt": "2026-10-05T16:29:25.929Z",
+  "props": {
+    "text": "Drop a file/link",
+    "data-codecaine-id": "24e04157-79aa-4a2e-85ba-2930435b3583"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T16:29:25.929Z"
+}

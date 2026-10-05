@@ -1,0 +1,14 @@
+{
+  "id": "51eaf53a-bbdf-4dfc-8179-96d5cb898bf0",
+  "type": "text",
+  "tag": "span",
+  "parent": "33eb7866-d65c-4556-96b4-486f1f5fb7db",
+  "order": "V",
+  "createdAt": "2026-10-05T16:29:34.783Z",
+  "props": {
+    "text": "Auto summarise all bookmarks",
+    "data-codecaine-id": "2e4b2ff9-17cd-4831-886d-331b377153f6"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T16:29:34.783Z"
+}

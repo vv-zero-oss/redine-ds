@@ -1,0 +1,14 @@
+{
+  "id": "51d4d268-98d0-4b5f-b759-01db3132fd2f",
+  "type": "text",
+  "tag": "span",
+  "parent": "a207dcc7-b067-49f3-aff6-e0de144e09e7",
+  "order": "V",
+  "createdAt": "2026-10-05T16:29:34.783Z",
+  "props": {
+    "text": "Auto organise into collections",
+    "data-codecaine-id": "e9c6b220-3f5f-49bc-9763-d1404c501c67"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T16:29:34.783Z"
+}

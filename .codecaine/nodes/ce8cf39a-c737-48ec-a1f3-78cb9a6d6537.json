@@ -1,0 +1,14 @@
+{
+  "id": "ce8cf39a-c737-48ec-a1f3-78cb9a6d6537",
+  "type": "text",
+  "tag": "span",
+  "parent": "7316d610-4013-4d9c-b1a5-b8e7c9582f7a",
+  "order": "G",
+  "createdAt": "2026-10-05T16:29:25.929Z",
+  "props": {
+    "text": "Start collecting",
+    "data-codecaine-id": "e20d06c1-47c9-4177-a9bc-265160374fb9"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T16:29:25.929Z"
+}
