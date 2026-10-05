@@ -1,0 +1,14 @@
+{
+  "id": "d51a96d5-b0b9-4ef2-b6db-bcd509c2f913",
+  "type": "text",
+  "tag": "span",
+  "parent": "7104f234-054e-4b10-998c-2ff5ca281143",
+  "order": "l",
+  "createdAt": "2026-10-05T12:27:24.559Z",
+  "props": {
+    "text": "your photo's ratio",
+    "data-codecaine-id": "2ceed437-ac5a-417f-90cc-712998cabab5"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:27:24.559Z"
+}

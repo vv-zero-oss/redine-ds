@@ -1,0 +1,14 @@
+{
+  "id": "996e9522-e376-43de-b14e-5498b02e76ee",
+  "type": "text",
+  "tag": "span",
+  "parent": "6e7249fc-d682-4d63-be09-8c120d1fa5b2",
+  "order": "V",
+  "createdAt": "2026-10-05T12:27:28.458Z",
+  "props": {
+    "text": "Ready in 1–5 min",
+    "data-codecaine-id": "61b7df8b-5471-4183-9891-b44770ce529b"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:27:28.458Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "a637957c-4134-4aeb-b1a5-d076be685890",
+  "type": "text",
+  "tag": "span",
+  "parent": "7104f234-054e-4b10-998c-2ff5ca281143",
+  "order": "G",
+  "createdAt": "2026-10-05T12:27:24.559Z",
+  "props": {
+    "text": "The video follows",
+    "data-codecaine-id": "5f893fd3-7505-4bc5-a675-15ac9b2f3c99"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T12:27:24.559Z"
+}
