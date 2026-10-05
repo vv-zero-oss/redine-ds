@@ -1,0 +1,25 @@
+{
+  "id": "097a6716-8f2a-43f6-8c7f-313da2221229",
+  "type": "image",
+  "tag": "img",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzzzzzzzzzy8",
+  "createdAt": "2026-10-05T12:10:19.980Z",
+  "props": {
+    "src": "asset:media/images/9cc564f142e52f326390.png",
+    "alt": "Bharat Portable Cabin Brochure (1) page 6",
+    "data-codecaine-id": "3d955d4c-cb80-43d1-a312-ccbeab1fe4cb"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {
+    "position": "absolute",
+    "left": 5355,
+    "top": 2799,
+    "width": 640,
+    "height": 452
+  },
+  "updatedAt": "2026-10-05T12:10:19.980Z"
+}
