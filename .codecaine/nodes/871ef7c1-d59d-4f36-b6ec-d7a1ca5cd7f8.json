@@ -79,7 +79,7 @@
     "backgroundPositionY": "0%",
     "backgroundRepeat": "repeat",
     "color": "rgb(113, 113, 113)",
-    "fontFamily": "\"M Saans 456\", \"M Saans 456 Placeholder\", sans-serif",
+    "fontFamily": "Inter",
     "fontSize": "16px",
     "fontWeight": "456",
     "fontStyle": "normal",
@@ -109,5 +109,5 @@
     "--framer-text-alignment": "center",
     "--framer-text-color": "var(--token-662d2a7f-e597-4a32-be93-c2f821051388, rgb(113, 113, 113))"
   },
-  "updatedAt": "2026-10-05T09:41:42.234Z"
+  "updatedAt": "2026-10-05T12:05:11.218Z"
 }

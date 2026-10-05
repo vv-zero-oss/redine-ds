@@ -92,7 +92,7 @@
     "cursor": "pointer",
     "flexShrink": "0",
     "userSelect": "none",
-    "fontFamily": "\"M Saans 600\", \"M Saans 600 Placeholder\", sans-serif",
+    "fontFamily": "Inter",
     "fontSize": "16px",
     "fontStyle": "normal",
     "fontWeight": "600",
@@ -107,5 +107,5 @@
     "willChange": "auto",
     "color": "var(--token-3e7d342c-a5e5-4556-ae33-887ada111c73, rgb(20, 20, 20))"
   },
-  "updatedAt": "2026-10-05T09:41:31.096Z"
+  "updatedAt": "2026-10-05T12:05:11.224Z"
 }

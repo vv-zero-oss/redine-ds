@@ -76,7 +76,7 @@
     "backgroundPositionY": "0%",
     "backgroundRepeat": "repeat",
     "color": "rgb(20, 20, 20)",
-    "fontFamily": "\"M Saans 600\", \"M Saans 600 Placeholder\", sans-serif",
+    "fontFamily": "Inter",
     "fontSize": "16px",
     "fontWeight": "600",
     "fontStyle": "normal",
@@ -103,5 +103,5 @@
     "verticalAlign": "baseline",
     "cursor": "pointer"
   },
-  "updatedAt": "2026-10-05T09:41:15.439Z"
+  "updatedAt": "2026-10-05T12:05:11.200Z"
 }

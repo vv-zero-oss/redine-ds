@@ -77,7 +77,7 @@
     "backgroundPositionY": "0%",
     "backgroundRepeat": "repeat",
     "color": "rgb(20, 20, 20)",
-    "fontFamily": "\"M Saans 600\", \"M Saans 600 Placeholder\", sans-serif",
+    "fontFamily": "Inter",
     "fontSize": "16px",
     "fontWeight": "600",
     "fontStyle": "normal",
@@ -106,5 +106,5 @@
     "position": "relative",
     "maskImage": "url(\"data:image/svg+xml,<svg display=\\\"block\\\" id=\\\"3179777876\\\" role=\\\"presentation\\\" viewBox=\\\"0 0 20 20\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M 12.995 6.323 L 0 6.323 M 6.726 0 L 12.624 6.32 L 6.726 12.639\\\" fill=\\\"transparent\\\" height=\\\"12.639000000000003px\\\" id=\\\"rRbEkTCOV\\\" stroke-dasharray=\\\"\\\" stroke-linecap=\\\"butt\\\" stroke-linejoin=\\\"miter\\\" stroke-miterlimit=\\\"10\\\" stroke-width=\\\"2\\\" stroke=\\\"var(--1wcpov0, var(--token-3e7d342c-a5e5-4556-ae33-887ada111c73, rgb(20, 20, 20)))\\\" transform=\\\"translate(3.5 3.5)\\\" width=\\\"12.995000000000005px\\\"/></svg>\"), none"
   },
-  "updatedAt": "2026-10-05T09:41:15.439Z"
+  "updatedAt": "2026-10-05T12:05:11.200Z"
 }

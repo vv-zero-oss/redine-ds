@@ -80,7 +80,7 @@
     "backgroundPositionY": "0%",
     "backgroundRepeat": "repeat",
     "color": "rgb(0, 0, 0)",
-    "fontFamily": "sans-serif",
+    "fontFamily": "Inter",
     "fontSize": "12px",
     "fontWeight": "400",
     "fontStyle": "normal",
@@ -110,5 +110,5 @@
     "left": 41.69428257383697,
     "top": 1561.3473259815
   },
-  "updatedAt": "2026-10-05T09:42:47.191Z"
+  "updatedAt": "2026-10-05T12:05:11.204Z"
 }

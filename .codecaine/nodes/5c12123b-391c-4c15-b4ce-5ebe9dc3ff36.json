@@ -60,7 +60,7 @@
     "backgroundPositionY": "0%",
     "backgroundRepeat": "repeat",
     "color": "rgb(0, 0, 0)",
-    "fontFamily": "sans-serif",
+    "fontFamily": "Inter",
     "fontSize": "12px",
     "fontWeight": "400",
     "fontStyle": "normal",
@@ -106,5 +106,5 @@
     "transform": "translateX(-792.429px)",
     "willChange": "transform"
   },
-  "updatedAt": "2026-10-05T09:41:31.096Z"
+  "updatedAt": "2026-10-05T12:05:11.296Z"
 }
