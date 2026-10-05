@@ -23,7 +23,7 @@
     "paddingTop": "var(--space-10)",
     "paddingRight": "var(--space-10)",
     "paddingBottom": "var(--space-10)",
-    "paddingLeft": "var(--space-10)",
+    "paddingLeft": 641,
     "background": "var(--dark-backdrop)",
     "borderRadius": "var(--tile-radius-card)",
     "width": "fit-content",
@@ -32,9 +32,9 @@
     "marginBottom": 0,
     "marginLeft": 0,
     "position": "absolute",
-    "left": 3928,
-    "top": 1500,
+    "left": 3950.0021283343676,
+    "top": 1501.3936587811484,
     "height": "fit-content"
   },
-  "updatedAt": "2026-10-05T06:36:07.403Z"
+  "updatedAt": "2026-10-05T07:29:30.274Z"
 }
