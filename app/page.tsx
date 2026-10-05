@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { SiteNav } from "@/components/landing/site-nav";
+import { SiteShell } from "@/components/landing/site-shell";
 import { Hero } from "@/components/landing/hero";
 import { ProductCover } from "@/components/landing/product-cover";
 import { Features } from "@/components/landing/features";
@@ -20,14 +20,11 @@ export const metadata: Metadata = {
  */
 export default function LandingPage() {
   return (
-    <div className="lp-page min-h-screen">
-      <SiteNav />
-      <main>
-        <Hero />
-        <ProductCover />
-        <Features />
-        <Gallery />
-      </main>
-    </div>
+    <SiteShell>
+      <Hero />
+      <ProductCover />
+      <Features />
+      <Gallery />
+    </SiteShell>
   );
 }

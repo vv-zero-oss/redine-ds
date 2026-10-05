@@ -413,6 +413,15 @@
     flex-direction: column;
     gap: var(--lp-space-1);
   }
+  /* A text-only card, for feature lists with no media. */
+  .lp-tile {
+    display: flex;
+    flex-direction: column;
+    gap: var(--lp-space-2);
+    padding: var(--lp-space-8);
+    border-radius: var(--lp-radius-media);
+    background: var(--lp-wash);
+  }
 
   @media (max-width: 767px) {
     .lp-cards {

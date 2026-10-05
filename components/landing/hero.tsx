@@ -28,7 +28,7 @@ export function Hero() {
   );
 }
 
-function ArrowRight() {
+export function ArrowRight() {
   return (
     <svg className="lp-btn-icon" viewBox="0 0 20 20" fill="none" aria-hidden>
       <path
