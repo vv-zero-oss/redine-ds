@@ -3,12 +3,12 @@
   "type": "text",
   "tag": "span",
   "parent": "3f3a2216-2941-4d8d-9087-07f2739cc2ef",
-  "order": "V",
+  "order": "G",
   "createdAt": "2026-10-05T09:41:42.234Z",
   "props": {
-    "text": "Import anything you have on clipboard, open live pages.",
+    "text": "You can import HTML,\nCSV, MD, PPT, images, video or even a live website\nsqsssd to",
     "data-codecaine-id": "e01a01f7-160b-47e7-92dc-99fe64d938a1"
   },
   "style": {},
-  "updatedAt": "2026-10-05T12:09:34.543Z"
+  "updatedAt": "2026-10-05T13:20:17.306Z"
 }
