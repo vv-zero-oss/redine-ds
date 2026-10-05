@@ -70,13 +70,13 @@
     "borderTopRightRadius": "",
     "borderBottomRightRadius": "",
     "borderBottomLeftRadius": "",
-    "backgroundColor": "oklab(0.999994 0.0000455678 0.0000200868 / 0.12)",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
     "backgroundImage": "none",
     "backgroundSize": "auto",
     "backgroundPositionX": "0%",
     "backgroundPositionY": "0%",
-    "backgroundRepeat": "repeat",
-    "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.4)",
+    "backgroundRepeat": "no-repeat",
+    "color": "rgba(255, 255, 255, 0)",
     "fontFamily": "Inter, sans-serif",
     "fontSize": "13px",
     "fontWeight": "400",
@@ -105,7 +105,8 @@
     "cursor": "default",
     "left": 1615.614765152,
     "top": 360.82224723269013,
-    "borderRadius": 14
+    "borderRadius": 14,
+    "backgroundPosition": "0% 0%"
   },
-  "updatedAt": "2026-10-05T16:58:23.092Z"
+  "updatedAt": "2026-10-05T17:00:15.679Z"
 }
