@@ -1,0 +1,32 @@
+{
+  "id": "8cb7d173-d290-47f1-b45e-b03a1f9294b2",
+  "type": "text",
+  "tag": "p",
+  "name": "Time",
+  "parent": "4aafc008-d866-460e-93c0-fec73f2a61bd",
+  "order": "V",
+  "createdAt": "2026-10-05T05:35:19.235Z",
+  "props": {
+    "text": "9:41",
+    "data-import-type": "figma",
+    "data-codecaine-id": "0cc5374a-35b9-496c-afc7-c8be06ca9cdc"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "54px",
+    "fontFamily": "\"SF Pro Text\", sans-serif",
+    "fontSize": "15px",
+    "fontWeight": "600",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.3px",
+    "color": "rgb(255, 255, 255)",
+    "textAlign": "center"
+  },
+  "updatedAt": "2026-10-05T05:35:19.235Z"
+}

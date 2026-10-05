@@ -1,0 +1,29 @@
+{
+  "id": "edfdc25a-6ed1-4ae3-b74e-b001ec7a5218",
+  "type": "frame",
+  "tag": "svg",
+  "name": "Arrow Right",
+  "parent": "5fe3ed2a-7bb4-47a6-baea-3f9df4bdb360",
+  "order": "V",
+  "createdAt": "2026-10-05T05:35:31.696Z",
+  "props": {
+    "width": "8",
+    "height": "13",
+    "viewBox": "0 0 8 13",
+    "fill": "none",
+    "overflow": "visible",
+    "xmlns": "http://www.w3.org/2000/svg",
+    "innerMarkup": "<path transform=\"matrix(1 0 0 1 0 0)\" d=\"M0 11.41L1.41 12.83L7.83 6.41L1.41 0L0 1.41L5 6.41L0 11.41Z\" fill=\"#FFFFFF\" fill-opacity=\"0.35\"></path>",
+    "data-import-type": "figma",
+    "data-codecaine-id": "c25f5385-dfa2-4398-824f-5f96c7d0bda9"
+  },
+  "style": {
+    "display": "block",
+    "position": "absolute",
+    "left": "350px",
+    "top": "23.5px",
+    "width": "8px",
+    "height": "13px"
+  },
+  "updatedAt": "2026-10-05T05:35:31.696Z"
+}

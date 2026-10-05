@@ -1,0 +1,39 @@
+{
+  "id": "bb6dd479-5bd1-465f-97a2-5d5c04a27f58",
+  "type": "frame",
+  "tag": "div",
+  "name": "Plugin / file cover - 1",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzzzx",
+  "createdAt": "2026-10-05T05:34:20.428Z",
+  "props": {
+    "importedPlacement": {
+      "position": "relative"
+    },
+    "data-import-type": "figma",
+    "data-codecaine-id": "61e8a079-7e5f-4bb5-b00d-ce2379e97119"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {
+    "width": 1920,
+    "height": "960px",
+    "borderTopLeftRadius": "32px",
+    "borderTopRightRadius": "32px",
+    "borderBottomRightRadius": "32px",
+    "borderBottomLeftRadius": "32px",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "overflowX": "hidden",
+    "overflowY": "hidden",
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "left": 3712,
+    "top": 9354
+  },
+  "updatedAt": "2026-10-05T05:34:20.428Z"
+}

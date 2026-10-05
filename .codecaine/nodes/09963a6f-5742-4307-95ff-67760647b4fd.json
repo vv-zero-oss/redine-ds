@@ -1,0 +1,29 @@
+{
+  "id": "09963a6f-5742-4307-95ff-67760647b4fd",
+  "type": "frame",
+  "tag": "svg",
+  "name": "Chat",
+  "parent": "d9b7ae15-b95c-4317-9ba6-b6093aa3f2be",
+  "order": "Z",
+  "createdAt": "2026-10-05T05:35:19.235Z",
+  "props": {
+    "width": "39",
+    "height": "39",
+    "viewBox": "0 0 39 39",
+    "fill": "none",
+    "overflow": "visible",
+    "xmlns": "http://www.w3.org/2000/svg",
+    "innerMarkup": "<path transform=\"matrix(1 0 0 1 0 0)\" d=\"M19.5 39C30.27 39 39 30.27 39 19.5C39 8.73 30.27 0 19.5 0C8.73 0 0 8.73 0 19.5C0 30.27 8.73 39 19.5 39Z\" fill=\"#FFFFFF\" fill-rule=\"evenodd\" fill-opacity=\"0.35\"></path><path transform=\"matrix(1 0 0 1 10.5 10.5)\" d=\"M9 0C13.97 0 18 3.86 18 8.61C18 13.37 13.97 17.22 9 17.22C8.31 17.22 7.63 17.15 6.96 17L6.36 16.85C5.65 16.7 4.9 16.76 4.22 17.03L3.99 17.13L3.6 17.31C2.17 17.95 1.3 18.15 1 17.89C0.72 17.66 0.79 17.08 1.21 16.13C1.63 15.18 1.63 14.11 1.23 13.16L1.14 12.95L0.99 12.65C0.33 11.24 0 9.89 0 8.61C0 3.86 4.03 0 9 0Z\" fill=\"#FFFFFF\" fill-rule=\"evenodd\"></path>",
+    "data-import-type": "figma",
+    "data-codecaine-id": "0eb42e4f-4b28-4853-b652-9fad89c5d688"
+  },
+  "style": {
+    "display": "block",
+    "position": "absolute",
+    "left": "20.5px",
+    "top": "60.5px",
+    "width": "39px",
+    "height": "39px"
+  },
+  "updatedAt": "2026-10-05T05:35:19.235Z"
+}

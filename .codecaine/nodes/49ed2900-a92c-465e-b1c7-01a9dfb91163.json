@@ -1,0 +1,29 @@
+{
+  "id": "49ed2900-a92c-465e-b1c7-01a9dfb91163",
+  "type": "frame",
+  "tag": "svg",
+  "name": "Messanger Icon",
+  "parent": "8f0ed6f9-c9cc-4756-b278-21ed8cfdfcf0",
+  "order": "zV",
+  "createdAt": "2026-10-05T05:35:31.696Z",
+  "props": {
+    "width": "30",
+    "height": "30",
+    "viewBox": "0 0 30 30",
+    "fill": "none",
+    "overflow": "visible",
+    "xmlns": "http://www.w3.org/2000/svg",
+    "innerMarkup": "<path transform=\"matrix(1 0 0 1 0 0)\" d=\"M15 30C23.28 30 30 23.28 30 15C30 6.72 23.28 0 15 0C6.72 0 0 6.72 0 15C0 23.28 6.72 30 15 30Z\" fill=\"#FFFFFF\" fill-rule=\"evenodd\"></path><path d=\"M15 3C21.63 3 27 8.37 27 15C27 21.63 21.63 27 15 27C8.37 27 3 21.63 3 15C3 8.37 8.37 3 15 3ZM22.3 11.48L16.52 14.76L13.46 11.48L7.62 18.03L13.46 15L16.52 18.31L22.3 11.48Z\" fill=\"#0584FE\" fill-rule=\"evenodd\"></path>",
+    "data-import-type": "figma",
+    "data-codecaine-id": "98fe9c4b-9798-443c-8411-f7e914ce1860"
+  },
+  "style": {
+    "display": "block",
+    "position": "absolute",
+    "left": "109.45px",
+    "top": "109px",
+    "width": "30px",
+    "height": "30px"
+  },
+  "updatedAt": "2026-10-05T05:35:31.696Z"
+}

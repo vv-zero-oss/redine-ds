@@ -1,0 +1,29 @@
+{
+  "id": "eb0a710f-30e1-417a-8f90-a548577ecfa2",
+  "type": "frame",
+  "tag": "svg",
+  "name": "Seperator",
+  "parent": "cc7dc6f0-3103-4e1b-883b-522bd9750917",
+  "order": "d",
+  "createdAt": "2026-10-05T05:35:31.696Z",
+  "props": {
+    "width": "290",
+    "height": "1",
+    "viewBox": "0 0 290 1",
+    "fill": "none",
+    "overflow": "visible",
+    "xmlns": "http://www.w3.org/2000/svg",
+    "innerMarkup": "<path transform=\"matrix(1 0 0 1 0 0)\" d=\"M0 0.5L290 0.5\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"0.5\" stroke-linecap=\"square\" stroke-linejoin=\"miter\" stroke-opacity=\"0.2\"></path>",
+    "data-import-type": "figma",
+    "data-codecaine-id": "3cac08b8-5108-43a2-9221-78efe3d5439c"
+  },
+  "style": {
+    "display": "block",
+    "position": "absolute",
+    "left": "69px",
+    "top": "144.5px",
+    "width": "290px",
+    "height": "1px"
+  },
+  "updatedAt": "2026-10-05T05:35:31.696Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "61aa47c2-a748-4119-b44d-431dbaaaaab2",
+  "type": "frame",
+  "tag": "div",
+  "name": "Message Input",
+  "parent": "7e95e6ea-fa73-4572-8c14-96c657864c9c",
+  "order": "t",
+  "createdAt": "2026-10-05T05:34:39.556Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "2b3bd90a-4f27-4008-b280-2347b4af6cef"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "184px",
+    "top": "8px",
+    "width": "135px",
+    "height": "36px",
+    "overflowX": "hidden",
+    "overflowY": "hidden"
+  },
+  "updatedAt": "2026-10-05T05:34:39.556Z"
+}

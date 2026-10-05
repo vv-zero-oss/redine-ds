@@ -1,0 +1,21 @@
+{
+  "id": "39b4df0c-525d-44d4-8632-d04362003537",
+  "type": "frame",
+  "tag": "div",
+  "name": "Action",
+  "parent": "efe0a2dc-94a8-4c99-a350-210d41a7cd40",
+  "order": "l",
+  "createdAt": "2026-10-05T05:34:39.556Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "5876e5b1-545a-4ef8-a2bb-cc7fbb5bdb62"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "264px",
+    "top": "0px",
+    "width": "88px",
+    "height": "86px"
+  },
+  "updatedAt": "2026-10-05T05:34:39.556Z"
+}

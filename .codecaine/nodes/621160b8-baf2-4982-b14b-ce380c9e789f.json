@@ -1,0 +1,25 @@
+{
+  "id": "621160b8-baf2-4982-b14b-ce380c9e789f",
+  "type": "image",
+  "tag": "img",
+  "name": "spacejoy-YI2YkyaREHk-unsplash 1",
+  "parent": "bb6dd479-5bd1-465f-97a2-5d5c04a27f58",
+  "order": "G",
+  "createdAt": "2026-10-05T05:34:20.428Z",
+  "props": {
+    "src": "asset:media/images/21de0d1262dcc97115e2.jpg",
+    "alt": "spacejoy-YI2YkyaREHk-unsplash 1",
+    "data-import-type": "figma",
+    "data-codecaine-id": "015718d7-5aad-42ef-aaad-963b3659910c"
+  },
+  "style": {
+    "display": "block",
+    "position": "absolute",
+    "left": "0px",
+    "top": "-366px",
+    "width": "1920px",
+    "height": "1588px",
+    "objectFit": "cover"
+  },
+  "updatedAt": "2026-10-05T05:34:24.245Z"
+}

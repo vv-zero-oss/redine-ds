@@ -1,0 +1,29 @@
+{
+  "id": "39803d10-5fdc-4803-b1e1-4e81bd65bc6b",
+  "type": "frame",
+  "tag": "svg",
+  "name": "path1478",
+  "parent": "1e41b6c8-72e2-4fcb-8a54-5f5a70699a96",
+  "order": "d",
+  "createdAt": "2026-10-05T05:34:06.348Z",
+  "props": {
+    "width": "4.898577690124512",
+    "height": "4.89907693862915",
+    "viewBox": "0 0 4.898577690124512 4.89907693862915",
+    "fill": "none",
+    "overflow": "visible",
+    "xmlns": "http://www.w3.org/2000/svg",
+    "innerMarkup": "<path transform=\"matrix(1 0 0 1 0 0)\" d=\"M4.9 2.45C4.9 3.1 4.64 3.72 4.18 4.18C3.72 4.64 3.1 4.9 2.45 4.9C1.8 4.9 1.18 4.64 0.72 4.18C0.26 3.72 0 3.1 0 2.45C0 1.8 0.26 1.18 0.72 0.72C1.18 0.26 1.8 0 2.45 0C3.1 0 3.72 0.26 4.18 0.72C4.64 1.18 4.9 1.8 4.9 2.45Z\" fill=\"#000000\" fill-rule=\"evenodd\"></path>",
+    "data-import-type": "figma",
+    "data-codecaine-id": "77c7a83d-6e67-46b4-9614-a555ca40ee28"
+  },
+  "style": {
+    "display": "block",
+    "position": "absolute",
+    "left": "191.75px",
+    "top": "205.13px",
+    "width": "4.9px",
+    "height": "4.9px"
+  },
+  "updatedAt": "2026-10-05T05:34:06.348Z"
+}

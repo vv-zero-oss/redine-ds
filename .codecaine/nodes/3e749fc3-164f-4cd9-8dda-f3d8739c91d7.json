@@ -1,0 +1,34 @@
+{
+  "id": "3e749fc3-164f-4cd9-8dda-f3d8739c91d7",
+  "type": "frame",
+  "tag": "div",
+  "name": "Meditation",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzzzt",
+  "createdAt": "2026-10-05T05:34:06.348Z",
+  "props": {
+    "importedPlacement": {
+      "position": "relative"
+    },
+    "data-import-type": "figma",
+    "data-codecaine-id": "d9582c6b-a672-46f0-a8e0-855341eb0e14"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {
+    "width": 370.9,
+    "height": "406.65px",
+    "overflowX": "hidden",
+    "overflowY": "hidden",
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "left": 3015.493332917656,
+    "top": 9286.921586187624
+  },
+  "updatedAt": "2026-10-05T05:34:07.926Z"
+}

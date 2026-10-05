@@ -1,0 +1,31 @@
+{
+  "id": "e5a1957e-97df-455f-a25f-7633be4df970",
+  "type": "text",
+  "tag": "p",
+  "parent": "c7c5f4ef-40c6-4ff0-9622-af6d2e630bee",
+  "order": "V",
+  "createdAt": "2026-10-05T05:34:39.556Z",
+  "props": {
+    "text": "Reminders",
+    "data-import-type": "figma",
+    "data-codecaine-id": "f0e57d0e-9b38-435c-8d68-a68043e632d0"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "0px",
+    "top": "70px",
+    "width": "88px",
+    "fontFamily": "\"SF Pro Text\", sans-serif",
+    "fontSize": "13px",
+    "fontWeight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.08px",
+    "color": "rgb(255, 255, 255)",
+    "textAlign": "center"
+  },
+  "updatedAt": "2026-10-05T05:34:39.556Z"
+}

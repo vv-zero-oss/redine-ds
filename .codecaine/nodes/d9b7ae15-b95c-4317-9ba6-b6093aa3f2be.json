@@ -1,0 +1,35 @@
+{
+  "id": "d9b7ae15-b95c-4317-9ba6-b6093aa3f2be",
+  "type": "frame",
+  "tag": "div",
+  "name": "Messanger Call",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzzzzV",
+  "createdAt": "2026-10-05T05:35:19.235Z",
+  "props": {
+    "importedPlacement": {
+      "position": "relative"
+    },
+    "data-import-type": "figma",
+    "data-codecaine-id": "e7d51612-b520-420e-8d0a-1cd570535618"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {
+    "width": 375,
+    "height": "812px",
+    "backgroundColor": "rgb(0, 0, 0)",
+    "overflowX": "hidden",
+    "overflowY": "hidden",
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "left": 3604.6741555916583,
+    "top": 10957.973844794558
+  },
+  "updatedAt": "2026-10-05T05:35:22.231Z"
+}

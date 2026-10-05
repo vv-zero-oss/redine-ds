@@ -1,0 +1,23 @@
+{
+  "id": "1143cb7f-5115-4e43-af0a-5511265fa8f1",
+  "type": "frame",
+  "tag": "div",
+  "name": "1. Bars / 5. Home Indicator / Dark",
+  "parent": "d9b7ae15-b95c-4317-9ba6-b6093aa3f2be",
+  "order": "l",
+  "createdAt": "2026-10-05T05:35:19.235Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "e91c8895-ee40-46a0-a0f4-0356fc048137"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "778px",
+    "width": "375px",
+    "height": "34px",
+    "overflowX": "hidden",
+    "overflowY": "hidden"
+  },
+  "updatedAt": "2026-10-05T05:35:19.235Z"
+}

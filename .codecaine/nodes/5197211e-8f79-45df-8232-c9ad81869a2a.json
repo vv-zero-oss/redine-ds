@@ -1,0 +1,25 @@
+{
+  "id": "5197211e-8f79-45df-8232-c9ad81869a2a",
+  "type": "image",
+  "tag": "img",
+  "name": "Rectangle",
+  "parent": "d9b7ae15-b95c-4317-9ba6-b6093aa3f2be",
+  "order": "4",
+  "createdAt": "2026-10-05T05:35:19.235Z",
+  "props": {
+    "src": "asset:media/images/641801b2615eaecf0876.png",
+    "alt": "Rectangle",
+    "data-import-type": "figma",
+    "data-codecaine-id": "a42e8c43-e7f5-4945-88c5-b4a2c14851f2"
+  },
+  "style": {
+    "display": "block",
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "375px",
+    "height": "814px",
+    "objectFit": "cover"
+  },
+  "updatedAt": "2026-10-05T05:35:21.511Z"
+}
