@@ -27,7 +27,7 @@
   ],
   "createdAt": "2026-10-05T13:16:50.520Z",
   "props": {
-    "src": "http://localhost:3000/",
+    "src": "http://localhost:3000/features",
     "data-codecaine-id": "284bce9a-8875-45d2-b6e4-0bfac3c7193a",
     "view": "viewport"
   },
@@ -43,5 +43,5 @@
     "left": -146.4907902463448,
     "top": -214.80461875100627
   },
-  "updatedAt": "2026-10-05T13:49:59.017Z"
+  "updatedAt": "2026-10-05T15:53:12.466Z"
 }
