@@ -1,0 +1,20 @@
+{
+  "id": "79966e01-bc9d-4e07-b2db-814e73a20c34",
+  "type": "frame",
+  "tag": "source",
+  "name": "source",
+  "parent": "0ebb5645-a3f6-4262-84c3-6dfc11d4e570",
+  "order": "8",
+  "createdAt": "2026-10-05T13:25:52.707Z",
+  "props": {
+    "srcset": "/v/iphone-duo/d/images/overview/shared-features/ios-apple-intelligence/suggestions__bstbkszt2nea_small.jpg, /v/iphone-duo/d/images/overview/shared-features/ios-apple-intelligence/suggestions__bstbkszt2nea_small_2x.jpg 2x",
+    "media": "(max-width:734px)",
+    "data-codecaine-id": "a092b77f-e02b-4860-bc3c-6377d86a8e11"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T13:25:52.707Z"
+}

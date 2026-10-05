@@ -1,0 +1,20 @@
+{
+  "id": "1dcd48dd-a034-4d96-bf96-82a1d4122e5d",
+  "type": "frame",
+  "tag": "source",
+  "name": "source",
+  "parent": "d60c337a-1a9b-455d-8640-28f0acdffb86",
+  "order": "G",
+  "createdAt": "2026-10-05T13:25:52.707Z",
+  "props": {
+    "srcset": "/v/iphone-duo/d/images/overview/shared-features/ios-apple-intelligence/shortcuts__f5np1ycd1p6y_medium.jpg, /v/iphone-duo/d/images/overview/shared-features/ios-apple-intelligence/shortcuts__f5np1ycd1p6y_medium_2x.jpg 2x",
+    "media": "(max-width:1068px)",
+    "data-codecaine-id": "2e721b94-8854-4f78-9df5-a76cae6930c5"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T13:25:52.707Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "191057dd-30b0-4e8f-9cd2-09979edc22dd",
+  "type": "frame",
+  "tag": "picture",
+  "name": "picture",
+  "parent": "7afda8b1-aa6f-459d-a300-b3357b301edd",
+  "order": "V",
+  "createdAt": "2026-10-05T13:25:52.707Z",
+  "props": {
+    "class": "overview-shared-features-ios-apple-intelligence-child-safety positioned-media-element pin-offset static",
+    "data-codecaine-id": "f6869cee-892d-40ff-a821-aaff74df3be9"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T13:25:52.707Z"
+}

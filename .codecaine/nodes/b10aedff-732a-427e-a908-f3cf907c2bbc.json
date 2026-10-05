@@ -1,0 +1,14 @@
+{
+  "id": "b10aedff-732a-427e-a908-f3cf907c2bbc",
+  "type": "text",
+  "tag": "span",
+  "parent": "c6d28cc0-8dd0-472c-bb4b-e834572994dc",
+  "order": "l",
+  "createdAt": "2026-10-05T13:25:52.707Z",
+  "props": {
+    "text": "and Mail offer suggestions to help you take quick actions based on context from your conversation — add a calendar event or search for a photo with just a tap.",
+    "data-codecaine-id": "d71f6289-365d-465d-9eba-d079ca2f46b9"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T13:25:52.707Z"
+}

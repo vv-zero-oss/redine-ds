@@ -1,0 +1,14 @@
+{
+  "id": "86792908-455d-4e38-b1df-17bf1b0056c9",
+  "type": "text",
+  "tag": "span",
+  "parent": "c6d28cc0-8dd0-472c-bb4b-e834572994dc",
+  "order": "G",
+  "createdAt": "2026-10-05T13:25:52.707Z",
+  "props": {
+    "text": "Messages",
+    "data-codecaine-id": "2e54c777-43c2-41f9-98eb-782f00bd5711"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T13:25:52.707Z"
+}

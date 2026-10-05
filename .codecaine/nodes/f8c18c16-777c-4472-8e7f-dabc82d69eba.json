@@ -1,0 +1,19 @@
+{
+  "id": "f8c18c16-777c-4472-8e7f-dabc82d69eba",
+  "type": "image",
+  "tag": "img",
+  "parent": "d19931ad-3e7b-400d-9942-a7c9309f599e",
+  "order": "l",
+  "createdAt": "2026-10-05T13:25:52.707Z",
+  "props": {
+    "src": "/v/iphone-duo/d/images/overview/shared-features/ios-apple-intelligence/call_context__e54opc346geq_large.jpg",
+    "alt": "",
+    "data-codecaine-id": "a4d64a17-61b1-417b-b222-3a556d26dd3d"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T13:25:52.707Z"
+}

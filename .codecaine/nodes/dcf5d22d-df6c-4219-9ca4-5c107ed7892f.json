@@ -2,7 +2,7 @@
   "id": "dcf5d22d-df6c-4219-9ca4-5c107ed7892f",
   "type": "liveproject",
   "tag": "div",
-  "name": "Live project",
+  "name": "homepage",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
   "order": "zV",
   "breakpoints": [
@@ -28,7 +28,8 @@
   "createdAt": "2026-10-05T13:16:50.520Z",
   "props": {
     "src": "http://localhost:3000/",
-    "data-codecaine-id": "284bce9a-8875-45d2-b6e4-0bfac3c7193a"
+    "data-codecaine-id": "284bce9a-8875-45d2-b6e4-0bfac3c7193a",
+    "view": "viewport"
   },
   "sizing": {
     "width": "fixed",
@@ -42,5 +43,5 @@
     "left": 203.5177144194658,
     "top": -444.84513271064094
   },
-  "updatedAt": "2026-10-05T13:17:15.613Z"
+  "updatedAt": "2026-10-05T13:30:56.232Z"
 }

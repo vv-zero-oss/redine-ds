@@ -50,11 +50,16 @@
   --lp-weight-body: 456;
   --lp-weight-light: 300;
 
-  /* Spacing — a 4px scale; every gap and pad below is one of these */
+  /* Spacing — a 4px scale; every gap and pad below is one of these.
+     The two half steps are the nav items' own (Tailwind's 1.5 / 2.5). */
   --lp-space-1: 4px;
+  --lp-space-1-5: 6px;
+  --lp-space-2: 8px;
+  --lp-space-2-5: 10px;
   --lp-space-3: 12px;
   --lp-space-4: 16px;
   --lp-space-5: 20px;
+  --lp-space-7: 28px;
   --lp-space-8: 32px;
   --lp-space-10: 40px;
   --lp-space-20: 80px;
@@ -92,6 +97,36 @@
 
   /* Motion — the ticker is ambient, so it is the one long duration */
   --lp-ticker-duration: 60s;
+
+  /* Site nav — measured one to one from kobbe.io's header and mega menu.
+     Its warm greys are its own, so they get their own names. */
+  --lp-nav-surface: oklch(0.982 0.002 84.559);   /* home tile, panel ink      */
+  --lp-nav-wash: oklch(0.965 0.004 84.559);      /* the two pill groups       */
+  --lp-nav-ink: oklch(0.289 0 0);                /* labels, panel, CTA        */
+  --lp-nav-ink-hover: color-mix(in oklch, var(--lp-nav-ink) 85%, transparent);
+  --lp-nav-on-ink: var(--lp-nav-surface);
+  --lp-nav-on-ink-soft: color-mix(in oklch, var(--lp-nav-on-ink) 80%, transparent);
+  --lp-nav-on-ink-muted: color-mix(in oklch, var(--lp-nav-on-ink) 70%, transparent);
+  --lp-nav-divider: color-mix(in oklch, var(--lp-nav-on-ink) 10%, transparent);
+  --lp-nav-hover-fade: 0.7;
+  --lp-shadow-nav-xs: 0 1px 1px 0 rgb(0 0 0 / 0.05), 0 1px 1px -0.5px rgb(0 0 0 / 0.05);
+  --lp-shadow-nav-lg:
+    var(--lp-shadow-nav-xs),
+    0 3px 3px -1.5px rgb(0 0 0 / 0.06),
+    0 6px 6px -3px rgb(0 0 0 / 0.07),
+    0 12px 12px -6px rgb(0 0 0 / 0.08);
+  --lp-radius-nav: var(--radius-lg);             /* 10px                      */
+  --lp-radius-nav-item: var(--radius-md);        /* 8px                       */
+  --lp-radius-nav-icon: 2px;
+  --lp-text-nav: 14px;       --lp-text-nav--lh: 20px;
+  --lp-text-nav-xs: 12px;    --lp-text-nav-xs--lh: 16px;
+  --lp-leading-nav-snug: 1.375;
+  --lp-nav-control: 32px;                        /* tile + item height        */
+  --lp-nav-mark: 18px;
+  --lp-nav-icon: 16px;
+  --lp-nav-max: 1280px;
+  --lp-ease-nav: cubic-bezier(0.4, 0, 0.2, 1);
+  --lp-z-nav: 50;
 }
 
 @media (max-width: 1023px) {
@@ -476,6 +511,245 @@
     border-radius: var(--lp-radius-phone);
     background: var(--lp-wash);
     object-fit: cover;
+  }
+
+  /* -- Site nav: two pill groups and a dark mega menu ----------------------
+     A copy of kobbe.io's header. The panel opens and closes with no motion,
+     as the reference does — it is opened many times a session. */
+  .lp-nav {
+    position: sticky;
+    top: 0;
+    z-index: var(--lp-z-nav);
+    padding-block: var(--lp-space-2-5);
+  }
+  .lp-nav-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: var(--lp-nav-max);
+    margin-inline: auto;
+    padding-inline: var(--lp-space-8);
+  }
+  .lp-nav-group {
+    display: flex;
+    align-items: center;
+    gap: var(--lp-space-1);
+    padding: var(--lp-space-1);
+    border-radius: var(--lp-radius-nav);
+    background: var(--lp-nav-wash);
+    font-size: var(--lp-text-nav);
+    line-height: var(--lp-text-nav--lh);
+    color: var(--lp-nav-ink);
+  }
+  .lp-nav-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--lp-nav-control);
+    height: var(--lp-nav-control);
+    border-radius: var(--lp-radius-nav-item);
+    background: var(--lp-nav-surface);
+    box-shadow: var(--lp-shadow-nav-xs);
+  }
+  .lp-nav-home img {
+    display: block;
+    width: var(--lp-nav-mark);
+    height: var(--lp-nav-mark);
+    object-fit: cover;
+  }
+
+  /* Text items: Menu, Pricing, Live demo, Sign in */
+  .lp-nav-item {
+    display: block;
+    padding: var(--lp-space-1-5);
+    border: 0;
+    border-radius: var(--lp-radius-nav-item);
+    background: transparent;
+    font: inherit;
+    font-weight: var(--font-weight-medium);
+    color: var(--lp-nav-ink);
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: opacity var(--duration-fast) var(--lp-ease-nav);
+  }
+  .lp-nav-item:hover { opacity: var(--lp-nav-hover-fade); }
+  .lp-nav-item-lead { padding-right: var(--lp-space-2-5); }   /* Menu    */
+  .lp-nav-item-first { padding-left: var(--lp-space-2-5); }   /* Pricing */
+
+  .lp-nav-cta {
+    display: block;
+    padding: var(--lp-space-1-5) var(--lp-space-3);
+    border-radius: var(--lp-radius-nav-item);
+    background: var(--lp-nav-ink);
+    font-weight: var(--font-weight-medium);
+    color: var(--lp-nav-on-ink);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background-color var(--duration-fast) var(--lp-ease-nav);
+  }
+  .lp-nav-cta:hover { background: var(--lp-nav-ink-hover); }
+
+  .lp-nav-home:focus-visible,
+  .lp-nav-item:focus-visible,
+  .lp-nav-cta:focus-visible {
+    outline: 2px solid var(--lp-focus);
+    outline-offset: 2px;
+  }
+
+  /* The panel */
+  .lp-nav-panel {
+    position: absolute;
+    top: 100%;
+    left: var(--lp-space-8);
+    right: var(--lp-space-8);
+    margin-top: var(--lp-space-2);
+    overflow: hidden;
+    border-radius: var(--lp-radius-nav);
+    background: var(--lp-nav-ink);
+    box-shadow: var(--lp-shadow-nav-lg);
+    color: var(--lp-nav-on-ink);
+  }
+  .lp-nav-panel[hidden] { display: none; }
+  .lp-nav-cols {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .lp-nav-col {
+    padding: var(--lp-space-7);
+  }
+  .lp-nav-col + .lp-nav-col { box-shadow: inset 1px 0 0 var(--lp-nav-divider); }
+  .lp-nav-col-wide { grid-column: span 2; }
+  .lp-nav-col-stack {
+    display: flex;
+    flex-direction: column;
+    gap: var(--lp-space-7);
+  }
+
+  .lp-nav-heading {
+    margin: 0;
+    font-size: var(--lp-text-nav);
+    line-height: var(--lp-text-nav--lh);
+    font-weight: var(--font-weight-medium);
+    color: var(--lp-nav-on-ink);
+  }
+  .lp-nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: var(--lp-space-7);
+    margin: var(--lp-space-5) 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .lp-nav-links-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-content: start;
+    gap: var(--lp-space-7) var(--lp-space-8);
+  }
+
+  .lp-nav-link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    border-radius: var(--lp-radius-nav-icon);
+  }
+  .lp-nav-link-title {
+    display: flex;
+    align-items: center;
+    gap: var(--lp-space-1);
+    font-size: var(--lp-text-nav);
+    line-height: var(--lp-text-nav--lh);
+    font-weight: var(--font-weight-medium);
+    color: var(--lp-nav-on-ink);
+    transition: opacity var(--duration-fast) var(--lp-ease-nav);
+  }
+  .lp-nav-link:hover .lp-nav-link-title { opacity: var(--lp-nav-hover-fade); }
+  .lp-nav-link-desc {
+    display: block;
+    margin-top: var(--lp-space-1);
+    font-size: var(--lp-text-nav);
+    line-height: var(--lp-leading-nav-snug);
+    color: var(--lp-nav-on-ink-muted);
+  }
+  .lp-nav-arrow {
+    width: var(--lp-nav-icon);
+    height: var(--lp-nav-icon);
+    flex: none;
+  }
+
+  /* Integration groups */
+  .lp-nav-group-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--lp-space-3);
+  }
+  .lp-nav-see-all {
+    flex: none;
+    font-size: var(--lp-text-nav-xs);
+    line-height: var(--lp-text-nav-xs--lh);
+    font-weight: var(--font-weight-medium);
+    color: var(--lp-nav-on-ink-muted);
+    text-decoration: none;
+    transition: color var(--duration-fast) var(--lp-ease-nav);
+  }
+  .lp-nav-see-all:hover { color: var(--lp-nav-on-ink); }
+  .lp-nav-chips {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--lp-space-2) var(--lp-space-4);
+    margin: var(--lp-space-3) 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .lp-nav-chip {
+    display: flex;
+    align-items: center;
+    gap: var(--lp-space-2);
+    font-size: var(--lp-text-nav);
+    line-height: var(--lp-text-nav--lh);
+    color: var(--lp-nav-on-ink-soft);
+    text-decoration: none;
+    transition: color var(--duration-fast) var(--lp-ease-nav);
+  }
+  .lp-nav-chip:hover { color: var(--lp-nav-on-ink); }
+  .lp-nav-chip img {
+    display: block;
+    width: var(--lp-nav-icon);
+    height: var(--lp-nav-icon);
+    flex: none;
+    border-radius: var(--lp-radius-nav-icon);
+    object-fit: contain;
+  }
+
+  .lp-nav-panel :is(.lp-nav-link, .lp-nav-see-all, .lp-nav-chip):focus-visible {
+    outline: 2px solid var(--lp-nav-on-ink);
+    outline-offset: 2px;
+  }
+
+  /* Narrower screens: the panel re-flows, the secondary links fold away */
+  @media (max-width: 1023px) {
+    .lp-nav-bar { padding-inline: var(--lp-gutter); }
+    .lp-nav-panel { left: var(--lp-gutter); right: var(--lp-gutter); }
+    .lp-nav-cols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    /* Product + integrations share the first row; Docs takes the second */
+    .lp-nav-col-wide {
+      grid-column: 1 / -1;
+      order: 1;
+      box-shadow: inset 0 1px 0 var(--lp-nav-divider);
+    }
+  }
+  @media (max-width: 767px) {
+    .lp-nav-optional { display: none; }
+    .lp-nav-panel {
+      max-height: calc(100dvh - 2 * var(--lp-nav-control) - var(--lp-space-5));
+      overflow-y: auto;
+    }
+    .lp-nav-cols { grid-template-columns: minmax(0, 1fr); }
+    .lp-nav-col + .lp-nav-col { box-shadow: inset 0 1px 0 var(--lp-nav-divider); }
+    .lp-nav-links-grid { grid-template-columns: minmax(0, 1fr); }
   }
 }
 
