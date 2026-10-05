@@ -1,0 +1,21 @@
+{
+  "id": "e067b0b9-4ab1-446a-8323-5ec973966291",
+  "type": "frame",
+  "tag": "div",
+  "name": "bottom",
+  "parent": "e0fa40fd-15a8-4ab3-8cb6-94fe05085381",
+  "order": "V",
+  "createdAt": "2026-10-05T18:32:04.407Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "e120074e-5b93-4c80-820c-782eccf700e6"
+  },
+  "style": {
+    "position": "absolute",
+    "left": 27.47978778456559,
+    "top": 703.9154669705542,
+    "width": "486px",
+    "height": "197px"
+  },
+  "updatedAt": "2026-10-05T18:32:24.399Z"
+}

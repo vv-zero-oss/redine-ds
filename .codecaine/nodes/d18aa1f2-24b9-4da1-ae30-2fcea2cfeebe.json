@@ -1,0 +1,37 @@
+{
+  "id": "d18aa1f2-24b9-4da1-ae30-2fcea2cfeebe",
+  "type": "frame",
+  "tag": "button",
+  "name": "Button",
+  "parent": "e0fa40fd-15a8-4ab3-8cb6-94fe05085381",
+  "order": "d",
+  "createdAt": "2026-10-05T18:32:04.407Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "38306f9c-d96b-4743-bf49-dc9591e6fc15"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "borderWidth": 0,
+    "borderStyle": "solid",
+    "borderColor": "currentColor",
+    "backgroundColor": "rgb(243, 105, 0)",
+    "position": "absolute",
+    "left": "27.48px",
+    "top": "1044.27px",
+    "width": "485.04px",
+    "height": "65.95px",
+    "borderTopLeftRadius": "13.74px",
+    "borderTopRightRadius": "13.74px",
+    "borderBottomRightRadius": "13.74px",
+    "borderBottomLeftRadius": "13.74px"
+  },
+  "updatedAt": "2026-10-05T18:32:04.407Z"
+}

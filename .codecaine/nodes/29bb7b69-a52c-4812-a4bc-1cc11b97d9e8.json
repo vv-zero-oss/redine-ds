@@ -1,0 +1,29 @@
+{
+  "id": "29bb7b69-a52c-4812-a4bc-1cc11b97d9e8",
+  "type": "text",
+  "tag": "p",
+  "name": "Starts Value",
+  "parent": "507dd125-98d5-4bdd-80e6-f8dd9a2ae76d",
+  "order": "V",
+  "createdAt": "2026-10-05T18:32:04.407Z",
+  "props": {
+    "text": "7 May 2025",
+    "data-import-type": "figma",
+    "data-codecaine-id": "991cf3b3-4d18-45da-a1a3-89a1d6d49227"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "21.98px",
+    "fontWeight": "500",
+    "lineHeight": "1",
+    "color": "rgb(0, 102, 153)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T18:32:04.407Z"
+}

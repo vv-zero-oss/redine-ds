@@ -1,0 +1,21 @@
+{
+  "id": "0d7c1fc9-a444-40cb-b882-ff462ed89b57",
+  "type": "frame",
+  "tag": "div",
+  "name": "Status Bar",
+  "parent": "1c1a3fd0-d957-487c-8650-1365c644bcb6",
+  "order": "V",
+  "createdAt": "2026-10-05T18:32:04.407Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "c29fe256-d4d2-4745-873b-28aac5596e2b"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "540px",
+    "height": "75.57px"
+  },
+  "updatedAt": "2026-10-05T18:32:04.407Z"
+}

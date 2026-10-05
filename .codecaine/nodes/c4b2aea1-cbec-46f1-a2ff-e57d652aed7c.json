@@ -1,0 +1,29 @@
+{
+  "id": "c4b2aea1-cbec-46f1-a2ff-e57d652aed7c",
+  "type": "text",
+  "tag": "p",
+  "name": "Ends Value",
+  "parent": "8c8497bc-16c9-4419-b002-8675c30a628a",
+  "order": "V",
+  "createdAt": "2026-10-05T18:32:04.407Z",
+  "props": {
+    "text": "7 May 2025",
+    "data-import-type": "figma",
+    "data-codecaine-id": "2f65ea49-ea63-44c3-9288-f754aed04c60"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "21.98px",
+    "fontWeight": "500",
+    "lineHeight": "1",
+    "color": "rgb(0, 102, 153)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T18:32:04.407Z"
+}

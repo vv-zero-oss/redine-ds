@@ -1,0 +1,28 @@
+{
+  "id": "0ef6737c-88e8-451d-8cad-bb491bf512d9",
+  "type": "frame",
+  "tag": "div",
+  "name": "Toggle",
+  "parent": "a3bb8bc7-7690-4c9b-9b26-8489a61fd16b",
+  "order": "V",
+  "createdAt": "2026-10-05T18:32:04.407Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "3da7c5af-7fa8-4ee8-93bb-6846c9e7784c"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "392.98px",
+    "top": "11.68px",
+    "width": "70.08px",
+    "height": "42.6px",
+    "borderTopLeftRadius": "137.4px",
+    "borderTopRightRadius": "137.4px",
+    "borderBottomRightRadius": "137.4px",
+    "borderBottomLeftRadius": "137.4px",
+    "backgroundColor": "rgb(0, 102, 153)",
+    "overflowX": "hidden",
+    "overflowY": "hidden"
+  },
+  "updatedAt": "2026-10-05T18:32:04.407Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "f739c070-20d7-4bed-ada9-fc6443f54070",
+  "type": "frame",
+  "tag": "div",
+  "name": "home indicator",
+  "parent": "e0fa40fd-15a8-4ab3-8cb6-94fe05085381",
+  "order": "t",
+  "createdAt": "2026-10-05T18:32:04.407Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "e089c569-1eb3-4b92-a71e-f9381473cd04"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "1115.73px",
+    "width": "540px",
+    "height": "54.96px"
+  },
+  "updatedAt": "2026-10-05T18:32:04.407Z"
+}

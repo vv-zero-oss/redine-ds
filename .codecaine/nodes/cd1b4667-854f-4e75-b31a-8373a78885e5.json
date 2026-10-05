@@ -1,0 +1,21 @@
+{
+  "id": "cd1b4667-854f-4e75-b31a-8373a78885e5",
+  "type": "frame",
+  "tag": "div",
+  "name": "Levels",
+  "parent": "0d7c1fc9-a444-40cb-b882-ff462ed89b57",
+  "order": "V",
+  "createdAt": "2026-10-05T18:32:04.407Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "0f84cc36-62d9-4a6a-b84d-3a0ac37f9fab"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "346.95px",
+    "top": "-0.88px",
+    "width": "175.52px",
+    "height": "70.7px"
+  },
+  "updatedAt": "2026-10-05T18:32:04.407Z"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "a3bb8bc7-7690-4c9b-9b26-8489a61fd16b",
+  "type": "frame",
+  "tag": "div",
+  "name": "All-day Container",
+  "parent": "f96cb243-f4b5-41da-86ab-d870f7c4e168",
+  "order": "G",
+  "createdAt": "2026-10-05T18:32:04.407Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "b06455f5-3283-4dd3-ab46-f838356cc76d"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "485.04px",
+    "height": "65.95px",
+    "borderTopLeftRadius": "13.74px",
+    "borderTopRightRadius": "13.74px",
+    "borderBottomRightRadius": "0px",
+    "borderBottomLeftRadius": "0px",
+    "backgroundColor": "rgb(245, 243, 242)"
+  },
+  "updatedAt": "2026-10-05T18:32:04.407Z"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "af31cac0-7f42-4229-93a1-7c6dbdb32aa9",
+  "type": "frame",
+  "tag": "div",
+  "name": "Ends Container",
+  "parent": "c923807c-d2ed-423f-a79a-19bddbbd60eb",
+  "order": "V",
+  "createdAt": "2026-10-05T18:32:04.407Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "904fc2f6-1a5c-45da-b185-f1e11f2424ac"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "65.95px",
+    "width": "485.04px",
+    "height": "65.95px",
+    "borderTopLeftRadius": "13.74px",
+    "borderTopRightRadius": "13.74px",
+    "borderBottomRightRadius": "13.74px",
+    "borderBottomLeftRadius": "13.74px",
+    "borderTopWidth": "1.37px",
+    "borderTopStyle": "solid",
+    "borderTopColor": "rgb(224, 222, 220)",
+    "backgroundColor": "rgb(245, 243, 242)"
+  },
+  "updatedAt": "2026-10-05T18:32:04.407Z"
+}

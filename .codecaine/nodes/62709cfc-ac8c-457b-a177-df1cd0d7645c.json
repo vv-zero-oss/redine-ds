@@ -1,0 +1,31 @@
+{
+  "id": "62709cfc-ac8c-457b-a177-df1cd0d7645c",
+  "type": "text",
+  "tag": "p",
+  "name": "Starts Label",
+  "parent": "61fbf5e2-959e-4680-b61a-502ae586d7d5",
+  "order": "G",
+  "createdAt": "2026-10-05T18:32:04.407Z",
+  "props": {
+    "text": "Starts",
+    "data-import-type": "figma",
+    "data-codecaine-id": "398a08ea-b3de-4849-a234-688c0fd02df9"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "21.98px",
+    "top": "20.61px",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "21.98px",
+    "fontWeight": "500",
+    "lineHeight": "1",
+    "color": "rgb(25, 22, 20)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T18:32:04.407Z"
+}
