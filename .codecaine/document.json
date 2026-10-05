@@ -1423,6 +1423,22 @@
           "label": "This file",
           "at": 1791182370982
         }
+      },
+      "var:muuvvul6-15": {
+        "id": "var:muuvvul6-15",
+        "collectionId": "collection:default",
+        "property": "--flight-page-bg",
+        "name": "--flight-page-bg",
+        "category": "colors",
+        "values": {
+          "mode:default": "#f2f1ef"
+        },
+        "description": "Ground of the page that hosts the flight card.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182619546
+        }
       }
     },
     "order": [
@@ -1515,7 +1531,8 @@
       "var:muuvqh5d-11",
       "var:muuvqhr8-12",
       "var:muuvqif7-13",
-      "var:muuvqism-14"
+      "var:muuvqism-14",
+      "var:muuvvul6-15"
     ]
   }
 }

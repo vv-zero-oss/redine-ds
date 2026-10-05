@@ -3,7 +3,7 @@
   "type": "section",
   "tag": "article",
   "name": "Flight Progress Card",
-  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "parent": "c0f72d7f-d734-4bdc-a197-8a95f7164f18",
   "order": "zzzzzzl",
   "createdAt": "2026-10-05T06:42:08.384Z",
   "props": {
@@ -37,10 +37,7 @@
     "marginRight": 0,
     "marginBottom": 0,
     "marginLeft": 0,
-    "position": "absolute",
-    "left": 2716.935368361272,
-    "top": 2323.000671588359,
     "height": "auto"
   },
-  "updatedAt": "2026-10-05T06:42:11.067Z"
+  "updatedAt": "2026-10-05T06:43:47.737Z"
 }
