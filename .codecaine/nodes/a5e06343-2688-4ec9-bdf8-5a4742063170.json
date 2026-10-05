@@ -1,0 +1,26 @@
+{
+  "id": "a5e06343-2688-4ec9-bdf8-5a4742063170",
+  "type": "text",
+  "tag": "time",
+  "parent": "9efaea9b-c1f4-452e-8871-5135e798c3ca",
+  "order": "d",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "datetime": "09:45",
+    "className": "flight-departure-time",
+    "text": "9:45 AM",
+    "data-codecaine-id": "4a0ee96a-6dbd-4fac-a42e-2ce4b8030485"
+  },
+  "style": {
+    "gridColumnStart": "1",
+    "gridColumnEnd": "auto",
+    "gridRowStart": "3",
+    "gridRowEnd": "auto",
+    "fontSize": "var(--flight-label-size)",
+    "lineHeight": "var(--flight-label-line)",
+    "fontWeight": "var(--flight-label-weight)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T06:42:08.394Z"
+}

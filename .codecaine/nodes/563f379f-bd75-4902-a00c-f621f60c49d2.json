@@ -1,0 +1,25 @@
+{
+  "id": "563f379f-bd75-4902-a00c-f621f60c49d2",
+  "type": "frame",
+  "tag": "span",
+  "name": "span",
+  "parent": "13595fa6-c1f6-4b11-86a8-c53bc5f23238",
+  "order": "V",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "className": "flight-track-fill",
+    "data-codecaine-id": "80df2bac-869f-42dd-bf42-6d4e25ccbf44"
+  },
+  "style": {
+    "gridRowStart": "1",
+    "gridColumnStart": "1",
+    "gridRowEnd": "auto",
+    "gridColumnEnd": "auto",
+    "display": "block",
+    "height": "var(--flight-track-height)",
+    "clipPath": "inset(0 26% 0 0 round var(--flight-radius-track))",
+    "background": "var(--flight-fill)",
+    "borderRadius": "var(--flight-radius-track)"
+  },
+  "updatedAt": "2026-10-05T06:42:08.384Z"
+}

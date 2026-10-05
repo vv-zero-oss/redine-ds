@@ -1,0 +1,28 @@
+{
+  "id": "263d320d-c4af-4595-ac20-d86c414c99a2",
+  "type": "text",
+  "tag": "label",
+  "parent": "13595fa6-c1f6-4b11-86a8-c53bc5f23238",
+  "order": "8",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "for": "flight-progress",
+    "className": "flight-track-label",
+    "text": "Flight progress, San Francisco to Chennai",
+    "data-codecaine-id": "258c5df5-d2c9-4674-8945-478bcc696c23"
+  },
+  "style": {
+    "gridRowStart": "1",
+    "gridColumnStart": "1",
+    "gridRowEnd": "auto",
+    "gridColumnEnd": "auto",
+    "width": "1px",
+    "height": "1px",
+    "overflowX": "hidden",
+    "overflowY": "hidden",
+    "clipPath": "inset(50%)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T06:42:08.384Z"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "d4f6dfd5-5688-4cb9-ba31-52e0859a34ca",
+  "type": "text",
+  "tag": "span",
+  "name": "Countdown (screen reader)",
+  "parent": "e2cd10d7-293f-4f73-97c4-9e63e811ba3e",
+  "order": "l",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "className": "flight-countdown-text",
+    "text": "45 minutes",
+    "data-codecaine-id": "f494146f-bf61-4d8a-8a7f-e1e6e7982a69"
+  },
+  "style": {
+    "width": "1px",
+    "height": "1px",
+    "overflowX": "hidden",
+    "overflowY": "hidden",
+    "clipPath": "inset(50%)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap",
+    "display": "block",
+    "flex": "none",
+    "overflow": "hidden"
+  },
+  "updatedAt": "2026-10-05T06:42:30.989Z"
+}

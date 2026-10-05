@@ -1,0 +1,28 @@
+{
+  "id": "2bb68bed-a7de-4c3e-9b9f-bb6c27e08513",
+  "type": "text",
+  "tag": "time",
+  "parent": "9efaea9b-c1f4-452e-8871-5135e798c3ca",
+  "order": "t",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "datetime": "12:30",
+    "className": "flight-arrival-time",
+    "text": "12:30 PM",
+    "data-codecaine-id": "7a2b584c-22b0-4118-82e8-65ef1a1b23e6"
+  },
+  "style": {
+    "gridColumnStart": "3",
+    "gridColumnEnd": "auto",
+    "gridRowStart": "3",
+    "gridRowEnd": "auto",
+    "justifySelf": "end",
+    "textAlign": "right",
+    "fontSize": "var(--flight-label-size)",
+    "lineHeight": "var(--flight-label-line)",
+    "fontWeight": "var(--flight-label-weight)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T06:42:08.394Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "78be8eae-22d3-426e-91d3-2ab639faba28",
+  "type": "text",
+  "tag": "span",
+  "parent": "9efaea9b-c1f4-452e-8871-5135e798c3ca",
+  "order": "4",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "className": "flight-origin-city",
+    "text": "San Francisco",
+    "data-codecaine-id": "0eedb140-7416-4afa-a842-527efa1729e6"
+  },
+  "style": {
+    "gridColumnStart": "1",
+    "gridColumnEnd": "auto",
+    "gridRowStart": "1",
+    "gridRowEnd": "auto",
+    "fontSize": "var(--flight-label-size)",
+    "lineHeight": "var(--flight-label-line)",
+    "fontWeight": "var(--flight-label-weight)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T06:42:08.394Z"
+}

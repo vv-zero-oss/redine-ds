@@ -1,0 +1,27 @@
+{
+  "id": "331fa3c4-aa21-4953-b01b-3c67cb3d1e41",
+  "type": "text",
+  "tag": "span",
+  "parent": "9efaea9b-c1f4-452e-8871-5135e798c3ca",
+  "order": "8",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "className": "flight-destination-city",
+    "text": "Chennai",
+    "data-codecaine-id": "19b3f626-9e85-460c-b4fe-c506f7ea7cc1"
+  },
+  "style": {
+    "gridColumnStart": "3",
+    "gridColumnEnd": "auto",
+    "gridRowStart": "1",
+    "gridRowEnd": "auto",
+    "justifySelf": "end",
+    "textAlign": "right",
+    "fontSize": "var(--flight-label-size)",
+    "lineHeight": "var(--flight-label-line)",
+    "fontWeight": "var(--flight-label-weight)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T06:42:08.394Z"
+}

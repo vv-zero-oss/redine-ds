@@ -1,0 +1,21 @@
+{
+  "id": "e1cbe9a7-a52f-4a44-be87-e9452929fb41",
+  "type": "frame",
+  "tag": "span",
+  "name": "span",
+  "parent": "e2cd10d7-293f-4f73-97c4-9e63e811ba3e",
+  "order": "G",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "aria-hidden": "true",
+    "className": "flight-reel flight-reel-tens",
+    "data-codecaine-id": "d882aef2-7f4d-4920-a9ac-1795f0b0afab"
+  },
+  "style": {
+    "display": "block",
+    "height": "var(--flight-label-line)",
+    "overflowX": "hidden",
+    "overflowY": "hidden"
+  },
+  "updatedAt": "2026-10-05T06:42:08.384Z"
+}

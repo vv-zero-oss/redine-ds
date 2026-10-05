@@ -1,0 +1,25 @@
+{
+  "id": "e8ba12b1-2a6f-4dde-95ff-66eeab17cea1",
+  "type": "frame",
+  "tag": "span",
+  "name": "span",
+  "parent": "13595fa6-c1f6-4b11-86a8-c53bc5f23238",
+  "order": "d",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "className": "flight-plane-mover",
+    "data-codecaine-id": "27778a5c-cbc0-4b75-9fe5-43196ad643ce"
+  },
+  "style": {
+    "gridRowStart": "1",
+    "gridColumnStart": "1",
+    "gridRowEnd": "auto",
+    "gridColumnEnd": "auto",
+    "display": "block",
+    "width": "calc(100% - var(--flight-plane-size))",
+    "height": "var(--flight-plane-size)",
+    "transform": "translateX(72.7%)",
+    "pointerEvents": "none"
+  },
+  "updatedAt": "2026-10-05T06:42:08.384Z"
+}

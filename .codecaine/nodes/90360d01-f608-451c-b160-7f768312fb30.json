@@ -1,0 +1,24 @@
+{
+  "id": "90360d01-f608-451c-b160-7f768312fb30",
+  "type": "frame",
+  "tag": "span",
+  "name": "span",
+  "parent": "13595fa6-c1f6-4b11-86a8-c53bc5f23238",
+  "order": "G",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "className": "flight-track-base",
+    "data-codecaine-id": "34a0cb3a-da93-4bc2-ba3d-4df008b0e4f2"
+  },
+  "style": {
+    "gridRowStart": "1",
+    "gridColumnStart": "1",
+    "gridRowEnd": "auto",
+    "gridColumnEnd": "auto",
+    "display": "block",
+    "height": "var(--flight-track-height)",
+    "background": "var(--flight-track)",
+    "borderRadius": "var(--flight-radius-track)"
+  },
+  "updatedAt": "2026-10-05T06:42:08.384Z"
+}

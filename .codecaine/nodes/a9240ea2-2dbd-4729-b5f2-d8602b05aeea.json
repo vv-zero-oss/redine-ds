@@ -1,0 +1,26 @@
+{
+  "id": "a9240ea2-2dbd-4729-b5f2-d8602b05aeea",
+  "type": "frame",
+  "tag": "svg",
+  "name": "svg",
+  "parent": "7175c453-94e1-4294-8d51-4dfc37d9cda0",
+  "order": "G",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "aria-hidden": "true",
+    "width": "10",
+    "height": "10",
+    "viewBox": "0 0 10 10",
+    "className": "flight-icon-pause",
+    "innerMarkup": "<rect x=\"1.5\" y=\"1\" width=\"2.5\" height=\"8\" rx=\"1\" fill=\"currentColor\"></rect><rect x=\"6\" y=\"1\" width=\"2.5\" height=\"8\" rx=\"1\" fill=\"currentColor\"></rect>",
+    "data-codecaine-id": "2eced9a3-0e63-40cf-9405-b6329ccf31a5"
+  },
+  "style": {
+    "display": "block",
+    "gridRowStart": "1",
+    "gridColumnStart": "1",
+    "gridRowEnd": "auto",
+    "gridColumnEnd": "auto"
+  },
+  "updatedAt": "2026-10-05T06:42:08.384Z"
+}

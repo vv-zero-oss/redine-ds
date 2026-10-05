@@ -1,0 +1,23 @@
+{
+  "id": "9d11f08d-56d9-4b06-adb0-406a33e6b004",
+  "type": "text",
+  "tag": "span",
+  "name": "Reel strip (tens)",
+  "parent": "e1cbe9a7-a52f-4a44-be87-e9452929fb41",
+  "order": "V",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "className": "flight-reel-strip",
+    "text": "0\n1\n2\n3\n4\n5\n6\n7\n8\n9",
+    "data-codecaine-id": "70b11fbe-e44e-4b61-8933-2e1c0debd4d1"
+  },
+  "style": {
+    "display": "block",
+    "flexDirection": "column",
+    "transform": "translateY(calc(-4 * var(--flight-label-line)))",
+    "whiteSpace": "pre-line",
+    "lineHeight": "var(--flight-label-line)",
+    "textAlign": "center"
+  },
+  "updatedAt": "2026-10-05T06:42:45.191Z"
+}

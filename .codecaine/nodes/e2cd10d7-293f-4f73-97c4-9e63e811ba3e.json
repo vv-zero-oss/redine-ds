@@ -1,0 +1,20 @@
+{
+  "id": "e2cd10d7-293f-4f73-97c4-9e63e811ba3e",
+  "type": "section",
+  "tag": "span",
+  "name": "span",
+  "parent": "c507dd2a-5de9-4f71-81c9-0e951c6e8a31",
+  "order": "V",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "className": "flight-countdown",
+    "data-codecaine-id": "79a5b817-dffe-4728-a984-fa8d8b6b6a0a"
+  },
+  "style": {
+    "display": "inline-flex",
+    "alignItems": "center",
+    "color": "var(--flight-accent)",
+    "fontVariantNumeric": "tabular-nums"
+  },
+  "updatedAt": "2026-10-05T06:42:08.384Z"
+}

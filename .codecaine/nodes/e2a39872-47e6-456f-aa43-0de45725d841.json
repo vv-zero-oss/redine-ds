@@ -1,0 +1,23 @@
+{
+  "id": "e2a39872-47e6-456f-aa43-0de45725d841",
+  "type": "text",
+  "tag": "span",
+  "name": "Reel strip (ones)",
+  "parent": "34647703-32df-4fda-923b-5ffced7f8db3",
+  "order": "V",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "className": "flight-reel-strip",
+    "text": "0\n1\n2\n3\n4\n5\n6\n7\n8\n9",
+    "data-codecaine-id": "aca0b2e4-95a1-41a9-b698-c260e5b5faf1"
+  },
+  "style": {
+    "display": "block",
+    "flexDirection": "column",
+    "transform": "translateY(calc(-5 * var(--flight-label-line)))",
+    "whiteSpace": "pre-line",
+    "lineHeight": "var(--flight-label-line)",
+    "textAlign": "center"
+  },
+  "updatedAt": "2026-10-05T06:42:46.634Z"
+}

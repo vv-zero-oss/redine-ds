@@ -1,0 +1,28 @@
+{
+  "id": "c507dd2a-5de9-4f71-81c9-0e951c6e8a31",
+  "type": "section",
+  "tag": "p",
+  "name": "p",
+  "parent": "c822a379-b091-4408-ab86-3d8f15cf4a40",
+  "order": "V",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "className": "flight-arrival",
+    "data-codecaine-id": "a7cb40c1-943d-4028-b84a-f28ec03804aa"
+  },
+  "style": {
+    "marginTop": "0px",
+    "marginRight": "0px",
+    "marginBottom": "0px",
+    "marginLeft": "0px",
+    "display": "flex",
+    "alignItems": "center",
+    "fontSize": "var(--flight-label-size)",
+    "lineHeight": "var(--flight-label-line)",
+    "fontWeight": "var(--flight-label-weight)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap",
+    "gap": "var(--space-1)"
+  },
+  "updatedAt": "2026-10-05T06:42:08.384Z"
+}

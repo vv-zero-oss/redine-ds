@@ -1,0 +1,16 @@
+{
+  "id": "6f4de3e7-64f1-44a5-9bca-da6bda275ba2",
+  "type": "text",
+  "tag": "span",
+  "parent": "e2cd10d7-293f-4f73-97c4-9e63e811ba3e",
+  "order": "d",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "aria-hidden": "true",
+    "className": "flight-countdown-unit",
+    "text": "m",
+    "data-codecaine-id": "fffb51dc-1f09-4f57-bb88-787f74fedc7e"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T06:42:08.384Z"
+}

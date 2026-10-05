@@ -1,0 +1,21 @@
+{
+  "id": "86b9284c-6fbc-4520-a9d9-fa73cb1019c7",
+  "type": "frame",
+  "tag": "span",
+  "name": "span",
+  "parent": "e8ba12b1-2a6f-4dde-95ff-66eeab17cea1",
+  "order": "V",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "className": "flight-plane",
+    "data-codecaine-id": "9302e806-af2e-42c8-a8f8-586041d782c3"
+  },
+  "style": {
+    "display": "block",
+    "width": "var(--flight-plane-size)",
+    "height": "var(--flight-plane-size)",
+    "boxShadow": "var(--flight-shadow-fill)",
+    "borderRadius": "var(--flight-radius-track)"
+  },
+  "updatedAt": "2026-10-05T06:42:08.384Z"
+}

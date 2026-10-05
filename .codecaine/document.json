@@ -3,6 +3,13 @@
   "id": "686ae30c-a8c6-47e3-beeb-ad2a43689901",
   "name": "redine-ds",
   "rootId": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "canvasFill": {
+    "backgroundColor": "#f2f2f2",
+    "backgroundImage": "none",
+    "backgroundRepeat": "no-repeat",
+    "backgroundSize": "auto",
+    "backgroundPosition": "0% 0%"
+  },
   "fonts": [
     {
       "kind": "google",
@@ -1072,6 +1079,350 @@
           "label": "This file",
           "at": 1791182099859
         }
+      },
+      "var:muuvq67d-j": {
+        "id": "var:muuvq67d-j",
+        "collectionId": "collection:default",
+        "property": "--flight-card-bg",
+        "name": "--flight-card-bg",
+        "category": "colors",
+        "values": {
+          "mode:default": "#010101"
+        },
+        "description": "Ground of the flight progress card.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182354665
+        }
+      },
+      "var:muuvq6sr-k": {
+        "id": "var:muuvq6sr-k",
+        "collectionId": "collection:default",
+        "property": "--flight-card-text",
+        "name": "--flight-card-text",
+        "category": "colors",
+        "values": {
+          "mode:default": "#ffffff"
+        },
+        "description": "All text and icons on the flight card.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182355435
+        }
+      },
+      "var:muuvq7dl-l": {
+        "id": "var:muuvq7dl-l",
+        "collectionId": "collection:default",
+        "property": "--flight-track",
+        "name": "--flight-track",
+        "category": "colors",
+        "values": {
+          "mode:default": "#535353"
+        },
+        "description": "Unflown part of the flight progress track.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182356185
+        }
+      },
+      "var:muuvq7zz-m": {
+        "id": "var:muuvq7zz-m",
+        "collectionId": "collection:default",
+        "property": "--flight-accent",
+        "name": "--flight-accent",
+        "category": "colors",
+        "values": {
+          "mode:default": "#fa4c03"
+        },
+        "description": "Flight accent: arrival countdown and focus ring.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182356991
+        }
+      },
+      "var:muuvq8oz-n": {
+        "id": "var:muuvq8oz-n",
+        "collectionId": "collection:default",
+        "property": "--flight-fill",
+        "name": "--flight-fill",
+        "category": "gradient",
+        "values": {
+          "mode:default": "linear-gradient(90deg, #ff3805 0%, #f95002 100%)"
+        },
+        "description": "Flown part of the flight progress track.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182357891
+        }
+      },
+      "var:muuvq9vw-o": {
+        "id": "var:muuvq9vw-o",
+        "collectionId": "collection:default",
+        "property": "--flight-shadow-card",
+        "name": "--flight-shadow-card",
+        "category": "box-shadow",
+        "values": {
+          "mode:default": "4.76px 2.86px 11.43px rgba(0,0,0,0.2), 18.1px 11.43px 20.96px rgba(0,0,0,0.18), 40px 24.77px 28.58px rgba(0,0,0,0.1), 70.48px 44.77px 33.34px rgba(0,0,0,0.03)"
+        },
+        "description": "Long cast shadow under the flight card.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182359436
+        }
+      },
+      "var:muuvqaxi-p": {
+        "id": "var:muuvqaxi-p",
+        "collectionId": "collection:default",
+        "property": "--flight-shadow-fill",
+        "name": "--flight-shadow-fill",
+        "category": "box-shadow",
+        "values": {
+          "mode:default": "1.9px 0 3.81px rgba(0,0,0,0.54), 6.67px 0 6.67px rgba(0,0,0,0.47), 16.19px 0 9.52px rgba(0,0,0,0.27)"
+        },
+        "description": "Shadow trailing the plane on the flown track.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182360790
+        }
+      },
+      "var:muuvqbcn-q": {
+        "id": "var:muuvqbcn-q",
+        "collectionId": "collection:default",
+        "property": "--flight-radius-card",
+        "name": "--flight-radius-card",
+        "category": "spacing",
+        "values": {
+          "mode:default": "20px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182361335
+        }
+      },
+      "var:muuvqbry-r": {
+        "id": "var:muuvqbry-r",
+        "collectionId": "collection:default",
+        "property": "--flight-radius-track",
+        "name": "--flight-radius-track",
+        "category": "spacing",
+        "values": {
+          "mode:default": "12px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182361886
+        }
+      },
+      "var:muuvqccr-s": {
+        "id": "var:muuvqccr-s",
+        "collectionId": "collection:default",
+        "property": "--flight-code-size",
+        "name": "--flight-code-size",
+        "category": "spacing",
+        "values": {
+          "mode:default": "24px"
+        },
+        "description": "Airport code (SFO, MAA).",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182362635
+        }
+      },
+      "var:muuvqcqm-t": {
+        "id": "var:muuvqcqm-t",
+        "collectionId": "collection:default",
+        "property": "--flight-code-line",
+        "name": "--flight-code-line",
+        "category": "spacing",
+        "values": {
+          "mode:default": "24px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182363134
+        }
+      },
+      "var:muuvqdbn-u": {
+        "id": "var:muuvqdbn-u",
+        "collectionId": "collection:default",
+        "property": "--flight-label-size",
+        "name": "--flight-label-size",
+        "category": "spacing",
+        "values": {
+          "mode:default": "11px"
+        },
+        "description": "City, time and countdown labels.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182363891
+        }
+      },
+      "var:muuvqdyk-v": {
+        "id": "var:muuvqdyk-v",
+        "collectionId": "collection:default",
+        "property": "--flight-label-line",
+        "name": "--flight-label-line",
+        "category": "spacing",
+        "values": {
+          "mode:default": "12px"
+        },
+        "description": "Line height of labels; also the height of one countdown digit.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182364716
+        }
+      },
+      "var:muuvqed5-w": {
+        "id": "var:muuvqed5-w",
+        "collectionId": "collection:default",
+        "property": "--flight-label-weight",
+        "name": "--flight-label-weight",
+        "category": "number",
+        "values": {
+          "mode:default": "500"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182365241
+        }
+      },
+      "var:muuvqetd-x": {
+        "id": "var:muuvqetd-x",
+        "collectionId": "collection:default",
+        "property": "--flight-track-height",
+        "name": "--flight-track-height",
+        "category": "spacing",
+        "values": {
+          "mode:default": "10px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182365825
+        }
+      },
+      "var:muuvqf6l-y": {
+        "id": "var:muuvqf6l-y",
+        "collectionId": "collection:default",
+        "property": "--flight-plane-size",
+        "name": "--flight-plane-size",
+        "category": "spacing",
+        "values": {
+          "mode:default": "20px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182366301
+        }
+      },
+      "var:muuvqftx-z": {
+        "id": "var:muuvqftx-z",
+        "collectionId": "collection:default",
+        "property": "--flight-control-xs",
+        "name": "--flight-control-xs",
+        "category": "spacing",
+        "values": {
+          "mode:default": "24px"
+        },
+        "description": "Icon button inside the card (play/pause).",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182367141
+        }
+      },
+      "var:muuvqger-10": {
+        "id": "var:muuvqger-10",
+        "collectionId": "collection:default",
+        "property": "--flight-focus-ring",
+        "name": "--flight-focus-ring",
+        "category": "box-shadow",
+        "values": {
+          "mode:default": "0 0 0 2px var(--flight-card-bg), 0 0 0 4px var(--flight-accent)"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182367891
+        }
+      },
+      "var:muuvqh5d-11": {
+        "id": "var:muuvqh5d-11",
+        "collectionId": "collection:default",
+        "property": "--flight-duration-throw",
+        "name": "--flight-duration-throw",
+        "category": "string",
+        "values": {
+          "mode:default": "1100ms"
+        },
+        "description": "The plane's opening throw from origin to its current position.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182368849
+        }
+      },
+      "var:muuvqhr8-12": {
+        "id": "var:muuvqhr8-12",
+        "collectionId": "collection:default",
+        "property": "--flight-duration-roll",
+        "name": "--flight-duration-roll",
+        "category": "string",
+        "values": {
+          "mode:default": "280ms"
+        },
+        "description": "One countdown digit rolling to the next.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182369636
+        }
+      },
+      "var:muuvqif7-13": {
+        "id": "var:muuvqif7-13",
+        "collectionId": "collection:default",
+        "property": "--flight-duration-minute",
+        "name": "--flight-duration-minute",
+        "category": "string",
+        "values": {
+          "mode:default": "700ms"
+        },
+        "description": "How long one flight minute lasts in the demo playback.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182370499
+        }
+      },
+      "var:muuvqism-14": {
+        "id": "var:muuvqism-14",
+        "collectionId": "collection:default",
+        "property": "--flight-ease-out",
+        "name": "--flight-ease-out",
+        "category": "string",
+        "values": {
+          "mode:default": "cubic-bezier(0.22, 1, 0.36, 1)"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791182370982
+        }
       }
     },
     "order": [
@@ -1142,7 +1493,29 @@
       "var:muuvkn2r-f",
       "var:muuvkns2-g",
       "var:muuvkoci-h",
-      "var:muuvkplf-i"
+      "var:muuvkplf-i",
+      "var:muuvq67d-j",
+      "var:muuvq6sr-k",
+      "var:muuvq7dl-l",
+      "var:muuvq7zz-m",
+      "var:muuvq8oz-n",
+      "var:muuvq9vw-o",
+      "var:muuvqaxi-p",
+      "var:muuvqbcn-q",
+      "var:muuvqbry-r",
+      "var:muuvqccr-s",
+      "var:muuvqcqm-t",
+      "var:muuvqdbn-u",
+      "var:muuvqdyk-v",
+      "var:muuvqed5-w",
+      "var:muuvqetd-x",
+      "var:muuvqf6l-y",
+      "var:muuvqftx-z",
+      "var:muuvqger-10",
+      "var:muuvqh5d-11",
+      "var:muuvqhr8-12",
+      "var:muuvqif7-13",
+      "var:muuvqism-14"
     ]
   }
 }

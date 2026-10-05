@@ -1,0 +1,24 @@
+{
+  "id": "c822a379-b091-4408-ab86-3d8f15cf4a40",
+  "type": "section",
+  "tag": "div",
+  "name": "div",
+  "parent": "9efaea9b-c1f4-452e-8871-5135e798c3ca",
+  "order": "l",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "className": "flight-status",
+    "data-codecaine-id": "2acd9137-1586-41bb-863c-8160dd1b65ee"
+  },
+  "style": {
+    "gridColumnStart": "2",
+    "gridColumnEnd": "auto",
+    "gridRowStart": "3",
+    "gridRowEnd": "auto",
+    "display": "flex",
+    "alignItems": "center",
+    "justifyContent": "center",
+    "gap": "var(--space-2)"
+  },
+  "updatedAt": "2026-10-05T06:42:08.394Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "13595fa6-c1f6-4b11-86a8-c53bc5f23238",
+  "type": "section",
+  "tag": "div",
+  "name": "div",
+  "parent": "9efaea9b-c1f4-452e-8871-5135e798c3ca",
+  "order": "O",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "className": "flight-track",
+    "data-codecaine-id": "435f649f-2e6b-4b00-b34d-5b1abd1ed07b"
+  },
+  "style": {
+    "gridColumnStart": "2",
+    "gridColumnEnd": "auto",
+    "gridRowStart": "2",
+    "gridRowEnd": "auto",
+    "display": "grid",
+    "alignItems": "center",
+    "height": "var(--flight-plane-size)",
+    "borderRadius": "var(--flight-radius-track)"
+  },
+  "updatedAt": "2026-10-05T06:42:08.394Z"
+}

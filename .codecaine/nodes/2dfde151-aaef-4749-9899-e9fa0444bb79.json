@@ -1,0 +1,40 @@
+{
+  "id": "2dfde151-aaef-4749-9899-e9fa0444bb79",
+  "type": "input",
+  "tag": "input",
+  "parent": "13595fa6-c1f6-4b11-86a8-c53bc5f23238",
+  "order": "l",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "id": "flight-progress",
+    "type": "range",
+    "min": "0",
+    "max": "165",
+    "step": "1",
+    "value": "120",
+    "aria-valuetext": "45 minutes until arrival in Chennai",
+    "className": "flight-progress-input cursor-pointer disabled:cursor-not-allowed",
+    "data-codecaine-id": "085b18b5-d673-450b-bad0-2040c8bcb461"
+  },
+  "style": {
+    "marginTop": "0px",
+    "marginRight": "0px",
+    "marginBottom": "0px",
+    "marginLeft": "0px",
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "borderWidth": 0,
+    "borderStyle": "solid",
+    "borderColor": "currentColor",
+    "gridRowStart": "1",
+    "gridColumnStart": "1",
+    "gridRowEnd": "auto",
+    "gridColumnEnd": "auto",
+    "width": "100%",
+    "height": "var(--flight-plane-size)",
+    "opacity": "0"
+  },
+  "updatedAt": "2026-10-05T06:42:08.384Z"
+}

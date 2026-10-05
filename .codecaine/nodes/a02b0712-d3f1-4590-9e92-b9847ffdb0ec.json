@@ -1,0 +1,15 @@
+{
+  "id": "a02b0712-d3f1-4590-9e92-b9847ffdb0ec",
+  "type": "text",
+  "tag": "span",
+  "parent": "c507dd2a-5de9-4f71-81c9-0e951c6e8a31",
+  "order": "G",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "className": "flight-arrival-label",
+    "text": "Arrives in",
+    "data-codecaine-id": "a1881d22-740e-47c5-9162-96d6748c84da"
+  },
+  "style": {},
+  "updatedAt": "2026-10-05T06:42:08.384Z"
+}

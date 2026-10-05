@@ -1,0 +1,19 @@
+{
+  "id": "b9e4cfde-8047-4eed-9d0d-584ece426c80",
+  "type": "text",
+  "tag": "span",
+  "parent": "e2cd10d7-293f-4f73-97c4-9e63e811ba3e",
+  "order": "8",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "aria-hidden": "true",
+    "className": "flight-countdown-hours",
+    "text": "1h",
+    "data-codecaine-id": "09cdc466-3130-4821-b456-1078cba32c73"
+  },
+  "style": {
+    "display": "none",
+    "paddingRight": "var(--space-1)"
+  },
+  "updatedAt": "2026-10-05T06:42:08.384Z"
+}

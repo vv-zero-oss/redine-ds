@@ -1,0 +1,29 @@
+{
+  "id": "e15e1163-74e3-4d0a-9da3-41b943274276",
+  "type": "text",
+  "tag": "abbr",
+  "parent": "9efaea9b-c1f4-452e-8871-5135e798c3ca",
+  "order": "V",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "title": "Chennai International Airport",
+    "className": "flight-destination-code",
+    "text": "MAA",
+    "data-codecaine-id": "83fe1567-4d2f-4ec0-aedf-941574229396"
+  },
+  "style": {
+    "gridColumnStart": "3",
+    "gridColumnEnd": "auto",
+    "gridRowStart": "2",
+    "gridRowEnd": "auto",
+    "justifySelf": "end",
+    "textDecorationLine": "none",
+    "textDecorationThickness": "initial",
+    "textDecorationStyle": "initial",
+    "textDecorationColor": "initial",
+    "fontSize": "var(--flight-code-size)",
+    "lineHeight": "var(--flight-code-line)",
+    "fontWeight": "400"
+  },
+  "updatedAt": "2026-10-05T06:42:08.394Z"
+}

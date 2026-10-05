@@ -1,0 +1,26 @@
+{
+  "id": "009ca838-b8f9-47bb-91df-0ecbe83aab2b",
+  "type": "frame",
+  "tag": "svg",
+  "name": "svg",
+  "parent": "7175c453-94e1-4294-8d51-4dfc37d9cda0",
+  "order": "V",
+  "createdAt": "2026-10-05T06:42:08.384Z",
+  "props": {
+    "aria-hidden": "true",
+    "width": "10",
+    "height": "10",
+    "viewBox": "0 0 10 10",
+    "className": "flight-icon-play",
+    "innerMarkup": "<path d=\"M2.5 1.4v7.2a.6.6 0 0 0 .9.5l5.6-3.6a.6.6 0 0 0 0-1L3.4.9a.6.6 0 0 0-.9.5Z\" fill=\"currentColor\"></path>",
+    "data-codecaine-id": "3e92fe76-265f-4bbc-b428-8e70bf6250cb"
+  },
+  "style": {
+    "display": "none",
+    "gridRowStart": "1",
+    "gridColumnStart": "1",
+    "gridRowEnd": "auto",
+    "gridColumnEnd": "auto"
+  },
+  "updatedAt": "2026-10-05T06:42:08.384Z"
+}
