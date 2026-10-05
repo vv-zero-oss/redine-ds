@@ -27,7 +27,8 @@
   ],
   "props": {
     "src": "http://localhost:3000",
-    "data-codecaine-id": "e7ab87f6-faaa-4a38-907f-b238f21983d4"
+    "data-codecaine-id": "e7ab87f6-faaa-4a38-907f-b238f21983d4",
+    "animations": "reduce"
   },
   "sizing": {
     "width": "fixed",
@@ -40,5 +41,6 @@
     "width": 1280,
     "height": 900,
     "backgroundColor": "#ffffff"
-  }
+  },
+  "updatedAt": "2026-10-05T06:21:26.236Z"
 }
