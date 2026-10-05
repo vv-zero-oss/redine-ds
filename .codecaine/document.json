@@ -14,11 +14,11 @@
     },
     {
       "kind": "google",
-      "family": "Instrument Sans"
+      "family": "Roboto"
     },
     {
       "kind": "google",
-      "family": "Roboto"
+      "family": "Roboto Mono"
     }
   ],
   "variables": {

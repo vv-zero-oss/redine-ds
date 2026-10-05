@@ -1,0 +1,25 @@
+{
+  "id": "6ae29cdd-ba2b-4483-8498-b4eab89587c0",
+  "type": "section",
+  "tag": "div",
+  "name": "Accordion",
+  "parent": "4486ee31-e670-4ac0-adf2-4042d71cf2e1",
+  "order": "G",
+  "createdAt": "2026-10-05T06:05:20.061Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "0d0ae8f8-505b-4de1-81d6-3c4a2ee28fed"
+  },
+  "style": {
+    "width": "640px",
+    "flexShrink": "0",
+    "height": "360px",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start",
+    "rowGap": "16px",
+    "columnGap": "16px"
+  },
+  "updatedAt": "2026-10-05T06:05:20.061Z"
+}

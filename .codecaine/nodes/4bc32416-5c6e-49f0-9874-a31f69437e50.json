@@ -1,0 +1,25 @@
+{
+  "id": "4bc32416-5c6e-49f0-9874-a31f69437e50",
+  "type": "section",
+  "tag": "div",
+  "name": "Text",
+  "parent": "8c423d3b-9230-488f-a4ef-04ea57b423d3",
+  "order": "G",
+  "createdAt": "2026-10-05T06:05:20.061Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "ccd0be01-b364-402f-83e3-bbf105248ef4"
+  },
+  "style": {
+    "alignSelf": "stretch",
+    "height": "59px",
+    "flexShrink": "0",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start",
+    "rowGap": "8px",
+    "columnGap": "8px"
+  },
+  "updatedAt": "2026-10-05T06:05:20.061Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "c6d3f9f9-9154-41da-ba70-e37a424fc11e",
+  "type": "text",
+  "tag": "p",
+  "name": "Body",
+  "parent": "e9d2514e-3e25-41b9-84bf-02f32ffef405",
+  "order": "V",
+  "createdAt": "2026-10-05T06:05:20.061Z",
+  "props": {
+    "text": "Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.",
+    "data-import-type": "figma",
+    "data-codecaine-id": "a48c24c7-35fe-4958-9726-9df4d1aecfeb"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexGrow": "1",
+    "flexShrink": "1",
+    "flexBasis": "0px",
+    "minWidth": "0px",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "1.4",
+    "color": "rgb(30, 30, 30)"
+  },
+  "updatedAt": "2026-10-05T06:05:20.061Z"
+}

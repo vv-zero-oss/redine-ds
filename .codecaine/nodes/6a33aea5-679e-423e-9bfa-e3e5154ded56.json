@@ -1,0 +1,24 @@
+{
+  "id": "6a33aea5-679e-423e-9bfa-e3e5154ded56",
+  "type": "section",
+  "tag": "div",
+  "name": "Button Group",
+  "parent": "c567689e-cd6f-4f55-9d61-84473cb86ddc",
+  "order": "V",
+  "createdAt": "2026-10-05T06:05:20.061Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "83bc947b-4820-4f2b-ab3a-c0f29527efd8"
+  },
+  "style": {
+    "alignSelf": "stretch",
+    "flexShrink": "0",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "flex-end",
+    "alignItems": "center",
+    "rowGap": "16px",
+    "columnGap": "16px"
+  },
+  "updatedAt": "2026-10-05T06:05:20.061Z"
+}

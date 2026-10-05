@@ -1,0 +1,21 @@
+{
+  "id": "3c2ec40f-2acd-4afd-9332-3f0c567bd408",
+  "type": "frame",
+  "tag": "div",
+  "name": "Space",
+  "parent": "738099a7-c090-4461-894f-6039915dc771",
+  "order": "G",
+  "createdAt": "2026-10-05T06:05:20.061Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "4ef2bb48-a763-413b-ad63-1367227d14ad"
+  },
+  "style": {
+    "width": "16px",
+    "flexShrink": "0",
+    "height": "16px",
+    "overflowX": "hidden",
+    "overflowY": "hidden"
+  },
+  "updatedAt": "2026-10-05T06:05:20.061Z"
+}

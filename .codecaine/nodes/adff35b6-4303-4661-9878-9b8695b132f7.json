@@ -1,0 +1,22 @@
+{
+  "id": "adff35b6-4303-4661-9878-9b8695b132f7",
+  "type": "section",
+  "tag": "div",
+  "name": "Text Link List Item",
+  "parent": "c1cb2987-b7f0-4b38-b890-387c5c09c655",
+  "order": "t",
+  "createdAt": "2026-10-05T06:05:20.061Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "04f08d6b-9a02-44c3-9561-f028c0c42946"
+  },
+  "style": {
+    "width": "144px",
+    "flexShrink": "0",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "center",
+    "alignItems": "center"
+  },
+  "updatedAt": "2026-10-05T06:05:20.061Z"
+}

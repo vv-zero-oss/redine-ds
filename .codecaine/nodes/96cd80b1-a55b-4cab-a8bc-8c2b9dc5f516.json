@@ -1,0 +1,24 @@
+{
+  "id": "96cd80b1-a55b-4cab-a8bc-8c2b9dc5f516",
+  "type": "section",
+  "tag": "div",
+  "name": "Tabs",
+  "parent": "1b03504d-415b-45ea-bb4c-95a044d92b9c",
+  "order": "V",
+  "createdAt": "2026-10-05T06:05:20.061Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "5ea86551-6c98-467a-b538-5cc0a9d62b5c"
+  },
+  "style": {
+    "width": "374px",
+    "flexShrink": "0",
+    "overflowX": "hidden",
+    "overflowY": "hidden",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start"
+  },
+  "updatedAt": "2026-10-05T06:05:20.061Z"
+}

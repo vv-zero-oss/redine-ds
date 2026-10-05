@@ -1,0 +1,27 @@
+{
+  "id": "3df7475e-a941-4494-ad03-93aa3b3dd890",
+  "type": "section",
+  "tag": "div",
+  "name": "Stack",
+  "parent": "90a2bdbc-9df2-44fd-bb32-5158505d3202",
+  "order": "V",
+  "createdAt": "2026-10-05T06:05:20.061Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "1f998088-7287-4ee9-8755-3a456e67498f"
+  },
+  "style": {
+    "flexGrow": "1",
+    "flexShrink": "1",
+    "flexBasis": "0px",
+    "minWidth": "0px",
+    "height": "184px",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start",
+    "rowGap": "16px",
+    "columnGap": "16px"
+  },
+  "updatedAt": "2026-10-05T06:05:20.061Z"
+}

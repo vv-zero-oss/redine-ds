@@ -1,0 +1,30 @@
+{
+  "id": "fc04e034-709a-46cf-860f-5ac937217a33",
+  "type": "section",
+  "tag": "section",
+  "name": "Section",
+  "parent": "640315f2-2498-41a3-b066-2c8b33591c21",
+  "order": "G",
+  "createdAt": "2026-10-05T06:05:20.061Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "f8f2bc4b-d7e9-47ba-8c71-132c4018af44"
+  },
+  "style": {
+    "width": "1244px",
+    "flexShrink": "0",
+    "borderTopLeftRadius": "10px",
+    "borderTopRightRadius": "10px",
+    "borderBottomRightRadius": "10px",
+    "borderBottomLeftRadius": "10px",
+    "overflowX": "hidden",
+    "overflowY": "hidden",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start",
+    "rowGap": "48px",
+    "columnGap": "48px"
+  },
+  "updatedAt": "2026-10-05T06:05:20.061Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ed9aa009-1bcd-4ed7-9711-bdcf0235c48b",
+  "type": "section",
+  "tag": "div",
+  "name": "Input Field",
+  "parent": "fa277ddb-e57e-4810-a31c-d4dfc2dc63ba",
+  "order": "G",
+  "createdAt": "2026-10-05T06:05:20.061Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "9fd33986-a1b2-44e9-9f7c-49d693bbc85f"
+  },
+  "style": {
+    "alignSelf": "stretch",
+    "height": "70px",
+    "flexShrink": "0",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start",
+    "rowGap": "8px",
+    "columnGap": "8px"
+  },
+  "updatedAt": "2026-10-05T06:05:20.061Z"
+}

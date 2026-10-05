@@ -1,0 +1,32 @@
+{
+  "id": "d52f2c69-5315-4aff-8559-36502cd146a6",
+  "type": "section",
+  "tag": "nav",
+  "name": "Navigation Pill",
+  "parent": "1a7a9161-1046-477f-abaf-755a57e8b75a",
+  "order": "G",
+  "createdAt": "2026-10-05T06:05:20.061Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "1c71af2e-4534-4864-a4d7-b40a5c686ac1"
+  },
+  "style": {
+    "width": "86px",
+    "flexShrink": "0",
+    "borderTopLeftRadius": "8px",
+    "borderTopRightRadius": "8px",
+    "borderBottomRightRadius": "8px",
+    "borderBottomLeftRadius": "8px",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "rowGap": "8px",
+    "columnGap": "8px",
+    "paddingTop": "8px",
+    "paddingRight": "8px",
+    "paddingBottom": "8px",
+    "paddingLeft": "8px"
+  },
+  "updatedAt": "2026-10-05T06:05:20.061Z"
+}

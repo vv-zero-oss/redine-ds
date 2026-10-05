@@ -1,0 +1,25 @@
+{
+  "id": "ebe03f50-10ea-4147-8005-7e69ea6328c7",
+  "type": "section",
+  "tag": "div",
+  "name": "Textarea Field",
+  "parent": "fa277ddb-e57e-4810-a31c-d4dfc2dc63ba",
+  "order": "V",
+  "createdAt": "2026-10-05T06:05:20.061Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "187bc377-4538-4669-86c3-1d1c79bb0522"
+  },
+  "style": {
+    "alignSelf": "stretch",
+    "height": "110px",
+    "flexShrink": "0",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start",
+    "rowGap": "8px",
+    "columnGap": "8px"
+  },
+  "updatedAt": "2026-10-05T06:05:20.061Z"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "83e816d5-89fd-4201-a7d2-eeb0ce080e37",
+  "type": "text",
+  "tag": "p",
+  "name": "Title",
+  "parent": "e0a2c5c4-d939-42aa-9ad5-fb4b7fc25613",
+  "order": "V",
+  "createdAt": "2026-10-05T06:05:20.061Z",
+  "props": {
+    "text": "Link",
+    "data-import-type": "figma",
+    "data-codecaine-id": "5f4a43ad-cafc-4c22-9b08-f34ae38bb3e7"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "1",
+    "color": "rgb(30, 30, 30)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-05T06:05:20.061Z"
+}
