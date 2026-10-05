@@ -1,3 +1,5 @@
+import { GalleryClock } from "./gallery-clock";
+
 const FR = "https://framerusercontent.com/images";
 
 type Shot = { src: string; alt: string; shape: "wide" | "tall" };
@@ -59,6 +61,7 @@ export function Gallery() {
           </div>
         ))}
       </div>
+      <GalleryClock />
     </section>
   );
 }
