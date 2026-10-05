@@ -1,0 +1,33 @@
+{
+  "id": "5a0c8e4e-25e4-40a9-ac37-3bf40a21bef3",
+  "type": "image",
+  "tag": "img",
+  "name": "image 1",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzzzzt",
+  "createdAt": "2026-10-05T05:51:49.212Z",
+  "props": {
+    "src": "asset:media/images/0fd845284fb47efe85fb.png",
+    "alt": "image 1",
+    "data-import-type": "figma",
+    "data-codecaine-id": "06f53987-9eeb-4e7e-a336-a893891fb7eb"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {
+    "display": "block",
+    "width": 708,
+    "height": "708px",
+    "objectFit": "cover",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": -1335.9984944804353,
+    "top": 9000.002143466134
+  },
+  "updatedAt": "2026-10-05T05:53:20.566Z"
+}
