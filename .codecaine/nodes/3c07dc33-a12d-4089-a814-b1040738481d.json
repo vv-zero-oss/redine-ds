@@ -3,8 +3,8 @@
   "type": "frame",
   "tag": "svg",
   "name": "svg",
-  "parent": "20f96054-da97-4b4e-970d-00acbcb44904",
-  "order": "G",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzzzzx",
   "createdAt": "2026-10-05T16:29:25.929Z",
   "props": {
     "aria-hidden": "true",
@@ -47,8 +47,8 @@
     "gridColumnStart": "auto",
     "gridRowEnd": "auto",
     "gridColumnEnd": "auto",
-    "width": "16px",
-    "height": "19.7969px",
+    "width": 16,
+    "height": 19.796875,
     "minWidth": "auto",
     "minHeight": "auto",
     "maxWidth": "none",
@@ -110,7 +110,10 @@
     "listStyleType": "disc",
     "verticalAlign": "middle",
     "cursor": "auto",
-    "transform": "scale(1)"
+    "transform": "scale(1)",
+    "position": "absolute",
+    "left": 2070.7431922342075,
+    "top": -104.23957729424279
   },
-  "updatedAt": "2026-10-05T16:29:25.929Z"
+  "updatedAt": "2026-10-05T16:54:09.041Z"
 }

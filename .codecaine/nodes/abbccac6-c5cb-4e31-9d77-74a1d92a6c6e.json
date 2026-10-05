@@ -3,12 +3,13 @@
   "type": "frame",
   "tag": "div",
   "name": "div",
-  "parent": "20f96054-da97-4b4e-970d-00acbcb44904",
-  "order": "l",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzzzzl",
   "createdAt": "2026-10-05T16:29:25.929Z",
   "props": {
     "class": "mt-[6px] flex flex-col items-center gap-[8px]",
-    "data-codecaine-id": "8e84552b-1334-46f2-8ddc-66884ee679ab"
+    "data-codecaine-id": "8e84552b-1334-46f2-8ddc-66884ee679ab",
+    "data-board-restore": "{\"margin\":{\"marginTop\":\"6px\"}}"
   },
   "sizing": {
     "width": "fixed",
@@ -40,13 +41,13 @@
     "gridColumnStart": "auto",
     "gridRowEnd": "auto",
     "gridColumnEnd": "auto",
-    "width": "158px",
-    "height": "138px",
+    "width": 158,
+    "height": 138,
     "minWidth": "auto",
     "minHeight": "auto",
     "maxWidth": "none",
     "maxHeight": "none",
-    "marginTop": "6px",
+    "marginTop": 0,
     "marginRight": "0px",
     "marginBottom": "0px",
     "marginLeft": "0px",
@@ -102,7 +103,10 @@
     "listStyleImage": "none",
     "listStyleType": "disc",
     "verticalAlign": "baseline",
-    "cursor": "auto"
+    "cursor": "auto",
+    "position": "absolute",
+    "left": 2024.8410871977421,
+    "top": -24.963555974096604
   },
-  "updatedAt": "2026-10-05T16:29:25.929Z"
+  "updatedAt": "2026-10-05T16:55:29.123Z"
 }

@@ -1,0 +1,25 @@
+{
+  "id": "2a480d72-ed22-4387-a5e9-b7b85781f4bd",
+  "type": "frame",
+  "tag": "div",
+  "name": "Group",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzzzy",
+  "createdAt": "2026-10-05T16:55:21.676Z",
+  "props": {
+    "data-codecaine-id": "3f8907cf-febf-4171-bea9-233bd0cfcb96"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {
+    "width": 335.47523627710007,
+    "height": 43.39811399320001,
+    "position": "absolute",
+    "backgroundColor": "transparent",
+    "left": 1526.8823874054792,
+    "top": 354.13177006609595
+  },
+  "updatedAt": "2026-10-05T16:55:24.403Z"
+}

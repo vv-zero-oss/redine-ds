@@ -3,8 +3,8 @@
   "type": "frame",
   "tag": "p",
   "name": "p",
-  "parent": "20f96054-da97-4b4e-970d-00acbcb44904",
-  "order": "V",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzzzzt",
   "createdAt": "2026-10-05T16:29:25.929Z",
   "props": {
     "class": "text-center font-[420] text-[#E9E9E9] text-[14px] leading-[115%]",
@@ -40,8 +40,8 @@
     "gridColumnStart": "auto",
     "gridRowEnd": "auto",
     "gridColumnEnd": "auto",
-    "width": "91.8203px",
-    "height": "32.2031px",
+    "width": 91.8125,
+    "height": 32.1953125,
     "minWidth": "auto",
     "minHeight": "auto",
     "maxWidth": "none",
@@ -102,7 +102,10 @@
     "marginTop": "0px",
     "marginRight": "0px",
     "marginBottom": "0px",
-    "marginLeft": "0px"
+    "marginLeft": "0px",
+    "position": "absolute",
+    "left": 1978.9278004601422,
+    "top": 161.618009520599
   },
-  "updatedAt": "2026-10-05T16:29:25.929Z"
+  "updatedAt": "2026-10-05T16:54:07.615Z"
 }

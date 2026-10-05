@@ -2,7 +2,7 @@
   "id": "e59cca92-e22d-4bb5-8a11-3231ddd0182d",
   "type": "button",
   "tag": "button",
-  "parent": "abbccac6-c5cb-4e31-9d77-74a1d92a6c6e",
+  "parent": "20f96054-da97-4b4e-970d-00acbcb44904",
   "order": "G",
   "createdAt": "2026-10-05T16:29:25.929Z",
   "props": {
@@ -40,8 +40,8 @@
     "gridColumnStart": "auto",
     "gridRowEnd": "auto",
     "gridColumnEnd": "auto",
-    "width": "158px",
-    "height": "30px",
+    "width": 36.151696728,
+    "height": 30,
     "minWidth": "auto",
     "minHeight": "auto",
     "maxWidth": "none",
@@ -51,7 +51,7 @@
     "marginBottom": "0px",
     "marginLeft": "0px",
     "paddingTop": "0px",
-    "paddingRight": "10px",
+    "paddingRight": 7,
     "paddingBottom": "0px",
     "paddingLeft": "10px",
     "borderTopWidth": "0px",
@@ -102,7 +102,9 @@
     "listStyleImage": "none",
     "listStyleType": "disc",
     "verticalAlign": "baseline",
-    "cursor": "default"
+    "cursor": "default",
+    "left": 1615.614765152,
+    "top": 360.82224723269013
   },
-  "updatedAt": "2026-10-05T16:29:25.929Z"
+  "updatedAt": "2026-10-05T16:55:59.292Z"
 }
