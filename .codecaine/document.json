@@ -1549,6 +1549,676 @@
           "label": "This file",
           "at": 1791182753576
         }
+      },
+      "var:muv2ef03-1": {
+        "id": "var:muv2ef03-1",
+        "collectionId": "collection:default",
+        "property": "--inspire-bg",
+        "name": "--inspire-bg",
+        "category": "colors",
+        "values": {
+          "mode:default": "#ffffff"
+        },
+        "description": "Page ground of the Discover inspiration page.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193563507
+        }
+      },
+      "var:muv2eh11-2": {
+        "id": "var:muv2eh11-2",
+        "collectionId": "collection:default",
+        "property": "--inspire-ink",
+        "name": "--inspire-ink",
+        "category": "colors",
+        "values": {
+          "mode:default": "#141414"
+        },
+        "description": "Headings, primary text and the primary button fill.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193566133
+        }
+      },
+      "var:muv2eh3i-3": {
+        "id": "var:muv2eh3i-3",
+        "collectionId": "collection:default",
+        "property": "--inspire-ink-hover",
+        "name": "--inspire-ink-hover",
+        "category": "colors",
+        "values": {
+          "mode:default": "#333333"
+        },
+        "description": "Primary button fill on hover.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193566223
+        }
+      },
+      "var:muv2ej92-4": {
+        "id": "var:muv2ej92-4",
+        "collectionId": "collection:default",
+        "property": "--inspire-on-ink",
+        "name": "--inspire-on-ink",
+        "category": "colors",
+        "values": {
+          "mode:default": "#ffffff"
+        },
+        "description": "Text on the ink-filled primary button.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193569014
+        }
+      },
+      "var:muv2ejd1-5": {
+        "id": "var:muv2ejd1-5",
+        "collectionId": "collection:default",
+        "property": "--inspire-muted",
+        "name": "--inspire-muted",
+        "category": "colors",
+        "values": {
+          "mode:default": "#6b6b6b"
+        },
+        "description": "Secondary copy: lead paragraph and card descriptions.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193569157
+        }
+      },
+      "var:muv2ejea-6": {
+        "id": "var:muv2ejea-6",
+        "collectionId": "collection:default",
+        "property": "--inspire-subtle",
+        "name": "--inspire-subtle",
+        "category": "colors",
+        "values": {
+          "mode:default": "#8f8f8f"
+        },
+        "description": "Unselected tab labels.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193569202
+        }
+      },
+      "var:muv2el8n-7": {
+        "id": "var:muv2el8n-7",
+        "collectionId": "collection:default",
+        "property": "--inspire-surface",
+        "name": "--inspire-surface",
+        "category": "colors",
+        "values": {
+          "mode:default": "#ffffff"
+        },
+        "description": "Raised surface: the selected tab pill.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193571591
+        }
+      },
+      "var:muv2elcj-8": {
+        "id": "var:muv2elcj-8",
+        "collectionId": "collection:default",
+        "property": "--inspire-fill",
+        "name": "--inspire-fill",
+        "category": "colors",
+        "values": {
+          "mode:default": "rgba(64,64,64,0.06)"
+        },
+        "description": "Quiet fill behind media tiles and the tab track.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193571731
+        }
+      },
+      "var:muv2en88-9": {
+        "id": "var:muv2en88-9",
+        "collectionId": "collection:default",
+        "property": "--inspire-fill-hover",
+        "name": "--inspire-fill-hover",
+        "category": "colors",
+        "values": {
+          "mode:default": "rgba(64,64,64,0.10)"
+        },
+        "description": "Quiet fill on hover for secondary buttons and tabs.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193574168
+        }
+      },
+      "var:muv2endl-a": {
+        "id": "var:muv2endl-a",
+        "collectionId": "collection:default",
+        "property": "--inspire-line",
+        "name": "--inspire-line",
+        "category": "colors",
+        "values": {
+          "mode:default": "rgba(65,65,65,0.16)"
+        },
+        "description": "Hairline ring on the secondary button and screenshots.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193574361
+        }
+      },
+      "var:muv2ep1a-b": {
+        "id": "var:muv2ep1a-b",
+        "collectionId": "collection:default",
+        "property": "--inspire-ghost",
+        "name": "--inspire-ghost",
+        "category": "colors",
+        "values": {
+          "mode:default": "rgba(116,116,116,0.2)"
+        },
+        "description": "The stacked cards behind the hero app icon.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193576510
+        }
+      },
+      "var:muv2ep85-c": {
+        "id": "var:muv2ep85-c",
+        "collectionId": "collection:default",
+        "property": "--inspire-shadow-pill",
+        "name": "--inspire-shadow-pill",
+        "category": "box-shadow",
+        "values": {
+          "mode:default": "0 1px 3px rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04)"
+        },
+        "description": "Lift under the selected tab pill.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193576757
+        }
+      },
+      "var:muv2erow-d": {
+        "id": "var:muv2erow-d",
+        "collectionId": "collection:default",
+        "property": "--inspire-focus-ring",
+        "name": "--inspire-focus-ring",
+        "category": "box-shadow",
+        "values": {
+          "mode:default": "var(--inspire-ink)"
+        },
+        "description": "Colour of the keyboard focus outline on every control.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193579952
+        }
+      },
+      "var:muv2eru4-e": {
+        "id": "var:muv2eru4-e",
+        "collectionId": "collection:default",
+        "property": "--inspire-font",
+        "name": "--inspire-font",
+        "category": "font-family",
+        "values": {
+          "mode:default": "Inter, system-ui, sans-serif"
+        },
+        "description": "The page's single typeface.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193580140
+        }
+      },
+      "var:muv2erwu-f": {
+        "id": "var:muv2erwu-f",
+        "collectionId": "collection:default",
+        "property": "--inspire-display-size",
+        "name": "--inspire-display-size",
+        "category": "string",
+        "values": {
+          "mode:default": "clamp(44px, 5vw + 16px, 80px)"
+        },
+        "description": "Hero headline size, fluid from mobile to desktop.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193580238
+        }
+      },
+      "var:muv2eun4-g": {
+        "id": "var:muv2eun4-g",
+        "collectionId": "collection:default",
+        "property": "--inspire-title-size",
+        "name": "--inspire-title-size",
+        "category": "string",
+        "values": {
+          "mode:default": "clamp(34px, 3vw + 18px, 56px)"
+        },
+        "description": "Section headline size, fluid.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193583776
+        }
+      },
+      "var:muv2eusr-h": {
+        "id": "var:muv2eusr-h",
+        "collectionId": "collection:default",
+        "property": "--inspire-display-line",
+        "name": "--inspire-display-line",
+        "category": "number",
+        "values": {
+          "mode:default": "1.02"
+        },
+        "description": "Line height of the hero and section headlines.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193583979
+        }
+      },
+      "var:muv2euw4-i": {
+        "id": "var:muv2euw4-i",
+        "collectionId": "collection:default",
+        "property": "--inspire-tracking-tight",
+        "name": "--inspire-tracking-tight",
+        "category": "spacing",
+        "values": {
+          "mode:default": "-0.025em"
+        },
+        "description": "Negative tracking on display headlines.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193584100
+        }
+      },
+      "var:muv2euxs-j": {
+        "id": "var:muv2euxs-j",
+        "collectionId": "collection:default",
+        "property": "--inspire-lead-size",
+        "name": "--inspire-lead-size",
+        "category": "string",
+        "values": {
+          "mode:default": "clamp(17px, 0.6vw + 13px, 20px)"
+        },
+        "description": "Hero lead paragraph and card heading size.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193584160
+        }
+      },
+      "var:muv2ev01-k": {
+        "id": "var:muv2ev01-k",
+        "collectionId": "collection:default",
+        "property": "--inspire-lead-line",
+        "name": "--inspire-lead-line",
+        "category": "number",
+        "values": {
+          "mode:default": "1.3"
+        },
+        "description": "Line height for lead-sized text.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193584241
+        }
+      },
+      "var:muv2ev22-l": {
+        "id": "var:muv2ev22-l",
+        "collectionId": "collection:default",
+        "property": "--inspire-body-size",
+        "name": "--inspire-body-size",
+        "category": "spacing",
+        "values": {
+          "mode:default": "16px"
+        },
+        "description": "Body copy, buttons, tabs and captions.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193584314
+        }
+      },
+      "var:muv2ev3s-m": {
+        "id": "var:muv2ev3s-m",
+        "collectionId": "collection:default",
+        "property": "--inspire-body-line",
+        "name": "--inspire-body-line",
+        "category": "number",
+        "values": {
+          "mode:default": "1.4"
+        },
+        "description": "Line height for body-sized text.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193584376
+        }
+      },
+      "var:muv2ev6j-n": {
+        "id": "var:muv2ev6j-n",
+        "collectionId": "collection:default",
+        "property": "--inspire-weight-display",
+        "name": "--inspire-weight-display",
+        "category": "number",
+        "values": {
+          "mode:default": "650"
+        },
+        "description": "Headline weight.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193584475
+        }
+      },
+      "var:muv2ev7i-o": {
+        "id": "var:muv2ev7i-o",
+        "collectionId": "collection:default",
+        "property": "--inspire-weight-strong",
+        "name": "--inspire-weight-strong",
+        "category": "number",
+        "values": {
+          "mode:default": "600"
+        },
+        "description": "Buttons, tabs and card headings.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193584510
+        }
+      },
+      "var:muv2ev8i-p": {
+        "id": "var:muv2ev8i-p",
+        "collectionId": "collection:default",
+        "property": "--inspire-weight-body",
+        "name": "--inspire-weight-body",
+        "category": "number",
+        "values": {
+          "mode:default": "400"
+        },
+        "description": "Body copy and captions.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193584546
+        }
+      },
+      "var:muv2evaa-q": {
+        "id": "var:muv2evaa-q",
+        "collectionId": "collection:default",
+        "property": "--inspire-radius-media",
+        "name": "--inspire-radius-media",
+        "category": "spacing",
+        "values": {
+          "mode:default": "24px"
+        },
+        "description": "Large media tiles, screenshots and the app icon.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193584610
+        }
+      },
+      "var:muv2evbr-r": {
+        "id": "var:muv2evbr-r",
+        "collectionId": "collection:default",
+        "property": "--inspire-radius-card",
+        "name": "--inspire-radius-card",
+        "category": "spacing",
+        "values": {
+          "mode:default": "16px"
+        },
+        "description": "Feature card covers.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193584663
+        }
+      },
+      "var:muv2evcr-s": {
+        "id": "var:muv2evcr-s",
+        "collectionId": "collection:default",
+        "property": "--inspire-control-height",
+        "name": "--inspire-control-height",
+        "category": "spacing",
+        "values": {
+          "mode:default": "44px"
+        },
+        "description": "Height of the hero call-to-action buttons.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193584699
+        }
+      },
+      "var:muv2eveh-t": {
+        "id": "var:muv2eveh-t",
+        "collectionId": "collection:default",
+        "property": "--inspire-tab-height",
+        "name": "--inspire-tab-height",
+        "category": "spacing",
+        "values": {
+          "mode:default": "36px"
+        },
+        "description": "Height of a pattern tab inside the tab track.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193584761
+        }
+      },
+      "var:muv2evgq-u": {
+        "id": "var:muv2evgq-u",
+        "collectionId": "collection:default",
+        "property": "--inspire-icon-size",
+        "name": "--inspire-icon-size",
+        "category": "spacing",
+        "values": {
+          "mode:default": "88px"
+        },
+        "description": "The hero app icon.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193584842
+        }
+      },
+      "var:muv2evhy-v": {
+        "id": "var:muv2evhy-v",
+        "collectionId": "collection:default",
+        "property": "--inspire-screen-width",
+        "name": "--inspire-screen-width",
+        "category": "string",
+        "values": {
+          "mode:default": "clamp(200px, 20vw, 268px)"
+        },
+        "description": "Width of one phone screenshot in the pattern tickers.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193584886
+        }
+      },
+      "var:muv2evj3-w": {
+        "id": "var:muv2evj3-w",
+        "collectionId": "collection:default",
+        "property": "--inspire-measure",
+        "name": "--inspire-measure",
+        "category": "spacing",
+        "values": {
+          "mode:default": "834px"
+        },
+        "description": "Max width of headline and copy blocks.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193584927
+        }
+      },
+      "var:muv2evr4-x": {
+        "id": "var:muv2evr4-x",
+        "collectionId": "collection:default",
+        "property": "--inspire-container",
+        "name": "--inspire-container",
+        "category": "spacing",
+        "values": {
+          "mode:default": "1240px"
+        },
+        "description": "Max width of media and card grids.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193585216
+        }
+      },
+      "var:muv2ewhb-y": {
+        "id": "var:muv2ewhb-y",
+        "collectionId": "collection:default",
+        "property": "--inspire-card-min",
+        "name": "--inspire-card-min",
+        "category": "spacing",
+        "values": {
+          "mode:default": "280px"
+        },
+        "description": "Narrowest a feature card gets before the grid wraps it to a new row.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193586159
+        }
+      },
+      "var:muv2ex0p-z": {
+        "id": "var:muv2ex0p-z",
+        "collectionId": "collection:default",
+        "property": "--space-20",
+        "name": "--space-20",
+        "category": "spacing",
+        "values": {
+          "mode:default": "80px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193586857
+        }
+      },
+      "var:muv2exbs-10": {
+        "id": "var:muv2exbs-10",
+        "collectionId": "collection:default",
+        "property": "--space-32",
+        "name": "--space-32",
+        "category": "spacing",
+        "values": {
+          "mode:default": "128px"
+        },
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193587256
+        }
+      },
+      "var:muv2ey7n-11": {
+        "id": "var:muv2ey7n-11",
+        "collectionId": "collection:default",
+        "property": "--inspire-section-gap",
+        "name": "--inspire-section-gap",
+        "category": "string",
+        "values": {
+          "mode:default": "clamp(80px, 8vw, 128px)"
+        },
+        "description": "Vertical gap between page sections; --space-20 on mobile to --space-32 on desktop.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193588403
+        }
+      },
+      "var:muv2eyqs-12": {
+        "id": "var:muv2eyqs-12",
+        "collectionId": "collection:default",
+        "property": "--inspire-ticker-duration",
+        "name": "--inspire-ticker-duration",
+        "category": "string",
+        "values": {
+          "mode:default": "60s"
+        },
+        "description": "Time for one full loop of a pattern ticker.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193589092
+        }
+      },
+      "var:muv2ezgg-13": {
+        "id": "var:muv2ezgg-13",
+        "collectionId": "collection:default",
+        "property": "--inspire-duration-fade",
+        "name": "--inspire-duration-fade",
+        "category": "string",
+        "values": {
+          "mode:default": "200ms"
+        },
+        "description": "Cross-fade when switching pattern tabs; also hover transitions.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193590016
+        }
+      },
+      "var:muv2f02p-14": {
+        "id": "var:muv2f02p-14",
+        "collectionId": "collection:default",
+        "property": "--inspire-ease-out",
+        "name": "--inspire-ease-out",
+        "category": "string",
+        "values": {
+          "mode:default": "cubic-bezier(0.22, 1, 0.36, 1)"
+        },
+        "description": "Easing for the tab pill slide and fades.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193590817
+        }
+      },
+      "var:muv2f6mr-15": {
+        "id": "var:muv2f6mr-15",
+        "collectionId": "collection:default",
+        "property": "--inspire-radius-pill",
+        "name": "--inspire-radius-pill",
+        "category": "spacing",
+        "values": {
+          "mode:default": "999px"
+        },
+        "description": "Fully rounded buttons, tabs and tab track.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193599315
+        }
+      },
+      "var:muv2gdyn-16": {
+        "id": "var:muv2gdyn-16",
+        "collectionId": "collection:default",
+        "property": "--inspire-focus-width",
+        "name": "--inspire-focus-width",
+        "category": "spacing",
+        "values": {
+          "mode:default": "2px"
+        },
+        "description": "Thickness and offset of the keyboard focus outline.",
+        "owner": {
+          "kind": "document",
+          "label": "This file",
+          "at": 1791193655471
+        }
       }
     },
     "order": [
@@ -1646,7 +2316,49 @@
       "var:muuvyps4-16",
       "var:muuvypvl-17",
       "var:muuvypxz-18",
-      "var:muuvyq08-19"
+      "var:muuvyq08-19",
+      "var:muv2ef03-1",
+      "var:muv2eh11-2",
+      "var:muv2eh3i-3",
+      "var:muv2ej92-4",
+      "var:muv2ejd1-5",
+      "var:muv2ejea-6",
+      "var:muv2el8n-7",
+      "var:muv2elcj-8",
+      "var:muv2en88-9",
+      "var:muv2endl-a",
+      "var:muv2ep1a-b",
+      "var:muv2ep85-c",
+      "var:muv2erow-d",
+      "var:muv2eru4-e",
+      "var:muv2erwu-f",
+      "var:muv2eun4-g",
+      "var:muv2eusr-h",
+      "var:muv2euw4-i",
+      "var:muv2euxs-j",
+      "var:muv2ev01-k",
+      "var:muv2ev22-l",
+      "var:muv2ev3s-m",
+      "var:muv2ev6j-n",
+      "var:muv2ev7i-o",
+      "var:muv2ev8i-p",
+      "var:muv2evaa-q",
+      "var:muv2evbr-r",
+      "var:muv2evcr-s",
+      "var:muv2eveh-t",
+      "var:muv2evgq-u",
+      "var:muv2evhy-v",
+      "var:muv2evj3-w",
+      "var:muv2evr4-x",
+      "var:muv2ewhb-y",
+      "var:muv2ex0p-z",
+      "var:muv2exbs-10",
+      "var:muv2ey7n-11",
+      "var:muv2eyqs-12",
+      "var:muv2ezgg-13",
+      "var:muv2f02p-14",
+      "var:muv2f6mr-15",
+      "var:muv2gdyn-16"
     ]
   }
 }
