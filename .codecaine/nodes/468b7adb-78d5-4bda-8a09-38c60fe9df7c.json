@@ -1,0 +1,46 @@
+{
+  "id": "468b7adb-78d5-4bda-8a09-38c60fe9df7c",
+  "type": "liveproject",
+  "tag": "div",
+  "name": "Live project",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzzzzzV",
+  "breakpoints": [
+    {
+      "id": "desktop",
+      "label": "Desktop",
+      "minWidth": 1280,
+      "width": 1280
+    },
+    {
+      "id": "tablet",
+      "label": "Tablet",
+      "minWidth": 800,
+      "width": 834
+    },
+    {
+      "id": "mobile",
+      "label": "Mobile",
+      "minWidth": 0,
+      "width": 390
+    }
+  ],
+  "createdAt": "2026-10-05T06:23:32.232Z",
+  "props": {
+    "src": "https://www.timeless.co/type",
+    "data-codecaine-id": "d198af35-5090-47eb-b2f0-f15522816173"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "hug"
+  },
+  "style": {
+    "width": 1280,
+    "height": 900,
+    "position": "absolute",
+    "backgroundColor": "#ffffff",
+    "left": 2561.5938333380595,
+    "top": 721.3649906648583
+  },
+  "updatedAt": "2026-10-05T06:23:38.073Z"
+}
