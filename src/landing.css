@@ -161,7 +161,7 @@
 
   --lp-agent-card: #000000;                      /* card, mock site ground    */
   --lp-agent-well: #171717;                      /* device + footer wells     */
-  --lp-agent-panel: rgb(22 22 22 / 0.04);        /* sticky chat panel, glass  */
+  --lp-agent-panel: #111111;                     /* sticky chat panel         */
   --lp-agent-bubble: #242424;                    /* user bubble, inputs       */
   --lp-agent-composer: #1f1f1f;
   --lp-agent-key: #303030;                       /* composer icon buttons     */
@@ -188,11 +188,6 @@
   --lp-agent-shadow-shot: 1px -1px 12px 0 rgb(20 20 20 / 0.5);
   --lp-agent-shadow-thumb: 0 2px 4px 0 rgb(0 0 0 / 0.1);
   --lp-agent-shadow-knob: 0 1px 3px 0 rgb(0 0 0 / 0.2), 0 0.5px 0 0 rgb(0 0 0 / 0.1);
-  --lp-agent-shadow-panel:                        /* sticky panel lift         */
-    0 3px 7px 0 rgb(0 0 0 / 0.17),
-    0 14px 14px 0 rgb(0 0 0 / 0.15),
-    0 30px 18px 0 rgb(0 0 0 / 0.09),
-    0 54px 22px 0 rgb(0 0 0 / 0.03);
 
   --lp-agent-radius-card: 25px;
   --lp-agent-radius-well: var(--lp-radius-shot);  /* 15px                     */
@@ -240,7 +235,6 @@
   --lp-agent-title-measure: 480px;                /* two lines, as the reference */
   --lp-agent-divider-h: 14px;
   --lp-agent-blur: 8px;
-  --lp-agent-blur-panel: 19.5px;
   --lp-agent-line: rgb(255 255 255 / 0.08);       /* mock-site hairlines       */
 
   /* Visual geometry, on the 910 × 473 frame */
@@ -1439,8 +1433,6 @@
     padding: var(--lp-space-2-5);
     border-radius: var(--lp-agent-radius-card);
     background: var(--lp-agent-panel);
-    backdrop-filter: blur(var(--lp-agent-blur-panel));
-    box-shadow: var(--lp-agent-shadow-panel);
     overflow: clip;
     font-size: var(--lp-agent-text-ui);
     line-height: var(--lp-agent-text-ui--lh);
