@@ -850,21 +850,6 @@
           "at": 1791137383863
         }
       },
-      "var:muu4zdfe-1e": {
-        "id": "var:muu4zdfe-1e",
-        "collectionId": "collection:default",
-        "property": "--space-16",
-        "category": "string",
-        "values": {
-          "mode:default": "64px"
-        },
-        "owner": {
-          "kind": "paste",
-          "nodeId": "c3618d50-559d-4481-9caf-c6acfc64f9ce",
-          "label": "Pasted markup",
-          "at": 1791137434297
-        }
-      },
       "var:muuvketh-1": {
         "id": "var:muuvketh-1",
         "collectionId": "collection:default",
@@ -2752,7 +2737,6 @@
       "var:muu4y9yu-1b",
       "var:muu4ya76-1c",
       "var:muu4yaif-1d",
-      "var:muu4zdfe-1e",
       "var:muuvketh-1",
       "var:muuvkfa0-2",
       "var:muuvkfxv-3",
