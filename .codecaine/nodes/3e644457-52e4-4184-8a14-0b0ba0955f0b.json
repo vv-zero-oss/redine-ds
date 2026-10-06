@@ -1,0 +1,21 @@
+{
+  "id": "3e644457-52e4-4184-8a14-0b0ba0955f0b",
+  "type": "frame",
+  "tag": "div",
+  "name": "Ring middle",
+  "parent": "80ccaacb-a5a2-446b-b89a-56ab5347d59a",
+  "order": "G",
+  "createdAt": "2026-10-06T06:43:47.438Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "f3e89f6d-0d18-41bd-aa48-c2c2ffd75ad4"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "28px",
+    "top": "28px",
+    "width": "184px",
+    "height": "184px"
+  },
+  "updatedAt": "2026-10-06T06:43:47.438Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "6e570e9c-b75f-435b-8ee4-c89f1fe2bc95",
+  "type": "section",
+  "tag": "div",
+  "name": "Input with label",
+  "parent": "0e7f8bc7-9f0b-4c04-9dd2-c1a66225aba1",
+  "order": "V",
+  "createdAt": "2026-10-06T06:44:24.507Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "eedfc942-077c-4b59-baad-4bc74c1aa0e9"
+  },
+  "style": {
+    "alignSelf": "stretch",
+    "height": "44px",
+    "flexShrink": "0",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start",
+    "rowGap": "6px",
+    "columnGap": "6px"
+  },
+  "updatedAt": "2026-10-06T06:44:24.507Z"
+}

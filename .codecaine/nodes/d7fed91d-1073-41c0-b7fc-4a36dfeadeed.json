@@ -1,0 +1,21 @@
+{
+  "id": "d7fed91d-1073-41c0-b7fc-4a36dfeadeed",
+  "type": "frame",
+  "tag": "div",
+  "name": "Ring outer",
+  "parent": "80ccaacb-a5a2-446b-b89a-56ab5347d59a",
+  "order": "8",
+  "createdAt": "2026-10-06T06:43:47.438Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "d881d8c9-bc33-46fb-8987-83d27bde9018"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "8px",
+    "top": "8px",
+    "width": "224px",
+    "height": "224px"
+  },
+  "updatedAt": "2026-10-06T06:43:47.438Z"
+}

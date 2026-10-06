@@ -1,0 +1,21 @@
+{
+  "id": "6f9916be-fd03-4dd4-8d3f-fa7f59030a00",
+  "type": "frame",
+  "tag": "div",
+  "name": "Series 3",
+  "parent": "c8ad5658-fb69-46bd-8059-5ea65dccf143",
+  "order": "l",
+  "createdAt": "2026-10-06T06:44:24.507Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "8d32792f-ccfe-4e1e-a29c-e7801dc11476"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "110.34px",
+    "width": "343px",
+    "height": "68.06px"
+  },
+  "updatedAt": "2026-10-06T06:44:24.507Z"
+}

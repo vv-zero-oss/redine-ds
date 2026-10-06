@@ -1,0 +1,43 @@
+{
+  "id": "897b33f7-1e89-48f1-a096-0f2bc3a63d2b",
+  "type": "frame",
+  "tag": "div",
+  "name": "_Checkbox base",
+  "parent": "5cab61ca-9c34-4f8d-84df-456dd502ff07",
+  "order": "V",
+  "createdAt": "2026-10-06T06:43:47.438Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "4c4fdd9b-6e6e-4f8b-a2fc-feeed1b650b2"
+  },
+  "style": {
+    "width": "20px",
+    "flexShrink": "0",
+    "height": "20px",
+    "borderTopLeftRadius": "6px",
+    "borderTopRightRadius": "6px",
+    "borderBottomRightRadius": "6px",
+    "borderBottomLeftRadius": "6px",
+    "borderTopWidth": "1px",
+    "borderRightWidth": "1px",
+    "borderBottomWidth": "1px",
+    "borderLeftWidth": "1px",
+    "borderTopStyle": "solid",
+    "borderRightStyle": "solid",
+    "borderBottomStyle": "solid",
+    "borderLeftStyle": "solid",
+    "borderTopColor": "rgb(212, 212, 212)",
+    "borderRightColor": "rgb(212, 212, 212)",
+    "borderBottomColor": "rgb(212, 212, 212)",
+    "borderLeftColor": "rgb(212, 212, 212)",
+    "borderImageSource": "none",
+    "borderImageSlice": "100%",
+    "borderImageWidth": "1",
+    "borderImageOutset": "0",
+    "borderImageRepeat": "stretch",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "overflowX": "hidden",
+    "overflowY": "hidden"
+  },
+  "updatedAt": "2026-10-06T06:43:47.438Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "0625bac8-5b89-41c8-ae68-023e0fe48a22",
+  "type": "section",
+  "tag": "div",
+  "name": "_Y-axis line",
+  "parent": "639013d5-a3bc-49ee-9a70-a75745c613d5",
+  "order": "V",
+  "createdAt": "2026-10-06T06:44:24.507Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "abf26911-df3a-4513-bfcc-c196a185a87d"
+  },
+  "style": {
+    "alignSelf": "stretch",
+    "height": "17px",
+    "flexShrink": "0",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "flex-start",
+    "alignItems": "center",
+    "rowGap": "8px",
+    "columnGap": "8px"
+  },
+  "updatedAt": "2026-10-06T06:44:24.507Z"
+}

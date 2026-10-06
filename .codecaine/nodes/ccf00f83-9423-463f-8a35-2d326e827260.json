@@ -1,0 +1,24 @@
+{
+  "id": "ccf00f83-9423-463f-8a35-2d326e827260",
+  "type": "section",
+  "tag": "div",
+  "name": "Avatar group",
+  "parent": "46a61f08-2cb0-4b3b-ba98-95140e98957a",
+  "order": "V",
+  "createdAt": "2026-10-06T06:43:47.438Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "79c862b3-bc72-4706-8460-121ef4c6fff2"
+  },
+  "style": {
+    "width": "124px",
+    "flexShrink": "0",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start",
+    "rowGap": "8px",
+    "columnGap": "8px"
+  },
+  "updatedAt": "2026-10-06T06:43:47.438Z"
+}

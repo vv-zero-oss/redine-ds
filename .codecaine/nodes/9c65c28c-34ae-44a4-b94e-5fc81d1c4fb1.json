@@ -1,0 +1,32 @@
+{
+  "id": "9c65c28c-34ae-44a4-b94e-5fc81d1c4fb1",
+  "type": "section",
+  "tag": "div",
+  "name": "Avatar",
+  "parent": "9271909b-4b90-4564-9ef3-37a6ce0a5eea",
+  "order": "V",
+  "createdAt": "2026-10-06T06:43:47.438Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "3b1c1d43-df97-4554-9d34-4c4be4b4f69c"
+  },
+  "style": {
+    "width": "40px",
+    "flexShrink": "0",
+    "height": "40px",
+    "borderTopLeftRadius": "200px",
+    "borderTopRightRadius": "200px",
+    "borderBottomRightRadius": "200px",
+    "borderBottomLeftRadius": "200px",
+    "backgroundImage": "url(\"asset:media/images/10b3df68dc8a73c290a4.png\"), linear-gradient(rgb(199, 185, 218), rgb(199, 185, 218))",
+    "backgroundSize": "cover, auto",
+    "backgroundPositionX": "center, center",
+    "backgroundPositionY": "center, center",
+    "backgroundRepeat": "no-repeat, no-repeat",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "center",
+    "alignItems": "center"
+  },
+  "updatedAt": "2026-10-06T06:43:48.009Z"
+}

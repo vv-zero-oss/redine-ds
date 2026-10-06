@@ -1,0 +1,36 @@
+{
+  "id": "88095268-a2ee-425c-b4b1-97e1629f7440",
+  "type": "section",
+  "tag": "div",
+  "name": "Desktop",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzzzzzzzzzV",
+  "createdAt": "2026-10-06T06:43:47.438Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "8a0af0bb-fb19-4ba9-a715-f1cc38c1b76f"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {
+    "width": 1440,
+    "height": "960px",
+    "backgroundColor": "rgb(105, 65, 198)",
+    "overflowX": "hidden",
+    "overflowY": "hidden",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": 17028,
+    "top": -151
+  },
+  "updatedAt": "2026-10-06T06:43:47.438Z"
+}

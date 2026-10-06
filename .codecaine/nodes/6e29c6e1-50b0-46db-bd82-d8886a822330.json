@@ -1,0 +1,29 @@
+{
+  "id": "6e29c6e1-50b0-46db-bd82-d8886a822330",
+  "type": "text",
+  "tag": "p",
+  "name": "Series 3",
+  "parent": "3adfde17-85be-4ad3-9f68-8a998b356828",
+  "order": "V",
+  "createdAt": "2026-10-06T06:43:47.438Z",
+  "props": {
+    "text": "2019",
+    "data-import-type": "figma",
+    "data-codecaine-id": "550c374d-c1dd-422f-94bb-d7add03feecb"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "lineHeight": "20px",
+    "color": "rgb(82, 82, 82)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-06T06:43:47.438Z"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "5de56e80-0ad1-4cb2-a1f3-9b70bd2746e4",
+  "type": "frame",
+  "tag": "div",
+  "name": "Line and bar chart",
+  "parent": "09230d91-fa99-4c62-aa5e-f4829a183777",
+  "order": "V",
+  "createdAt": "2026-10-06T06:43:47.438Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "7c1f817a-3845-4a2d-8354-70bc2fc2a6ce"
+  },
+  "style": {
+    "alignSelf": "stretch",
+    "height": "240px",
+    "flexShrink": "0",
+    "position": "relative"
+  },
+  "updatedAt": "2026-10-06T06:43:47.438Z"
+}

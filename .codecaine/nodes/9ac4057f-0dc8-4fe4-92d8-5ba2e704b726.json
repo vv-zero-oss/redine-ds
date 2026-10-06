@@ -1,0 +1,26 @@
+{
+  "id": "9ac4057f-0dc8-4fe4-92d8-5ba2e704b726",
+  "type": "frame",
+  "tag": "svg",
+  "name": "_Nav item button",
+  "parent": "9e68042c-b443-4800-8e98-c917a57f36cc",
+  "order": "G",
+  "createdAt": "2026-10-06T06:43:47.438Z",
+  "props": {
+    "width": "48",
+    "height": "48",
+    "viewBox": "0 0 48 48",
+    "fill": "none",
+    "overflow": "visible",
+    "xmlns": "http://www.w3.org/2000/svg",
+    "innerMarkup": "<rect transform=\"matrix(1 0 0 1 0 0)\" width=\"48\" height=\"48\" rx=\"6\" fill=\"#7F56D9\"></rect><path transform=\"matrix(1 0 0 1 18 16)\" d=\"M11 16C11 16.55 11.45 17 12 17C12.55 17 13 16.55 13 16L12 16L11 16M13 6C13 5.45 12.55 5 12 5C11.45 5 11 5.45 11 6L12 6L13 6M5 16C5 16.55 5.45 17 6 17C6.55 17 7 16.55 7 16L6 16L5 16M7 0C7 -0.55 6.55 -1 6 -1C5.45 -1 5 -0.55 5 0L6 0L7 0M-1 16C-1 16.55 -0.55 17 0 17C0.55 17 1 16.55 1 16L0 16L-1 16M1 10C1 9.45 0.55 9 0 9C-0.55 9 -1 9.45 -1 10L0 10L1 10M12 16L13 16L13 6L12 6L11 6L11 16L12 16M6 16L7 16L7 0L6 0L5 0L5 16L6 16M0 16L1 16L1 10L0 10L-1 10L-1 16L0 16\" fill=\"#171717\"></path>",
+    "data-import-type": "figma",
+    "data-codecaine-id": "5391109a-aa1e-406d-b4c3-acb083f5a1fd"
+  },
+  "style": {
+    "display": "block",
+    "width": "48px",
+    "flexShrink": "0"
+  },
+  "updatedAt": "2026-10-06T06:43:47.438Z"
+}

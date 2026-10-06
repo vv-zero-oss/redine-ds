@@ -1,0 +1,27 @@
+{
+  "id": "4d63f8e0-a91a-4684-b61c-99c5e5e81828",
+  "type": "section",
+  "tag": "div",
+  "name": "Main wrap",
+  "parent": "88095268-a2ee-425c-b4b1-97e1629f7440",
+  "order": "V",
+  "createdAt": "2026-10-06T06:43:47.438Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "3536ac8d-89dd-4b62-b985-a79bb12e49f8"
+  },
+  "style": {
+    "flexGrow": "1",
+    "flexShrink": "1",
+    "flexBasis": "0px",
+    "minWidth": "0px",
+    "height": "1190px",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start",
+    "paddingTop": "12px",
+    "paddingBottom": "12px"
+  },
+  "updatedAt": "2026-10-06T06:43:47.438Z"
+}

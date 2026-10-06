@@ -1,0 +1,30 @@
+{
+  "id": "0752f948-7750-4398-b745-2310a910d01b",
+  "type": "text",
+  "tag": "p",
+  "name": "Text",
+  "parent": "7c948b84-6a52-4b52-94c2-d629af74abe2",
+  "order": "G",
+  "createdAt": "2026-10-06T06:44:24.507Z",
+  "props": {
+    "text": "Total customers",
+    "data-import-type": "figma",
+    "data-codecaine-id": "aba59147-99b8-4611-a517-27933add6a77"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexGrow": "1",
+    "flexShrink": "1",
+    "flexBasis": "0px",
+    "minWidth": "0px",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "18px",
+    "fontWeight": "600",
+    "lineHeight": "28px",
+    "color": "rgb(23, 23, 23)"
+  },
+  "updatedAt": "2026-10-06T06:44:24.507Z"
+}

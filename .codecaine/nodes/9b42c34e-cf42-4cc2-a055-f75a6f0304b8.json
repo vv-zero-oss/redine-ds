@@ -1,0 +1,15 @@
+{
+  "id": "9b42c34e-cf42-4cc2-a055-f75a6f0304b8",
+  "type": "text",
+  "tag": "span",
+  "parent": "37820027-915d-4b96-9aae-56267691b314",
+  "order": "8",
+  "createdAt": "2026-10-06T06:44:24.507Z",
+  "props": {
+    "text": "Page ",
+    "data-import-type": "figma",
+    "data-codecaine-id": "eba4caad-21b0-4f3b-a913-19c016e644bd"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T06:44:24.507Z"
+}

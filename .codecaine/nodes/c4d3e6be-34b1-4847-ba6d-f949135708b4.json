@@ -1,0 +1,29 @@
+{
+  "id": "c4d3e6be-34b1-4847-ba6d-f949135708b4",
+  "type": "text",
+  "tag": "p",
+  "name": "Supporting text",
+  "parent": "d321397f-6f9a-45e5-84e1-2eb8fd49b25f",
+  "order": "V",
+  "createdAt": "2026-10-06T06:43:47.438Z",
+  "props": {
+    "text": "Super lightweight design app",
+    "data-import-type": "figma",
+    "data-codecaine-id": "a8480f21-739f-441f-8364-4cfb89a146f8"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "lineHeight": "20px",
+    "color": "rgb(82, 82, 82)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-06T06:43:47.438Z"
+}

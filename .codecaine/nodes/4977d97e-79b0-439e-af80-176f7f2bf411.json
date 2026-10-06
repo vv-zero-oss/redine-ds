@@ -1,0 +1,30 @@
+{
+  "id": "4977d97e-79b0-439e-af80-176f7f2bf411",
+  "type": "text",
+  "tag": "p",
+  "name": "Text",
+  "parent": "851482a2-65dd-4c75-9adc-4463623dcc96",
+  "order": "V",
+  "createdAt": "2026-10-06T06:44:24.507Z",
+  "props": {
+    "text": "Churned",
+    "data-import-type": "figma",
+    "data-codecaine-id": "a1195b1e-c69c-4bee-8d34-fa92bb9ec5d1"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "12px",
+    "fontWeight": "500",
+    "lineHeight": "18px",
+    "color": "rgb(105, 65, 198)",
+    "textAlign": "center",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-06T06:44:24.507Z"
+}

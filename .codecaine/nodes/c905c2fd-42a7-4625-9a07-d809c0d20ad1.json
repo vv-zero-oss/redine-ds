@@ -1,0 +1,26 @@
+{
+  "id": "c905c2fd-42a7-4625-9a07-d809c0d20ad1",
+  "type": "frame",
+  "tag": "div",
+  "name": "Progress bar",
+  "parent": "35b9a1ed-e0e6-4358-bad7-2e413449c244",
+  "order": "V",
+  "createdAt": "2026-10-06T06:43:47.438Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "4612c264-25ea-45b2-9b7d-81f64949a4f6"
+  },
+  "style": {
+    "flexGrow": "1",
+    "flexShrink": "1",
+    "flexBasis": "0px",
+    "minWidth": "0px",
+    "height": "8px",
+    "borderTopLeftRadius": "8px",
+    "borderTopRightRadius": "8px",
+    "borderBottomRightRadius": "8px",
+    "borderBottomLeftRadius": "8px",
+    "position": "relative"
+  },
+  "updatedAt": "2026-10-06T06:43:47.438Z"
+}

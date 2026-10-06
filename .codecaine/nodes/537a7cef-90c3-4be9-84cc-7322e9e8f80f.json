@@ -1,0 +1,25 @@
+{
+  "id": "537a7cef-90c3-4be9-84cc-7322e9e8f80f",
+  "type": "section",
+  "tag": "aside",
+  "name": "Sidebar navigation",
+  "parent": "549544e3-8082-4f12-b755-1997b9c8545e",
+  "order": "G",
+  "createdAt": "2026-10-06T06:44:24.507Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "52f878ac-75b2-46cf-abe6-c12cd6cb3f1c"
+  },
+  "style": {
+    "width": "375px",
+    "height": "64px",
+    "flexShrink": "0",
+    "boxShadow": "rgba(0, 0, 0, 0) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "flex-start",
+    "alignItems": "center"
+  },
+  "updatedAt": "2026-10-06T06:44:24.507Z"
+}

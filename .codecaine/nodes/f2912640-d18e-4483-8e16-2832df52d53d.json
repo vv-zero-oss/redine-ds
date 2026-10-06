@@ -1,0 +1,25 @@
+{
+  "id": "f2912640-d18e-4483-8e16-2832df52d53d",
+  "type": "section",
+  "tag": "div",
+  "name": "_Y-axis",
+  "parent": "655e9633-160f-4cad-a611-9efde8f4f486",
+  "order": "V",
+  "createdAt": "2026-10-06T06:43:47.438Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "c6e88314-72b0-47f8-9c31-388d0c04fd77"
+  },
+  "style": {
+    "alignSelf": "stretch",
+    "flexGrow": "1",
+    "flexShrink": "1",
+    "flexBasis": "0px",
+    "minHeight": "0px",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "space-between",
+    "alignItems": "flex-start"
+  },
+  "updatedAt": "2026-10-06T06:43:47.438Z"
+}

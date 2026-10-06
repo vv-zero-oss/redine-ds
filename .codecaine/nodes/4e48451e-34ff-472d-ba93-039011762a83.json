@@ -1,0 +1,21 @@
+{
+  "id": "4e48451e-34ff-472d-ba93-039011762a83",
+  "type": "frame",
+  "tag": "div",
+  "name": "Series 2",
+  "parent": "c8ad5658-fb69-46bd-8059-5ea65dccf143",
+  "order": "V",
+  "createdAt": "2026-10-06T06:44:24.507Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "5187e340-3711-45f8-ab37-f16b735807d9"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "102.09px",
+    "width": "343px",
+    "height": "25.62px"
+  },
+  "updatedAt": "2026-10-06T06:44:24.507Z"
+}

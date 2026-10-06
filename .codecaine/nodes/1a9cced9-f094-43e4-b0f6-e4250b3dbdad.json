@@ -1,0 +1,24 @@
+{
+  "id": "1a9cced9-f094-43e4-b0f6-e4250b3dbdad",
+  "type": "frame",
+  "tag": "div",
+  "name": "Color",
+  "parent": "9ba20463-f802-4c20-a4e5-ff7afd6bece9",
+  "order": "G",
+  "createdAt": "2026-10-06T06:43:47.438Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "3de6750e-bc79-4fa9-9208-12dcc4bd91f2"
+  },
+  "style": {
+    "width": "8px",
+    "flexShrink": "0",
+    "height": "8px",
+    "borderTopLeftRadius": "50%",
+    "borderTopRightRadius": "50%",
+    "borderBottomRightRadius": "50%",
+    "borderBottomLeftRadius": "50%",
+    "backgroundColor": "rgb(182, 146, 246)"
+  },
+  "updatedAt": "2026-10-06T06:43:47.438Z"
+}

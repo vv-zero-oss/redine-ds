@@ -1,0 +1,32 @@
+{
+  "id": "e04cf009-3ef5-43bd-a002-0f87bdc367c8",
+  "type": "text",
+  "tag": "p",
+  "name": "Number",
+  "parent": "74761d00-f62d-4de8-a67b-7fa2e0b10085",
+  "order": "l",
+  "createdAt": "2026-10-06T06:44:24.507Z",
+  "props": {
+    "text": "316",
+    "data-import-type": "figma",
+    "data-codecaine-id": "a9c31b04-24d1-4963-b4bf-d190668c0a07"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "position": "absolute",
+    "left": "92px",
+    "top": "101px",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "30px",
+    "fontWeight": "600",
+    "lineHeight": "38px",
+    "color": "rgb(23, 23, 23)",
+    "textAlign": "center",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-06T06:44:24.507Z"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ee2cc01f-00b6-4ad6-8114-595ae38ff38d",
+  "type": "text",
+  "tag": "p",
+  "name": "Text",
+  "parent": "8d358a4f-1f33-45fd-b596-2eb307c269bb",
+  "order": "G",
+  "createdAt": "2026-10-06T06:43:47.438Z",
+  "props": {
+    "text": "Quotient",
+    "data-import-type": "figma",
+    "data-codecaine-id": "7c91fe8f-7889-4146-afd6-d68f2d7462f3"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "500",
+    "lineHeight": "20px",
+    "color": "rgb(23, 23, 23)",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-06T06:43:47.438Z"
+}

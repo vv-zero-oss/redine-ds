@@ -1,0 +1,27 @@
+{
+  "id": "ff27ce28-d66b-4582-afc6-b3b23ad416a1",
+  "type": "frame",
+  "tag": "svg",
+  "name": "Divider",
+  "parent": "537a7cef-90c3-4be9-84cc-7322e9e8f80f",
+  "order": "V",
+  "createdAt": "2026-10-06T06:44:24.507Z",
+  "props": {
+    "width": "375",
+    "height": "1",
+    "viewBox": "0 0 375 1",
+    "fill": "none",
+    "overflow": "visible",
+    "xmlns": "http://www.w3.org/2000/svg",
+    "innerMarkup": "<path transform=\"matrix(1 0 0 1 0 0)\" d=\"M375 1L0 1L0 0L375 0L375 1Z\" fill=\"#E5E5E5\" fill-rule=\"evenodd\"></path>",
+    "data-import-type": "figma",
+    "data-codecaine-id": "a1ff6c5e-d764-4b1e-99d6-50cf4b1699ca"
+  },
+  "style": {
+    "display": "block",
+    "alignSelf": "stretch",
+    "height": "1px",
+    "flexShrink": "0"
+  },
+  "updatedAt": "2026-10-06T06:44:24.507Z"
+}

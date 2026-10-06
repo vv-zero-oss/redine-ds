@@ -1,0 +1,22 @@
+{
+  "id": "95616469-7f83-4856-a181-64de6096045f",
+  "type": "section",
+  "tag": "div",
+  "name": "Avatars",
+  "parent": "b2bf3c63-3f7f-4a3d-aa8e-a0e898aefbb6",
+  "order": "V",
+  "createdAt": "2026-10-06T06:43:47.438Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "3fd39b83-1601-4d4e-8ad5-3cba6c02ee40"
+  },
+  "style": {
+    "width": "124px",
+    "flexShrink": "0",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start"
+  },
+  "updatedAt": "2026-10-06T06:43:47.438Z"
+}

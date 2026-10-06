@@ -1,0 +1,27 @@
+{
+  "id": "701332b2-07cd-4e7c-833d-b37ade6e1fd4",
+  "type": "section",
+  "tag": "div",
+  "name": "Axis",
+  "parent": "4e5ec6aa-61bd-48da-b0ae-162b1b3865ad",
+  "order": "G",
+  "createdAt": "2026-10-06T06:44:24.507Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "292fcac1-391d-433a-ac7d-a93dffa2c087"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "343px",
+    "height": "240px",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start",
+    "rowGap": "4px",
+    "columnGap": "4px"
+  },
+  "updatedAt": "2026-10-06T06:44:24.507Z"
+}

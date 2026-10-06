@@ -1,0 +1,31 @@
+{
+  "id": "3568fa65-2d06-4257-b4b8-51d4f197fcdb",
+  "type": "section",
+  "tag": "div",
+  "name": "_Badge base",
+  "parent": "6c1f3ff8-ec0b-41d7-ab49-9852bf0c5159",
+  "order": "V",
+  "createdAt": "2026-10-06T06:44:24.507Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "4d482db3-ea93-457b-a583-13374b49d626"
+  },
+  "style": {
+    "width": "73px",
+    "flexShrink": "0",
+    "borderTopLeftRadius": "16px",
+    "borderTopRightRadius": "16px",
+    "borderBottomRightRadius": "16px",
+    "borderBottomLeftRadius": "16px",
+    "backgroundColor": "rgb(240, 253, 244)",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "paddingTop": "2px",
+    "paddingRight": "8px",
+    "paddingBottom": "2px",
+    "paddingLeft": "8px"
+  },
+  "updatedAt": "2026-10-06T06:44:24.507Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "6c1f3ff8-ec0b-41d7-ab49-9852bf0c5159",
+  "type": "section",
+  "tag": "div",
+  "name": "Badge",
+  "parent": "7ab3f848-0189-4d72-a66d-4cfb7549d61a",
+  "order": "V",
+  "createdAt": "2026-10-06T06:44:24.507Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "2805fe49-07ad-46e0-a86e-752d56b532d6"
+  },
+  "style": {
+    "width": "73px",
+    "flexShrink": "0",
+    "mixBlendMode": "multiply",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start"
+  },
+  "updatedAt": "2026-10-06T06:44:24.507Z"
+}

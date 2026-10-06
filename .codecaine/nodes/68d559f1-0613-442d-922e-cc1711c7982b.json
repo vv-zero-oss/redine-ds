@@ -1,0 +1,26 @@
+{
+  "id": "68d559f1-0613-442d-922e-cc1711c7982b",
+  "type": "frame",
+  "tag": "div",
+  "name": "Progress",
+  "parent": "95eb6e35-4fe6-4473-bfa3-1c1baa542221",
+  "order": "V",
+  "createdAt": "2026-10-06T06:43:47.438Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "2d763960-c7f1-4d49-9435-921e7cf997b8"
+  },
+  "style": {
+    "position": "absolute",
+    "left": "0px",
+    "top": "0px",
+    "width": "51.52px",
+    "height": "8px",
+    "borderTopLeftRadius": "4px",
+    "borderTopRightRadius": "4px",
+    "borderBottomRightRadius": "4px",
+    "borderBottomLeftRadius": "4px",
+    "backgroundColor": "rgb(127, 86, 217)"
+  },
+  "updatedAt": "2026-10-06T06:43:47.438Z"
+}

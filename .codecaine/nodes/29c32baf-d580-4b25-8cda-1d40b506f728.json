@@ -1,0 +1,31 @@
+{
+  "id": "29c32baf-d580-4b25-8cda-1d40b506f728",
+  "type": "image",
+  "tag": "img",
+  "name": "Avatar",
+  "parent": "c79a3889-b075-49f2-8f87-2584fb8d7bff",
+  "order": "G",
+  "createdAt": "2026-10-06T06:43:47.438Z",
+  "props": {
+    "src": "asset:media/images/4cbfa0323ed32818d946.jpg",
+    "alt": "Avatar",
+    "data-import-type": "figma",
+    "data-codecaine-id": "65deb6b6-3078-49ef-90e5-5dda689f7ccc"
+  },
+  "style": {
+    "display": "block",
+    "width": "24px",
+    "flexShrink": "0",
+    "height": "24px",
+    "borderTopLeftRadius": "200px",
+    "borderTopRightRadius": "200px",
+    "borderBottomRightRadius": "200px",
+    "borderBottomLeftRadius": "200px",
+    "outlineColor": "rgb(255, 255, 255)",
+    "outlineStyle": "solid",
+    "outlineWidth": "1.5px",
+    "outlineOffset": "0px",
+    "objectFit": "cover"
+  },
+  "updatedAt": "2026-10-06T06:43:48.175Z"
+}

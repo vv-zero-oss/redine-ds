@@ -1,0 +1,24 @@
+{
+  "id": "3adfde17-85be-4ad3-9f68-8a998b356828",
+  "type": "section",
+  "tag": "div",
+  "name": "Legend series",
+  "parent": "d3098105-3373-46ee-93c1-e1cf8299e493",
+  "order": "l",
+  "createdAt": "2026-10-06T06:43:47.438Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "fc8b96cc-e57b-4b5b-8f21-c69334ed883e"
+  },
+  "style": {
+    "width": "49px",
+    "flexShrink": "0",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "flex-start",
+    "alignItems": "center",
+    "rowGap": "8px",
+    "columnGap": "8px"
+  },
+  "updatedAt": "2026-10-06T06:43:47.438Z"
+}

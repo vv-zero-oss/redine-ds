@@ -1,0 +1,29 @@
+{
+  "id": "ad352b4f-acc0-4040-a072-a99f1f2c9ee1",
+  "type": "text",
+  "tag": "p",
+  "parent": "2ce05747-77a5-4e01-b2ee-54f0d9bb68c0",
+  "order": "V",
+  "createdAt": "2026-10-06T06:44:24.507Z",
+  "props": {
+    "text": "Jul",
+    "data-import-type": "figma",
+    "data-codecaine-id": "139e6aff-60cb-4b1d-99e4-c5a93caad49f"
+  },
+  "style": {
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "flexShrink": "0",
+    "fontFamily": "Inter, sans-serif",
+    "fontSize": "12px",
+    "fontWeight": "400",
+    "lineHeight": "18px",
+    "color": "rgb(82, 82, 82)",
+    "textAlign": "right",
+    "whiteSpaceCollapse": "collapse",
+    "textWrapMode": "nowrap"
+  },
+  "updatedAt": "2026-10-06T06:44:24.507Z"
+}

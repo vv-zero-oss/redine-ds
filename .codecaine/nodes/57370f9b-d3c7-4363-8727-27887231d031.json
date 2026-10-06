@@ -1,0 +1,26 @@
+{
+  "id": "57370f9b-d3c7-4363-8727-27887231d031",
+  "type": "section",
+  "tag": "div",
+  "name": "Buttons/Button",
+  "parent": "c5685abb-f5cc-499a-9d87-703b0bccd0ed",
+  "order": "G",
+  "createdAt": "2026-10-06T06:44:24.507Z",
+  "props": {
+    "data-import-type": "figma",
+    "data-codecaine-id": "f242d91a-960c-4558-b381-7a901b0f6e7b"
+  },
+  "style": {
+    "width": "105px",
+    "flexShrink": "0",
+    "borderTopLeftRadius": "8px",
+    "borderTopRightRadius": "8px",
+    "borderBottomRightRadius": "8px",
+    "borderBottomLeftRadius": "8px",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start"
+  },
+  "updatedAt": "2026-10-06T06:44:24.507Z"
+}
