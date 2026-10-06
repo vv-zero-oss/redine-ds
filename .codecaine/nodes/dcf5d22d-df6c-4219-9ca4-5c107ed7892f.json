@@ -30,7 +30,7 @@
   "props": {
     "src": "http://localhost:3000/",
     "data-codecaine-id": "284bce9a-8875-45d2-b6e4-0bfac3c7193a",
-    "view": "artboard",
+    "view": "viewport",
     "viewHeight": 2763
   },
   "sizing": {
@@ -45,5 +45,5 @@
     "left": -2593.658578918401,
     "top": 1894.4441215550817
   },
-  "updatedAt": "2026-10-06T13:21:29.593Z"
+  "updatedAt": "2026-10-06T13:31:02.322Z"
 }

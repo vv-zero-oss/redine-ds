@@ -52,6 +52,7 @@
 
   /* Spacing — a 4px scale; every gap and pad below is one of these.
      The two half steps are the nav items' own (Tailwind's 1.5 / 2.5). */
+  --lp-space-0-5: 2px;
   --lp-space-1: 4px;
   --lp-space-1-5: 6px;
   --lp-space-2: 8px;
@@ -121,18 +122,35 @@
   --lp-gallery-drift: 120px;                     /* scroll push, each way     */
   --lp-gallery-rise: 24px;                       /* header entrance distance  */
 
-  /* Pricing — the plan card at the top of the gallery section. Its warm
-     surface and ink are the nav's, so they share those names. */
-  --lp-pricing-cols: 2;                          /* feature card | plan card  */
+  /* Pricing — measured one to one from kobbe.io's #pricing. Its surface and
+     ink are the nav's (same site), so only what the nav lacks is new. */
+  --lp-pricing-width: 1216px;
+  --lp-pricing-scroll-margin: 96px;              /* clears the fixed nav      */
+  --lp-pricing-cols: 2;                          /* features | plans          */
   --lp-pricing-feature-cols: 2;
+  --lp-pricing-features-order: 0;                /* plans come first stacked  */
   --lp-pricing-gap: var(--lp-space-4);
   --lp-pricing-pad: var(--lp-space-6);
-  --lp-pricing-tier-height: 44px;
+  --lp-pricing-card-gap: var(--lp-space-8);
+  --lp-pricing-feature-gap-x: var(--lp-space-4);
+  --lp-pricing-muted: oklch(0.556 0.008 84.559);
+  --lp-pricing-mark: color-mix(in oklch, var(--lp-pricing-muted) 80%, transparent);
+  --lp-pricing-line: oklch(0.912 0.006 84.559);
+  --lp-pricing-brand: oklch(0.49 0.091 241.534);  /* switch, yearly on        */
+  --lp-pricing-track-off: color-mix(in oklch, var(--lp-nav-ink) 25%, transparent);
+  --lp-pricing-focus: color-mix(in oklch, var(--lp-pricing-line) 50%, transparent);
+  --lp-pricing-title-size: clamp(20px, 2vw, 21.6px);
+  --lp-pricing-title-lh: 1.25;
+  --lp-pricing-tracking: -0.025em;
+  --lp-pricing-amount-size: 18px;
+  --lp-pricing-amount-lh: 1.45;
+  --lp-pricing-spot: 64px;
+  --lp-pricing-mark-size: 12px;
   --lp-pricing-switch-w: 28px;
   --lp-pricing-switch-h: 16px;
-  --lp-pricing-thumb: 12px;
-  --lp-pricing-check: 12px;
-  --lp-pricing-radio: 16px;
+  --lp-pricing-track-h: 12px;
+  --lp-pricing-thumb: 14px;
+  --lp-pricing-switch-duration: 200ms;
 
   /* Site nav — measured one to one from kobbe.io's header and mega menu.
      Its warm greys are its own, so they get their own names. */
@@ -291,6 +309,9 @@
     --lp-hero-bottom: var(--lp-space-20);
     --lp-gallery-row: 360px;
     --lp-pricing-cols: 1;
+    --lp-pricing-feature-cols: 1;
+    --lp-pricing-features-order: 1;
+    --lp-pricing-feature-gap-x: var(--lp-space-6);
   }
 }
 
@@ -312,7 +333,8 @@
     --lp-gallery-pad-block: var(--lp-space-20);
     --lp-gallery-row: 280px;
     --lp-gallery-drift: 60px;
-    --lp-pricing-feature-cols: 1;
+    --lp-pricing-pad: var(--lp-space-4);
+    --lp-pricing-amount-size: 16px;
   }
 }
 
@@ -1036,194 +1058,193 @@
   }
 
   /* -- Pricing --------------------------------------------------------------
-     Two cards: every feature, then the volume picker. The switch and radios
-     only change text, so nothing here animates beyond hover/press feedback. */
+     Kobbe's two cards: every feature, then every volume. Only the billing
+     switch is live; the CTA and note always describe the entry tier. */
   .lp-pricing {
     display: grid;
     grid-template-columns: repeat(var(--lp-pricing-cols), minmax(0, 1fr));
+    align-items: stretch;
     gap: var(--lp-pricing-gap);
     width: 100%;
-    max-width: var(--lp-gallery-width);
+    max-width: var(--lp-pricing-width);
     color: var(--lp-nav-ink);
+    scroll-margin-top: var(--lp-pricing-scroll-margin);
   }
   .lp-pricing-card {
+    position: relative;
     display: flex;
     flex-direction: column;
-    gap: var(--lp-space-8);
+    gap: var(--lp-pricing-card-gap);
+    min-width: 0;
     padding: var(--lp-pricing-pad);
-    border-radius: var(--lp-radius-media);
-    background: var(--lp-nav-surface);
-    box-shadow: var(--lp-shadow-nav-xs), var(--lp-ring);
+    border-radius: var(--radius-lg);
+    background: var(--lp-nav-wash);
+  }
+  .lp-pricing-card-features {
+    justify-content: space-between;
+    order: var(--lp-pricing-features-order);
+  }
+  .lp-pricing-spot {
+    position: absolute;
+    bottom: 100%;
+    left: var(--lp-space-6);
+    width: var(--lp-pricing-spot);
+    height: auto;
+    pointer-events: none;
   }
   .lp-pricing-title {
     margin: 0;
-    font-size: var(--lp-text-lede);
-    line-height: var(--lp-text-lede--lh);
-    font-weight: var(--font-weight-medium);
-    letter-spacing: var(--lp-tracking-body);
-    color: var(--lp-fg-muted);
-    text-wrap: pretty;
+    font-size: var(--lp-pricing-title-size);
+    line-height: var(--lp-pricing-title-lh);
+    font-weight: var(--font-weight-normal);
+    letter-spacing: var(--lp-pricing-tracking);
+    color: var(--lp-pricing-muted);
+    text-wrap: balance;
   }
-  .lp-pricing-title strong {
-    font-weight: var(--font-weight-semibold);
-    color: var(--lp-nav-ink);
-  }
+  .lp-pricing-title-lead { color: var(--lp-nav-ink); }
+
   .lp-pricing-features {
     display: grid;
     grid-template-columns: repeat(var(--lp-pricing-feature-cols), minmax(0, 1fr));
-    gap: var(--lp-space-1-5) var(--lp-space-4);
-    margin: auto 0 0;
+    align-items: start;
+    gap: var(--lp-space-1-5) var(--lp-pricing-feature-gap-x);
+    margin: 0;
     padding: 0;
     list-style: none;
+    font-weight: var(--font-weight-medium);
   }
   .lp-pricing-feature {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: var(--lp-space-2);
+  }
+  .lp-pricing-mark {
+    flex: none;
+    width: var(--lp-pricing-mark-size);
+    height: var(--lp-pricing-mark-size);
+    margin-top: var(--lp-space-1-5);
+  }
+  .lp-pricing-mark-cross { fill: var(--lp-pricing-mark); }
+  .lp-pricing-mark-hole { fill: var(--lp-nav-surface); }
+  .lp-pricing-feature-text {
+    margin: 0;
     font-size: var(--text-base);
     line-height: var(--text-base--line-height);
-  }
-  .lp-pricing-check {
-    flex: none;
-    width: var(--lp-pricing-check);
-    height: var(--lp-pricing-check);
-    color: var(--lp-nav-ink);
+    letter-spacing: var(--lp-pricing-tracking);
   }
 
   /* Billing switch */
   .lp-pricing-billing {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    gap: var(--lp-space-2);
+    gap: var(--lp-space-2-5);
     font-size: var(--text-base);
     line-height: var(--text-base--line-height);
+    font-weight: var(--font-weight-medium);
   }
-  .lp-pricing-billing-label { color: var(--lp-fg-muted); }
-  .lp-pricing-billing-label[data-active] { color: var(--lp-nav-ink); }
+  .lp-pricing-period { color: var(--lp-pricing-muted); }
+  .lp-pricing-period[data-active] { color: var(--lp-nav-ink); }
   .lp-pricing-switch {
     position: relative;
+    display: inline-flex;
     flex: none;
     width: var(--lp-pricing-switch-w);
     height: var(--lp-pricing-switch-h);
     padding: 0;
     border: 0;
     border-radius: var(--radius-pill);
-    background: var(--lp-wash-strong);
+    background: transparent;
+    outline: none;
     cursor: pointer;
-    transition-property: background-color, scale;
-    transition-duration: var(--duration-micro);
-    transition-timing-function: var(--ease-smooth);
   }
-  .lp-pricing-switch[aria-checked="true"] { background: var(--lp-nav-ink); }
-  .lp-pricing-switch:active { scale: 0.96; }
-  .lp-pricing-switch:focus-visible {
-    outline: 2px solid var(--lp-focus);
-    outline-offset: 2px;
+  .lp-pricing-switch:focus-visible { box-shadow: 0 0 0 3px var(--lp-pricing-focus); }
+  .lp-pricing-switch-track {
+    position: absolute;
+    inset-inline: 0;
+    top: 50%;
+    height: var(--lp-pricing-track-h);
+    translate: 0 -50%;
+    border-radius: var(--radius-pill);
+    background: var(--lp-pricing-track-off);
+    transition: background-color var(--duration-micro) var(--ease-smooth);
   }
+  .lp-pricing-switch[aria-checked="true"] .lp-pricing-switch-track { background: var(--lp-pricing-brand); }
   .lp-pricing-switch-thumb {
     position: absolute;
-    top: calc((var(--lp-pricing-switch-h) - var(--lp-pricing-thumb)) / 2);
-    left: calc((var(--lp-pricing-switch-h) - var(--lp-pricing-thumb)) / 2);
+    top: 50%;
+    left: 0;
     width: var(--lp-pricing-thumb);
     height: var(--lp-pricing-thumb);
     border-radius: var(--radius-pill);
-    background: var(--lp-on-ink);
-    box-shadow: var(--lp-shadow-nav-xs);
-    transition: translate var(--duration-micro) var(--ease-smooth);
+    background: var(--lp-nav-ink);
+    transform: translateY(-50%);
+    transition: transform var(--lp-pricing-switch-duration) var(--ease-smooth);
   }
   .lp-pricing-switch[aria-checked="true"] .lp-pricing-switch-thumb {
-    translate: calc(var(--lp-pricing-switch-w) - var(--lp-pricing-switch-h)) 0;
-  }
-  .lp-pricing-badge {
-    padding: var(--lp-space-1) var(--lp-space-2);
-    border-radius: var(--radius-pill);
-    background: var(--lp-nav-wash);
-    box-shadow: var(--lp-ring);
-    font-size: var(--text-xs);
-    line-height: var(--text-xs--line-height);
-    font-weight: var(--font-weight-medium);
+    transform: translate(calc(var(--lp-pricing-switch-w) - var(--lp-pricing-thumb)), -50%);
   }
 
-  /* Volume radios — the whole row is the label */
+  /* Volumes */
   .lp-pricing-tiers {
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    margin: 0;
+    margin: var(--lp-space-6) 0 0;
     padding: 0;
-    border: 0;
-  }
-  .lp-pricing-legend {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip-path: inset(50%);
-    white-space: nowrap;
+    list-style: none;
   }
   .lp-pricing-tier {
     display: flex;
-    align-items: center;
-    gap: var(--lp-space-3);
-    min-height: var(--lp-pricing-tier-height);
-    padding-inline: var(--lp-space-2);
-    border-radius: var(--radius-md);
-    box-shadow: inset 0 -1px 0 var(--lp-line);
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--lp-space-4);
+    padding-block: var(--lp-space-1);
     font-size: var(--text-base);
     line-height: var(--text-base--line-height);
-    color: var(--lp-fg-muted);
+    font-weight: var(--font-weight-medium);
+  }
+  .lp-pricing-tier + .lp-pricing-tier { box-shadow: inset 0 1px 0 var(--lp-pricing-line); }
+  .lp-pricing-price {
+    display: inline-flex;
+    align-items: baseline;
+    line-height: var(--lp-pricing-amount-lh);
+    font-variant-numeric: tabular-nums;
+  }
+  .lp-pricing-amount {
+    padding-inline-end: var(--lp-space-1);
+    font-size: var(--lp-pricing-amount-size);
+    letter-spacing: var(--lp-pricing-tracking);
+  }
+  .lp-pricing-unit {
+    margin-inline-start: var(--lp-space-0-5);
+    color: var(--lp-pricing-muted);
+  }
+
+  .lp-pricing-cta { margin-top: var(--lp-space-6); }
+  .lp-pricing-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: var(--lp-space-3) var(--lp-space-5);
+    border-radius: var(--radius-lg);
+    background: var(--lp-nav-ink);
+    color: var(--lp-nav-surface);
+    font-size: var(--lp-text-body);
+    line-height: var(--text-lg--line-height);
+    font-weight: var(--font-weight-medium);
+    text-decoration: none;
     cursor: pointer;
     transition: background-color var(--duration-micro) var(--ease-smooth);
   }
-  .lp-pricing-tier:hover { background: var(--lp-wash); }
-  .lp-pricing-tier:has(:checked) {
-    background: var(--lp-nav-wash);
-    color: var(--lp-nav-ink);
-  }
-  .lp-pricing-radio {
-    flex: none;
-    width: var(--lp-pricing-radio);
-    height: var(--lp-pricing-radio);
-    margin: 0;
-    accent-color: var(--lp-nav-ink);
-    cursor: pointer;
-  }
-  .lp-pricing-radio:focus-visible {
+  .lp-pricing-cta-btn:hover { background: var(--lp-nav-ink-hover); }
+  .lp-pricing-cta-btn:focus-visible {
     outline: 2px solid var(--lp-focus);
     outline-offset: 2px;
   }
-  .lp-pricing-tier-events { flex: 1; }
-  .lp-pricing-tier-price {
-    display: inline-flex;
-    align-items: baseline;
-    gap: var(--lp-space-1);
-    font-size: var(--text-2xl);
-    line-height: var(--text-2xl--line-height);
-    font-weight: var(--font-weight-semibold);
-    font-variant-numeric: tabular-nums;
-    color: var(--lp-nav-ink);
-  }
-  .lp-pricing-tier-unit {
-    font-size: var(--text-base);
-    line-height: var(--text-base--line-height);
-    font-weight: var(--lp-weight-body);
-    color: var(--lp-fg-muted);
-  }
-
-  .lp-pricing-cta {
-    display: flex;
-    flex-direction: column;
-    gap: var(--lp-space-2);
-    margin-top: auto;
-  }
-  .lp-pricing-cta-btn { width: 100%; }
   .lp-pricing-note {
-    margin: 0;
+    margin: var(--lp-space-4) 0 0;
     font-size: var(--text-xs);
     line-height: var(--text-xs--line-height);
-    color: var(--lp-fg-muted);
-    text-align: center;
+    color: var(--lp-pricing-muted);
+    text-wrap: balance;
   }
 }
 
