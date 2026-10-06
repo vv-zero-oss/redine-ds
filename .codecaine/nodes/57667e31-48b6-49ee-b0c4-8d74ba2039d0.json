@@ -1,0 +1,14 @@
+{
+  "id": "57667e31-48b6-49ee-b0c4-8d74ba2039d0",
+  "type": "text",
+  "tag": "span",
+  "parent": "23bf1eaf-38a7-4d2c-be74-0d94f1093423",
+  "order": "l",
+  "createdAt": "2026-10-06T04:08:38.315Z",
+  "props": {
+    "text": "changed roles",
+    "data-codecaine-id": "2063829b-8f30-44e3-9e06-1598d561e3d0"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:38.315Z"
+}

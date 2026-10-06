@@ -1,0 +1,14 @@
+{
+  "id": "c7ecc753-d492-4b86-bf2e-e00d85280e5f",
+  "type": "text",
+  "tag": "span",
+  "parent": "13e24f7d-7163-46d0-a1e1-224d93d8754a",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:01.126Z",
+  "props": {
+    "text": "Automations",
+    "data-codecaine-id": "7d2d448a-b33f-4c77-89a6-e04c96a80b5f"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:01.126Z"
+}

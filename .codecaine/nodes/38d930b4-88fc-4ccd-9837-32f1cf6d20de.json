@@ -1,0 +1,14 @@
+{
+  "id": "38d930b4-88fc-4ccd-9837-32f1cf6d20de",
+  "type": "text",
+  "tag": "span",
+  "parent": "6593a6e3-706a-4f60-9afe-f4fea9cf75da",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:13.478Z",
+  "props": {
+    "text": "Daniel Frost",
+    "data-codecaine-id": "f5b26ecf-4203-4c68-97bc-3c61e14e907d"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:13.478Z"
+}

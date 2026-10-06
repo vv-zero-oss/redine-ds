@@ -1,0 +1,14 @@
+{
+  "id": "1bc151b0-bade-403c-a790-733b61b9b2f5",
+  "type": "text",
+  "tag": "span",
+  "parent": "87360521-f225-4a04-afbc-f9473a307fa3",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:01.126Z",
+  "props": {
+    "text": "Recap yesterday's calls",
+    "data-codecaine-id": "ce30c37c-fe30-4fb3-a3bf-407ba491a549"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:01.126Z"
+}

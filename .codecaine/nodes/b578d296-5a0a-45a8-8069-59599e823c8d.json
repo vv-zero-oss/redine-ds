@@ -1,0 +1,14 @@
+{
+  "id": "b578d296-5a0a-45a8-8069-59599e823c8d",
+  "type": "text",
+  "tag": "span",
+  "parent": "f2e704d5-7cf3-4a01-ae41-906b64f1eda5",
+  "order": "l",
+  "createdAt": "2026-10-06T04:08:01.126Z",
+  "props": {
+    "text": "Q4 pipeline",
+    "data-codecaine-id": "f183e072-7fb9-433a-a42f-dde4d06cd057"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:01.126Z"
+}

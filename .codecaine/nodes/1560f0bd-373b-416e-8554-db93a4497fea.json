@@ -1,0 +1,14 @@
+{
+  "id": "1560f0bd-373b-416e-8554-db93a4497fea",
+  "type": "text",
+  "tag": "span",
+  "parent": "c8cc626b-13c2-42a4-8600-8c6c7b0689f2",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:13.478Z",
+  "props": {
+    "text": "Figma",
+    "data-codecaine-id": "eb2f8b55-e764-4fe8-98bf-493f8b4f2012"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:13.478Z"
+}

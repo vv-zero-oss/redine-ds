@@ -1,0 +1,14 @@
+{
+  "id": "6c56ff63-acc1-4fee-b246-0ea4fb33f408",
+  "type": "text",
+  "tag": "span",
+  "parent": "578153c7-b505-43fd-bb91-bdf19ed66f8d",
+  "order": "V",
+  "createdAt": "2026-10-06T04:11:23.105Z",
+  "props": {
+    "text": "The room",
+    "data-codecaine-id": "3e93251b-1f2d-46d1-bce6-4a692f21ae8f"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:11:23.105Z"
+}

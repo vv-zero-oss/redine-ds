@@ -1,0 +1,14 @@
+{
+  "id": "9b76d465-b27f-4673-9b71-89a9062cd332",
+  "type": "text",
+  "tag": "span",
+  "parent": "3a444660-8cac-4f32-9391-a2d92aff1f59",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:13.478Z",
+  "props": {
+    "text": "Discord",
+    "data-codecaine-id": "25cf6cd0-5715-438f-b775-688cac7c50fe"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:13.478Z"
+}

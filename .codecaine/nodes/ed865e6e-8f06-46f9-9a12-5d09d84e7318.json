@@ -1,0 +1,14 @@
+{
+  "id": "ed865e6e-8f06-46f9-9a12-5d09d84e7318",
+  "type": "text",
+  "tag": "span",
+  "parent": "7ce0761d-963c-498a-abbc-a0182b6f7417",
+  "order": "V",
+  "createdAt": "2026-10-06T04:06:17.318Z",
+  "props": {
+    "text": "Watch the film",
+    "data-codecaine-id": "524c292c-2caf-4330-ab74-58e76a353bca"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:06:17.318Z"
+}

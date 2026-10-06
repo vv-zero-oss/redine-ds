@@ -1,0 +1,14 @@
+{
+  "id": "221601f2-ebbb-4151-9359-c7059a25543f",
+  "type": "text",
+  "tag": "span",
+  "parent": "591dccaf-45e8-4e48-9c78-6730d2fd10df",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:24.304Z",
+  "props": {
+    "text": "Copy",
+    "data-codecaine-id": "03002c01-a431-4851-a63a-312bdc476694"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:24.304Z"
+}

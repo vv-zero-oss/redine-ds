@@ -1,0 +1,14 @@
+{
+  "id": "db66fb23-66a8-49a8-9fd1-202049472560",
+  "type": "text",
+  "tag": "span",
+  "parent": "6feaf296-a531-4312-9498-2ee8e1a59395",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:38.315Z",
+  "props": {
+    "text": "At risk",
+    "data-codecaine-id": "2bd756b4-9858-4b53-805c-1c644c0882dd"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:38.315Z"
+}

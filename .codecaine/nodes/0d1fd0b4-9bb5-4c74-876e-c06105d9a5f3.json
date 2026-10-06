@@ -1,0 +1,14 @@
+{
+  "id": "0d1fd0b4-9bb5-4c74-876e-c06105d9a5f3",
+  "type": "text",
+  "tag": "span",
+  "parent": "93c69180-8d37-4251-ab88-3302fc88e817",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:01.126Z",
+  "props": {
+    "text": "Companies",
+    "data-codecaine-id": "1e2352d7-8295-4948-a5f2-3354ea09af60"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:01.126Z"
+}

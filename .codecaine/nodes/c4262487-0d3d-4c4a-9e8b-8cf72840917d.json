@@ -1,0 +1,14 @@
+{
+  "id": "c4262487-0d3d-4c4a-9e8b-8cf72840917d",
+  "type": "text",
+  "tag": "span",
+  "parent": "bcba6193-b4c3-494e-a21b-d02a07dd5e21",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:38.315Z",
+  "props": {
+    "text": "Healthy",
+    "data-codecaine-id": "3ab11183-a9b3-4642-b755-03dcf24338bd"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:38.315Z"
+}

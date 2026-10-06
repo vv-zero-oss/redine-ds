@@ -1,0 +1,14 @@
+{
+  "id": "aec581f3-b4e4-4698-81a2-739d3f6a535c",
+  "type": "text",
+  "tag": "span",
+  "parent": "0c54df34-8aee-4985-a094-e0142ed4d0e3",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:01.126Z",
+  "props": {
+    "text": "Deals",
+    "data-codecaine-id": "9e0bd0f3-f483-43ab-80f7-e7819b72128b"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:01.126Z"
+}

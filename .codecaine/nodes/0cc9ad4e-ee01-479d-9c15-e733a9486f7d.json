@@ -1,0 +1,14 @@
+{
+  "id": "0cc9ad4e-ee01-479d-9c15-e733a9486f7d",
+  "type": "text",
+  "tag": "span",
+  "parent": "9e623e00-705c-4c14-a0be-79493ab3869f",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:13.478Z",
+  "props": {
+    "text": "Ask Arcline",
+    "data-codecaine-id": "cab8d189-3a64-4b03-ba94-a38e15bef3f4"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:13.478Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "fbd2d7c6-78c5-4849-894b-fac9824485ea",
+  "type": "text",
+  "tag": "span",
+  "parent": "7ad52276-0727-482f-ad42-b91926958adf",
+  "order": "G",
+  "createdAt": "2026-10-06T04:11:40.517Z",
+  "props": {
+    "text": "Back to top",
+    "data-codecaine-id": "d6552f74-546e-4149-907f-78a946226d2d"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:11:40.517Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "af4f4d2c-993e-4ad4-a9a6-3919b9ecb1e0",
+  "type": "text",
+  "tag": "span",
+  "parent": "b37e9168-9bda-4013-abdb-55d6aca5683d",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:13.478Z",
+  "props": {
+    "text": "Research",
+    "data-codecaine-id": "37c33594-1929-45d6-a807-5b85285bb588"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:13.478Z"
+}

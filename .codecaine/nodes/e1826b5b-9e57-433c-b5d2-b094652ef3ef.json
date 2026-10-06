@@ -1,0 +1,14 @@
+{
+  "id": "e1826b5b-9e57-433c-b5d2-b094652ef3ef",
+  "type": "text",
+  "tag": "span",
+  "parent": "75ed8d50-217f-4b29-a0c0-0cbb81ad4d29",
+  "order": "G",
+  "createdAt": "2026-10-06T04:08:01.126Z",
+  "props": {
+    "text": "Arcline",
+    "data-codecaine-id": "957822dd-a5ad-4903-9bd9-2e4e84745adb"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:01.126Z"
+}

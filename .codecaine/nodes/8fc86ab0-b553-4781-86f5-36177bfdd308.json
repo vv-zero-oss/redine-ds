@@ -1,0 +1,14 @@
+{
+  "id": "8fc86ab0-b553-4781-86f5-36177bfdd308",
+  "type": "text",
+  "tag": "span",
+  "parent": "ddeb5e15-0c1e-483e-9c23-467fdb9b6630",
+  "order": "V",
+  "createdAt": "2026-10-06T04:11:36.996Z",
+  "props": {
+    "text": "Find us",
+    "data-codecaine-id": "31007d8f-eeb3-4176-a500-d81b843bfdcc"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:11:36.996Z"
+}

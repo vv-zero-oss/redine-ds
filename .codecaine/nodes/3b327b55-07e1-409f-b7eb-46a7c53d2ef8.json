@@ -1,0 +1,14 @@
+{
+  "id": "3b327b55-07e1-409f-b7eb-46a7c53d2ef8",
+  "type": "text",
+  "tag": "span",
+  "parent": "136c0f67-023e-49f7-a671-7d714272191b",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:43.835Z",
+  "props": {
+    "text": "→ VP Revenue",
+    "data-codecaine-id": "cfb06c2b-bd55-425d-8af4-eb8d82e18f5c"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:43.835Z"
+}

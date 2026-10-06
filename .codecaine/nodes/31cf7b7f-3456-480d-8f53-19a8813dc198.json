@@ -1,0 +1,14 @@
+{
+  "id": "31cf7b7f-3456-480d-8f53-19a8813dc198",
+  "type": "text",
+  "tag": "span",
+  "parent": "ff3662de-51fb-4b3f-a465-38f927c18eaf",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:01.126Z",
+  "props": {
+    "text": "Tasks",
+    "data-codecaine-id": "919379b3-5a45-4099-b45a-6e0a690fbf57"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:01.126Z"
+}

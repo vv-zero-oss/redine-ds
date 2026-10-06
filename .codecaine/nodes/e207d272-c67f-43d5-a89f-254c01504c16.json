@@ -1,0 +1,14 @@
+{
+  "id": "e207d272-c67f-43d5-a89f-254c01504c16",
+  "type": "text",
+  "tag": "span",
+  "parent": "d5655a7f-8dea-4dbf-bc83-9b012517625b",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:01.126Z",
+  "props": {
+    "text": "Let me send the security pack.",
+    "data-codecaine-id": "fde735fc-e00d-46d5-9b00-fc8a36931e67"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:01.126Z"
+}

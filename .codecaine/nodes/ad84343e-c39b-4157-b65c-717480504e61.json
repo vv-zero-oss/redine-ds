@@ -1,0 +1,14 @@
+{
+  "id": "ad84343e-c39b-4157-b65c-717480504e61",
+  "type": "text",
+  "tag": "span",
+  "parent": "7c8a0852-a165-45fb-9d2b-7d2c9828fadc",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:43.835Z",
+  "props": {
+    "text": "Fieldwork",
+    "data-codecaine-id": "6d8f5118-3f50-42ef-b049-b60bc7ba3892"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:43.835Z"
+}

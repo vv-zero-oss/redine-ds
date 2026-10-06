@@ -1,0 +1,14 @@
+{
+  "id": "fe25cb73-4255-44f8-a4e6-91221a5fbaab",
+  "type": "text",
+  "tag": "span",
+  "parent": "a89441a0-8e9e-4e32-8c38-d9ba5290ad7a",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:01.126Z",
+  "props": {
+    "text": "People",
+    "data-codecaine-id": "0c9e3b52-e012-429c-9ced-00d6c9e6dc58"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:01.126Z"
+}

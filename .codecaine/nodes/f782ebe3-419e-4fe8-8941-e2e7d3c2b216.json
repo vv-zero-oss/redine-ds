@@ -1,0 +1,14 @@
+{
+  "id": "f782ebe3-419e-4fe8-8941-e2e7d3c2b216",
+  "type": "text",
+  "tag": "span",
+  "parent": "f4b24f7b-20f2-4f2d-93f1-17a8c870b336",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:38.315Z",
+  "props": {
+    "text": "Kestrel Health",
+    "data-codecaine-id": "c9b9d6f4-ed12-4d9e-bb12-4ad615987a25"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:38.315Z"
+}

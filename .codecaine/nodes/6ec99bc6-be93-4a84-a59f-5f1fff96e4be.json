@@ -1,0 +1,14 @@
+{
+  "id": "6ec99bc6-be93-4a84-a59f-5f1fff96e4be",
+  "type": "text",
+  "tag": "span",
+  "parent": "f0e263c0-c052-46c6-93f0-03e04c261200",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:13.478Z",
+  "props": {
+    "text": "Shopify",
+    "data-codecaine-id": "e3ba398a-8c36-4a7e-8694-e465e0e7c73d"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:13.478Z"
+}

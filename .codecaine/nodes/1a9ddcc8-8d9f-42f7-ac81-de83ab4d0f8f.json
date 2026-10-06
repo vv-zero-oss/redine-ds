@@ -1,0 +1,14 @@
+{
+  "id": "1a9ddcc8-8d9f-42f7-ac81-de83ab4d0f8f",
+  "type": "text",
+  "tag": "span",
+  "parent": "7a94291b-730b-44bb-8a63-5738e49f101a",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:01.126Z",
+  "props": {
+    "text": "We'd sign this quarter if SSO…",
+    "data-codecaine-id": "f42bd7a2-65aa-45e0-9d21-76bf88bdc90b"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:01.126Z"
+}

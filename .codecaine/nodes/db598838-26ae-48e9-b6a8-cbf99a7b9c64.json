@@ -1,0 +1,14 @@
+{
+  "id": "db598838-26ae-48e9-b6a8-cbf99a7b9c64",
+  "type": "text",
+  "tag": "span",
+  "parent": "23ae8d27-9d2f-4a4a-bb85-df40cc650d7d",
+  "order": "G",
+  "createdAt": "2026-10-06T04:08:13.478Z",
+  "props": {
+    "text": "To",
+    "data-codecaine-id": "7d0d83b6-a49f-45be-a76b-70c3fa18b3a9"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:13.478Z"
+}

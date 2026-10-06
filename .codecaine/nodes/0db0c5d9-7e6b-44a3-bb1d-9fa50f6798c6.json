@@ -1,0 +1,14 @@
+{
+  "id": "0db0c5d9-7e6b-44a3-bb1d-9fa50f6798c6",
+  "type": "text",
+  "tag": "span",
+  "parent": "745e0109-3972-4455-812a-2980d67d988f",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:13.478Z",
+  "props": {
+    "text": "Vercel",
+    "data-codecaine-id": "c33d928b-af60-449d-b013-e9599368186e"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:13.478Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "8f2b5d17-26eb-44ef-bcdb-d511cab3c891",
+  "type": "text",
+  "tag": "span",
+  "parent": "313910b6-b0dd-4f17-8c4e-18db50d48656",
+  "order": "V",
+  "createdAt": "2026-10-06T04:11:36.996Z",
+  "props": {
+    "text": "Hours",
+    "data-codecaine-id": "3f02a927-f85a-4400-8df3-234f70d09b4c"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:11:36.996Z"
+}

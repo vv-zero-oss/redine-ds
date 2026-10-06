@@ -1,0 +1,14 @@
+{
+  "id": "3271da43-3e7a-4d0b-b636-c1f462c0d9cb",
+  "type": "text",
+  "tag": "span",
+  "parent": "b04a1184-af9e-4e84-ada5-0a237ddb796b",
+  "order": "V",
+  "createdAt": "2026-10-06T04:11:09.075Z",
+  "props": {
+    "text": "Word of mouth",
+    "data-codecaine-id": "7f16fdf6-e6ab-447f-a93c-bd1446fa9c84"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:11:09.075Z"
+}

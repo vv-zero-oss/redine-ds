@@ -1,0 +1,14 @@
+{
+  "id": "1beed8af-9b49-4d0a-ab1c-d1f2c67c7bb7",
+  "type": "text",
+  "tag": "span",
+  "parent": "e2855986-7cf3-4544-918a-6ea701b7cfea",
+  "order": "V",
+  "createdAt": "2026-10-06T04:11:36.996Z",
+  "props": {
+    "text": "Save a seat",
+    "data-codecaine-id": "aab1bcaf-fec8-4de0-8dfd-207f27b21d48"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:11:36.996Z"
+}

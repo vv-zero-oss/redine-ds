@@ -1,0 +1,14 @@
+{
+  "id": "ea0f5c66-5984-4894-8331-0bc367f3cf1b",
+  "type": "text",
+  "tag": "span",
+  "parent": "4a2ac040-4fc2-4dc1-a372-fe157108687e",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:13.478Z",
+  "props": {
+    "text": "Supabase",
+    "data-codecaine-id": "0a89bfe6-1dbc-4549-90b4-eaeb1e4a2c6c"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:13.478Z"
+}

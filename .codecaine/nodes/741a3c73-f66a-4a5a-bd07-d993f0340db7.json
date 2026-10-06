@@ -1,0 +1,14 @@
+{
+  "id": "741a3c73-f66a-4a5a-bd07-d993f0340db7",
+  "type": "text",
+  "tag": "span",
+  "parent": "1fc79a28-377d-4a55-8f7a-6393b5474a81",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:13.478Z",
+  "props": {
+    "text": "Nathan Reid",
+    "data-codecaine-id": "2bd92b2a-9d0d-4bb8-8896-7020c60f538c"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:13.478Z"
+}

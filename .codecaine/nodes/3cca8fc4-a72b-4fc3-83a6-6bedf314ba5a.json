@@ -1,0 +1,14 @@
+{
+  "id": "3cca8fc4-a72b-4fc3-83a6-6bedf314ba5a",
+  "type": "text",
+  "tag": "span",
+  "parent": "bc5795b0-0129-466e-bdc3-cafab9c7dcee",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:13.478Z",
+  "props": {
+    "text": "Webflow",
+    "data-codecaine-id": "296ec954-9ede-40ba-8462-99a65d59a015"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:13.478Z"
+}

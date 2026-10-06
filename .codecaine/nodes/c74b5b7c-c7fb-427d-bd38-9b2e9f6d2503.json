@@ -1,0 +1,14 @@
+{
+  "id": "c74b5b7c-c7fb-427d-bd38-9b2e9f6d2503",
+  "type": "text",
+  "tag": "span",
+  "parent": "a92567e1-cabe-4076-b400-765d93cdbacc",
+  "order": "G",
+  "createdAt": "2026-10-06T04:08:38.315Z",
+  "props": {
+    "text": "Account health",
+    "data-codecaine-id": "bfcf63e6-aa77-4204-b1f5-ed5f04d9783c"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:38.315Z"
+}

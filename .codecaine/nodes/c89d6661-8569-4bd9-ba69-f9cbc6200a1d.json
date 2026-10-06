@@ -1,0 +1,14 @@
+{
+  "id": "c89d6661-8569-4bd9-ba69-f9cbc6200a1d",
+  "type": "text",
+  "tag": "span",
+  "parent": "0c0d3fd8-21f9-441d-ac33-581b3ef16543",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:13.478Z",
+  "props": {
+    "text": "Theo Marsh",
+    "data-codecaine-id": "5c4743d3-284d-4c9b-8fb3-3984438794ce"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:13.478Z"
+}

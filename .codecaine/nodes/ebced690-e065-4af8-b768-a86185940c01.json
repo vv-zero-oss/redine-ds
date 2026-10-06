@@ -1,0 +1,14 @@
+{
+  "id": "ebced690-e065-4af8-b768-a86185940c01",
+  "type": "text",
+  "tag": "span",
+  "parent": "55ef50ff-f0e3-4232-92b6-3a2a19158d72",
+  "order": "G",
+  "createdAt": "2026-10-06T04:08:30.922Z",
+  "props": {
+    "text": "Northbeam",
+    "data-codecaine-id": "9850d0a0-725b-454b-aae3-1a80f7193a65"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:30.922Z"
+}

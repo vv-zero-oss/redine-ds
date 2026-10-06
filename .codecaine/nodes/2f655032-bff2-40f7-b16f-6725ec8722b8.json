@@ -1,0 +1,14 @@
+{
+  "id": "2f655032-bff2-40f7-b16f-6725ec8722b8",
+  "type": "text",
+  "tag": "span",
+  "parent": "1557aa54-9be4-4867-943e-62a731cc513a",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:01.126Z",
+  "props": {
+    "text": "Prep for 2pm with Orbital",
+    "data-codecaine-id": "c66f75b0-0ffb-4b35-8e9b-84d7a6230108"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:01.126Z"
+}

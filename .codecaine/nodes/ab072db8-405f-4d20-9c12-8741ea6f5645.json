@@ -1,0 +1,14 @@
+{
+  "id": "ab072db8-405f-4d20-9c12-8741ea6f5645",
+  "type": "text",
+  "tag": "span",
+  "parent": "cc7c7178-dc26-4886-8154-96ef33db6f0e",
+  "order": "l",
+  "createdAt": "2026-10-06T04:08:01.126Z",
+  "props": {
+    "text": "Expansion targets",
+    "data-codecaine-id": "2a2d9e76-d272-432e-9c6b-f9b7189d809d"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:01.126Z"
+}

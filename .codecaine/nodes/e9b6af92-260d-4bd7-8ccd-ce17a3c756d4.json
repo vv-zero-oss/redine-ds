@@ -1,0 +1,14 @@
+{
+  "id": "e9b6af92-260d-4bd7-8ccd-ce17a3c756d4",
+  "type": "text",
+  "tag": "span",
+  "parent": "95230960-8d1d-4f62-aa1f-adbd816bd5a5",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:13.478Z",
+  "props": {
+    "text": "View settings",
+    "data-codecaine-id": "70ea3a01-0099-48a3-8a40-43073ed61d95"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:13.478Z"
+}

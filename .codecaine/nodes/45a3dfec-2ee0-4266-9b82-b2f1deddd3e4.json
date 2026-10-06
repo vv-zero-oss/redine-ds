@@ -1,0 +1,14 @@
+{
+  "id": "45a3dfec-2ee0-4266-9b82-b2f1deddd3e4",
+  "type": "text",
+  "tag": "span",
+  "parent": "a6106745-b4d9-434e-b29c-4716245a0ff6",
+  "order": "G",
+  "createdAt": "2026-10-06T04:08:24.304Z",
+  "props": {
+    "text": "Built to be built on.",
+    "data-codecaine-id": "ddab296e-d3ef-4ba0-b9ba-bd310fbf2058"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:24.304Z"
+}

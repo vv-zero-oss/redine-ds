@@ -1,0 +1,14 @@
+{
+  "id": "95dffc78-7f4f-4eb9-893c-8e9c4afec2ce",
+  "type": "text",
+  "tag": "span",
+  "parent": "d495e0e1-f833-45f4-9260-db0c6fe3cca7",
+  "order": "V",
+  "createdAt": "2026-10-06T04:11:09.075Z",
+  "props": {
+    "text": "Go on, move them around",
+    "data-codecaine-id": "971d5a84-9a1d-4962-b781-c5db981fc5e0"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:11:09.075Z"
+}

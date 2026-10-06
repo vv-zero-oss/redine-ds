@@ -1,0 +1,14 @@
+{
+  "id": "b712e132-dd64-4e9e-8c53-00b3fbab738a",
+  "type": "text",
+  "tag": "span",
+  "parent": "b27f11d1-7197-40fd-98a5-54be63ae072d",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:01.126Z",
+  "props": {
+    "text": "which deals will slip this quarter?",
+    "data-codecaine-id": "721ca4c7-b0f7-4533-9ce7-12ed22287b5c"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:01.126Z"
+}

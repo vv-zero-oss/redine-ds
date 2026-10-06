@@ -1,0 +1,14 @@
+{
+  "id": "71a3fef9-9388-43d6-8bd6-72cc5d775cc6",
+  "type": "text",
+  "tag": "span",
+  "parent": "f7d9692b-2342-43e0-8d75-d0dca7bd2b22",
+  "order": "l",
+  "createdAt": "2026-10-06T04:08:13.478Z",
+  "props": {
+    "text": "Priya",
+    "data-codecaine-id": "f1173b33-faba-4673-845f-c1da8cf5c948"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:13.478Z"
+}

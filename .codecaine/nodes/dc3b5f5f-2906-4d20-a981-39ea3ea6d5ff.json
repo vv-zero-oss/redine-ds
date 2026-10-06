@@ -1,0 +1,14 @@
+{
+  "id": "dc3b5f5f-2906-4d20-a981-39ea3ea6d5ff",
+  "type": "text",
+  "tag": "span",
+  "parent": "773f4b09-7b68-4bbe-b7ca-e7c9a5f3a872",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:01.126Z",
+  "props": {
+    "text": "Calls",
+    "data-codecaine-id": "ab949b90-3ddb-4640-87fd-615e238b3fe2"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:01.126Z"
+}

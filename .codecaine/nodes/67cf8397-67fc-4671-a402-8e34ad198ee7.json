@@ -1,0 +1,14 @@
+{
+  "id": "67cf8397-67fc-4671-a402-8e34ad198ee7",
+  "type": "text",
+  "tag": "span",
+  "parent": "0659c91a-7b52-46cf-9a7f-3333294d710d",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:13.478Z",
+  "props": {
+    "text": "Intent",
+    "data-codecaine-id": "39ecbc1e-a4a7-42d6-83f3-ea03b3eb5678"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:13.478Z"
+}

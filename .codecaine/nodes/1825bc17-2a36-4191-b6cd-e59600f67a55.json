@@ -1,0 +1,14 @@
+{
+  "id": "1825bc17-2a36-4191-b6cd-e59600f67a55",
+  "type": "text",
+  "tag": "span",
+  "parent": "3db510e9-42fa-44b5-99b5-9b4efa0c47ee",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:13.478Z",
+  "props": {
+    "text": "Maxwell Turner",
+    "data-codecaine-id": "879f0997-9180-4b0e-8d0a-d4d7ef65586a"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:13.478Z"
+}

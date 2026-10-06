@@ -1,0 +1,14 @@
+{
+  "id": "2f5eee34-fc47-49e4-b67f-644e5a644035",
+  "type": "text",
+  "tag": "span",
+  "parent": "c9126440-c957-4fd9-9426-3b8cd190b1d8",
+  "order": "l",
+  "createdAt": "2026-10-06T04:08:01.126Z",
+  "props": {
+    "text": "Stalled > 7 days",
+    "data-codecaine-id": "017415ab-eb78-40f7-a1ec-ca49d9b3e96a"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:01.126Z"
+}

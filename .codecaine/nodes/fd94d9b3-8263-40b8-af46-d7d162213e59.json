@@ -1,0 +1,14 @@
+{
+  "id": "fd94d9b3-8263-40b8-af46-d7d162213e59",
+  "type": "text",
+  "tag": "span",
+  "parent": "21e1df60-56e4-44a0-9504-82d56e27b150",
+  "order": "V",
+  "createdAt": "2026-10-06T04:08:01.126Z",
+  "props": {
+    "text": "Kestrel Health — security Q&A",
+    "data-codecaine-id": "a80843fb-3359-41bc-a506-f4a03dc5254c"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:01.126Z"
+}

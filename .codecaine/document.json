@@ -59,10 +59,6 @@
       "from": "http://127.0.0.1:61034/"
     },
     {
-      "kind": "google",
-      "family": "Inter"
-    },
-    {
       "kind": "custom",
       "family": "Timeless Sans",
       "faces": [
@@ -74,6 +70,34 @@
         }
       ],
       "from": "http://127.0.0.1:55481/"
+    },
+    {
+      "kind": "google",
+      "family": "Instrument Sans"
+    },
+    {
+      "kind": "google",
+      "family": "JetBrains Mono"
+    },
+    {
+      "kind": "google",
+      "family": "Manrope"
+    },
+    {
+      "kind": "google",
+      "family": "Instrument Serif"
+    },
+    {
+      "kind": "google",
+      "family": "Inter"
+    },
+    {
+      "kind": "google",
+      "family": "Newsreader"
+    },
+    {
+      "kind": "google",
+      "family": "Archivo"
     }
   ],
   "variables": {

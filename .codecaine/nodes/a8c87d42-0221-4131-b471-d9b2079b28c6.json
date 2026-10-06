@@ -1,0 +1,14 @@
+{
+  "id": "a8c87d42-0221-4131-b471-d9b2079b28c6",
+  "type": "text",
+  "tag": "span",
+  "parent": "92fdfdc4-edeb-4848-ac5c-497cd327d2e6",
+  "order": "G",
+  "createdAt": "2026-10-06T04:08:13.478Z",
+  "props": {
+    "text": "Every touch, logged.",
+    "data-codecaine-id": "50582a68-c18f-40cb-a1c8-9b7c492967d0"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:13.478Z"
+}

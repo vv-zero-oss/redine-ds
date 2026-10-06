@@ -1,0 +1,14 @@
+{
+  "id": "700f527d-6a2b-43a7-a746-660e326f59be",
+  "type": "text",
+  "tag": "span",
+  "parent": "f7d9692b-2342-43e0-8d75-d0dca7bd2b22",
+  "order": "G",
+  "createdAt": "2026-10-06T04:08:13.478Z",
+  "props": {
+    "text": "Best,",
+    "data-codecaine-id": "663cf569-dfdd-42ea-951e-8e1e591312ad"
+  },
+  "style": {},
+  "updatedAt": "2026-10-06T04:08:13.478Z"
+}
