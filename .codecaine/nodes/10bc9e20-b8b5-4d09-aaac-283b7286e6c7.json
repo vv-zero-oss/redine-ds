@@ -1,0 +1,47 @@
+{
+  "id": "10bc9e20-b8b5-4d09-aaac-283b7286e6c7",
+  "type": "liveproject",
+  "tag": "div",
+  "name": "kobbe.io",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzzzzzzzzzV",
+  "breakpoints": [
+    {
+      "id": "desktop",
+      "label": "Desktop",
+      "minWidth": 1280,
+      "width": 1280
+    },
+    {
+      "id": "tablet",
+      "label": "Tablet",
+      "minWidth": 800,
+      "width": 834
+    },
+    {
+      "id": "mobile",
+      "label": "Mobile",
+      "minWidth": 0,
+      "width": 390
+    }
+  ],
+  "createdAt": "2026-10-06T13:28:11.707Z",
+  "props": {
+    "src": "https://kobbe.io/",
+    "data-codecaine-id": "98311d9d-fbb8-4167-af98-1419d2996d1a",
+    "view": "viewport"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "hug"
+  },
+  "style": {
+    "width": 1280,
+    "height": 900,
+    "position": "absolute",
+    "backgroundColor": "#ffffff",
+    "left": 467.33087022985984,
+    "top": 3988.0575844275136
+  },
+  "updatedAt": "2026-10-06T13:28:16.659Z"
+}
