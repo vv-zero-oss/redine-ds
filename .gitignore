@@ -6,3 +6,12 @@ dist/
 next-env.d.ts
 .DS_Store
 .env*.local
+
+# Added by Codecaine
+.env*
+!.env.example
+build/
+.vercel/
+.netlify/
+.codecaine/thumbnail.png
+.codecaine/local.json

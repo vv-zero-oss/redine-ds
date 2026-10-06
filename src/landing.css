@@ -60,6 +60,7 @@
   --lp-space-3-5: 14px;
   --lp-space-4: 16px;
   --lp-space-5: 20px;
+  --lp-space-6: 24px;
   --lp-space-7: 28px;
   --lp-space-8: 32px;
   --lp-space-10: 40px;
@@ -119,6 +120,19 @@
   --lp-gallery-duration: 40s;                    /* one loop of a row         */
   --lp-gallery-drift: 120px;                     /* scroll push, each way     */
   --lp-gallery-rise: 24px;                       /* header entrance distance  */
+
+  /* Pricing — the plan card at the top of the gallery section. Its warm
+     surface and ink are the nav's, so they share those names. */
+  --lp-pricing-cols: 2;                          /* feature card | plan card  */
+  --lp-pricing-feature-cols: 2;
+  --lp-pricing-gap: var(--lp-space-4);
+  --lp-pricing-pad: var(--lp-space-6);
+  --lp-pricing-tier-height: 44px;
+  --lp-pricing-switch-w: 28px;
+  --lp-pricing-switch-h: 16px;
+  --lp-pricing-thumb: 12px;
+  --lp-pricing-check: 12px;
+  --lp-pricing-radio: 16px;
 
   /* Site nav — measured one to one from kobbe.io's header and mega menu.
      Its warm greys are its own, so they get their own names. */
@@ -276,6 +290,7 @@
     --lp-section-top: 128px;
     --lp-hero-bottom: var(--lp-space-20);
     --lp-gallery-row: 360px;
+    --lp-pricing-cols: 1;
   }
 }
 
@@ -297,6 +312,7 @@
     --lp-gallery-pad-block: var(--lp-space-20);
     --lp-gallery-row: 280px;
     --lp-gallery-drift: 60px;
+    --lp-pricing-feature-cols: 1;
   }
 }
 
@@ -1017,6 +1033,197 @@
   @media (prefers-reduced-motion: reduce) {
     .lp-gallery-row,
     .lp-gallery-head { animation: none; }
+  }
+
+  /* -- Pricing --------------------------------------------------------------
+     Two cards: every feature, then the volume picker. The switch and radios
+     only change text, so nothing here animates beyond hover/press feedback. */
+  .lp-pricing {
+    display: grid;
+    grid-template-columns: repeat(var(--lp-pricing-cols), minmax(0, 1fr));
+    gap: var(--lp-pricing-gap);
+    width: 100%;
+    max-width: var(--lp-gallery-width);
+    color: var(--lp-nav-ink);
+  }
+  .lp-pricing-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--lp-space-8);
+    padding: var(--lp-pricing-pad);
+    border-radius: var(--lp-radius-media);
+    background: var(--lp-nav-surface);
+    box-shadow: var(--lp-shadow-nav-xs), var(--lp-ring);
+  }
+  .lp-pricing-title {
+    margin: 0;
+    font-size: var(--lp-text-lede);
+    line-height: var(--lp-text-lede--lh);
+    font-weight: var(--font-weight-medium);
+    letter-spacing: var(--lp-tracking-body);
+    color: var(--lp-fg-muted);
+    text-wrap: pretty;
+  }
+  .lp-pricing-title strong {
+    font-weight: var(--font-weight-semibold);
+    color: var(--lp-nav-ink);
+  }
+  .lp-pricing-features {
+    display: grid;
+    grid-template-columns: repeat(var(--lp-pricing-feature-cols), minmax(0, 1fr));
+    gap: var(--lp-space-1-5) var(--lp-space-4);
+    margin: auto 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .lp-pricing-feature {
+    display: flex;
+    align-items: center;
+    gap: var(--lp-space-2);
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+  }
+  .lp-pricing-check {
+    flex: none;
+    width: var(--lp-pricing-check);
+    height: var(--lp-pricing-check);
+    color: var(--lp-nav-ink);
+  }
+
+  /* Billing switch */
+  .lp-pricing-billing {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--lp-space-2);
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+  }
+  .lp-pricing-billing-label { color: var(--lp-fg-muted); }
+  .lp-pricing-billing-label[data-active] { color: var(--lp-nav-ink); }
+  .lp-pricing-switch {
+    position: relative;
+    flex: none;
+    width: var(--lp-pricing-switch-w);
+    height: var(--lp-pricing-switch-h);
+    padding: 0;
+    border: 0;
+    border-radius: var(--radius-pill);
+    background: var(--lp-wash-strong);
+    cursor: pointer;
+    transition-property: background-color, scale;
+    transition-duration: var(--duration-micro);
+    transition-timing-function: var(--ease-smooth);
+  }
+  .lp-pricing-switch[aria-checked="true"] { background: var(--lp-nav-ink); }
+  .lp-pricing-switch:active { scale: 0.96; }
+  .lp-pricing-switch:focus-visible {
+    outline: 2px solid var(--lp-focus);
+    outline-offset: 2px;
+  }
+  .lp-pricing-switch-thumb {
+    position: absolute;
+    top: calc((var(--lp-pricing-switch-h) - var(--lp-pricing-thumb)) / 2);
+    left: calc((var(--lp-pricing-switch-h) - var(--lp-pricing-thumb)) / 2);
+    width: var(--lp-pricing-thumb);
+    height: var(--lp-pricing-thumb);
+    border-radius: var(--radius-pill);
+    background: var(--lp-on-ink);
+    box-shadow: var(--lp-shadow-nav-xs);
+    transition: translate var(--duration-micro) var(--ease-smooth);
+  }
+  .lp-pricing-switch[aria-checked="true"] .lp-pricing-switch-thumb {
+    translate: calc(var(--lp-pricing-switch-w) - var(--lp-pricing-switch-h)) 0;
+  }
+  .lp-pricing-badge {
+    padding: var(--lp-space-1) var(--lp-space-2);
+    border-radius: var(--radius-pill);
+    background: var(--lp-nav-wash);
+    box-shadow: var(--lp-ring);
+    font-size: var(--text-xs);
+    line-height: var(--text-xs--line-height);
+    font-weight: var(--font-weight-medium);
+  }
+
+  /* Volume radios — the whole row is the label */
+  .lp-pricing-tiers {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .lp-pricing-legend {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+  .lp-pricing-tier {
+    display: flex;
+    align-items: center;
+    gap: var(--lp-space-3);
+    min-height: var(--lp-pricing-tier-height);
+    padding-inline: var(--lp-space-2);
+    border-radius: var(--radius-md);
+    box-shadow: inset 0 -1px 0 var(--lp-line);
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+    color: var(--lp-fg-muted);
+    cursor: pointer;
+    transition: background-color var(--duration-micro) var(--ease-smooth);
+  }
+  .lp-pricing-tier:hover { background: var(--lp-wash); }
+  .lp-pricing-tier:has(:checked) {
+    background: var(--lp-nav-wash);
+    color: var(--lp-nav-ink);
+  }
+  .lp-pricing-radio {
+    flex: none;
+    width: var(--lp-pricing-radio);
+    height: var(--lp-pricing-radio);
+    margin: 0;
+    accent-color: var(--lp-nav-ink);
+    cursor: pointer;
+  }
+  .lp-pricing-radio:focus-visible {
+    outline: 2px solid var(--lp-focus);
+    outline-offset: 2px;
+  }
+  .lp-pricing-tier-events { flex: 1; }
+  .lp-pricing-tier-price {
+    display: inline-flex;
+    align-items: baseline;
+    gap: var(--lp-space-1);
+    font-size: var(--text-2xl);
+    line-height: var(--text-2xl--line-height);
+    font-weight: var(--font-weight-semibold);
+    font-variant-numeric: tabular-nums;
+    color: var(--lp-nav-ink);
+  }
+  .lp-pricing-tier-unit {
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+    font-weight: var(--lp-weight-body);
+    color: var(--lp-fg-muted);
+  }
+
+  .lp-pricing-cta {
+    display: flex;
+    flex-direction: column;
+    gap: var(--lp-space-2);
+    margin-top: auto;
+  }
+  .lp-pricing-cta-btn { width: 100%; }
+  .lp-pricing-note {
+    margin: 0;
+    font-size: var(--text-xs);
+    line-height: var(--text-xs--line-height);
+    color: var(--lp-fg-muted);
+    text-align: center;
   }
 }
 

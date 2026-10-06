@@ -1,4 +1,5 @@
 import { GalleryClock } from "./gallery-clock";
+import { Pricing } from "./pricing";
 
 const FR = "https://framerusercontent.com/images";
 
@@ -33,6 +34,7 @@ const ROWS: Shot[][] = [
 export function Gallery() {
   return (
     <section className="lp-gallery" aria-labelledby="lp-gallery-title">
+      <Pricing />
       <header className="lp-gallery-head">
         <h2 id="lp-gallery-title" className="lp-gallery-title">
           Shipped with Framer
