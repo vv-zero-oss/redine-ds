@@ -2,7 +2,7 @@
   "id": "a1629081-52f3-4cac-a5cb-a1b9bd9b04a0",
   "type": "frame",
   "tag": "div",
-  "name": "div",
+  "name": "Recollect Pricing — Free vs Pro",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
   "order": "zzzzl",
   "createdAt": "2026-10-05T16:29:34.783Z",
@@ -109,5 +109,5 @@
     "left": 2939,
     "top": -679
   },
-  "updatedAt": "2026-10-05T16:29:34.783Z"
+  "updatedAt": "2026-10-06T04:16:22.709Z"
 }

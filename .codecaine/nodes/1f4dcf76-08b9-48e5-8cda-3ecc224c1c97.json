@@ -2,7 +2,7 @@
   "id": "1f4dcf76-08b9-48e5-8cda-3ecc224c1c97",
   "type": "frame",
   "tag": "article",
-  "name": "article",
+  "name": "Arcline Agents Feature — Record & Enrichment",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
   "order": "zzzzzzzzzz",
   "createdAt": "2026-10-06T04:08:13.478Z",
@@ -109,5 +109,5 @@
     "left": 9641.7109375,
     "top": 3445.15625
   },
-  "updatedAt": "2026-10-06T04:12:22.275Z"
+  "updatedAt": "2026-10-06T04:16:44.593Z"
 }

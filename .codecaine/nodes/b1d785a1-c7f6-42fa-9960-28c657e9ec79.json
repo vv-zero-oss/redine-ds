@@ -2,7 +2,7 @@
   "id": "b1d785a1-c7f6-42fa-9960-28c657e9ec79",
   "type": "frame",
   "tag": "section",
-  "name": "section",
+  "name": "Family Office — Founders & Members Cards",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
   "order": "zzzzzzl",
   "createdAt": "2026-10-06T04:05:56.908Z",
@@ -109,5 +109,5 @@
     "left": 10854.309661978448,
     "top": 2705.9986092077065
   },
-  "updatedAt": "2026-10-06T04:12:22.273Z"
+  "updatedAt": "2026-10-06T04:16:27.813Z"
 }

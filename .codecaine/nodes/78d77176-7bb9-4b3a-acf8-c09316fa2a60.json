@@ -2,7 +2,7 @@
   "id": "78d77176-7bb9-4b3a-acf8-c09316fa2a60",
   "type": "frame",
   "tag": "div",
-  "name": "Messanger Chat Actions",
+  "name": "Messenger Chat — Actions Sheet",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
   "order": "zzV",
   "createdAt": "2026-10-05T13:51:14.294Z",
@@ -31,5 +31,5 @@
     "left": 5991,
     "top": 3646
   },
-  "updatedAt": "2026-10-05T13:51:14.294Z"
+  "updatedAt": "2026-10-06T04:16:18.958Z"
 }

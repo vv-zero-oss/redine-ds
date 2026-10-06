@@ -2,7 +2,7 @@
   "id": "3c07dc33-a12d-4089-a814-b1040738481d",
   "type": "frame",
   "tag": "svg",
-  "name": "svg",
+  "name": "Bookmark Icon",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
   "order": "zzzzzx",
   "createdAt": "2026-10-05T16:29:25.929Z",
@@ -115,5 +115,5 @@
     "left": 2070.7431922342075,
     "top": -104.23957729424279
   },
-  "updatedAt": "2026-10-05T16:54:09.041Z"
+  "updatedAt": "2026-10-06T04:16:25.466Z"
 }

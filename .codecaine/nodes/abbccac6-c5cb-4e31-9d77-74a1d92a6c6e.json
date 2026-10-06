@@ -2,7 +2,7 @@
   "id": "abbccac6-c5cb-4e31-9d77-74a1d92a6c6e",
   "type": "frame",
   "tag": "div",
-  "name": "div",
+  "name": "Recollect Sync Actions — Drop File, Syncing, Instagram",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
   "order": "zzzzzl",
   "createdAt": "2026-10-05T16:29:25.929Z",
@@ -108,5 +108,5 @@
     "left": 2024.8410871977421,
     "top": -24.963555974096604
   },
-  "updatedAt": "2026-10-05T16:55:29.123Z"
+  "updatedAt": "2026-10-06T04:16:23.860Z"
 }

@@ -2,7 +2,7 @@
   "id": "6600e2a8-6ca7-4803-92d6-b80b8e64d454",
   "type": "frame",
   "tag": "div",
-  "name": "div",
+  "name": "Champion Job Change Card",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
   "order": "zzzzzzzz",
   "createdAt": "2026-10-06T04:08:43.835Z",
@@ -110,5 +110,5 @@
     "left": 10933,
     "top": 6891
   },
-  "updatedAt": "2026-10-06T04:08:43.835Z"
+  "updatedAt": "2026-10-06T04:16:33.507Z"
 }

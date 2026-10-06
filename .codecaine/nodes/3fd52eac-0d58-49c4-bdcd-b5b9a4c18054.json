@@ -2,7 +2,7 @@
   "id": "3fd52eac-0d58-49c4-bdcd-b5b9a4c18054",
   "type": "frame",
   "tag": "div",
-  "name": "div",
+  "name": "How It Works — Image to Video in Three Steps",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
   "order": "s",
   "createdAt": "2026-10-05T12:27:28.458Z",
@@ -109,5 +109,5 @@
     "left": 5041.947729024605,
     "top": -49.6812749762657
   },
-  "updatedAt": "2026-10-05T13:21:30.434Z"
+  "updatedAt": "2026-10-06T04:16:16.504Z"
 }

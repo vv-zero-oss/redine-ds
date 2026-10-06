@@ -2,7 +2,7 @@
   "id": "0d69591a-2cc2-41d0-b861-89ca1295c587",
   "type": "frame",
   "tag": "section",
-  "name": "section",
+  "name": "Arcline CRM Hero",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
   "order": "zzzzzzzV",
   "createdAt": "2026-10-06T04:08:01.126Z",
@@ -110,5 +110,5 @@
     "left": 12809,
     "top": 999
   },
-  "updatedAt": "2026-10-06T04:08:01.126Z"
+  "updatedAt": "2026-10-06T04:16:31.211Z"
 }

@@ -2,7 +2,7 @@
   "id": "175f7744-a689-4960-9284-bbdf89fcc5c3",
   "type": "frame",
   "tag": "div",
-  "name": "div",
+  "name": "Inspiration CTA — Brand Logo Wall",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
   "order": "Z",
   "createdAt": "2026-10-05T09:41:53.327Z",
@@ -110,5 +110,5 @@
     "left": 1617.0849752652464,
     "top": 4611.755654850285
   },
-  "updatedAt": "2026-10-05T13:18:38.411Z"
+  "updatedAt": "2026-10-06T04:16:15.353Z"
 }

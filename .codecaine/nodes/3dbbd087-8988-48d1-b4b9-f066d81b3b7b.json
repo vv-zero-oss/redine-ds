@@ -2,7 +2,7 @@
   "id": "3dbbd087-8988-48d1-b4b9-f066d81b3b7b",
   "type": "frame",
   "tag": "div",
-  "name": "Messanger Settings",
+  "name": "Messenger Settings — Profile",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
   "order": "zzl",
   "createdAt": "2026-10-05T13:51:22.989Z",
@@ -31,5 +31,5 @@
     "left": 6426.017607897612,
     "top": 3632.1066145983427
   },
-  "updatedAt": "2026-10-05T13:51:26.344Z"
+  "updatedAt": "2026-10-06T04:16:20.106Z"
 }

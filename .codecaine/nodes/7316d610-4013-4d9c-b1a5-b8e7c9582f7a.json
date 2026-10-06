@@ -2,7 +2,7 @@
   "id": "7316d610-4013-4d9c-b1a5-b8e7c9582f7a",
   "type": "frame",
   "tag": "p",
-  "name": "p",
+  "name": "Tagline — Start Collecting Everything",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
   "order": "zzzzzt",
   "createdAt": "2026-10-05T16:29:25.929Z",
@@ -107,5 +107,5 @@
     "left": 1978.9278004601422,
     "top": 161.618009520599
   },
-  "updatedAt": "2026-10-05T16:54:07.615Z"
+  "updatedAt": "2026-10-06T04:16:24.658Z"
 }

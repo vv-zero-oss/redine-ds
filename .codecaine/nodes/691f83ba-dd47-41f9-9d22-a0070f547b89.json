@@ -2,7 +2,7 @@
   "id": "691f83ba-dd47-41f9-9d22-a0070f547b89",
   "type": "frame",
   "tag": "footer",
-  "name": "footer",
+  "name": "Oakbird Footer",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
   "order": "zzzzzzzzzt",
   "createdAt": "2026-10-06T04:11:40.517Z",
@@ -109,5 +109,5 @@
     "left": 5990.998294756146,
     "top": -1285.8506677782752
   },
-  "updatedAt": "2026-10-06T04:12:06.500Z"
+  "updatedAt": "2026-10-06T04:16:42.358Z"
 }

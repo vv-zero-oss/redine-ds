@@ -2,7 +2,7 @@
   "id": "229ea520-2202-4e07-8952-17b48df70abe",
   "type": "frame",
   "tag": "div",
-  "name": "div",
+  "name": "Feature Card — Publish",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
   "order": "zzzzzzzzt",
   "createdAt": "2026-10-06T04:10:25.084Z",
@@ -109,5 +109,5 @@
     "left": 7532,
     "top": 3015
   },
-  "updatedAt": "2026-10-06T04:10:25.084Z"
+  "updatedAt": "2026-10-06T04:16:37.114Z"
 }

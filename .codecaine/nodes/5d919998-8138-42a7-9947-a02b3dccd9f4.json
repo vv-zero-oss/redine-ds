@@ -2,6 +2,7 @@
   "id": "5d919998-8138-42a7-9947-a02b3dccd9f4",
   "type": "image",
   "tag": "img",
+  "name": "Recollect Phone Mockup",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
   "order": "zzzx",
   "createdAt": "2026-10-05T16:28:58.343Z",
@@ -116,5 +117,5 @@
     "left": 2963,
     "top": 2111
   },
-  "updatedAt": "2026-10-05T16:28:58.343Z"
+  "updatedAt": "2026-10-06T04:16:21.566Z"
 }

@@ -2,7 +2,7 @@
   "id": "0c9fe768-3bf8-44c1-9302-01cda852bcd8",
   "type": "icon",
   "tag": "div",
-  "name": "Sparkle",
+  "name": "Sparkle Icon",
   "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
   "order": "7",
   "createdAt": "2026-10-05T06:29:34.636Z",
@@ -23,5 +23,5 @@
     "left": 3934,
     "top": 1212
   },
-  "updatedAt": "2026-10-05T06:29:34.636Z"
+  "updatedAt": "2026-10-06T04:16:11.759Z"
 }
