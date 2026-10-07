@@ -1,0 +1,30 @@
+{
+  "id": "fb111eb8-daff-4314-b639-dbba78bbc3d9",
+  "type": "video",
+  "tag": "video",
+  "name": "x twitter sketch 2104870325754167356 things corners sketch d",
+  "parent": "b939790c-fa70-4484-9e1a-df0458a77479",
+  "order": "zzzzzzzzzzt",
+  "createdAt": "2026-10-07T09:36:50.684Z",
+  "props": {
+    "src": "https://posts.design/media/posts/x-twitter-sketch-2104870325754167356-things-corners-sketch-detail.mp4",
+    "loop": true,
+    "muted": true,
+    "playsinline": true,
+    "autoplay": true,
+    "data-codecaine-id": "d689837f-9038-477f-8263-97ad6d205e16"
+  },
+  "sizing": {
+    "width": "fixed",
+    "height": "fixed"
+  },
+  "style": {
+    "position": "absolute",
+    "left": 1584,
+    "top": 1453,
+    "width": 640,
+    "height": 360,
+    "objectFit": "cover"
+  },
+  "updatedAt": "2026-10-07T09:36:50.684Z"
+}
